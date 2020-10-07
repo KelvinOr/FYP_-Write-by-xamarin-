@@ -133,4 +133,7 @@
       <Name>FYP_GeeksClub</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="ICON.png" />
+  </ItemGroup>
 </Project>
