@@ -3,17 +3,28 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.LoginPage">
-    <StackLayout>
+    <Grid BackgroundColor="#1C83E8">
         
-        <Entry
-            Text="Eamil"
-            x:Name="ent_Email"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
         
-        <Entry
-            Text="Password"
-            IsPassword="True"
-            x:Name="ent_Password"/>
+        <StackLayout Grid.Column="1">
+            
+            <Label Text="Email:"/>
+            <Entry x:Name="ent_Email"/>
+            <Label Text="Password:"/>
+            <Entry IsPassword="True" x:Name="ent_Password"/>
         
-    </StackLayout>
-
+            <Button
+                BackgroundColor="#FFFFFF"
+                TextColor="Black"
+                Text="Login"
+                x:Name="btn_Login"/>
+            
+        </StackLayout>
+        
+    </Grid>
 </ContentPage>

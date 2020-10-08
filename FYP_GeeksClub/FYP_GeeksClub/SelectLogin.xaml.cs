@@ -16,5 +16,11 @@ namespace FYP_GeeksClub
         {
             InitializeComponent();
         }
+
+        private async void Btn_LwEmail_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
+
     }
 }
