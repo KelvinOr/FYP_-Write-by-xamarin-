@@ -3,11 +3,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.LoginPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Hello, world!"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <StackLayout>
+        
+        <Entry
+            Text="Eamil"
+            x:Name="ent_Email"/>
+        
+        <Entry
+            Text="Password"
+            IsPassword="True"
+            x:Name="ent_Password"/>
+        
+    </StackLayout>
+
 </ContentPage>
