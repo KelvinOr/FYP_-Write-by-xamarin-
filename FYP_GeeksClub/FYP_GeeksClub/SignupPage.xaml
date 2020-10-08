@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FYP_GeeksClub.SignupPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#1C83E8">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="1">
+
+                <Label Text="Email:"/>
+                <Entry x:Name="ent_Email"/>
+                <Label Text="Password:"/>
+                <Entry IsPassword="True" x:Name="ent_Password"/>
+                <Label Text="Comfirm Password:"/>
+                <Entry IsPassword="True" x:Name="ent_comPass"/>
+
+                <Label Text=" "/>
+
+                <Button
+                BackgroundColor="#FFFFFF"
+                TextColor="Black"
+                Text="Sign Up"
+                x:Name="btn_Signup"
+                Clicked="btn_Signup_Clicked"/>
+
+            </StackLayout>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

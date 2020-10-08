@@ -1,30 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.LoginPage">
     <Grid BackgroundColor="#1C83E8">
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="8*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        
+
         <StackLayout Grid.Column="1">
-            
+
             <Label Text="Email:"/>
             <Entry x:Name="ent_Email"/>
             <Label Text="Password:"/>
             <Entry IsPassword="True" x:Name="ent_Password"/>
-        
+
+            <Label Text=" "/>
+
             <Button
                 BackgroundColor="#FFFFFF"
                 TextColor="Black"
                 Text="Login"
-                x:Name="btn_Login"/>
-            
+                x:Name="btn_Login"
+                Clicked="btn_Login_Clicked"/>
+
         </StackLayout>
-        
+
     </Grid>
 </ContentPage>

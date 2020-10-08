@@ -39,7 +39,8 @@
                 Text="Signup with Email"
                 TextColor="#000000"
                 BackgroundColor="#FFFFFF"
-                x:Name="btn_SwEmail"/>
+                x:Name="btn_SwEmail"
+                Clicked="btn_SwEmail_Clicked"/>
 
         </StackLayout>
 
