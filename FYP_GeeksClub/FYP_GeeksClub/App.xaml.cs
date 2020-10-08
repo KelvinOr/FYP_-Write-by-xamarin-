@@ -10,7 +10,7 @@ namespace FYP_GeeksClub
         {
             InitializeComponent();
 
-            MainPage = new SelectLogin();
+            MainPage = new NavigationPage(new SelectLogin());
         }
 
         protected override void OnStart()
