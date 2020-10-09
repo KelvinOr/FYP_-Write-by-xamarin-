@@ -10,8 +10,14 @@
             <ColumnDefinition Width="8*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
 
-        <StackLayout Grid.Column="1">
+        <StackLayout Grid.Column="1" Grid.Row="1">
 
             <Label Text="Email:"/>
             <Entry x:Name="ent_Email"/>

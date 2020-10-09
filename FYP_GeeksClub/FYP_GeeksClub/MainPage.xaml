@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.MainPage">
 
-    <StackLayout BackgroundColor="#515DD0">
+    <StackLayout BackgroundColor="#1C83E8">
+        
+        <Image 
+            Source="ICON.png"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"/>
         
     </StackLayout>
 

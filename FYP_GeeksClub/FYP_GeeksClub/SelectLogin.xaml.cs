@@ -19,12 +19,12 @@ namespace FYP_GeeksClub
 
         private async void Btn_LwEmail_OnClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            await Navigation.PushModalAsync(new LoginPage());
         }
 
         private async void btn_SwEmail_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SignupPage());
+            await Navigation.PushModalAsync(new SignupPage());
         }
     }
     
