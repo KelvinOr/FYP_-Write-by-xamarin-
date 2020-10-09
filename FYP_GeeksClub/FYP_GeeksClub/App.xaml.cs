@@ -13,7 +13,7 @@ namespace FYP_GeeksClub
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new SelectLogin())
+            MainPage = new NavigationPage(new MainPage())
             {
                 BarBackgroundColor = Color.FromHex("#1C83E8")
             };

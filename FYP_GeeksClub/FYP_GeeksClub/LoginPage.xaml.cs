@@ -31,7 +31,10 @@ namespace FYP_GeeksClub
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushAsync(new MainPage());
+                await Navigation.PushAsync(new HomePage());
+                Application.Current.Properties ["email"] = ent_Email;
+                Application.Current.Properties ["password"] = ent_Password;
+
             }
             catch (Exception ex)
             {
