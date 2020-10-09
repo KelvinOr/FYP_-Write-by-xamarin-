@@ -20,6 +20,11 @@ namespace FYP_GeeksClub
         {
             InitializeComponent();
         }
+        
+        private async void Btn_back_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
 
         async private void btn_Signup_Clicked(object sender, EventArgs e)
         {

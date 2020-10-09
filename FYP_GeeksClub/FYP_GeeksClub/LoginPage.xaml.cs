@@ -41,5 +41,10 @@ namespace FYP_GeeksClub
                 await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
             }
         }
+
+        private async void Btn_back_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
     }
 }
