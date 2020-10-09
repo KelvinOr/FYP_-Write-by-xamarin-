@@ -38,6 +38,7 @@ namespace FYP_GeeksClub
                     string gettoken = auth.FirebaseToken;
                     //await App.Current.MainPage.DisplayAlert("Alert", gettoken, "Ok");
                     await DisplayAlert("Alert", "Sign Up finish", "OK");
+                    await Navigation.PopModalAsync();
                 }
                 catch (Exception ex)
                 {
@@ -45,7 +46,7 @@ namespace FYP_GeeksClub
                     await DisplayAlert("Alert", "Sign Up fail", "OK");
                 }
 
-                await Navigation.PopAsync();
+                
             }
 
         }

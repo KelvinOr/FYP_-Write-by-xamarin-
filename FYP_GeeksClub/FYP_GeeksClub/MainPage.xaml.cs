@@ -25,21 +25,22 @@ namespace FYP_GeeksClub
 
         private async void IsLogin()
         {
-            if (Application.Current.Properties.ContainsKey("email") ||
-                Application.Current.Properties.ContainsKey("password"))
+            
+            if (Preferences.ContainsKey("email") == false || Preferences.ContainsKey("password") == false)
+            {
+                await Task.Delay(1000);
+                await Navigation.PushModalAsync(new SelectLogin());
+            } else
             {
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
-                var email = Application.Current.Properties["email"].ToString();
-                var password = Application.Current.Properties["password"].ToString();
+                var email = Preferences.Get("email", "").ToString();
+                var password = Preferences.Get("password", "").ToString();
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(email, password);
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushAsync(new HomePage());
-            }
-            else
-            {
-                await Navigation.PushAsync(new SelectLogin());
+                await Task.Delay(1000);
+                await Navigation.PushModalAsync(new HomePage());
             }
         }
     }

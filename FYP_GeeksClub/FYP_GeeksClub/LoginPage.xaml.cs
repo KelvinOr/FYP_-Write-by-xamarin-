@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
 namespace FYP_GeeksClub
@@ -31,10 +32,9 @@ namespace FYP_GeeksClub
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushAsync(new HomePage());
-                Application.Current.Properties ["email"] = ent_Email.Text;
-                Application.Current.Properties["password"] = ent_Password.Text;
-
+                await Navigation.PushModalAsync(new HomePage());
+                Preferences.Set("email", ent_Email.Text);
+                Preferences.Set("password", ent_Password.Text);
             }
             catch (Exception ex)
             {
