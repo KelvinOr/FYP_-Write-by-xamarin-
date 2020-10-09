@@ -29,8 +29,8 @@ namespace FYP_GeeksClub
                 Application.Current.Properties.ContainsKey("password"))
             {
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
-                var email = Application.Current.Properties["email"] as string;
-                var password = Application.Current.Properties["password"] as string;
+                var email = Application.Current.Properties["email"].ToString();
+                var password = Application.Current.Properties["password"].ToString();
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(email, password);
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
