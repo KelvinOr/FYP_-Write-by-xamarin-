@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local ="clr-namespace:FYP_GeeksClub"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BackgroundColor="#ffffff"
+             x:Class="FYP_GeeksClub.HomeTabbed"
+            NavigationPage.HasNavigationBar="False">
+  <!--Pages can be added as references or inline-->
+
+   
+    <NavigationPage Title="Home">
+        <x:Arguments>
+            <local:HomePage/>
+        </x:Arguments>
+    </NavigationPage>
+    
+</TabbedPage>

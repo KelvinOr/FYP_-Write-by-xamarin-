@@ -32,12 +32,13 @@ namespace FYP_GeeksClub
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushModalAsync(new HomePage());
+                await Navigation.PushAsync(new HomeTabbed());
                 Preferences.Set("email", ent_Email.Text);
                 Preferences.Set("password", ent_Password.Text);
             }
             catch (Exception ex)
             {
+                await Task.Delay(200);
                 await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
             }
         }

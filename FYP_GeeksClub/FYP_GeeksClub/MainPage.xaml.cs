@@ -29,7 +29,7 @@ namespace FYP_GeeksClub
             if (Preferences.ContainsKey("email") == false || Preferences.ContainsKey("password") == false)
             {
                 await Task.Delay(1000);
-                await Navigation.PushModalAsync(new SelectLogin());
+                await Navigation.PushAsync(new SelectLogin());
             } else
             {
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
@@ -40,7 +40,7 @@ namespace FYP_GeeksClub
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
                 await Task.Delay(1000);
-                await Navigation.PushModalAsync(new HomePage());
+                await Navigation.PushAsync(new HomeTabbed());
             }
         }
     }

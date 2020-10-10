@@ -20,17 +20,20 @@ namespace FYP_GeeksClub
         
         protected override bool OnBackButtonPressed()
         {
-            if (Device.RuntimePlatform == Device.Android){}
-                DependencyService.Get<IAndroidMethods>().CloseApp();
-
-            return base.OnBackButtonPressed();
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await DisplayAlert("Alert!", "Do you really want to exit the application?", "Yes", "No");
+                if (result)
+                {
+                    if (Device.OS == TargetPlatform.Android)
+                    {
+                        System.Environment.Exit(0);
+                    }
+                }
+            });
+            return true;
         }
 
-        public interface IAndroidMethods
-        {
-            void CloseApp();
-        }
-        
         private async void Signout_OnClicked(object sender, EventArgs e)
         {
             Preferences.Clear();

@@ -6,8 +6,7 @@
         <Grid BackgroundColor="#1C83E8">
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.2*"/>
-                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="8*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
@@ -19,15 +18,8 @@
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             
-            <ImageButton
-                Grid.Row="1"
-                Grid.Column="1"
-                Source="back.png"
-                BackgroundColor="#00000000"
-                x:Name="btn_back"
-                Clicked="Btn_back_OnClicked"/>
 
-            <StackLayout Grid.Column="2" Grid.Row="2">
+            <StackLayout Grid.Column="1" Grid.Row="2">
 
                 <Label Text="Email:"/>
                 <Entry x:Name="ent_Email"/>
