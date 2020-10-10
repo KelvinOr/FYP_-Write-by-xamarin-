@@ -17,6 +17,19 @@ namespace FYP_GeeksClub
             InitializeComponent();
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            if (Device.RuntimePlatform == Device.Android) { }
+            DependencyService.Get<IAndroidMethods>().CloseApp();
+
+            return base.OnBackButtonPressed();
+        }
+
+        public interface IAndroidMethods
+        {
+            void CloseApp();
+        }
+
         private async void Btn_LwEmail_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new LoginPage());
