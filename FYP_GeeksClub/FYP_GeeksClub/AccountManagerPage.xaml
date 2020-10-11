@@ -6,13 +6,18 @@
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
+
+            <Label x:Name="lb_user"/>
+
             <Entry Text="UserName"
+                   x:Name="UserName"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Button
                 Text="Save"
                 x:Name="Save"
+                Clicked="Save_Clicked" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
         </StackLayout>

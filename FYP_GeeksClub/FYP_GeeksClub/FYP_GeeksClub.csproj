@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="FirebaseAuthentication.net" Version="3.4.0" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
     <PackageReference Include="Naxam.BottomTabbedPage" Version="0.3.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Xamarin.Auth" Version="1.7.0" />
@@ -35,5 +36,9 @@
     <EmbeddedResource Update="SignupPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="firebaseHelper\" />
   </ItemGroup>
 </Project>
