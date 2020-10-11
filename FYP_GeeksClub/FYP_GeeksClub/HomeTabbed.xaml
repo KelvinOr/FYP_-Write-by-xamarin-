@@ -4,16 +4,24 @@
              xmlns:local ="clr-namespace:FYP_GeeksClub"
              android:TabbedPage.ToolbarPlacement="Bottom"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            BackgroundColor="#ffffff"
+            BackgroundColor="#1C83F8"
              x:Class="FYP_GeeksClub.HomeTabbed"
-            NavigationPage.HasNavigationBar="False">
+            NavigationPage.HasNavigationBar="False"
+            SelectedTabColor="White"
+            UnselectedTabColor="Gray">
   <!--Pages can be added as references or inline-->
 
    
-    <NavigationPage Title="Home">
+    <!--<NavigationPage Title="Home">
         <x:Arguments>
             <local:HomePage/>
         </x:Arguments>
     </NavigationPage>
-    
+
+    <NavigationPage Title="User">
+        <x:Arguments>
+            <local:AccountManagerPage/>
+        </x:Arguments>
+    </NavigationPage>-->
+
 </TabbedPage>

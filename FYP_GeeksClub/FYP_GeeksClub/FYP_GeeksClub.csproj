@@ -20,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="AccountManagerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="HomeTabbed.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

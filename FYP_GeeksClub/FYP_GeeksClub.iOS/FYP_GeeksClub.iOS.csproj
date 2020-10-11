@@ -140,4 +140,10 @@
     <BundleResource Include="back.png" />
     <BundleResource Include="ICON.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="User.png" />
+  </ItemGroup>
 </Project>
