@@ -1,5 +1,6 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
+using FYP_GeeksClub.firebaseHelper;
 using FYP_GeeksClub.Form;
 using System;
 using System.Collections.Generic;
@@ -43,28 +44,8 @@ namespace FYP_GeeksClub
         async private void Save_Clicked(object sender, EventArgs e)
         {
 
-            var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
-                a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
-
-            if (Check == null)
-            {
-                await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
-                {
-                    Email = Preferences.Get("email", "").ToString(),
-                    UserName = UserName.Text.ToString()
-                });
-            } else
-            {
-                var Update = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
-                    a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
-                await firebaseClient.Child("UserAccountDetail").Child(Update.Key).PutAsync(new UserAccountDetail()
-                {
-                    Email = Preferences.Get("email", "").ToString(),
-                    UserName = UserName.Text.ToString()
-                });
-                    
-            }
-
+            FirebaseHelper firebaseHelper = new FirebaseHelper();
+            firebaseHelper.UpdateUserName(UserName.Text.ToString());
             GetUserAccountDetails();
 
         }
