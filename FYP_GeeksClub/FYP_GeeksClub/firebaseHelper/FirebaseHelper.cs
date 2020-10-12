@@ -46,5 +46,15 @@ namespace FYP_GeeksClub.firebaseHelper
             return imageURL;
         }
 
+        public async Task<string> GetFile(string fileName)
+        {
+            return await firebaseStorage.Child("UserImage").Child(fileName).GetDownloadUrlAsync();
+        }
+
+        public async Task DeleteFile(string fileName)
+        {
+            await firebaseStorage.Child("UserImage").Child(fileName).DeleteAsync();
+
+        }
     }
 }
