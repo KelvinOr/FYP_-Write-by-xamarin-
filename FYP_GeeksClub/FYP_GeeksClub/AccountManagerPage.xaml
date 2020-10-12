@@ -10,16 +10,20 @@
             <Label x:Name="lb_user"/>
 
             <Entry Text="UserName"
-                   x:Name="UserName"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                   x:Name="UserName" />
 
             <Button
                 Text="Save"
                 x:Name="Save"
-                Clicked="Save_Clicked" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"/>
+                Clicked="Save_Clicked"/>
+
+            <Label x:Name="ImageUrl"/>
+            <Button x:Name="Pick" Clicked="Pick_Clicked" Text="Picl"/>
+            <Button x:Name="Upload" Clicked="Upload_Clicked" Text="Upload"/>
+
+            <Image
+                x:Name="imgChoosed"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

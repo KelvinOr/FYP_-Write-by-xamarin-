@@ -1,9 +1,14 @@
-﻿using Firebase.Database;
+﻿using Firebase.Auth;
+using Firebase.Database;
 using Firebase.Database.Query;
 using FYP_GeeksClub.firebaseHelper;
 using FYP_GeeksClub.Form;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -18,7 +23,11 @@ namespace FYP_GeeksClub
     public partial class AccountManagerPage : ContentPage
     {
 
+
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
+        MediaFile file;
+
 
         public AccountManagerPage()
         {
@@ -33,18 +42,24 @@ namespace FYP_GeeksClub
 
             Device.BeginInvokeOnMainThread(async () =>
             {
-                    if (Device.OS == TargetPlatform.Android)
-                    {
+                if (Device.OS == TargetPlatform.Android)
+                {
                     tabbedPage.CurrentPage = new HomePage();
-                    }
+                }
             });
             return true;
+        }
+
+        protected async override void OnAppearing()
+        {
+
+            base.OnAppearing();
+
         }
 
         async private void Save_Clicked(object sender, EventArgs e)
         {
 
-            FirebaseHelper firebaseHelper = new FirebaseHelper();
             firebaseHelper.UpdateUserName(UserName.Text.ToString());
             GetUserAccountDetails();
 
@@ -67,7 +82,36 @@ namespace FYP_GeeksClub
             }
         }
 
+        async private void Upload_Clicked(object sender, EventArgs e)
+        {
+            await firebaseHelper.UploadImage(file.GetStream(), Preferences.Get("email", "").ToString());
+        }
+
+        async private void Pick_Clicked(object sender, EventArgs e)
+        {
+            await CrossMedia.Current.Initialize();
+            try
+            {
+                file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+                {
+                    PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium
+                });
+                if (file == null)
+                    return;
+                imgChoosed.Source = ImageSource.FromStream(() =>
+                {
+                    var imageStram = file.GetStream();
+                    return imageStram;
+                });
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+        }
     }
 
+       
 
-}
+
+    }

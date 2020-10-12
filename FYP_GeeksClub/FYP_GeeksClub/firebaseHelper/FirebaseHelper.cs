@@ -1,17 +1,18 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
 using FYP_GeeksClub.Form;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Xamarin.Essentials;
+using Firebase.Storage;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace FYP_GeeksClub.firebaseHelper
 {
     public class FirebaseHelper
     {
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+        FirebaseStorage firebaseStorage = new FirebaseStorage("hareware-59ccb.appspot.com");
 
         public async void UpdateUserName(string Username)
         {
@@ -39,6 +40,11 @@ namespace FYP_GeeksClub.firebaseHelper
 
         }
 
+        public async Task<string> UploadImage(Stream fileStream, string fileName)
+        {
+            var imageURL = await firebaseStorage.Child("UserImage").Child(fileName).PutAsync(fileStream);
+            return imageURL;
+        }
 
     }
 }
