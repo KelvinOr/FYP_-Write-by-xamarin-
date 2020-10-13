@@ -4,10 +4,24 @@
              x:Class="FYP_GeeksClub.AccountManagerPage"
              BackgroundColor="#1C83E8"
              NavigationPage.HasNavigationBar="False">
-    <ContentPage.Content>
-        <StackLayout>
 
-            <Label x:Name="lb_user"/>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <StackLayout Grid.Column ="1" Grid.Row="1">
+
+            <Label x:Name="lb_user" TextColor="White"/>
 
             <Entry Text="UserName"
                    x:Name="UserName" />
@@ -15,15 +29,18 @@
             <Button
                 Text="Save"
                 x:Name="Save"
+                TextColor="White"
                 Clicked="Save_Clicked"/>
 
-            <Label x:Name="ImageUrl"/>
-            <Button x:Name="Pick" Clicked="Pick_Clicked" Text="Picl"/>
-            <Button x:Name="Upload" Clicked="Upload_Clicked" Text="Upload"/>
+            <Label x:Name="ImageUrl" TextColor="White"/>
+            <Button x:Name="Pick" Clicked="Pick_Clicked" Text="Picl" TextColor="White"/>
+            <Button x:Name="Upload" Clicked="Upload_Clicked" Text="Upload" TextColor="White"/>
 
             <Image
                 x:Name="imgChoosed"/>
 
         </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+
+    </Grid>
+
+    </ContentPage>

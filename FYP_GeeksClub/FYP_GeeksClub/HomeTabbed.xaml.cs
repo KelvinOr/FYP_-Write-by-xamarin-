@@ -19,15 +19,16 @@ namespace FYP_GeeksClub
         {   
             InitializeComponent();
 
-            tab1Page = new HomePage() { Title = "Home", IconImageSource = "Home.png"};
-            tab2Page = new AccountManagerPage() { Title = "User" , IconImageSource = "User.png"};
+            this.BarBackgroundColor = Color.FromHex("#1C83F8");
+
+            tab1Page = new HomePage() {Title = "Home", IconImageSource = "Home.png"};
+            tab2Page = new AccountManagerPage() {Title = "Account", IconImageSource = "User.png" };
 
             Children.Add(tab1Page);
             Children.Add(tab2Page);
 
-            
-            
         }
+
 
         
     }

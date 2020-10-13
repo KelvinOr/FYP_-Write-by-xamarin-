@@ -92,16 +92,15 @@ namespace FYP_GeeksClub
             await CrossMedia.Current.Initialize();
             try
             {
-                file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+                file = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions
                 {
-                    PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium
+                    PhotoSize = PhotoSize.Medium
                 });
                 if (file == null)
                     return;
                 imgChoosed.Source = ImageSource.FromStream(() =>
                 {
-                    var imageStram = file.GetStream();
-                    return imageStram;
+                    return file.GetStream();
                 });
             }
             catch (Exception ex)
