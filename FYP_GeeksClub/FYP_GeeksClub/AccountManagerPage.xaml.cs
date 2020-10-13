@@ -90,6 +90,7 @@ namespace FYP_GeeksClub
         async private void Pick_Clicked(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
+
             try
             {
                 file = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions
@@ -107,6 +108,7 @@ namespace FYP_GeeksClub
             {
                 Debug.WriteLine(ex.Message);
             }
+            
         }
     }
 
