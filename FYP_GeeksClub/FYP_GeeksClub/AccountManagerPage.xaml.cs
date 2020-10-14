@@ -57,17 +57,16 @@ namespace FYP_GeeksClub
 
         }
 
-        async private void Save_Clicked(object sender, EventArgs e)
+         private void Save_Clicked(object sender, EventArgs e)
         {
-
             firebaseHelper.UpdateUserName(UserName.Text.ToString());
-            GetUserAccountDetails();
-
+            GetUserAccountDetails();   
         }
 
 
         public async void GetUserAccountDetails()
         {
+            await Task.Delay(2000);
             var GetAccount = (await firebaseClient
                   .Child("UserAccountDetail")
                   .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
