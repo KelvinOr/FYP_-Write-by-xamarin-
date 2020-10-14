@@ -34,8 +34,9 @@
 
             <Label x:Name="ImageUrl" TextColor="White"/>
             <Button x:Name="Pick" Clicked="Pick_Clicked" Text="Picl" TextColor="White"/>
-            <Button x:Name="Upload" Clicked="Upload_Clicked" Text="Upload" TextColor="White"/>
-
+            <Button x:Name="Upload" Clicked="Upload_Clicked" Text="Upload" TextColor="White"/>  
+            <Button x:Name="Download" Clicked="Download_Clicked" Text="Download" TextColor="White"/>
+            
             <Image
                 x:Name="imgChoosed"/>
 
