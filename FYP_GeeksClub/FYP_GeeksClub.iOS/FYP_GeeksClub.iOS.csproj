@@ -152,4 +152,22 @@
   <ItemGroup>
     <BundleResource Include="User.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Home24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="User24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Home36px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="User36px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Home30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="User30px.png" />
+  </ItemGroup>
 </Project>
