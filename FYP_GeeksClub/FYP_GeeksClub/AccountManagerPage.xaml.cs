@@ -33,8 +33,22 @@ namespace FYP_GeeksClub
         public AccountManagerPage()
         {
             InitializeComponent();
-
+            
             GetUserAccountDetails();
+            CheckUserImg();
+        }
+
+        private async void CheckUserImg()
+        {
+            try
+            {
+                var GetImg = await firebaseHelper.GetFile(Preferences.Get("email", ""));
+                imgChoosed.Source = GetImg;
+            }
+            catch (Exception ex)
+            {
+                imgChoosed.Source = "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/UserImage%2Fdfimg.png?alt=media&token=754dea27-f78a-44ae-b08f-339fcc126618";
+            }
         }
 
         protected override bool OnBackButtonPressed()
