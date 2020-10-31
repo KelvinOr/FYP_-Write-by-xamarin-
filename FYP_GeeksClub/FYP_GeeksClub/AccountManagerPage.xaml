@@ -38,12 +38,17 @@
             <Button x:Name="Download" Clicked="Download_Clicked" Text="Download" TextColor="White"/>
             <Button x:Name="Logout" Clicked="Logout_Clicked" Text="Logout" TextColor="White"/>
 
-            <Image
-                x:Name="imgChoosed"/>
-           
+            <StackLayout Padding="40">
+                <Frame CornerRadius="200" HeightRequest="100" WidthRequest="100" Padding="0" IsClippedToBounds="True" HorizontalOptions="Center">
+                    <Image x:Name="imgChoosed" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+
+            <!--<Image x:Name="imgChoosed"/>-->
+          
 
         </StackLayout>
 
     </Grid>
 
-    </ContentPage>
+</ContentPage>

@@ -35,20 +35,6 @@ namespace FYP_GeeksClub
             InitializeComponent();
             
             GetUserAccountDetails();
-            CheckUserImg();
-        }
-
-        private async void CheckUserImg()
-        {
-            try
-            {
-                var GetImg = await firebaseHelper.GetUesrImage(Preferences.Get("email", ""));
-                imgChoosed.Source = GetImg;
-            }
-            catch (Exception ex)
-            {
-                imgChoosed.Source = "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/UserImage%2Fdfimg.png?alt=media&token=754dea27-f78a-44ae-b08f-339fcc126618";
-            }
         }
 
         protected override bool OnBackButtonPressed()
@@ -89,16 +75,20 @@ namespace FYP_GeeksClub
             if (GetAccount != null)
             {
                 lb_user.Text = GetAccount.Object.UserName.ToString();
+                imgChoosed.Source = GetAccount.Object.UserImageURL.ToString();
             }
             else
             {
                 lb_user.Text = "null";
+                imgChoosed.Source = "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/UserImage%2Fdfimg.png?alt=media&token=754dea27-f78a-44ae-b08f-339fcc126618";
             }
         }
 
         async private void Upload_Clicked(object sender, EventArgs e)
         {
             await firebaseHelper.UploadUserImage(file.GetStream(), Preferences.Get("email", "").ToString());
+            var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
+            firebaseHelper.UpdateUserImage(Getfile);
         }
 
         async private void Pick_Clicked(object sender, EventArgs e)
@@ -117,6 +107,9 @@ namespace FYP_GeeksClub
                 {
                     return file.GetStream();
                 });
+
+ 
+
             }
             catch (Exception ex)
             {
@@ -127,7 +120,6 @@ namespace FYP_GeeksClub
         async private void Download_Clicked(object sender, EventArgs e)
         {
             var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
-            
             imgChoosed.Source = Getfile.ToString();
         }
 

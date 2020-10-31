@@ -19,12 +19,18 @@ namespace FYP_GeeksClub.firebaseHelper
             var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
                a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
 
+            var GetAccount = (await firebaseClient
+                  .Child("UserAccountDetail")
+                  .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+            var UserImageURL = GetAccount.Object.UserImageURL.ToString();
+      
             if (Check == null)
             {
                 await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
                 {
                     Email = Preferences.Get("email", "").ToString(),
-                    UserName = Username
+                    UserName = Username,
+                    UserImageURL = UserImageURL 
                 }); ;
             }
             else
@@ -34,11 +40,46 @@ namespace FYP_GeeksClub.firebaseHelper
                 await firebaseClient.Child("UserAccountDetail").Child(Update.Key).PutAsync(new UserAccountDetail()
                 {
                     Email = Preferences.Get("email", "").ToString(),
-                    UserName = Username
+                    UserName = Username,
+                    UserImageURL = UserImageURL
                 });
             }
 
         }
+
+        public async void UpdateUserImage(string UserImageURL)
+        {
+            var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
+               a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+
+            var GetAccount = (await firebaseClient
+                  .Child("UserAccountDetail")
+                  .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+            var Username = GetAccount.Object.UserName.ToString();
+
+            if (Check == null)
+            {
+                await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
+                {
+                    Email = Preferences.Get("email", "").ToString(),
+                    UserName = Username,
+                    UserImageURL = UserImageURL
+                }); ;
+            }
+            else
+            {
+                var Update = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
+                    a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+                await firebaseClient.Child("UserAccountDetail").Child(Update.Key).PutAsync(new UserAccountDetail()
+                {
+                    Email = Preferences.Get("email", "").ToString(),
+                    UserName = Username,
+                    UserImageURL = UserImageURL
+                });
+            }
+
+        }
+
 
         public async Task<string> UploadUserImage(Stream fileStream, string fileName)
         {

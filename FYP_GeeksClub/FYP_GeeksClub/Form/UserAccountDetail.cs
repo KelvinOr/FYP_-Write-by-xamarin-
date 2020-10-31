@@ -8,5 +8,6 @@ namespace FYP_GeeksClub.Form
     {
         public string Email { get; set; }
         public string UserName { get; set; }
+        public string UserImageURL { get; set;}
     }
 }

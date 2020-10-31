@@ -1,4 +1,7 @@
 ﻿using Firebase.Auth;
+using Firebase.Database;
+using Firebase.Database.Query;
+using FYP_GeeksClub.Form;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +17,9 @@ namespace FYP_GeeksClub
     public partial class SignupPage : ContentPage
     {
 
+        FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         public string WebAPIkey = "AIzaSyAIFwIiakmB2aCvW6BEKhPheokVAYTgjGc";
+        public string defImgURL = "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/UserImage%2Fdfimg.png?alt=media&token=754dea27-f78a-44ae-b08f-339fcc126618";
 
         public SignupPage()
         {
@@ -41,13 +46,18 @@ namespace FYP_GeeksClub
                     var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
                     var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(ent_Email.Text, ent_Password.Text);
                     string gettoken = auth.FirebaseToken;
-                    //await App.Current.MainPage.DisplayAlert("Alert", gettoken, "Ok");
+                    await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
+                    {
+                        Email = ent_Email.Text.ToString(),
+                        UserName = ent_Email.Text.ToString(),
+                        UserImageURL = defImgURL
+                    });
+
                     await DisplayAlert("Alert", "Sign Up finish", "OK");
                     await Navigation.PopModalAsync();
                 }
                 catch (Exception ex)
                 {
-                    //await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
                     await DisplayAlert("Alert", "Sign Up fail", "OK");
                 }
 

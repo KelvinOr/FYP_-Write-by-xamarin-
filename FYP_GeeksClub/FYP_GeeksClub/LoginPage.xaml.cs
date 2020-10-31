@@ -41,7 +41,7 @@ namespace FYP_GeeksClub
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
                 Preferences.Set("email", ent_Email.Text);
                 Preferences.Set("password", ent_Password.Text);
-                var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
+                /*var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
                  a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
 
                 if (Check == null)
@@ -51,7 +51,7 @@ namespace FYP_GeeksClub
                         Email = Preferences.Get("email", "").ToString(),
                         UserName = Preferences.Get("email", "").ToString(),
                     }); ;
-                }
+                }*/
 
                 await Navigation.PushAsync(new HomeTabbed());
 
