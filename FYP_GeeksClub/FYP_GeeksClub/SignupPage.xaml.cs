@@ -48,16 +48,17 @@ namespace FYP_GeeksClub
                     string gettoken = auth.FirebaseToken;
                     await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
                     {
-                        Email = ent_Email.Text.ToString(),
+                        Email = ent_Email.Text.ToString(),  
                         UserName = ent_Email.Text.ToString(),
                         UserImageURL = defImgURL
                     });
 
                     await DisplayAlert("Alert", "Sign Up finish", "OK");
-                    await Navigation.PopModalAsync();
+                    await Navigation.PushAsync(new LoginPage());
                 }
                 catch (Exception ex)
                 {
+                    await Task.Delay(2000);
                     await DisplayAlert("Alert", "Sign Up fail", "OK");
                 }
 
