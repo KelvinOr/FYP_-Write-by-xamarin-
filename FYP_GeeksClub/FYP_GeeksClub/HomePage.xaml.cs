@@ -34,9 +34,6 @@ namespace FYP_GeeksClub
             return true;
         }
 
-        private async void Signout_OnClicked(object sender, EventArgs e)
-        {
-            Preferences.Clear();
-        }
+
     }
 }

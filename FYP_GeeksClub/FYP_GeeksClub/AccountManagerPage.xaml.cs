@@ -42,7 +42,7 @@ namespace FYP_GeeksClub
         {
             try
             {
-                var GetImg = await firebaseHelper.GetFile(Preferences.Get("email", ""));
+                var GetImg = await firebaseHelper.GetUesrImage(Preferences.Get("email", ""));
                 imgChoosed.Source = GetImg;
             }
             catch (Exception ex)
@@ -98,7 +98,7 @@ namespace FYP_GeeksClub
 
         async private void Upload_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.UploadImage(file.GetStream(), Preferences.Get("email", "").ToString());
+            await firebaseHelper.UploadUserImage(file.GetStream(), Preferences.Get("email", "").ToString());
         }
 
         async private void Pick_Clicked(object sender, EventArgs e)
@@ -126,11 +126,16 @@ namespace FYP_GeeksClub
 
         async private void Download_Clicked(object sender, EventArgs e)
         {
-            var Getfile = await firebaseHelper.GetFile(Preferences.Get("email", "").ToString());
+            var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
             
             imgChoosed.Source = Getfile.ToString();
         }
-        
+
+        async private void Logout_Clicked(object sender, EventArgs e)
+        {
+            Preferences.Clear();
+            await Navigation.PushAsync(new SelectLogin());
+        }
     }
 
        

@@ -40,21 +40,22 @@ namespace FYP_GeeksClub.firebaseHelper
 
         }
 
-        public async Task<string> UploadImage(Stream fileStream, string fileName)
+        public async Task<string> UploadUserImage(Stream fileStream, string fileName)
         {
             var imageURL = await firebaseStorage.Child("UserImage").Child(fileName).PutAsync(fileStream);
             return imageURL;
         }
 
-        public async Task<string> GetFile(string fileName)
+        public async Task<string> GetUesrImage(string fileName)
         {
             return await firebaseStorage.Child("UserImage").Child(fileName).GetDownloadUrlAsync();
         }
 
-        public async Task DeleteFile(string fileName)
+        public async Task DeleteImage(string fileName)
         {
             await firebaseStorage.Child("UserImage").Child(fileName).DeleteAsync();
 
         }
+
     }
 }

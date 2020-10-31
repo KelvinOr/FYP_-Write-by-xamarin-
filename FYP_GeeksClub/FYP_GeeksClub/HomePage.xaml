@@ -8,12 +8,7 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Button
-                Text="sign out"
-                x:Name="signout"
-                Clicked="Signout_OnClicked"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="CenterAndExpand" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

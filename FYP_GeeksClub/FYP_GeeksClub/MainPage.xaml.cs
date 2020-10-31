@@ -26,10 +26,9 @@ namespace FYP_GeeksClub
 
         private async void IsLogin()
         {
-            
+            await Task.Delay(1500);
             if (Preferences.ContainsKey("email") == false || Preferences.ContainsKey("password") == false)
             {
-                await Task.Delay(1000);
                 await Navigation.PushAsync(new SelectLogin());
             } else
             {
@@ -42,7 +41,6 @@ namespace FYP_GeeksClub
                     var content = await auth.GetFreshAuthAsync();
                     var serializedcontnet = JsonConvert.SerializeObject(content);
                     Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                    await Task.Delay(1000);
                     await Navigation.PushAsync(new HomeTabbed());
                 } catch (Exception ex)
                 {
