@@ -50,9 +50,8 @@ namespace FYP_GeeksClub
                     {
                         Email = Preferences.Get("email", "").ToString(),
                         UserName = Preferences.Get("email", "").ToString(),
-                    }); ;
+                    }); 
                 }*/
-
                 await Navigation.PushAsync(new HomeTabbed());
 
             }
