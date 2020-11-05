@@ -35,6 +35,7 @@ namespace FYP_GeeksClub
             InitializeComponent();
             
             GetUserAccountDetails();
+
         }
 
         protected override bool OnBackButtonPressed()
@@ -58,9 +59,13 @@ namespace FYP_GeeksClub
 
         }
 
-         private void Save_Clicked(object sender, EventArgs e)
+        async private void ChangeName_Clicked(object sender, EventArgs e)
         {
-            firebaseHelper.UpdateUserName(UserName.Text.ToString());
+            string result = await DisplayPromptAsync("Change Name", "Input new name");
+            if (result != null)
+            {
+                firebaseHelper.UpdateUserName(result);
+            }
             GetUserAccountDetails();   
         }
 
@@ -75,6 +80,7 @@ namespace FYP_GeeksClub
             if (GetAccount != null)
             {
                 lb_user.Text = GetAccount.Object.UserName.ToString();
+                await Task.Delay(2000);
                 imgChoosed.Source = GetAccount.Object.UserImageURL.ToString();
             }
             else
@@ -84,37 +90,11 @@ namespace FYP_GeeksClub
             }
         }
 
-        async private void Upload_Clicked(object sender, EventArgs e)
+        async private void ChangeImage_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.UploadUserImage(file.GetStream(), Preferences.Get("email", "").ToString());
-            var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
-            firebaseHelper.UpdateUserImage(Getfile);
-        }
 
-        async private void Pick_Clicked(object sender, EventArgs e)
-        {
-            await CrossMedia.Current.Initialize();
+            await Navigation.PushModalAsync(new SelectImagePage());
 
-            try
-            {
-                file = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions
-                {
-                    PhotoSize = PhotoSize.Medium
-                });
-                if (file == null)
-                    return;
-                imgChoosed.Source = ImageSource.FromStream(() =>
-                {
-                    return file.GetStream();
-                });
-
- 
-
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
         }
 
         async private void Download_Clicked(object sender, EventArgs e)
@@ -128,6 +108,8 @@ namespace FYP_GeeksClub
             Preferences.Clear();
             await Navigation.PushAsync(new SelectLogin());
         }
+
+
     }
 
        

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FYP_GeeksClub.SelectImagePage">
+    <ContentPage.Content>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9.25*"/>
+                <RowDefinition Height="0.75*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="ImageSorce" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="0"/>
+
+            
+                <Button Text="Cancel" x:Name="cancel" Clicked="cancel_Clicked" Grid.Row="1" Grid.Column="0"/>
+                <Button Text="Save" x:Name="save" Clicked="save_Clicked" Grid.Row="1" Grid.Column="1"/>
+
+    </Grid>
+    </ContentPage.Content>
+</ContentPage>

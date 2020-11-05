@@ -89,7 +89,8 @@ namespace FYP_GeeksClub.firebaseHelper
 
         public async Task<string> GetUesrImage(string fileName)
         {
-            return await firebaseStorage.Child("UserImage").Child(fileName).GetDownloadUrlAsync();
+            var imageURL = await firebaseStorage.Child("UserImage").Child(fileName).GetDownloadUrlAsync();
+            return imageURL;
         }
 
         public async Task DeleteImage(string fileName)

@@ -52,7 +52,6 @@ namespace FYP_GeeksClub
                         UserName = ent_Email.Text.ToString(),
                         UserImageURL = defImgURL
                     });
-
                     await DisplayAlert("Alert", "Sign Up finish", "OK");
                     await Navigation.PushAsync(new LoginPage());
                 }

@@ -11,6 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Page1.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Page1.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FirebaseAuthentication.net" Version="3.4.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
     <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
@@ -30,6 +38,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SelectImagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="SelectLogin.xaml">
