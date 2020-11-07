@@ -23,9 +23,7 @@ namespace FYP_GeeksClub
 
         public SelectImagePage()
         {
-
             InitializeComponent();
-
             choosefile();
         }
 
@@ -46,9 +44,7 @@ namespace FYP_GeeksClub
                 });
             }
             catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
+            { }
 
         }
 
@@ -57,8 +53,9 @@ namespace FYP_GeeksClub
             await firebaseHelper.UploadUserImage(file.GetStream(), Preferences.Get("email", "").ToString());
             var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
             firebaseHelper.UpdateUserImage(Getfile);
-            await Task.Delay(2000);
-            await Navigation.PopModalAsync();
+            AccountManagerPage accountManagerPage = new AccountManagerPage();
+            accountManagerPage.sended();
+            await Navigation.PopAsync(true);
         }
 
         async private void cancel_Clicked(object sender, EventArgs e)
