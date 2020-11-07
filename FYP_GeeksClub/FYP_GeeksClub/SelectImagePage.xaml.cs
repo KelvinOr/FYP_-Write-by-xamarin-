@@ -37,11 +37,17 @@ namespace FYP_GeeksClub
                     PhotoSize = PhotoSize.Medium
                 });
                 if (file == null)
-                    return;
-                ImageSorce.Source = ImageSource.FromStream(() =>
                 {
-                    return file.GetStream();
-                });
+                    return;
+                }
+                else
+                {
+                    SelectImage.IsVisible = false;
+                    ImageSorce.Source = ImageSource.FromStream(() =>
+                    {
+                        return file.GetStream();
+                    });
+                }
             }
             catch (Exception ex)
             { }
@@ -60,7 +66,12 @@ namespace FYP_GeeksClub
 
         async private void cancel_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync();
+            await Navigation.PopAsync();
+        }
+
+        private void SelectImage_OnClicked(object sender, EventArgs e)
+        {
+            choosefile();
         }
     }
 }

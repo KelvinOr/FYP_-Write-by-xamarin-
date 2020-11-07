@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="FYP_GeeksClub.AccountManagerPage"
              BackgroundColor="#1C83E8"
              NavigationPage.HasNavigationBar="False">
@@ -23,15 +24,31 @@
 
             <Label x:Name="lb_user" TextColor="White"/>
 
-            <Button Text="Change Name" x:Name="ChangeName" Clicked="ChangeName_Clicked"/>
-            <Button x:Name="ChangeImage" Clicked="ChangeImage_Clicked" Text="Change Image"/>
-            <Button x:Name="Logout" Clicked="Logout_Clicked" Text="Logout"/>
-
-            <StackLayout Padding="40">
-                <Frame CornerRadius="200" HeightRequest="100" WidthRequest="100" Padding="0" IsClippedToBounds="True" HorizontalOptions="Center">
-                    <Image x:Name="imgSorce" VerticalOptions="Center" HorizontalOptions="Center"/>
-                </Frame>
-            </StackLayout>
+            <Button Text="Change Name" x:Name="ChangeName" Clicked="ChangeName_Clicked" TextColor="Black"/>
+            <Button x:Name="ChangeImage" Clicked="ChangeImage_Clicked" Text="Change Image" TextColor="Black"/>
+            <Button x:Name="Logout" Clicked="Logout_Clicked" Text="Logout" TextColor="Black"/>
+            
+            <Frame 
+                HasShadow="False"
+                CornerRadius="50" 
+                HeightRequest="100" 
+                WidthRequest="100" 
+                Padding="0" 
+                IsClippedToBounds="True" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+                    <abstractions:CircleImage 
+                        x:Name="imgSorce" 
+                        WidthRequest="100" 
+                        HeightRequest="100" 
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        BorderThickness="2" 
+                        BorderColor="White" 
+                        Aspect="AspectFit"/>            
+            </Frame>
+            
+            
 
             <!--<Image x:Name="imgChoosed"/>-->
           

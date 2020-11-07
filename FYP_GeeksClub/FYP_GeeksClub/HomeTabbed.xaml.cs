@@ -21,8 +21,8 @@ namespace FYP_GeeksClub
 
             this.BarBackgroundColor = Color.FromHex("#1C83F8");
 
-            tab1Page = new HomePage() {Title = "Home", IconImageSource = "Home30px.png"};
-            tab2Page = new AccountManagerPage() {Title = "Account", IconImageSource = "User30px.png" };
+            tab1Page = new HomePage() {Title = "Home", IconImageSource = "Home24px.png"};
+            tab2Page = new AccountManagerPage() {Title = "Account", IconImageSource = "User24px.png" };
 
             Children.Add(tab1Page);
             Children.Add(tab2Page);
