@@ -27,8 +27,6 @@ namespace FYP_GeeksClub
 
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         FirebaseHelper firebaseHelper = new FirebaseHelper();
-        MediaFile file;
-
 
         public AccountManagerPage()
         {
@@ -97,7 +95,7 @@ namespace FYP_GeeksClub
         async private void ChangeImage_Clicked(object sender, EventArgs e)
         {
 
-            await Navigation.PushAsync(new SelectImagePage());
+            await Navigation.PushModalAsync(new SelectImagePage());
 
         }
 
@@ -113,7 +111,7 @@ namespace FYP_GeeksClub
             await Navigation.PushAsync(new SelectLogin());
         }
 
-        public void sended()
+        public void Sended()
         {
             MessagingCenter.Send<AccountManagerPage>(this, "refresh");
         }

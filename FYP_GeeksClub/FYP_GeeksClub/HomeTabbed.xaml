@@ -9,19 +9,6 @@
             NavigationPage.HasNavigationBar="False"
             SelectedTabColor="White"
             UnselectedTabColor="Gray">
-  <!--Pages can be added as references or inline-->
 
-   
-    <!--<NavigationPage Title="Home">
-        <x:Arguments>
-            <local:HomePage/>
-        </x:Arguments>
-    </NavigationPage>
-
-    <NavigationPage Title="User">
-        <x:Arguments>
-            <local:AccountManagerPage/>
-        </x:Arguments>
-    </NavigationPage>-->
 
 </TabbedPage>

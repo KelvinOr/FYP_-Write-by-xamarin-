@@ -22,12 +22,6 @@
 
         <StackLayout Grid.Column ="1" Grid.Row="1">
 
-            <Label x:Name="lb_user" TextColor="White"/>
-
-            <Button Text="Change Name" x:Name="ChangeName" Clicked="ChangeName_Clicked" TextColor="Black"/>
-            <Button x:Name="ChangeImage" Clicked="ChangeImage_Clicked" Text="Change Image" TextColor="Black"/>
-            <Button x:Name="Logout" Clicked="Logout_Clicked" Text="Logout" TextColor="Black"/>
-            
             <Frame 
                 HasShadow="False"
                 CornerRadius="50" 
@@ -37,21 +31,48 @@
                 IsClippedToBounds="True" 
                 HorizontalOptions="Center"
                 VerticalOptions="Center">
-                    <abstractions:CircleImage 
-                        x:Name="imgSorce" 
-                        WidthRequest="100" 
-                        HeightRequest="100" 
-                        HorizontalOptions="Center" 
-                        VerticalOptions="Center"
-                        BorderThickness="2" 
-                        BorderColor="White" 
-                        Aspect="AspectFit"/>            
+                    
+                <Image 
+                    x:Name="imgSorce"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Aspect="AspectFit"/>
             </Frame>
-            
-            
 
-            <!--<Image x:Name="imgChoosed"/>-->
-          
+            <Label x:Name="lb_user" TextColor="White" FontSize="20" HorizontalOptions="Center"/>
+
+            <Label Text=""/>
+            <Label Text=""/>
+
+            <Button Text="Change Name" 
+                    x:Name="ChangeName" 
+                    Clicked="ChangeName_Clicked" 
+                    TextColor="Black" 
+                    ContentLayout="Right" 
+                    BackgroundColor="White"
+                    Image="edit_18px.png" 
+                    HeightRequest="38"/>
+            
+            
+            <Button
+                x:Name="ChangeImage" 
+                Clicked="ChangeImage_Clicked" 
+                Text="Change Image" 
+                TextColor="Black"
+                BackgroundColor="White"
+                HeightRequest="38"
+                ContentLayout="Right"
+                Image ="open_18px"/>
+            
+            <Button 
+                x:Name="Logout" 
+                Clicked="Logout_Clicked" 
+                Text="Logout" 
+                TextColor="Black"
+                BackgroundColor="White"
+                HeightRequest="38"
+                ContentLayout="Right"
+                Image ="exit_18px"/>
 
         </StackLayout>
 

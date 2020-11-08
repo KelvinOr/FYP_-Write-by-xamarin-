@@ -170,4 +170,16 @@
   <ItemGroup>
     <BundleResource Include="User30px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="edit_28px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="edit_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="open_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="exit_18px.png" />
+  </ItemGroup>
 </Project>
