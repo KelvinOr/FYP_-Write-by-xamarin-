@@ -12,8 +12,9 @@ namespace FYP_GeeksClub
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomeTabbed : TabbedPage
     {
-        readonly Page tab1Page;
-        readonly Page tab2Page;
+        readonly Page HomePage;
+        readonly Page AccountManagerPage;
+        readonly Page SecondHandShopPage;
 
         public HomeTabbed()
         {   
@@ -21,11 +22,14 @@ namespace FYP_GeeksClub
 
             this.BarBackgroundColor = Color.FromHex("#1C83F8");
 
-            tab1Page = new HomePage() {Title = "Home", IconImageSource = "Home24px.png"};
-            tab2Page = new AccountManagerPage() {Title = "Account", IconImageSource = "User24px.png" };
+            HomePage = new HomePage() {Title = "Home", IconImageSource = "Home24px.png"};
+            AccountManagerPage = new AccountManagerPage() {Title = "Account", IconImageSource = "User24px.png" };
+            SecondHandShopPage = new SecondHandShopPage() { Title = "SecondHand Item Shop" };
+            
 
-            Children.Add(tab1Page);
-            Children.Add(tab2Page);
+            Children.Add(HomePage);
+            Children.Add(SecondHandShopPage);
+            Children.Add(AccountManagerPage);
 
         }
 

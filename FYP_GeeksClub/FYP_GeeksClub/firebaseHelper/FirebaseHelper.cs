@@ -6,6 +6,8 @@ using Xamarin.Essentials;
 using Firebase.Storage;
 using System.Threading.Tasks;
 using System.IO;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 namespace FYP_GeeksClub.firebaseHelper
 {
@@ -80,7 +82,6 @@ namespace FYP_GeeksClub.firebaseHelper
 
         }
 
-
         public async Task<string> UploadUserImage(Stream fileStream, string fileName)
         {
             var imageURL = await firebaseStorage.Child("UserImage").Child(fileName).PutAsync(fileStream);
@@ -96,6 +97,17 @@ namespace FYP_GeeksClub.firebaseHelper
         public async Task DeleteImage(string fileName)
         {
             await firebaseStorage.Child("UserImage").Child(fileName).DeleteAsync();
+
+        }
+
+        public async Task<List<UserAccountDetail>> GetAllUser()
+        {
+            return (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Select(item => new UserAccountDetail
+            {
+                UserName = item.Object.UserName,
+                Email = item.Object.Email,
+                UserImageURL = item.Object.UserImageURL
+            }).ToList();
 
         }
 
