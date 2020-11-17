@@ -4,12 +4,30 @@
              x:Class="FYP_GeeksClub.ShopPage"
              BackgroundColor="#1C83E8">
     <ContentPage.Content>
-        <StackLayout>
-            <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White"/>
-            <ListView x:Name="ShopItem">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="0.2"/>
+                <RowDefinition Height="0.65*"/>
+                <RowDefinition Height="0.25*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Release Your Items" x:Name="btn_release" Grid.Row="3" Grid.Column="1" BackgroundColor="White" TextColor="Black" Clicked="btn_release_Clicked"/>
+
+            <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Column="1" Grid.Row="1"/>
+
+            <ListView x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" BackgroundColor="#1C83E8" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
                             <StackLayout>
                                 <Label Text="{Binding UserName}"/>
                                 <Label Text="{Binding Email}"/>
@@ -18,6 +36,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        </StackLayout>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

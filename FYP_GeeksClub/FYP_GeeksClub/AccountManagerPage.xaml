@@ -31,7 +31,7 @@
                 IsClippedToBounds="True" 
                 HorizontalOptions="Center"
                 VerticalOptions="Center">
-                    
+
                 <Image 
                     x:Name="imgSorce"
                     HorizontalOptions="Center"
@@ -52,8 +52,8 @@
                     BackgroundColor="White"
                     Image="edit_18px.png" 
                     HeightRequest="38"/>
-            
-            
+
+
             <Button
                 x:Name="ChangeImage" 
                 Clicked="ChangeImage_Clicked" 
@@ -63,7 +63,7 @@
                 HeightRequest="38"
                 ContentLayout="Right"
                 Image ="open_18px"/>
-            
+
             <Button 
                 x:Name="Logout" 
                 Clicked="Logout_Clicked" 

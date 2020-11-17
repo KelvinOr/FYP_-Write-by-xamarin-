@@ -34,5 +34,10 @@ namespace FYP_GeeksClub
             }
             
         }
+
+        async private void btn_release_Clicked(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

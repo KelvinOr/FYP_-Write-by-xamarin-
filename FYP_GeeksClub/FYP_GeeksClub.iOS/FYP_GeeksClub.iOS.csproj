@@ -185,4 +185,9 @@
   <ItemGroup>
     <BundleResource Include="exit_18px.png" />
   </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TriggeredFromHotReload="False" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

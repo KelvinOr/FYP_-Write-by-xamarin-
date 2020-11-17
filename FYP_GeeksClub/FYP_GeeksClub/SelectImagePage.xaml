@@ -2,25 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.SelectImagePage"
-             BackgroundColor="#1C83E8">
-    <ContentPage.Content>
-        <Grid>
+             BackgroundColor="#1C83E8"
+             NavigationPage.IconColor="White">
+<ContentPage.Content>
+    <Grid>
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="9*"/>
-                <RowDefinition Height="0.6*"/>
-                <RowDefinition Height="0.4*"/>
-            </Grid.RowDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="4*"/> 
-                <ColumnDefinition Width="4*"/>
-                <ColumnDefinition Width="1*"/>
-            </Grid.ColumnDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
 
-            <Image x:Name="ImageSorce" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1"/>
-            <Button 
+        <Image x:Name="ImageSorce" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button 
                 x:Name="SelectImage" 
                 Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" 
                 HorizontalOptions="Center"
@@ -31,10 +32,10 @@
                 IsVisible="True"
                 Clicked="SelectImage_OnClicked"/>
 
-            
-            <Button BackgroundColor="White" Text="Cancel" x:Name="cancel" Clicked="cancel_Clicked" Grid.Row="1" Grid.Column="1"/>
-            <Button BackgroundColor="White" Text="Save" x:Name="save" Clicked="save_Clicked" Grid.Row="1" Grid.Column="2"/>
+
+        <Button BackgroundColor="White" Text="Cancel" x:Name="cancel" Clicked="cancel_Clicked" Grid.Row="1" Grid.Column="1"/>
+        <Button BackgroundColor="White" Text="Save" x:Name="save" Clicked="save_Clicked" Grid.Row="1" Grid.Column="2"/>
 
     </Grid>
-    </ContentPage.Content>
+</ContentPage.Content>
 </ContentPage>
