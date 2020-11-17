@@ -1,4 +1,5 @@
-﻿using Plugin.Media;
+﻿using FYP_GeeksClub.firebaseHelper;
+using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace FYP_GeeksClub
     public partial class ReleaseItemPage : ContentPage
     {
         MediaFile file;
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
 
         public ReleaseItemPage()
         {
@@ -56,6 +58,14 @@ namespace FYP_GeeksClub
         private void btn_selectiamge_Clicked(object sender, EventArgs e)
         {
             choosefile();
+        }
+
+        private void btn_release_Clicked(object sender, EventArgs e)
+        {
+            if(Ent_Title != null && Ent_Detail != null && Ent_Price !=null && SelectImage.Source != null)
+            {
+                firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), "null" ,sw_isSecondHand.IsToggled, false );
+            }
         }
     }
 }

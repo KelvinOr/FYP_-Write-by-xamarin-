@@ -29,7 +29,7 @@
 
                 <Entry x:Name="Ent_Detail" TextColor="White" HorizontalOptions="FillAndExpand" Placeholder="Detail" />
 
-                <Entry x:Name="Ent_Price" TextColor="White" HorizontalOptions="FillAndExpand" Placeholder="Price"/>
+                <Entry x:Name="Ent_Price" TextColor="White" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
 
                 <StackLayout Orientation="Horizontal">
 
@@ -41,7 +41,7 @@
                 <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
 
                     <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
-                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White"/>
+                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
 
                 </StackLayout>
 
