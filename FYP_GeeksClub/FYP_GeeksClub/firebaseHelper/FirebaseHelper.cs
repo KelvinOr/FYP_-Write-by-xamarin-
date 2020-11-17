@@ -16,6 +16,7 @@ namespace FYP_GeeksClub.firebaseHelper
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         FirebaseStorage firebaseStorage = new FirebaseStorage("hareware-59ccb.appspot.com");
 
+        //MARK: user account firebase helper
         public async void UpdateUserName(string Username)
         {
             var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
@@ -107,6 +108,35 @@ namespace FYP_GeeksClub.firebaseHelper
                 UserName = item.Object.UserName,
                 Email = item.Object.Email,
                 UserImageURL = item.Object.UserImageURL
+            }).ToList();
+        }
+
+        //MARK: shop item firebase helper
+        public async void PushNewItem(string title, string detail, double price, string imageURL, bool isSecondHand, bool isSaled)
+        {
+            await firebaseClient.Child("shopitem").PatchAsync(new ShopItemDetail
+            {
+                title = title,
+                detail = detail,
+                price = price,
+                imageURL = imageURL,
+                isSecondHand = isSecondHand,
+                isSaled = isSaled,
+                owner = Preferences.Get("email", "").ToString(),
+            });
+        }
+
+        public async Task<List<ShopItemDetail>> GetShopItem()
+        {
+            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Select(item => new ShopItemDetail
+            {
+                title = item.Object.title,
+                detail = item.Object.detail,
+                price = item.Object.price,
+                imageURL = item.Object.imageURL,
+                isSecondHand = item.Object.isSecondHand,
+                isSaled = item.Object.isSaled,
+                owner = item.Object.owner,
             }).ToList();
 
         }

@@ -14,7 +14,7 @@ namespace FYP_GeeksClub
     {
         readonly Page HomePage;
         readonly Page AccountManagerPage;
-        readonly Page SecondHandShopPage;
+        readonly Page ShopPage;
 
         public HomeTabbed()
         {   
@@ -24,11 +24,11 @@ namespace FYP_GeeksClub
 
             HomePage = new HomePage() {Title = "Home", IconImageSource = "Home24px.png"};
             AccountManagerPage = new AccountManagerPage() {Title = "Account", IconImageSource = "User24px.png" };
-            SecondHandShopPage = new SecondHandShopPage() { Title = "SecondHand Item Shop" };
+            ShopPage = new ShopPage() { Title = "Shop" };
             
 
             Children.Add(HomePage);
-            Children.Add(SecondHandShopPage);
+            Children.Add(ShopPage);
             Children.Add(AccountManagerPage);
 
         }
