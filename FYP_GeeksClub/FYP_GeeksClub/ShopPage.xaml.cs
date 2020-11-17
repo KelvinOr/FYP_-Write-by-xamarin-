@@ -1,4 +1,6 @@
 ﻿using FYP_GeeksClub.firebaseHelper;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,9 +37,10 @@ namespace FYP_GeeksClub
             
         }
 
+
         async private void btn_release_Clicked(object sender, EventArgs e)
         {
-            
+            await Navigation.PushModalAsync(new ReleaseItemPage());   
         }
     }
 }
