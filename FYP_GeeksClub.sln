@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYP_GeeksClub.Android", "FY
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYP_GeeksClub.iOS", "FYP_GeeksClub\FYP_GeeksClub.iOS\FYP_GeeksClub.iOS.csproj", "{B6E7E3E3-CEC4-435F-B2C4-C401423D3904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYP_GeeksClub", "FYP_GeeksClub\FYP_GeeksClub\FYP_GeeksClub.csproj", "{0FE70959-D033-4148-A387-EFFC836AD789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FYP_GeeksClub", "FYP_GeeksClub\FYP_GeeksClub\FYP_GeeksClub.csproj", "{0FE70959-D033-4148-A387-EFFC836AD789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
