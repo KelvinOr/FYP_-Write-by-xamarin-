@@ -31,7 +31,6 @@
 
             <Button
                 BackgroundColor="#FFFFFF"
-                TextColor="Black"
                 Text="Login"
                 x:Name="btn_Login"
                 Clicked="btn_Login_Clicked"/>

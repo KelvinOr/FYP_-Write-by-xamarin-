@@ -44,7 +44,7 @@ namespace FYP_GeeksClub
                     {
                         return file.GetStream();
                     });
-                    SelectImage.HeightRequest = 230;
+                    SelectImage.HeightRequest = 250;
                 }
             } catch { }
 

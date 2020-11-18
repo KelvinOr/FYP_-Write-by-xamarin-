@@ -19,7 +19,7 @@
 
             <StackLayout  Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
                 <Image x:Name="SelectImage" />
-                <Button Text="Select Image" x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center" Clicked="btn_selectiamge_Clicked"/>
+                <Button Text="  Select Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center" Clicked="btn_selectiamge_Clicked"/>
             </StackLayout>
             
 
@@ -33,7 +33,7 @@
 
                 <StackLayout Orientation="Horizontal">
 
-                    <Label Text="Second Hand Item   " VerticalOptions="Center"/>
+                    <Label Text="Second Hand Item   " VerticalOptions="Center" TextColor="White"/>
                     <Switch x:Name="sw_isSecondHand" OnColor="Green" ThumbColor="White"/>
 
                 </StackLayout>

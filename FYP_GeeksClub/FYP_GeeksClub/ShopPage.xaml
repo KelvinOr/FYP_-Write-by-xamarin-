@@ -20,7 +20,7 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Text="Release Your Items" x:Name="btn_release" Grid.Row="3" Grid.Column="1" BackgroundColor="White" TextColor="Black" Clicked="btn_release_Clicked"/>
+            <Button Text="Release Your Items" x:Name="btn_release" Grid.Row="3" Grid.Column="1" BackgroundColor="White" Clicked="btn_release_Clicked"/>
 
             <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Column="1" Grid.Row="1"/>
 
