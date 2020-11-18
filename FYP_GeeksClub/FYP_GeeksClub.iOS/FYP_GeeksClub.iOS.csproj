@@ -185,6 +185,9 @@
   <ItemGroup>
     <BundleResource Include="exit_18px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="shop_24px.png" />
+  </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
       <UserProperties TriggeredFromHotReload="False" />

@@ -24,7 +24,7 @@ namespace FYP_GeeksClub
 
             HomePage = new HomePage() {Title = "Home", IconImageSource = "Home24px.png"};
             AccountManagerPage = new AccountManagerPage() {Title = "Account", IconImageSource = "User24px.png" };
-            ShopPage = new ShopPage() { Title = "Shop" };
+            ShopPage = new ShopPage() { Title = "Shop", IconImageSource = "shop_24px.png" };
             
 
             Children.Add(HomePage);
