@@ -112,13 +112,14 @@ namespace FYP_GeeksClub.firebaseHelper
         }
 
         //MARK: shop item firebase helper
-        public async void PushNewItem(string title, string detail, double price, string imageURL, bool isSecondHand, bool isSaled)
+        public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool isSaled)
         {
             await firebaseClient.Child("shopitem").PatchAsync(new ShopItemDetail
             {
                 title = title,
                 detail = detail,
                 price = price,
+                quantity = quantity,
                 imageURL = imageURL,
                 isSecondHand = isSecondHand,
                 isSaled = isSaled,
@@ -133,6 +134,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 title = item.Object.title,
                 detail = item.Object.detail,
                 price = item.Object.price,
+                quantity = item.Object.quantity,
                 imageURL = item.Object.imageURL,
                 isSecondHand = item.Object.isSecondHand,
                 isSaled = item.Object.isSaled,

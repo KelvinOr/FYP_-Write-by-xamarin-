@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -108,7 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FYP_GeeksClub\FYP_GeeksClub.csproj">
-      <Project>{181E90F6-8876-491A-9BA8-AB160E2EB17B}</Project>
+      <Project>{0FE70959-D033-4148-A387-EFFC836AD789}</Project>
       <Name>FYP_GeeksClub</Name>
     </ProjectReference>
   </ItemGroup>

@@ -25,11 +25,13 @@
 
             <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
                 
-                <Entry x:Name="Ent_Title" TextColor="White" HorizontalOptions="FillAndExpand" Placeholder="Title" />
+                <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title" />
 
-                <Entry x:Name="Ent_Detail" TextColor="White" HorizontalOptions="FillAndExpand" Placeholder="Detail" />
+                <Entry x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" Placeholder="Detail" />
 
-                <Entry x:Name="Ent_Price" TextColor="White" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
+                <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
+
+                <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Placeholder="Quantity" Keyboard="Numeric"/>
 
                 <StackLayout Orientation="Horizontal">
 

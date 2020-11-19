@@ -9,6 +9,7 @@ namespace FYP_GeeksClub.Form
         public string title { get; set; }
         public string detail { get; set; }
         public double price { get; set; }
+        public int quantity { get; set; }
         public string imageURL { get; set; }
         public bool isSecondHand { get; set; }
         public bool isSaled { get; set; }

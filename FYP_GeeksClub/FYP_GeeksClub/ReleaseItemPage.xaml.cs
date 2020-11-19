@@ -62,10 +62,12 @@ namespace FYP_GeeksClub
 
         private void btn_release_Clicked(object sender, EventArgs e)
         {
+
             if(Ent_Title != null && Ent_Detail != null && Ent_Price !=null && SelectImage.Source != null)
             {
-                firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), "null" ,sw_isSecondHand.IsToggled, false );
+                firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()),"null" ,sw_isSecondHand.IsToggled, false );
             }
         }
+
     }
 }
