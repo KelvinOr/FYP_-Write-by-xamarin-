@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -60,12 +60,21 @@ namespace FYP_GeeksClub
             choosefile();
         }
 
-        private void btn_release_Clicked(object sender, EventArgs e)
+        async private void btn_release_Clicked(object sender, EventArgs e)
         {
 
-            if(Ent_Title != null && Ent_Detail != null && Ent_Price !=null && SelectImage.Source != null)
+            if(Ent_Title != null && Ent_Detail != null && Ent_Price !=null && SelectImage.Source != null && SelectImage.Source != null)
             {
-                firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()),"null" ,sw_isSecondHand.IsToggled, false );
+                var filename = Preferences.Get("email", "").ToString() + Ent_Title.Text.ToString();
+                firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
+                await Task.Delay(2000);
+                String imageURL = await firebaseHelper.GetItemImageURL(filename);
+                firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()),imageURL ,sw_isSecondHand.IsToggled ,false );
+                await Navigation.PopModalAsync();
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert("Alert", "Input all detail", "OK");
             }
         }
 

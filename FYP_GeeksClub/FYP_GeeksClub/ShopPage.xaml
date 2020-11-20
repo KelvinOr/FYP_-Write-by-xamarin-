@@ -24,15 +24,21 @@
 
             <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Column="1" Grid.Row="1"/>
 
-            <ListView x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" BackgroundColor="#1C83E8" >
+            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" BackgroundColor="#1C83E8" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding UserName}"/>
-                                <Label Text="{Binding Email}"/>
-                            </StackLayout>
-                        </ViewCell>
+                        <StackLayout>
+                            <Image Source="{Binding imageURL}"/>
+                            <Label Text="{Binding title}"/>
+                            <Label Text="{Binding detail}"/>
+                            <Label Text="{Binding price}"/>
+                            <Label Text="{Binding quantity}"/>
+                            <Label Text="{Binding isSecondHand}"/>
+                            <Label Text="{Binding isSaled}"/>
+                            <Label Text="{Binding owner}"/>
+                        </StackLayout>
+                     </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

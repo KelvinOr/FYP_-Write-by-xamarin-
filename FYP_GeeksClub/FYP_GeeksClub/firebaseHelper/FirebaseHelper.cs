@@ -98,7 +98,6 @@ namespace FYP_GeeksClub.firebaseHelper
         public async Task DeleteImage(string fileName)
         {
             await firebaseStorage.Child("UserImage").Child(fileName).DeleteAsync();
-
         }
 
         public async Task<List<UserAccountDetail>> GetAllUser()
@@ -114,7 +113,7 @@ namespace FYP_GeeksClub.firebaseHelper
         //MARK: shop item firebase helper
         public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool isSaled)
         {
-            await firebaseClient.Child("shopitem").PatchAsync(new ShopItemDetail
+            await firebaseClient.Child("shopitem").PostAsync(new ShopItemDetail
             {
                 title = title,
                 detail = detail,
@@ -141,6 +140,19 @@ namespace FYP_GeeksClub.firebaseHelper
                 owner = item.Object.owner,
             }).ToList();
 
+        }
+
+        public async Task<string> UploadShopItemImage(Stream fileStream,string title)
+        {
+            var fileName = (title);
+            var imageURL = await firebaseStorage.Child("ShopItemImage").Child(fileName).PutAsync(fileStream);
+            return imageURL;
+        }
+
+        public async Task<string> GetItemImageURL(string title) {
+            var fileName = (title);
+            var imageURL = await firebaseStorage.Child("ShopItemImage").Child(fileName).GetDownloadUrlAsync();
+            return imageURL;
         }
 
     }
