@@ -37,6 +37,20 @@ namespace FYP_GeeksClub
             
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            var tabbedPage = this.Parent as TabbedPage;
+
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                if (Device.OS == TargetPlatform.Android)
+                {
+                    tabbedPage.CurrentPage = new HomePage();
+                }
+            });
+            return true;
+        }
+
 
         async private void btn_release_Clicked(object sender, EventArgs e)
         {

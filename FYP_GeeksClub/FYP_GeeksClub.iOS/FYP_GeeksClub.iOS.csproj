@@ -141,13 +141,14 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\FYP_GeeksClub\FYP_GeeksClub.csproj">
-      <Project>{181E90F6-8876-491A-9BA8-AB160E2EB17B}</Project>
+      <Project>{0FE70959-D033-4148-A387-EFFC836AD789}</Project>
       <Name>FYP_GeeksClub</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="back.png" />
     <BundleResource Include="ICON.png" />
+    <BundleResource Include="ToItem_30px.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Home.png" />

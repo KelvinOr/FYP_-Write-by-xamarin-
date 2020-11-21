@@ -34,37 +34,45 @@
                                         <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="0.5*"/>
                                                 <ColumnDefinition Width="2.5*"/>
-                                                <ColumnDefinition Width="3*"/>
-                                                <ColumnDefinition Width="2.5*"/>
-                                                <ColumnDefinition Width="0.5*"/>
-                                                <ColumnDefinition Width="1*"/>
+                                                <ColumnDefinition Width="6*"/>
+                                                <ColumnDefinition Width="0.75*"/>
+                                                <ColumnDefinition Width="0.25"/>
                                             </Grid.ColumnDefinitions>
 
                                             <Grid.RowDefinitions>
-                                                <RowDefinition Height="0.5*"/>
-                                                <RowDefinition Height="4*"/>
-                                                <RowDefinition Height="4*"/>
-                                                <RowDefinition Height="0.5*"/>
+                                                <RowDefinition Height="2*"/>
+                                                <RowDefinition Height="3*"/>
+                                                <RowDefinition Height="3*"/>
+                                                <RowDefinition Height="2*"/>
                                             </Grid.RowDefinitions>
 
-                                            <Image Source="{Binding imageURL}" Grid.Column="1" Grid.Row="1" WidthRequest="100" HeightRequest="100" Grid.RowSpan="2"/>
+                                            <Frame
+                                                Grid.Column="1"
+                                                Grid.Row="1"
+                                                Grid.RowSpan="2"
+                                                WidthRequest="100"
+                                                HeightRequest="100"
+                                                BackgroundColor="#00000000"
+                                                Padding="0"
+                                                IsClippedToBounds="True"
+                                                HasShadow="False"
+                                                CornerRadius="5">
 
+                                                <Image Source="{Binding imageURL}" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                            </Frame>
+                                            
                                             <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
                                                 <Image Source="SecondHand_73_44px.png" IsVisible="{Binding isSecondHand}" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
                                                 <Label Text=" " HorizontalOptions="Start"/>
-                                                <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black"/>
-                                                <!--<Label Text="{Binding quantity}"/>
-                                                <Label Text="{Binding isSaled}"/>-->
+                                                <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
                                             </StackLayout>
 
                                             <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
-                                                <Label Text=" " HorizontalOptions="Start"/>
+                                                <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                                                <Label Text="{Binding price}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
                                             </StackLayout>
 
-                                            <StackLayout Orientation="Horizontal" Grid.Column="3" Grid.Row="1">
-                                                <Label Text="$" HorizontalOptions="EndAndExpand" VerticalOptions="Center" TextColor="Black"/>
-                                                <Label Text="{Binding price}" HorizontalOptions="End" VerticalOptions="Center" TextColor="Black"/>
-                                            </StackLayout>
+                                            <Image Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Source="ToItem_30px.png" HorizontalOptions="Center" VerticalOptions="Center"/>
 
                                         </Grid>
                                     </Frame>
