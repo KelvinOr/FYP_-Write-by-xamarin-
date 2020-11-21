@@ -59,7 +59,6 @@
 
                                             <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
                                                 <Label Text=" " HorizontalOptions="Start"/>
-                                                <Label Text="{Binding ownerName}" TextColor="Black"/>
                                             </StackLayout>
 
                                             <StackLayout Orientation="Horizontal" Grid.Column="3" Grid.Row="1">

@@ -130,7 +130,6 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = isSecondHand,
                 isSaled = isSaled,
                 owner = Preferences.Get("email", "").ToString(),
-                ownerName = " ",
             });
         }
 
@@ -146,7 +145,6 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = item.Object.isSecondHand,
                 isSaled = item.Object.isSaled,
                 owner = item.Object.owner,
-                ownerName = GetUserName(item.Object.owner.ToString()).ToString()
             }).ToList();
 
         }
