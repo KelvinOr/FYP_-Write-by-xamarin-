@@ -11,6 +11,7 @@ namespace FYP_GeeksClub
         {
             InitializeComponent();
 
+            img_ItemImage.Source = shopItemDetail.imageURL.ToString();
             title.Text = shopItemDetail.title.ToString();
         }
     }

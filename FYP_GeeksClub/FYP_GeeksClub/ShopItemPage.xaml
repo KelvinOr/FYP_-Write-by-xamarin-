@@ -2,7 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.ShopItemPage"
              NavigationPage.IconColor="White" BackgroundColor="#1C83E8">
     <ContentPage.Content>
+        <Grid>
 
-        <Label x:Name="title"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="6.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                IsClippedToBounds="True"
+                HasShadow="False"
+                Grid.Row="1"
+                Grid.Column="1"
+                Padding="0"
+                CornerRadius="5">
+
+                <Image
+                    x:Name="img_ItemImage"
+                    HeightRequest="230"/>
+
+            </Frame>   
+
+            <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="1">
+                <Label x:Name="title" TextColor="White" FontSize="Large"/>
+            </StackLayout>
+            
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
