@@ -110,6 +110,13 @@ namespace FYP_GeeksClub.firebaseHelper
             }).ToList();
         }
 
+        public async Task<string> GetUserName(string email)
+        {
+            await Task.Delay(2000);
+            var GetAccount = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == email).FirstOrDefault();
+            return GetAccount.Object.UserName.ToString();
+        }
+
         //MARK: shop item firebase helper
         public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool isSaled)
         {
@@ -123,6 +130,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = isSecondHand,
                 isSaled = isSaled,
                 owner = Preferences.Get("email", "").ToString(),
+                ownerName = " ",
             });
         }
 
@@ -138,6 +146,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = item.Object.isSecondHand,
                 isSaled = item.Object.isSaled,
                 owner = item.Object.owner,
+                ownerName = GetUserName(item.Object.owner.ToString()).ToString()
             }).ToList();
 
         }

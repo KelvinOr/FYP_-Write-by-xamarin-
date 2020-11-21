@@ -158,10 +158,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\shop_24px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\SecondHand_73_44px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadUnhandledDeviceExceptionFYP_GeeksClubAndroidHideInfoBar="True" />
+      <UserProperties XamarinHotReloadUnhandledDeviceExceptionFYP_GeeksClubAndroidHideInfoBar="True" TriggeredFromHotReload="False" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

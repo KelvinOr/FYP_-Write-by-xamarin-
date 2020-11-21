@@ -15,30 +15,62 @@
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="8*"/>
-                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="9.5*"/>
+                <ColumnDefinition Width="0.25*"/>
             </Grid.ColumnDefinitions>
 
             <Button Text="Release Your Items" x:Name="btn_release" Grid.Row="3" Grid.Column="1" BackgroundColor="White" Clicked="btn_release_Clicked"/>
 
             <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Column="1" Grid.Row="1"/>
 
-            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" BackgroundColor="#1C83E8" >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout>
-                            <Image Source="{Binding imageURL}"/>
-                            <Label Text="{Binding title}"/>
-                            <Label Text="{Binding detail}"/>
-                            <Label Text="{Binding price}"/>
-                            <Label Text="{Binding quantity}"/>
-                            <Label Text="{Binding isSecondHand}"/>
-                            <Label Text="{Binding isSaled}"/>
-                            <Label Text="{Binding owner}"/>
-                        </StackLayout>
-                     </ViewCell>
+            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" HasUnevenRows="True" Margin="20,20" BackgroundColor="#00000000" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="0,0,0,5">
+                                    <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True" >
+                                    <Grid BackgroundColor="White">
+                                        <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="0.5*"/>
+                                                <ColumnDefinition Width="2.5*"/>
+                                                <ColumnDefinition Width="3*"/>
+                                                <ColumnDefinition Width="2.5*"/>
+                                                <ColumnDefinition Width="0.5*"/>
+                                                <ColumnDefinition Width="1*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="0.5*"/>
+                                                <RowDefinition Height="4*"/>
+                                                <RowDefinition Height="4*"/>
+                                                <RowDefinition Height="0.5*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Image Source="{Binding imageURL}" Grid.Column="1" Grid.Row="1" WidthRequest="100" HeightRequest="100" Grid.RowSpan="2"/>
+
+                                            <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
+                                                <Image Source="SecondHand_73_44px.png" IsVisible="{Binding isSecondHand}" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
+                                                <Label Text=" " HorizontalOptions="Start"/>
+                                                <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black"/>
+                                                <!--<Label Text="{Binding quantity}"/>
+                                                <Label Text="{Binding isSaled}"/>-->
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                                                <Label Text=" " HorizontalOptions="Start"/>
+                                                <Label Text="{Binding ownerName}" TextColor="Black"/>
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Grid.Column="3" Grid.Row="1">
+                                                <Label Text="$" HorizontalOptions="EndAndExpand" VerticalOptions="Center" TextColor="Black"/>
+                                                <Label Text="{Binding price}" HorizontalOptions="End" VerticalOptions="Center" TextColor="Black"/>
+                                            </StackLayout>
+
+                                        </Grid>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
