@@ -118,7 +118,7 @@ namespace FYP_GeeksClub.firebaseHelper
         }
 
         //MARK: shop item firebase helper
-        public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool isSaled)
+        public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
         {
             await firebaseClient.Child("shopitem").PostAsync(new ShopItemDetail
             {
@@ -128,14 +128,14 @@ namespace FYP_GeeksClub.firebaseHelper
                 quantity = quantity,
                 imageURL = imageURL,
                 isSecondHand = isSecondHand,
-                isSaled = isSaled,
+                saleIng = saleIng,
                 owner = Preferences.Get("email", "").ToString(),
             });
         }
 
         public async Task<List<ShopItemDetail>> GetShopItem()
         {
-            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Select(item => new ShopItemDetail
+            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.saleIng != false).Select(item => new ShopItemDetail
             {
                 title = item.Object.title,
                 detail = item.Object.detail,
@@ -143,10 +143,24 @@ namespace FYP_GeeksClub.firebaseHelper
                 quantity = item.Object.quantity,
                 imageURL = item.Object.imageURL,
                 isSecondHand = item.Object.isSecondHand,
-                isSaled = item.Object.isSaled,
+                saleIng = item.Object.saleIng,
                 owner = item.Object.owner,
             }).ToList();
+        }
 
+        public async Task<List<ShopItemDetail>> GetShopItemWithEmail()
+        {
+            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.owner == Preferences.Get("email","").ToString()).Select(item => new ShopItemDetail
+            {
+                title = item.Object.title,
+                detail = item.Object.detail,
+                price = item.Object.price,
+                quantity = item.Object.quantity,
+                imageURL = item.Object.imageURL,
+                isSecondHand = item.Object.isSecondHand,
+                saleIng = item.Object.saleIng,
+                owner = item.Object.owner,
+            }).ToList();
         }
 
         public async Task<string> UploadShopItemImage(Stream fileStream,string title)
@@ -162,5 +176,42 @@ namespace FYP_GeeksClub.firebaseHelper
             return imageURL;
         }
 
+        public async void UpdateItem(string title, string detail,string owner ,double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
+        {
+            var Check = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
+                a => (a.Object.title == title) && (a.Object.owner == owner) ).FirstOrDefault();
+            if (Check != null)
+            {
+                var Update = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
+                    a => a.Object.title == title).Where(b => b.Object.owner == owner).FirstOrDefault();
+                await firebaseClient.Child("shopitem").Child(Update.Key).PutAsync(new ShopItemDetail()
+                {
+                    title = title,
+                    detail = detail,
+                    price = price,
+                    quantity = quantity,
+                    imageURL = imageURL,
+                    isSecondHand = isSecondHand,
+                    saleIng = saleIng,
+                    owner = owner,
+                });
+            }
+            else
+            {
+                await firebaseClient.Child("shopitem").PostAsync(new ShopItemDetail()
+                {
+                    title = title,
+                    detail = detail,
+                    price = price,
+                    quantity = quantity,
+                    imageURL = imageURL,
+                    isSecondHand = isSecondHand,
+                    saleIng = saleIng,
+                    owner = owner,
+                });
+            }
+        }
+
     }
 }
+

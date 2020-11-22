@@ -59,10 +59,12 @@ namespace FYP_GeeksClub
 
         async void ShopItem_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
+            Binding binding = new Binding();
             if (((ListView)sender).SelectedItem == null)
             {
                 return;
             }
+            
             var content = e.SelectedItem as ShopItemDetail;
 
             await Navigation.PushAsync(new ShopItemPage(content));

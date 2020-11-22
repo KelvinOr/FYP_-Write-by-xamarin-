@@ -24,60 +24,60 @@
 
             <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Column="1" Grid.Row="1"/>
 
-            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" HasUnevenRows="True" Margin="20,20" BackgroundColor="#00000000" >
+            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" HasUnevenRows="True" Margin="20,20" BackgroundColor="#00000000">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Padding="0,0,0,5">
-                                    <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True" >
+                        <ViewCell>
+                            <StackLayout Padding="0,0,0,5">
+                                <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True">
                                     <Grid BackgroundColor="White">
                                         <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="0.5*"/>
-                                                <ColumnDefinition Width="2.5*"/>
-                                                <ColumnDefinition Width="6*"/>
-                                                <ColumnDefinition Width="0.75*"/>
-                                                <ColumnDefinition Width="0.25"/>
-                                            </Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.5*"/>
+                                            <ColumnDefinition Width="2.5*"/>
+                                            <ColumnDefinition Width="6*"/>
+                                            <ColumnDefinition Width="0.75*"/>
+                                            <ColumnDefinition Width="0.25"/>
+                                        </Grid.ColumnDefinitions>
 
-                                            <Grid.RowDefinitions>
-                                                <RowDefinition Height="2*"/>
-                                                <RowDefinition Height="3*"/>
-                                                <RowDefinition Height="3*"/>
-                                                <RowDefinition Height="2*"/>
-                                            </Grid.RowDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="2*"/>
+                                            <RowDefinition Height="3*"/>
+                                            <RowDefinition Height="3*"/>
+                                            <RowDefinition Height="2*"/>
+                                        </Grid.RowDefinitions>
 
-                                            <Frame
-                                                Grid.Column="1"
-                                                Grid.Row="1"
-                                                Grid.RowSpan="2"
-                                                WidthRequest="100"
-                                                HeightRequest="100"
-                                                BackgroundColor="#00000000"
-                                                Padding="0"
-                                                IsClippedToBounds="True"
-                                                HasShadow="False"
-                                                CornerRadius="5">
+                                        <Frame
+                                             Grid.Column="1"
+                                             Grid.Row="1"
+                                             Grid.RowSpan="2"
+                                             WidthRequest="100"
+                                             HeightRequest="100"
+                                             BackgroundColor="#00000000"
+                                             Padding="0"
+                                             IsClippedToBounds="True"
+                                             HasShadow="False"
+                                             CornerRadius="5">
 
-                                                <Image Source="{Binding imageURL}" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"/>
-                                            </Frame>
-                                            
-                                            <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
-                                                <Image Source="SecondHand_73_44px.png" IsVisible="{Binding isSecondHand}" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
-                                                <Label Text=" " HorizontalOptions="Start"/>
-                                                <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
-                                            </StackLayout>
+                                            <Image Source="{Binding imageURL}" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                        </Frame>
 
-                                            <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
-                                                <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
-                                                <Label Text="{Binding price}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
-                                            </StackLayout>
+                                        <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
+                                            <Image Source="SecondHand_73_44px.png" IsVisible="{Binding isSecondHand}" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
+                                            <Label Text=" " HorizontalOptions="Start"/>
+                                            <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
+                                        </StackLayout>
 
-                                            <Image Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Source="ToItem_30px.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                        <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                                            <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                                            <Label Text="{Binding price}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                                        </StackLayout>
 
-                                        </Grid>
-                                    </Frame>
-                                </StackLayout>
-                            </ViewCell>
+                                        <Image Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Source="ToItem_30px.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                                    </Grid>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

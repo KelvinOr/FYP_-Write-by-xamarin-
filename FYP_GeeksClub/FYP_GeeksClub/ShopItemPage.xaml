@@ -30,7 +30,12 @@
             </Frame>   
 
             <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="1">
-                <Label x:Name="title" TextColor="White" FontSize="Large"/>
+                <Label x:Name="lb_title" TextColor="White" FontSize="Large"/>
+                <Label x:Name="lb_detail" TextColor="White" FontSize="Medium"/>
+                <Label x:Name="lb_owner" TextColor="White" FontSize="Medium"/>
+                <Label x:Name="lb_quantity" TextColor="White" FontSize="Medium"/>
+                <Label x:Name="lb_price" TextColor="White" FontSize="Medium"/>
+                <Button x:Name="btn_update" BackgroundColor="White" Clicked="btn_update_Clicked"/>
             </StackLayout>
             
         </Grid>

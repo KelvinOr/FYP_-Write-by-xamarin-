@@ -12,7 +12,7 @@ namespace FYP_GeeksClub.Form
         public int quantity { get; set; }
         public string imageURL { get; set; }
         public bool isSecondHand { get; set; }
-        public bool isSaled { get; set; }
+        public bool saleIng { get; set; }
         public string owner { get; set; }
     }
 }
