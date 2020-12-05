@@ -31,11 +31,56 @@
 
             <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="1">
                 <Label x:Name="lb_title" TextColor="White" FontSize="Large"/>
+                <Label Text=" "/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="$ " TextColor="White" FontSize="Large"/>
+                    <Label x:Name="lb_price" TextColor="White" FontSize="Large"/>
+                </StackLayout>
                 <Label x:Name="lb_detail" TextColor="White" FontSize="Medium"/>
-                <Label x:Name="lb_owner" TextColor="White" FontSize="Medium"/>
                 <Label x:Name="lb_quantity" TextColor="White" FontSize="Medium"/>
-                <Label x:Name="lb_price" TextColor="White" FontSize="Medium"/>
-                <Button x:Name="btn_update" BackgroundColor="White" Clicked="btn_update_Clicked"/>
+                <Button x:Name="btn_update" Text="Test Button" BackgroundColor="White" Clicked="btn_update_Clicked"/>
+
+                <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand">
+                    <Label Text="Owner: " TextColor="White" FontSize="Medium"/>
+
+                    <Frame
+                        IsClippedToBounds="True"
+                        HasShadow="False"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Padding="0"
+                        CornerRadius="5">
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="" FontSize="Large"/>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text=" "/>
+                            <Frame 
+                                HasShadow="False"
+                                CornerRadius="50" 
+                                HeightRequest="50" 
+                                WidthRequest="50" 
+                                Padding="0" 
+                                IsClippedToBounds="True" 
+                                VerticalOptions="Center">
+
+                                <Image x:Name="img_userImage" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" Aspect="AspectFit"/>
+
+                            </Frame>
+                            <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
+                        </StackLayout>
+
+                        <Label Text="" FontSize="Large"/>
+                      </StackLayout>
+
+                    </Frame>
+                    <Label Text=" " FontSize="Large"/>
+                    <Label Text=" " FontSize="Large"/>
+                </StackLayout>
+               
+                
+                          
             </StackLayout>
             
         </Grid>

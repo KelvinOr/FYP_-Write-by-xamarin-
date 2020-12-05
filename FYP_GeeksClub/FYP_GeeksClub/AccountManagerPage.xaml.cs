@@ -75,7 +75,6 @@ namespace FYP_GeeksClub
 
         public async void GetUserAccountDetails()
         {
-            await Task.Delay(2000);
             var GetAccount = (await firebaseClient
                   .Child("UserAccountDetail")
                   .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();

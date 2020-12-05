@@ -110,12 +110,14 @@ namespace FYP_GeeksClub.firebaseHelper
             }).ToList();
         }
 
-        public async Task<string> GetUserName(string email)
+        //not function(waiting for fix)
+        /*public async Task<string> GetUserName(string email)
         {
+            var GetAccount = (await firebaseClient.Child("UserAccountDetail")
+                .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == email).FirstOrDefault();
             await Task.Delay(2000);
-            var GetAccount = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == email).FirstOrDefault();
-            return GetAccount.Object.UserName.ToString();
-        }
+            return GetAccount.Object.UserName;
+        }*/
 
         //MARK: shop item firebase helper
         public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)

@@ -36,7 +36,7 @@
                     x:Name="imgSorce"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    Aspect="AspectFit"/>
+                    Aspect="AspectFill"/>
             </Frame>
 
             <Label x:Name="lb_user" TextColor="White" FontSize="20" HorizontalOptions="Center"/>
