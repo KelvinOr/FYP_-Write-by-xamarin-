@@ -24,7 +24,7 @@
 
             <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Column="1" Grid.Row="1"/>
 
-            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="1" Grid.Row="1" SeparatorVisibility="None" HasUnevenRows="True" Margin="20,20" BackgroundColor="#00000000">
+            <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" SeparatorVisibility="None" HasUnevenRows="True" Margin="20,20" BackgroundColor="#00000000">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
