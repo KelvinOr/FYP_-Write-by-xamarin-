@@ -60,6 +60,7 @@
                 BackgroundColor="White"
                 HeightRequest="38"
                 ContentLayout="Right"
+                
                 Image ="open_18px"/>
 
             <Button
@@ -67,7 +68,9 @@
                 Text="My Item"
                 Clicked="MyItem_Clicked"
                 BackgroundColor="White"
-                HeightRequest="38"/>
+                HeightRequest="38"
+                ContentLayout="Right"
+                ImageSource="list_18px.png"/>
 
 
             <Button 
@@ -77,6 +80,7 @@
                 BackgroundColor="White"
                 HeightRequest="38"
                 ContentLayout="Right"
+
                 Image ="exit_18px"/>
 
         </StackLayout>

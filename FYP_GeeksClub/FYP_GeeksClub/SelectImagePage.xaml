@@ -14,10 +14,10 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="4.75*"/>
+            <ColumnDefinition Width="4.75*"/>
+            <ColumnDefinition Width="0.25*"/>
         </Grid.ColumnDefinitions>
 
         <Image x:Name="ImageSorce" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1"/>
