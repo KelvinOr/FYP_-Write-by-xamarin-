@@ -152,6 +152,7 @@
     <BundleResource Include="back.png" />
     <BundleResource Include="ICON.png" />
     <BundleResource Include="ToItem_30px.png" />
+    <BundleResource Include="list_18px.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Home.png" />
