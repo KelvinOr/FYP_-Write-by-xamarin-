@@ -110,6 +110,11 @@ namespace FYP_GeeksClub
             await Navigation.PushAsync(new SelectLogin());
         }
 
+        async private void MyItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UserReleasedItemPage());
+        }
+
         public void Sended()
         {
             MessagingCenter.Send<AccountManagerPage>(this, "refresh");

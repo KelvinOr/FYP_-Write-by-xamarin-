@@ -62,6 +62,14 @@
                 ContentLayout="Right"
                 Image ="open_18px"/>
 
+            <Button
+                x:Name="ShowMyItem"
+                Text="My Item"
+                Clicked="MyItem_Clicked"
+                BackgroundColor="White"
+                HeightRequest="38"/>
+
+
             <Button 
                 x:Name="Logout" 
                 Clicked="Logout_Clicked" 
