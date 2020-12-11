@@ -10,6 +10,8 @@ namespace FYP_GeeksClub
         public EditItemPage(ShopItemDetail shopItemDetail)
         {
             InitializeComponent();
+
+            SelectImage.Source = shopItemDetail.imageURL.ToString();
         }
     }
 }
