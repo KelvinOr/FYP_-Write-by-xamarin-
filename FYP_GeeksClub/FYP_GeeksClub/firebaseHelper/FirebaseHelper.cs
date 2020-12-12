@@ -214,6 +214,20 @@ namespace FYP_GeeksClub.firebaseHelper
             }
         }
 
+        public async void DeleteItemOldImage(string fileName)
+        {
+
+            await firebaseStorage.Child("ShopItemImage").Child(fileName).DeleteAsync();
+        }
+
+        public async void DeleteItem(string title)
+        {
+            var owner = Preferences.Get("email", "").ToString();
+            var Update = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
+                    a => a.Object.title == title).Where(b => b.Object.owner == owner).FirstOrDefault();
+            await firebaseClient.Child("shopitem").Child(Update.Key).DeleteAsync();
+        }
+
     }
 }
 

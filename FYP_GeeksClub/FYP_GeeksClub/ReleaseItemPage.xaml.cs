@@ -39,12 +39,11 @@ namespace FYP_GeeksClub
                 }
                 else
                 {
-                    btn_selectiamge.IsVisible = false;
                     SelectImage.Source = ImageSource.FromStream(() =>
                     {
                         return file.GetStream();
                     });
-                    SelectImage.HeightRequest = 230;
+                    SelectImage.HeightRequest = 200;
                 }
             } catch { }
 

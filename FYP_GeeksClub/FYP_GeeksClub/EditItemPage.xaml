@@ -6,8 +6,8 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.5*"/>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="6.5*"/>
+                <RowDefinition Height="4.5*"/>
+                <RowDefinition Height="5*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
@@ -17,7 +17,9 @@
 
             <StackLayout  Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
                 <Image x:Name="SelectImage" />
-                <!--<Button Text="  Change Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>-->
+                <Label Text=" "/>
+                <Label Text=" "/>
+                <Button Text="  Change Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
             </StackLayout>
             
 
@@ -38,10 +40,17 @@
 
                 </StackLayout>
 
+                 <StackLayout Orientation="Horizontal">
+
+                    <Label Text="Saling   " VerticalOptions="Center" TextColor="White"/>
+                    <Switch x:Name="sw_saling" OnColor="Green" ThumbColor="White"/>
+
+                </StackLayout>
+
                 <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
 
-                    <!--<Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
-                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked"/>-->
+                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
+                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_save" Text="Save" BackgroundColor="White" Clicked="btn_save_Clicked"/>
 
                 </StackLayout>
 
