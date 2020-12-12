@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System;
 
 namespace FYP_GeeksClub.firebaseHelper
 {
@@ -132,6 +133,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = isSecondHand,
                 saleIng = saleIng,
                 owner = Preferences.Get("email", "").ToString(),
+                time = DateTime.Now.ToString("yyyyMMddHHmmssffff")
             });
         }
 
@@ -147,7 +149,8 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = item.Object.isSecondHand,
                 saleIng = item.Object.saleIng,
                 owner = item.Object.owner,
-            }).ToList();
+                time = item.Object.time
+            }).OrderByDescending(o => o.time).ToList();
         }
 
         public async Task<List<ShopItemDetail>> GetShopItemWithEmail()
@@ -162,7 +165,8 @@ namespace FYP_GeeksClub.firebaseHelper
                 isSecondHand = item.Object.isSecondHand,
                 saleIng = item.Object.saleIng,
                 owner = item.Object.owner,
-            }).ToList();
+                time = item.Object.time
+            }).OrderByDescending(o => o.time).ToList();
         }
 
         public async Task<string> UploadShopItemImage(Stream fileStream,string title)
@@ -196,6 +200,7 @@ namespace FYP_GeeksClub.firebaseHelper
                     isSecondHand = isSecondHand,
                     saleIng = saleIng,
                     owner = owner,
+                    time = DateTime.Now.ToString("yyyyMMddHHmmssffff")
                 });
             }
             else
@@ -210,6 +215,7 @@ namespace FYP_GeeksClub.firebaseHelper
                     isSecondHand = isSecondHand,
                     saleIng = saleIng,
                     owner = owner,
+                    time = DateTime.Now.ToString("yyyyMMddHHmmssffff")
                 });
             }
         }

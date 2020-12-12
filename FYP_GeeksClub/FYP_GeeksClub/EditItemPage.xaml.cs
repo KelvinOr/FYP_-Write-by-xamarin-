@@ -87,7 +87,7 @@ namespace FYP_GeeksClub
             var filename = Preferences.Get("email", "").ToString() + title.ToString();
             firebaseHelper.DeleteItemOldImage(filename);
             firebaseHelper.DeleteItem(title);
-            await Task.Delay(500);
+            await Task.Delay(1000);
             filename = Preferences.Get("email", "").ToString() + Ent_Title.Text.ToString();
             firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
             await Task.Delay(2000);

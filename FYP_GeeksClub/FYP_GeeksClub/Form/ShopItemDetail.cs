@@ -14,5 +14,6 @@ namespace FYP_GeeksClub.Form
         public bool isSecondHand { get; set; }
         public bool saleIng { get; set; }
         public string owner { get; set; }
+        public String time { get; set; }
     }
 }
