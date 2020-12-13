@@ -137,6 +137,20 @@ namespace FYP_GeeksClub.firebaseHelper
             });
         }
 
+        public async Task<bool> CheckItemIsRelease(string title)
+        {
+            var Check = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
+                a => (a.Object.title == title) && (a.Object.owner == Preferences.Get("email", "").ToString())).FirstOrDefault();
+            if(Check == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public async Task<List<ShopItemDetail>> GetShopItem()
         {
             return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.saleIng != false).Select(item => new ShopItemDetail
