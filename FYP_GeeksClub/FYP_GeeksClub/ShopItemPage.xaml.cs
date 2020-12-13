@@ -20,6 +20,7 @@ namespace FYP_GeeksClub
         String detail = "";
         String price = "";
         String quantity = "";
+        String imgSource = "";
 
         public ShopItemPage(ShopItemDetail shopItemDetail)
         {
@@ -30,6 +31,7 @@ namespace FYP_GeeksClub
             detail = shopItemDetail.detail.ToString();
             price = shopItemDetail.price.ToString();
             quantity = shopItemDetail.quantity.ToString();
+            imgSource = shopItemDetail.imageURL;
 
             getItemDetail();
         }
@@ -53,15 +55,25 @@ namespace FYP_GeeksClub
 
         private async void btn_update_Clicked(object sender, EventArgs e)
         {
+            bool saling = false;
+            var int_quantity = Convert.ToInt32(lb_quantity.Text) - 1;
+            if(int_quantity == 0)
+            {
+                saling = false;
+            } else
+            {
+                saling = true;   
+            }
+
             firebaseHelper.UpdateItem(
                 lb_title.Text,
                 lb_detail.Text,
                 owner,
                 Convert.ToDouble(lb_price.Text),
-                Convert.ToInt32(lb_quantity.Text),
-                img_ItemImage.Source.ToString(),
+                int_quantity,
+                imgSource,
                 false,
-                false);
+                saling);
         }
     }
 }

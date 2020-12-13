@@ -7,9 +7,9 @@
         <Grid>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.5*"/>
-                <RowDefinition Height="4.5*"/>
-                <RowDefinition Height="5*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="3.7*"/>
+                <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
@@ -19,11 +19,12 @@
 
             <StackLayout  Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
                 <Image x:Name="SelectImage" />
-                <Button Text="  Select Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Clicked="btn_selectiamge_Clicked"/>
             </StackLayout>
             
 
             <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
+
+                <Button Text="  Select Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
                 
                 <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title" />
 
