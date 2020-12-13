@@ -21,6 +21,7 @@ namespace FYP_GeeksClub
         String price = "";
         String quantity = "";
         String imgSource = "";
+        ShopItemDetail shop;
 
         public ShopItemPage(ShopItemDetail shopItemDetail)
         {
@@ -32,6 +33,7 @@ namespace FYP_GeeksClub
             price = shopItemDetail.price.ToString();
             quantity = shopItemDetail.quantity.ToString();
             imgSource = shopItemDetail.imageURL;
+            shop = shopItemDetail;
 
             getItemDetail();
         }
@@ -55,7 +57,8 @@ namespace FYP_GeeksClub
 
         private async void btn_update_Clicked(object sender, EventArgs e)
         {
-            bool saling = false;
+            await Navigation.PushAsync(new OrderDetailPage(shop));
+            /*bool saling = false;
             var int_quantity = Convert.ToInt32(lb_quantity.Text) - 1;
             if(int_quantity == 0)
             {
@@ -73,7 +76,7 @@ namespace FYP_GeeksClub
                 int_quantity,
                 imgSource,
                 false,
-                saling);
+                saling);*/
         }
     }
 }
