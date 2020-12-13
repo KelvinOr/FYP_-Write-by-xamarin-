@@ -11,7 +11,7 @@ namespace FYP_GeeksClub
         public OrderDetailPage(ShopItemDetail shopItemDetail)
         {
             InitializeComponent();
-            test_lb.Text = shopItemDetail.price.ToString();
+            
         }
     }
 }
