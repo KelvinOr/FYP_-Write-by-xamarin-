@@ -248,6 +248,66 @@ namespace FYP_GeeksClub.firebaseHelper
             await firebaseClient.Child("shopitem").Child(Update.Key).DeleteAsync();
         }
 
+        //MARK: OrderDetail
+        public async void NewOrder(string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other)
+        {
+            await firebaseClient.Child("Order").PostAsync(new OrderDetail()
+            {
+                CustEmail = Preferences.Get("email", "").ToString(),
+                ItemTitle = itemTitle,
+                ItemPrice = itemPrice,
+                ItemOwner = itemOwner,
+                CustPhone = custPhone,
+                ContMethod = contMeth,
+                TranIsAccp = false,
+                Other = other,
+                Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
+                ShowTime = DateTime.Now.ToString()
+            });
+        }
+
+        public async void UpdateOrder(string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other, bool tranIsAccp)
+        {
+            var Check = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(
+                a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
+            if (Check != null)
+            {
+                var Update = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(
+                    a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
+                await firebaseClient.Child("Order").Child(Update.Key).PutAsync(new OrderDetail()
+                {
+                    CustEmail = Preferences.Get("email", "").ToString(),
+                    ItemTitle = itemTitle,
+                    ItemPrice = itemPrice,
+                    ItemOwner = itemOwner,
+                    CustPhone = custPhone,
+                    ContMethod = contMeth,
+                    TranIsAccp = tranIsAccp,
+                    Other = other,
+                    Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
+                    ShowTime = DateTime.Now.ToString()
+                });
+            }
+            else
+            {
+                await firebaseClient.Child("Order").PostAsync(new OrderDetail()
+                {
+                    CustEmail = Preferences.Get("email", "").ToString(),
+                    ItemTitle = itemTitle,
+                    ItemPrice = itemPrice,
+                    ItemOwner = itemOwner,
+                    CustPhone = custPhone,
+                    ContMethod = contMeth,
+                    TranIsAccp = tranIsAccp,
+                    Other = other,
+                    Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
+                    ShowTime = DateTime.Now.ToString()
+                });
+            }
+        }
+
+
+
     }
 }
 

@@ -16,52 +16,60 @@
 
         
 
-        <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True" Grid.Row="1" Grid.Column="1">
-            <Grid BackgroundColor="White">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.5*"/>
-                    <ColumnDefinition Width="2.5*"/>
-                    <ColumnDefinition Width="6*"/>
-                    <ColumnDefinition Width="0.75*"/>
-                    <ColumnDefinition Width="0.25"/>
-                </Grid.ColumnDefinitions>
+            <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True" Grid.Row="1" Grid.Column="1">
+                <Grid BackgroundColor="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="0.75*"/>
+                        <ColumnDefinition Width="0.25"/>
+                    </Grid.ColumnDefinitions>
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="2*"/>
-                    <RowDefinition Height="3*"/>
-                    <RowDefinition Height="3*"/>
-                    <RowDefinition Height="2*"/>
-                </Grid.RowDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
 
-                <Frame
-                    Grid.Column="1"
-                    Grid.Row="1"
-                    Grid.RowSpan="2"
-                    WidthRequest="100"
-                    HeightRequest="100"
-                    BackgroundColor="#00000000"
-                    Padding="0"
-                    IsClippedToBounds="True"
-                    HasShadow="False"
-                    CornerRadius="5">
+                    <Frame
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Grid.RowSpan="2"
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        BackgroundColor="#00000000"
+                        Padding="0"
+                        IsClippedToBounds="True"
+                        HasShadow="False"
+                        CornerRadius="5">
 
-                    <Image x:Name="img_Image" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"/>
-                </Frame>
+                        <Image x:Name="img_Image" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    </Frame>
 
-                <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
-                    <Image Source="SecondHand_73_44px.png" x:Name="img_sH" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
-                    <Label Text=" " HorizontalOptions="Start"/>
-                    <Label x:Name="lb_title" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
-                </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
+                        <Image Source="SecondHand_73_44px.png" x:Name="img_sH" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
+                        <Label Text=" " HorizontalOptions="Start"/>
+                        <Label x:Name="lb_title" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
+                    </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
-                    <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
-                    <Label x:Name="lb_price" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
-                </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                        <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                        <Label x:Name="lb_price" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                    </StackLayout>
 
-            </Grid>
+                </Grid>
 
-        </Frame>
+            </Frame>
+
+            <StackLayout Orientation="Vertical" Grid.Column="2" Grid.Row="1">
+                <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" Placeholder="Phone No."/>
+                <Entry x:Name="Ent_ContMeth" HorizontalOptions="FillAndExpand" Placeholder="Contect Method"/>
+                <Entry x:Name="Ent_Other" HorizontalOptions="FillAndExpand" Placeholder="Other"/>
+
+                <Button x:Name="btn_AddOrder" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="White" Text="Add Order" Clicked="btn_AddOrder_Clicked"/>
+            </StackLayout>     
 
         </Grid>
     </ContentPage.Content>
