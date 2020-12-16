@@ -81,7 +81,7 @@
                  </Frame>
 
                 <StackLayout Orientation="Vertical">
-                    <Label Text="Owner: " TextColor="#1C83E8" FontSize="Medium"/>
+                    <Label Text="Owner: " TextColor="White" FontSize="Medium"/>
 
                     <Frame
                         IsClippedToBounds="True"

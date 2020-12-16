@@ -58,6 +58,7 @@ namespace FYP_GeeksClub
         private async void btn_update_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new OrderDetailPage(shop));
+            Navigation.RemovePage(this);
             /*bool saling = false;
             var int_quantity = Convert.ToInt32(lb_quantity.Text) - 1;
             if(int_quantity == 0)
@@ -78,5 +79,6 @@ namespace FYP_GeeksClub
                 false,
                 saling);*/
         }
+
     }
 }

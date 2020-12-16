@@ -18,13 +18,14 @@
             </Grid.ColumnDefinitions>
 
             <StackLayout  Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
+                <Button Text="  Select Image  " x:Name="btn_FRb" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
                 <Image x:Name="SelectImage" />
             </StackLayout>
             
 
             <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
 
-                <Button Text="  Select Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
+                <Button Text="  Select Image  " IsVisible="false" x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
                 
                 <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title" />
 

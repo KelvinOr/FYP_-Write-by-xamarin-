@@ -35,6 +35,8 @@ namespace FYP_GeeksClub
                 });
                 if (file == null)
                 {
+                    btn_FRb.IsVisible = true;
+                    btn_selectiamge.IsVisible = false;
                     return;
                 }
                 else
@@ -43,6 +45,8 @@ namespace FYP_GeeksClub
                     {
                         return file.GetStream();
                     });
+                    btn_FRb.IsVisible = false;
+                    btn_selectiamge.IsVisible = true;
                     //SelectImage.HeightRequest = 200;
                 }
             } catch { }
