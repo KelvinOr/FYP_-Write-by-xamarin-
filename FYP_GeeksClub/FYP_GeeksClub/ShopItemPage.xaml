@@ -5,9 +5,9 @@
         <Grid>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.5*"/>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="6.5*"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="3.75*"/>
+                <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
@@ -15,70 +15,47 @@
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
 
-            <Frame
+            <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+
+                <Frame
                 IsClippedToBounds="True"
                 HasShadow="False"
-                Grid.Row="1"
-                Grid.Column="1"
-                Padding="0"
+                Padding="7"
+                BackgroundColor="White"
                 CornerRadius="5">
 
-                <Image
-                    x:Name="img_ItemImage"
-                    HeightRequest="230"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
 
-            </Frame>   
+                        <Image x:Name="img_ItemImage" Grid.Row="0"/>
 
-            <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="1">        
+                        <StackLayout Orientation="Vertical" Grid.Row="1">
+                            <Label Text=" title:" TextColor="#1C83E8" FontSize="Small"/>
 
-                <Label Text=" title:" TextColor="White" FontSize="Small"/>
-                <Frame
-                    IsClippedToBounds="True"
-                    HasShadow="False"
-                    Padding="0"
-                    CornerRadius="3"
-                    BackgroundColor="White">
+                            <StackLayout Orientation="Vertical">
+                                <Label x:Name="lb_title" TextColor="#1C83E8" FontSize="25" VerticalOptions="Center"/>
 
-                    <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="$" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
+                                    <Label x:Name="lb_price" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
+                                    <Label Text="Quantity:" TextColor="#1C83E8" VerticalOptions="Center" FontSize="Small" HorizontalOptions="EndAndExpand"/>
+                                    <Label x:Name="lb_quantity" TextColor="#1C83E8" VerticalOptions="Center" HorizontalOptions="End" FontSize="Small"/>
+                                    <Label Text=" "/>
+                                </StackLayout>
+                            </StackLayout>                    
 
-                        <Label Text=" " FontSize="1"/>
-
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text=" " VerticalOptions="Center"/>
-                            <Label x:Name="lb_title" TextColor="#1C83E8" FontSize="28" VerticalOptions="Center"/>
                         </StackLayout>
-
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="    $" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
-                            <Label x:Name="lb_price" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
-                            <Label Text="Quantity:" TextColor="#1C83E8" VerticalOptions="Center" FontSize="Small" HorizontalOptions="EndAndExpand"/>
-                            <Label x:Name="lb_quantity" TextColor="#1C83E8" VerticalOptions="Center" HorizontalOptions="End" FontSize="Small"/>
-                            <Label Text=" "/>
-                        </StackLayout>
-
-                        <Label Text=" " FontSize="1"/>
-
-                    </StackLayout>                    
+                    </Grid>
 
                 </Frame>
 
-                <Label Text=" " FontSize="Small"/>
+            </StackLayout >
 
-                
-                <Label Text="Detail: " TextColor="White" FontSize="Medium"/>
 
-                 <Frame
-                    IsClippedToBounds="True"
-                    HasShadow="False"
-                    Padding="5"
-                    CornerRadius="5"
-                    BackgroundColor="White">
-
-                     <ScrollView>
-                         <Label x:Name="lb_detail" TextColor="#1C83E8" FontSize="Medium"/>
-                     </ScrollView>                     
-
-                 </Frame>
+            <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="1">
 
                 <StackLayout Orientation="Vertical">
                     <Label Text="Owner: " TextColor="White" FontSize="Medium"/>
@@ -114,8 +91,23 @@
                       </StackLayout>
 
                     </Frame>
-                    <Label Text=" " FontSize="Large"/>
-                    <Label Text=" " FontSize="Large"/>
+                    
+
+                    <Label Text="Detail: " TextColor="White" FontSize="Medium"/>
+
+                     <Frame
+                        IsClippedToBounds="True"
+                        HasShadow="False"
+                        Padding="5"
+                        CornerRadius="5"
+                        BackgroundColor="White">
+
+                         <ScrollView>
+                             <Label x:Name="lb_detail" TextColor="#1C83E8" FontSize="Medium"/>
+                         </ScrollView>                     
+
+                     </Frame>
+
                 </StackLayout>
                <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand">
                    <Button x:Name="btn_update" Text="Test Button" BackgroundColor="White" Clicked="btn_update_Clicked"/>
