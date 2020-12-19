@@ -59,8 +59,7 @@
                 Text="Change Image" 
                 BackgroundColor="White"
                 HeightRequest="38"
-                ContentLayout="Right"
-                
+                ContentLayout="Right" 
                 Image ="open_18px"/>
 
             <Button
@@ -72,6 +71,14 @@
                 ContentLayout="Right"
                 ImageSource="list_18px.png"/>
 
+            <Button
+                x:Name="ShowOrder"
+                Text="Order"
+                BackgroundColor="White"
+                HeightRequest="38"
+                ContentLayout="Right"
+                ImageSource="order_18px.png"/>
+
 
             <Button 
                 x:Name="Logout" 
@@ -80,7 +87,6 @@
                 BackgroundColor="White"
                 HeightRequest="38"
                 ContentLayout="Right"
-
                 Image ="exit_18px"/>
 
         </StackLayout>
