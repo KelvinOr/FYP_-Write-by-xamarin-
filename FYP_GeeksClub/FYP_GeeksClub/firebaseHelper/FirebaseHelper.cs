@@ -111,6 +111,16 @@ namespace FYP_GeeksClub.firebaseHelper
             }).ToList();
         }
 
+        public async Task<UserAccountDetail> GetUserDetail(string email)
+        {
+            return (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(a => (a.Object.Email == email)).Select(item => new UserAccountDetail
+            {
+                UserName = item.Object.UserName,
+                Email = item.Object.Email,
+                UserImageURL = item.Object.UserImageURL
+            }).FirstOrDefault();
+        }
+
         //not function(waiting for fix)
         /*public async Task<string> GetUserName(string email)
         {

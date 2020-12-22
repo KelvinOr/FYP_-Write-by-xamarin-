@@ -67,27 +67,31 @@
                         CornerRadius="5"
                         BackgroundColor="White">
 
-                    <StackLayout Orientation="Vertical">
-                        <Label Text="" FontSize="Large"/>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="btn_ownerPage_Clicked"/>
+                        </Frame.GestureRecognizers>
 
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text=" "/>
-                            <Frame 
-                                HasShadow="False"
-                                CornerRadius="50" 
-                                HeightRequest="50" 
-                                WidthRequest="50" 
-                                Padding="0" 
-                                IsClippedToBounds="True" 
-                                VerticalOptions="Center">
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="" FontSize="Large"/>
 
-                                <Image x:Name="img_userImage" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" Aspect="AspectFit"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text=" "/>
+                                <Frame 
+                                    HasShadow="False"
+                                    CornerRadius="50" 
+                                    HeightRequest="50" 
+                                    WidthRequest="50" 
+                                    Padding="0" 
+                                    IsClippedToBounds="True" 
+                                    VerticalOptions="Center">
 
-                            </Frame>
-                            <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
-                        </StackLayout>
+                                    <Image x:Name="img_userImage" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" Aspect="AspectFit"/>
 
-                        <Label Text="" FontSize="Large"/>
+                                </Frame>
+                                <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
+                            </StackLayout>
+
+                            <Label Text="" FontSize="Large"/>
                       </StackLayout>
 
                     </Frame>

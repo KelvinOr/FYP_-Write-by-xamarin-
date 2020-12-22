@@ -80,5 +80,11 @@ namespace FYP_GeeksClub
                 saling);*/
         }
 
+        private async void btn_ownerPage_Clicked(object sender, EventArgs e)
+        {
+            var temp = await firebaseHelper.GetUserDetail(owner);
+            await Navigation.PushAsync(new UserDetailPage(temp));
+        }
+
     }
 }
