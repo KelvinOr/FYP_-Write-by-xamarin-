@@ -15,6 +15,7 @@ namespace FYP_GeeksClub
         MediaFile file;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
 
+        public int id;
         public string imageURL;
         public string title;
         public string detail;
@@ -26,6 +27,7 @@ namespace FYP_GeeksClub
         public EditItemPage(ShopItemDetail shopItemDetail)
         {
             InitializeComponent();
+            id = shopItemDetail.id;
             imageURL = shopItemDetail.imageURL.ToString();
             title = shopItemDetail.title.ToString();
             detail = shopItemDetail.title.ToString();
@@ -92,7 +94,7 @@ namespace FYP_GeeksClub
             firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
             await Task.Delay(2000);
             String imageURL = await firebaseHelper.GetItemImageURL(filename);
-            firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
+            firebaseHelper.PushNewItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
             await Navigation.PopAsync();
         }
     }

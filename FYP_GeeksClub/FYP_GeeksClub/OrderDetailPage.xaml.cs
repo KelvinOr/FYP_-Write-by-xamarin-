@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using FYP_GeeksClub.Form;
 using FYP_GeeksClub.firebaseHelper;
 using Xamarin.Forms;
+using System.Linq;
 
 namespace FYP_GeeksClub
 {
@@ -10,6 +11,7 @@ namespace FYP_GeeksClub
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
 
+        public int id;
         public string imageURL;
         public string title;
         public double price;
@@ -23,6 +25,7 @@ namespace FYP_GeeksClub
             InitializeComponent();
 
             //init
+            id = shopItemDetail.id;
             imageURL = shopItemDetail.imageURL;
             title = shopItemDetail.title;
             price = shopItemDetail.price;
@@ -54,7 +57,9 @@ namespace FYP_GeeksClub
                 bool answer = await App.Current.MainPage.DisplayAlert("Question?", "Are you sure the detail is correct", "Yes", "No");
                 if (answer == true)
                 {
-                    firebaseHelper.NewOrder(title, price, itemOwnerEmail, Convert.ToInt32(Ent_Phone.Text.ToString()), Ent_ContMeth.Text.ToString(), other);
+                    var temp = await firebaseHelper.GetShopItem();
+                    int maxID = temp.Max(a => a.id);
+                    firebaseHelper.NewOrder(maxID, title, price, itemOwnerEmail, Convert.ToInt32(Ent_Phone.Text.ToString()), Ent_ContMeth.Text.ToString(), other);
                     bool saling = false;
                     var int_quantity = quanity - 1;
                     if (int_quantity == 0)
@@ -66,7 +71,7 @@ namespace FYP_GeeksClub
                         saling = true;
                     }
 
-                    firebaseHelper.UpdateItem(title, detail, itemOwnerEmail, price, int_quantity, imageURL, isSecondHand, saling);
+                    firebaseHelper.UpdateItem(id, title, detail, itemOwnerEmail, price, int_quantity, imageURL, isSecondHand, saling);
                 };
                 await App.Current.MainPage.DisplayAlert("Alert", "Order Created", "OK");
                 await Navigation.PopAsync();

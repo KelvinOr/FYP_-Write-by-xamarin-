@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using FYP_GeeksClub.firebaseHelper;
 using FYP_GeeksClub.Form;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace FYP_GeeksClub
@@ -20,7 +21,7 @@ namespace FYP_GeeksClub
             base.OnAppearing();
             try
             {
-                var getShopItem = await firebaseHelper.GetShopItemWithEmail();
+                var getShopItem = await firebaseHelper.GetShopItemWithEmail(Preferences.Get("email", "").ToString());
                 ShopItem.ItemsSource = getShopItem;
             }
             catch

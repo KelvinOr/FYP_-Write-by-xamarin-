@@ -29,11 +29,19 @@
                 
                 <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title" />
 
-                <Entry x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" Placeholder="Detail" />
-
                 <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
 
                 <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Placeholder="Quantity" Keyboard="Numeric"/>
+
+                <Frame
+                    HasShadow="False"
+                    IsClippedToBounds="True"
+                    Padding="5,0,5,0"
+                    CornerRadius="5">
+
+                    <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" HeightRequest="100" Placeholder="Detail"/>
+
+                </Frame>
 
                 <StackLayout Orientation="Horizontal">
 

@@ -6,6 +6,7 @@ namespace FYP_GeeksClub.Form
 {
     public class ShopItemDetail
     {
+        public int id { get; set; }
         public string title { get; set; }
         public string detail { get; set; }
         public double price { get; set; }

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.UserDetailPage" BackgroundColor="#1C83E8" NavigationPage.IconColor="White">
+<ContentPage xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+ xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.UserDetailPage" BackgroundColor="#1C83E8" NavigationPage.IconColor="White">
     <ContentPage.Content>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -13,7 +14,115 @@
             </Grid.RowDefinitions>
 
             <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="1">
-                <Label Text=" " x:Name="email"/>
+                <Frame
+                    IsClippedToBounds="True"
+                    HasShadow="False"
+                    Padding="0"
+                    CornerRadius="5"
+                    BackgroundColor="White">
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="" FontSize="Large"/>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text=" "/>
+                            <controls:CircleImage VerticalOptions="Center" x:Name="img_userImage" HeightRequest="75" WidthRequest="75"/>
+                            <Label Text=" "/>
+                            <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <Label Text=" "/>
+                        <Label Text="  Information:" TextColor="#1C83E8"/>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="  "/>
+                            <Label x:Name="lb_UserInfo" TextColor="#1C83E8"/>
+                        </StackLayout>
+
+                        <Label Text="" FontSize="Large"/>
+                      </StackLayout>
+                </Frame>
+
+                
+                <Grid HeightRequest="70">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button
+                        Grid.Column="0"
+                        x:Name="btn_Item"
+                        Text="Item"
+                        TextColor="#1C83E8"
+                        BackgroundColor="White"
+                        Clicked="btn_Item_Clicked"/>
+                    <Button
+                        Grid.Column="1"
+                        x:Name="btn_Post"
+                        Text="Post"
+                        TextColor="#1C83E8"
+                        BackgroundColor="#C4C4C4"
+                        Clicked="btn_Post_Clicked"/>
+                </Grid>
+
+                <ListView x:Name="lv_Item" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="0,0,0,5">
+                                <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True">
+                                    <Grid BackgroundColor="White">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.5*"/>
+                                            <ColumnDefinition Width="2.5*"/>
+                                            <ColumnDefinition Width="6*"/>
+                                            <ColumnDefinition Width="0.75*"/>
+                                            <ColumnDefinition Width="0.25"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="2*"/>
+                                            <RowDefinition Height="3*"/>
+                                            <RowDefinition Height="3*"/>
+                                            <RowDefinition Height="2*"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Frame
+                                             Grid.Column="1"
+                                             Grid.Row="1"
+                                             Grid.RowSpan="2"
+                                             WidthRequest="100"
+                                             HeightRequest="100"
+                                             BackgroundColor="#00000000"
+                                             Padding="0"
+                                             IsClippedToBounds="True"
+                                             HasShadow="False"
+                                             CornerRadius="5">
+
+                                            <Image Source="{Binding imageURL}" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                        </Frame>
+
+                                        <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
+                                            <Image Source="SecondHand_73_44px.png" IsVisible="{Binding isSecondHand}" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
+                                            <Label Text=" " HorizontalOptions="Start"/>
+                                            <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                                            <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                                            <Label Text="{Binding price}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                                        </StackLayout>
+
+                                        <Image Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Source="ToItem_30px.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                                    </Grid>
+                                </Frame>
+                            </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
             </StackLayout>
 
         </Grid>

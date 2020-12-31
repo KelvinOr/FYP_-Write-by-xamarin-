@@ -156,6 +156,7 @@
     <BundleResource Include="order_38px.png" />
     <BundleResource Include="order_30px.png" />
     <BundleResource Include="order_18px.png" />
+    <BundleResource Include="edit_doc_18px.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Home.png" />

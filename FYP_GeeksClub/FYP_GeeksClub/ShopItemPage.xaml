@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.ShopItemPage"
-             NavigationPage.IconColor="White" BackgroundColor="#1C83E8">
+             NavigationPage.IconColor="White" BackgroundColor="#1C83E8" xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+>
     <ContentPage.Content>
         <Grid>
 
@@ -20,7 +21,7 @@
                 <Frame
                 IsClippedToBounds="True"
                 HasShadow="False"
-                Padding="7"
+                Padding="10"
                 BackgroundColor="White"
                 CornerRadius="5">
 
@@ -76,18 +77,7 @@
 
                             <StackLayout Orientation="Horizontal">
                                 <Label Text=" "/>
-                                <Frame 
-                                    HasShadow="False"
-                                    CornerRadius="50" 
-                                    HeightRequest="50" 
-                                    WidthRequest="50" 
-                                    Padding="0" 
-                                    IsClippedToBounds="True" 
-                                    VerticalOptions="Center">
-
-                                    <Image x:Name="img_userImage" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="Center" Aspect="AspectFit"/>
-
-                                </Frame>
+                                <controls:CircleImage VerticalOptions="Center" HeightRequest="50" WidthRequest="50" x:Name="img_userImage"/>
                                 <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
                             </StackLayout>
 

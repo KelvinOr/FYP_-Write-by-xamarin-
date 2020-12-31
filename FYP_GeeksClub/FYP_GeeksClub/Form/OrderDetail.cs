@@ -3,6 +3,7 @@ namespace FYP_GeeksClub.Form
 {
     public class OrderDetail
     {
+        public int id { get; set; }
         public string CustEmail{ get; set; }
         public string ItemTitle { get; set; }
         public double ItemPrice { get; set; }

@@ -63,6 +63,15 @@
                 Image ="open_18px"/>
 
             <Button
+                x:Name="UserInformation" 
+                Clicked="EditInformation_Clicked" 
+                Text="Edit Information" 
+                BackgroundColor="White"
+                HeightRequest="38"
+                ContentLayout="Right" 
+                Image ="edit_doc_18px"/>
+
+            <Button
                 x:Name="ShowMyItem"
                 Text="My Item"
                 Clicked="MyItem_Clicked"

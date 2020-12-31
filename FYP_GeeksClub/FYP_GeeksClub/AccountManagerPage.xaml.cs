@@ -98,6 +98,16 @@ namespace FYP_GeeksClub
 
         }
 
+        async private void EditInformation_Clicked(object sender, EventArgs e)
+        {
+            string result = await DisplayPromptAsync("Change Information", "Input change information");
+            if (result != null)
+            {
+                firebaseHelper.UpdateUserInformation(result);
+            }
+            GetUserAccountDetails();
+        }
+
         async private void Download_Clicked(object sender, EventArgs e)
         {
             var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());

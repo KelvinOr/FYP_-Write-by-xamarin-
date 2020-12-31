@@ -7,7 +7,6 @@ using Firebase.Storage;
 using System.Threading.Tasks;
 using System.IO;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using System;
 
 namespace FYP_GeeksClub.firebaseHelper
@@ -27,6 +26,7 @@ namespace FYP_GeeksClub.firebaseHelper
                   .Child("UserAccountDetail")
                   .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
             var UserImageURL = GetAccount.Object.UserImageURL.ToString();
+            var UserInfor = GetAccount.Object.UserInformation.ToString();
       
             if (Check == null)
             {
@@ -34,7 +34,8 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     Email = Preferences.Get("email", "").ToString(),
                     UserName = Username,
-                    UserImageURL = UserImageURL 
+                    UserImageURL = UserImageURL,
+                    UserInformation = UserInfor
                 }); ;
             }
             else
@@ -45,7 +46,44 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     Email = Preferences.Get("email", "").ToString(),
                     UserName = Username,
-                    UserImageURL = UserImageURL
+                    UserImageURL = UserImageURL,
+                    UserInformation = UserInfor
+                });
+            }
+
+        }
+      
+        public async void UpdateUserInformation(string UserInformation)
+        {
+            var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
+               a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+
+            var GetAccount = (await firebaseClient
+                  .Child("UserAccountDetail")
+                  .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+            var UserImageURL = GetAccount.Object.UserImageURL.ToString();
+            var Username = GetAccount.Object.UserName.ToString();
+
+            if (Check == null)
+            {
+                await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
+                {
+                    Email = Preferences.Get("email", "").ToString(),
+                    UserName = Username,
+                    UserImageURL = UserImageURL,
+                    UserInformation = UserInformation
+                }); ;
+            }
+            else
+            {
+                var Update = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
+                    a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+                await firebaseClient.Child("UserAccountDetail").Child(Update.Key).PutAsync(new UserAccountDetail()
+                {
+                    Email = Preferences.Get("email", "").ToString(),
+                    UserName = Username,
+                    UserImageURL = UserImageURL,
+                    UserInformation = UserInformation
                 });
             }
 
@@ -60,6 +98,7 @@ namespace FYP_GeeksClub.firebaseHelper
                   .Child("UserAccountDetail")
                   .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
             var Username = GetAccount.Object.UserName.ToString();
+            var UserInfor = GetAccount.Object.UserInformation.ToString();
 
             if (Check == null)
             {
@@ -67,7 +106,8 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     Email = Preferences.Get("email", "").ToString(),
                     UserName = Username,
-                    UserImageURL = UserImageURL
+                    UserImageURL = UserImageURL,
+                    UserInformation = UserInfor
                 }); ;
             }
             else
@@ -78,7 +118,8 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     Email = Preferences.Get("email", "").ToString(),
                     UserName = Username,
-                    UserImageURL = UserImageURL
+                    UserImageURL = UserImageURL,
+                    UserInformation = UserInfor
                 });
             }
 
@@ -107,7 +148,8 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 UserName = item.Object.UserName,
                 Email = item.Object.Email,
-                UserImageURL = item.Object.UserImageURL
+                UserImageURL = item.Object.UserImageURL,
+                UserInformation = item.Object.UserInformation
             }).ToList();
         }
 
@@ -117,7 +159,8 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 UserName = item.Object.UserName,
                 Email = item.Object.Email,
-                UserImageURL = item.Object.UserImageURL
+                UserImageURL = item.Object.UserImageURL,
+                UserInformation = item.Object.UserInformation
             }).FirstOrDefault();
         }
 
@@ -131,10 +174,11 @@ namespace FYP_GeeksClub.firebaseHelper
         }*/
 
         //MARK: shop item firebase helper
-        public async void PushNewItem(string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
+        public async void PushNewItem(int id, string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
         {
             await firebaseClient.Child("shopitem").PostAsync(new ShopItemDetail
             {
+                id = id,
                 title = title,
                 detail = detail,
                 price = price,
@@ -165,6 +209,7 @@ namespace FYP_GeeksClub.firebaseHelper
         {
             return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.saleIng != false).Select(item => new ShopItemDetail
             {
+                id = item.Object.id,
                 title = item.Object.title,
                 detail = item.Object.detail,
                 price = item.Object.price,
@@ -177,10 +222,11 @@ namespace FYP_GeeksClub.firebaseHelper
             }).OrderByDescending(o => o.time).ToList();
         }
 
-        public async Task<List<ShopItemDetail>> GetShopItemWithEmail()
+        public async Task<List<ShopItemDetail>> GetShopItemWithEmail(string email)
         {
-            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.owner == Preferences.Get("email","").ToString()).Select(item => new ShopItemDetail
+            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.owner == email).Select(item => new ShopItemDetail
             {
+                id = item.Object.id,
                 title = item.Object.title,
                 detail = item.Object.detail,
                 price = item.Object.price,
@@ -206,7 +252,7 @@ namespace FYP_GeeksClub.firebaseHelper
             return imageURL;
         }
 
-        public async void UpdateItem(string title, string detail,string owner ,double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
+        public async void UpdateItem(int id, string title, string detail,string owner ,double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
         {
             var Check = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
                 a => (a.Object.title == title) && (a.Object.owner == owner) ).FirstOrDefault();
@@ -216,6 +262,7 @@ namespace FYP_GeeksClub.firebaseHelper
                     a => a.Object.title == title).Where(b => b.Object.owner == owner).FirstOrDefault();
                 await firebaseClient.Child("shopitem").Child(Update.Key).PutAsync(new ShopItemDetail()
                 {
+                    id = id,
                     title = title,
                     detail = detail,
                     price = price,
@@ -231,6 +278,7 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 await firebaseClient.Child("shopitem").PostAsync(new ShopItemDetail()
                 {
+                    id = id,
                     title = title,
                     detail = detail,
                     price = price,
@@ -259,10 +307,11 @@ namespace FYP_GeeksClub.firebaseHelper
         }
 
         //MARK: OrderDetail
-        public async void NewOrder(string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other)
+        public async void NewOrder(int id, string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other)
         {
             await firebaseClient.Child("Order").PostAsync(new OrderDetail()
             {
+                id = id,
                 CustEmail = Preferences.Get("email", "").ToString(),
                 ItemTitle = itemTitle,
                 ItemPrice = itemPrice,
@@ -276,7 +325,7 @@ namespace FYP_GeeksClub.firebaseHelper
             });
         }
 
-        public async void UpdateOrder(string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other, bool tranIsAccp)
+        public async void UpdateOrder(int id, string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other, bool tranIsAccp)
         {
             var Check = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(
                 a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
@@ -286,6 +335,7 @@ namespace FYP_GeeksClub.firebaseHelper
                     a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
                 await firebaseClient.Child("Order").Child(Update.Key).PutAsync(new OrderDetail()
                 {
+                    id = id,
                     CustEmail = Preferences.Get("email", "").ToString(),
                     ItemTitle = itemTitle,
                     ItemPrice = itemPrice,
@@ -302,6 +352,7 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 await firebaseClient.Child("Order").PostAsync(new OrderDetail()
                 {
+                    id = id, 
                     CustEmail = Preferences.Get("email", "").ToString(),
                     ItemTitle = itemTitle,
                     ItemPrice = itemPrice,

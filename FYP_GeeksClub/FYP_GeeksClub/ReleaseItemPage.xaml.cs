@@ -25,7 +25,9 @@ namespace FYP_GeeksClub
 
         async private void choosefile()
         {
-            await Task.Delay(1000);
+            btn_FRb.IsVisible = true;
+            btn_selectiamge.IsVisible = false;
+            SelectImage.Source = null;
             await CrossMedia.Current.Initialize();
             try
             {
@@ -76,11 +78,21 @@ namespace FYP_GeeksClub
                 {
                     if (Ent_Title != null && Ent_Detail != null && Ent_Price != null && SelectImage.Source != null && SelectImage.Source != null)
                     {
-                        var filename = Preferences.Get("email", "").ToString() + Ent_Title.Text.ToString();
+                        int maxID = 1;
+                        try
+                        {
+                            var temp = await firebaseHelper.GetShopItem();
+                            maxID = temp.Max(a => a.id) + 1;
+                        }
+                        catch
+                        {
+                            maxID = 1;
+                        }
+                        string filename = Preferences.Get("email", "").ToString() + maxID.ToString();
                         firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
                         await Task.Delay(2000);
                         String imageURL = await firebaseHelper.GetItemImageURL(filename);
-                        firebaseHelper.PushNewItem(Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, true);
+                        firebaseHelper.PushNewItem(maxID, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, true);
                         await Navigation.PopModalAsync();
                     }
                     else
