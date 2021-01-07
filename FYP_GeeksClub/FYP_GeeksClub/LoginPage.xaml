@@ -22,10 +22,10 @@
 
         <StackLayout Grid.Column="1" Grid.Row="2">
 
-            <Label Text="Email:"/>
-            <Entry x:Name="ent_Email"/>
-            <Label Text="Password:"/>
-            <Entry IsPassword="True" x:Name="ent_Password"/>
+            <Label Text="Email:" TextColor="White"/>
+            <Entry x:Name="ent_Email" BackgroundColor="White"/>
+            <Label Text="Password:" TextColor="White"/>
+            <Entry IsPassword="True" x:Name="ent_Password" BackgroundColor="White"/>
 
             <Label Text=" "/>
 
