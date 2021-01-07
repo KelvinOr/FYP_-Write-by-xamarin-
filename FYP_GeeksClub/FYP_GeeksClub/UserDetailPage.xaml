@@ -13,7 +13,10 @@
                 <RowDefinition Height="9.75*"/>
             </Grid.RowDefinitions>
 
-            <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+            
+
+            <StackLayout x:Name="main" Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+                
                 <Frame
                     IsClippedToBounds="True"
                     HasShadow="False"
@@ -65,7 +68,7 @@
                         Clicked="btn_Post_Clicked"/>
                 </Grid>
 
-                <ListView x:Name="lv_Item" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000">
+                <ListView x:Name="lv_Item" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" ItemSelected="lv_Item_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

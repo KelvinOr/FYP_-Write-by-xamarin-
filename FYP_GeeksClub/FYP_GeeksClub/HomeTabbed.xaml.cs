@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using FYP_GeeksClub.firebaseHelper;
+using FYP_GeeksClub.Form;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,29 +13,19 @@ namespace FYP_GeeksClub
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomeTabbed : TabbedPage
-    {
-        readonly Page HomePage;
-        readonly Page AccountManagerPage;
-        readonly Page ShopPage;
-
+    { 
         public HomeTabbed()
         {   
             InitializeComponent();
 
             this.BarBackgroundColor = Color.FromHex("#1C83F8");
 
-            HomePage = new HomePage() {Title = "Home", IconImageSource = "Home24px.png"};
-            AccountManagerPage = new AccountManagerPage() {Title = "Account", IconImageSource = "User24px.png" };
-            ShopPage = new ShopPage() { Title = "Shop", IconImageSource = "shop_24px.png" };
-            
-
-            Children.Add(HomePage);
-            Children.Add(ShopPage);
-            Children.Add(AccountManagerPage);
+            Children.Add(new HomePage() { Title = "Home", IconImageSource = "Home24px.png" });
+            Children.Add(new PostPage() { Title = "Coummity", IconImageSource = "community24px.png"});
+            Children.Add(new ShopPage() { Title = "Shop", IconImageSource = "shop_24px.png" });
+            Children.Add(new ViewMyDetailPage() { Title = "Account", IconImageSource = "User24px.png" });
 
         }
 
-
-        
     }
 }

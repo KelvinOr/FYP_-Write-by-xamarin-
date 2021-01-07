@@ -60,8 +60,8 @@ namespace FYP_GeeksClub
             await firebaseHelper.UploadUserImage(file.GetStream(), Preferences.Get("email", "").ToString());
             var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
             firebaseHelper.UpdateUserImage(Getfile);
-            AccountManagerPage accountManagerPage = new AccountManagerPage();
-            accountManagerPage.Sended();
+            ViewMyDetailPage viewMyDetailPage = new ViewMyDetailPage();
+            viewMyDetailPage.Sended();
             await Navigation.PopModalAsync();
         }
 

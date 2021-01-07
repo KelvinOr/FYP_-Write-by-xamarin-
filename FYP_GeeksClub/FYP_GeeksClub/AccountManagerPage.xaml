@@ -4,7 +4,7 @@
              xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="FYP_GeeksClub.AccountManagerPage"
              BackgroundColor="#1C83E8"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.IconColor="White">
 
     <Grid>
 
@@ -21,28 +21,6 @@
 
 
         <StackLayout Grid.Column ="1" Grid.Row="1">
-
-            <Frame 
-                HasShadow="False"
-                CornerRadius="50" 
-                HeightRequest="100" 
-                WidthRequest="100" 
-                Padding="0" 
-                IsClippedToBounds="True" 
-                HorizontalOptions="Center"
-                VerticalOptions="Center">
-
-                <Image 
-                    x:Name="imgSorce"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    Aspect="AspectFill"/>
-            </Frame>
-
-            <Label x:Name="lb_user" TextColor="White" FontSize="20" HorizontalOptions="Center"/>
-
-            <Label Text=""/>
-            <Label Text=""/>
 
             <Button Text="Change Name" 
                     x:Name="ChangeName" 

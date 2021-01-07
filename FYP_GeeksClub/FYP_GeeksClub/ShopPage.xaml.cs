@@ -57,6 +57,11 @@ namespace FYP_GeeksClub
             await Navigation.PushModalAsync(new ReleaseItemPage());   
         }
 
+        private async void btn_setting_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushModalAsync(new AccountManagerPage());
+        }
+
         async void ShopItem_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
             Binding binding = new Binding();

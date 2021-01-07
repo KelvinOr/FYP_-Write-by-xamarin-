@@ -59,25 +59,6 @@ namespace FYP_GeeksClub
         {
             await Navigation.PushAsync(new OrderDetailPage(shop));
             Navigation.RemovePage(this);
-            /*bool saling = false;
-            var int_quantity = Convert.ToInt32(lb_quantity.Text) - 1;
-            if(int_quantity == 0)
-            {
-                saling = false;
-            } else
-            {
-                saling = true;   
-            }
-
-            firebaseHelper.UpdateItem(
-                lb_title.Text,
-                lb_detail.Text,
-                owner,
-                Convert.ToDouble(lb_price.Text),
-                int_quantity,
-                imgSource,
-                false,
-                saling);*/
         }
 
         private async void btn_ownerPage_Clicked(object sender, EventArgs e)
