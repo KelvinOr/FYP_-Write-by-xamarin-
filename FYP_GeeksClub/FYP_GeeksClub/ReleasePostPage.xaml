@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FYP_GeeksClub.ReleasePostPage"
+    BackgroundColor="#1C83E8">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Orientation="Vertical" Grid.Column="1">
+
+                <Label Text=" "/>
+                <Label Text=" "/>
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Editor
+                        x:Name="ed_contect"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="250"
+                        BackgroundColor="White"/>
+                </Frame>
+
+                <Button HorizontalOptions="FillAndExpand" x:Name="btn_addImage" Text="Add Image" Clicked="btn_addImage_Clicked" BackgroundColor="White"/>
+
+                <ListView x:Name="lv_img" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame HasShadow="False" BackgroundColor="White" IsClippedToBounds="True" Padding="5,0,5,0">
+                                    <Image HeightRequest="300" Source="{Binding img}"/>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
+                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
+                </StackLayout>
+                <Label Text=" " VerticalOptions="End"/>
+
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

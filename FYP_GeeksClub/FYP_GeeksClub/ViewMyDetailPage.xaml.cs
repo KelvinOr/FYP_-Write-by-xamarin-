@@ -20,6 +20,7 @@ namespace FYP_GeeksClub
             InitializeComponent();
             GetUserAccountDetails();
 
+            //get update signal
             MessagingCenter.Subscribe<ViewMyDetailPage>(this, "refresh", (sender) =>
             {
                 Task.Delay(5000);
@@ -30,14 +31,24 @@ namespace FYP_GeeksClub
         protected async override void OnAppearing()
         {
             base.OnAppearing();
+            try
+            {
+                var getShopItem = await firebaseHelper.GetShopItemWithEmail(Preferences.Get("email", "").ToString());
+                lv_Item.ItemsSource = getShopItem;
+            }
+            catch
+            {
+                lv_Item.IsVisible = false;
+            }
         }
 
+        //update signal
         public void Sended()
         {
             MessagingCenter.Send<ViewMyDetailPage>(this, "refresh");
         }
 
-
+        //back button action
         protected override bool OnBackButtonPressed()
         {
             var tabbedPage = this.Parent as TabbedPage;
@@ -51,7 +62,7 @@ namespace FYP_GeeksClub
             });
             return true;
         }
-
+ 
         public async void GetUserAccountDetails()
         {
             var GetAccount = (await firebaseClient
@@ -72,10 +83,9 @@ namespace FYP_GeeksClub
             }
         }
 
-        void btn_setting_Clicked(System.Object sender, System.EventArgs e)
+        private async void btn_setting_Clicked(System.Object sender, System.EventArgs e)
         {
-
-
+            await Navigation.PushAsync(new AccountManagerPage());
         }
 
         void lv_Item_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
@@ -83,12 +93,18 @@ namespace FYP_GeeksClub
 
         }
 
-        void btn_Post_Clicked(System.Object sender, System.EventArgs e)
+        private void btn_Post_Clicked(System.Object sender, System.EventArgs e)
         {
+            btn_Item.BackgroundColor = Color.FromHex("#C4C4C4");
+            btn_Post.BackgroundColor = Color.White;
+            lv_Item.IsVisible = false;
         }
 
-        void btn_Item_Clicked(System.Object sender, System.EventArgs e)
+        private void btn_Item_Clicked(System.Object sender, System.EventArgs e)
         {
+            btn_Item.BackgroundColor = Color.White;
+            btn_Post.BackgroundColor = Color.FromHex("#C4C4C4");
+            lv_Item.IsVisible = true;
         }
     }
 }

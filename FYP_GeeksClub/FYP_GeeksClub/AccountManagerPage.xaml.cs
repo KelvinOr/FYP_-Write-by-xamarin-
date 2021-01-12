@@ -53,9 +53,7 @@ namespace FYP_GeeksClub
 
         async private void ChangeImage_Clicked(object sender, EventArgs e)
         {
-
             await Navigation.PushModalAsync(new SelectImagePage());
-
         }
 
         async private void EditInformation_Clicked(object sender, EventArgs e)
@@ -67,12 +65,6 @@ namespace FYP_GeeksClub
                 viewMyDetailPage.Sended();
             }
             
-        }
-
-        async private void Download_Clicked(object sender, EventArgs e)
-        {
-            var Getfile = await firebaseHelper.GetUesrImage(Preferences.Get("email", "").ToString());
-            //imgSorce.Source = Getfile.ToString();
         }
 
         async private void Logout_Clicked(object sender, EventArgs e)

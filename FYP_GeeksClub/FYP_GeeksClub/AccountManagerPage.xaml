@@ -9,8 +9,8 @@
     <Grid>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="8*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="9.5*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -22,6 +22,7 @@
 
         <StackLayout Grid.Column ="1" Grid.Row="1">
 
+            <Label Text="Account:" TextColor="White"/>
             <Button Text="Change Name" 
                     x:Name="ChangeName" 
                     Clicked="ChangeName_Clicked" 
@@ -49,6 +50,8 @@
                 ContentLayout="Right" 
                 Image ="edit_doc_18px"/>
 
+            <Label Text=" "/>
+            <Label Text="Item:" TextColor="White"/>
             <Button
                 x:Name="ShowMyItem"
                 Text="My Item"
@@ -66,6 +69,8 @@
                 ContentLayout="Right"
                 ImageSource="order_18px.png"/>
 
+            <Label Text=" "/>
+            <Label Text="System:" TextColor="White"/>
 
             <Button 
                 x:Name="Logout" 

@@ -59,7 +59,7 @@ namespace FYP_GeeksClub
 
         private async void btn_setting_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushModalAsync(new AccountManagerPage());
+            await Navigation.PushAsync(new AccountManagerPage());
         }
 
         async void ShopItem_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)

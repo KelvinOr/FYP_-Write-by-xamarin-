@@ -52,8 +52,9 @@ namespace FYP_GeeksClub
             await Navigation.PushAsync(new AccountManagerPage());
         }
 
-        void btn_release_Clicked(System.Object sender, System.EventArgs e)
+        private async void btn_release_Clicked(System.Object sender, System.EventArgs e)
         {
+            await Navigation.PushModalAsync(new ReleasePostPage());
         }
     }
 }

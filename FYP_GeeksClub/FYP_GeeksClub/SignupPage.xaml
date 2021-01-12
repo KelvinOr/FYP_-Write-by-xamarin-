@@ -24,19 +24,27 @@
             <StackLayout Grid.Column="1" Grid.Row="2">
 
                 <Label Text="Email:"/>
-                <Entry x:Name="ent_Email"/>
-                <Label Text="Password:"/> 
-                <Entry IsPassword="True" x:Name="ent_Password"/>
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Entry x:Name="ent_Email"/>
+                </Frame>
+
+                <Label Text="Password:"/>
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Entry IsPassword="True" x:Name="ent_Password"/>
+                </Frame>
+                
                 <Label Text="Comfirm Password:"/>
-                <Entry IsPassword="True" x:Name="ent_comPass"/>
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Entry IsPassword="True" x:Name="ent_comPass"/>
+                </Frame>
 
                 <Label Text=" "/>
 
                 <Button
-                BackgroundColor="#FFFFFF"
-                Text="Sign Up"
-                x:Name="btn_Signup"
-                Clicked="btn_Signup_Clicked"/>
+                    BackgroundColor="#FFFFFF"
+                    Text="Sign Up"
+                    x:Name="btn_Signup"
+                    Clicked="btn_Signup_Clicked"/>
 
             </StackLayout>
 

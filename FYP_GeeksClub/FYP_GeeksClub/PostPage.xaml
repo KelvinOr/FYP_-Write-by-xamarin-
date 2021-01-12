@@ -14,16 +14,18 @@
                 <ColumnDefinition Width="0.25*"/>
             </Grid.ColumnDefinitions>
 
-            <StackLayout x:Name="bar" Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
-
-                <ImageButton
+            <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
+                <Label Text=" "/>
+                <Label Text=" "/>
+                <StackLayout Orientation="Horizontal">
+                     <ImageButton
                     Source="setting.png"
                     x:Name="btn_setting"
-                    VerticalOptions="EndAndExpand"
+                    HeightRequest="30"
+                    WidthRequest="30"
                     HorizontalOptions="EndAndExpand"
-                    HeightRequest="35"
-                    WidthRequest="35"
-                    Clicked="btn_setting_Clicked"/>        
+                    Clicked="btn_setting_Clicked"/>
+                </StackLayout>
             </StackLayout>
 
             <StackLayout Grid.Column="1" Grid.Row="1">
@@ -61,6 +63,7 @@
                     HorizontalOptions="FillAndExpand"
                     Clicked="btn_release_Clicked"/>
 
+                <Label Text=" " />
 
             </StackLayout>
         </Grid>

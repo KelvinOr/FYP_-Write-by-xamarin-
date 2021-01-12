@@ -26,12 +26,18 @@
             <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
 
                 <Button Text="  Select Image  " IsVisible="false" x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
-                
-                <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title" />
 
-                <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title"/>
+                </Frame>
 
-                <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Placeholder="Quantity" Keyboard="Numeric"/>
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
+                </Frame>
+
+                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Placeholder="Quantity" Keyboard="Numeric"/>
+                </Frame>
 
                 <Frame
                     HasShadow="False"

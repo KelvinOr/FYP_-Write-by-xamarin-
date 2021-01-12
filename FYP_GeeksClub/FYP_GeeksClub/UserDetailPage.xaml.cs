@@ -44,7 +44,7 @@ namespace FYP_GeeksClub
             catch{}
         }
 
-        async void lv_Item_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        async private void lv_Item_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
             Binding binding = new Binding();
             if (((ListView)sender).SelectedItem == null)
@@ -53,15 +53,7 @@ namespace FYP_GeeksClub
             }
 
             var content = e.SelectedItem as ShopItemDetail;
-
-            if(isYouself == false)
-            {
-                await Navigation.PushAsync(new ShopItemPage(content));
-            }
-            else
-            {
-                await Navigation.PushAsync(new EditItemPage(content));
-            }
+            await Navigation.PushAsync(new ShopItemPage(content));
             ((ListView)sender).SelectedItem = null;
         }
 

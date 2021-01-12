@@ -26,6 +26,7 @@
 
                     <StackLayout Orientation="Vertical">
                         <Label Text="" FontSize="Large"/>
+                        <Label Text="" FontSize="Large"/>
 
                         <StackLayout Orientation="Horizontal">
                             <Label Text=" "/>
