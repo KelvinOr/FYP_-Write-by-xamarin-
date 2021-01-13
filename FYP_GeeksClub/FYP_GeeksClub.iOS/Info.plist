@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>FYP_GeeksClub</string>
 	<key>CFBundleIdentifier</key>
-	<string>​​com.ITP4206-EA.InternationalChess</string>
+	<string>com.ITP4206-EA.InternationalChess</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
@@ -34,14 +34,13 @@
 	<string>FYP_GeeksClub</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
-	
 	<key>NSCameraUsageDescription</key>
-    <string>This app needs access to the camera to take photos.</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>This app needs access to photos.</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>This app needs access to microphone.</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>This app needs access to the photo gallery.</string>
+	<string>This app needs access to the camera to take photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to photos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs access to microphone.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs access to the photo gallery.</string>
 </dict>
 </plist>

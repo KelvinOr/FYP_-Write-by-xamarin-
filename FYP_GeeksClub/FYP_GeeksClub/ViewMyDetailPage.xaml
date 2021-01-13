@@ -18,6 +18,7 @@
 
             <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
                 <Label Text=" "/>
+                <Label Text=" " x:Name="androidBarH"/>
                 <StackLayout Orientation="Horizontal">
                      <ImageButton
                     Source="setting.png"

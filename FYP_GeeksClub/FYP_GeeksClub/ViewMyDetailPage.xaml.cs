@@ -26,6 +26,11 @@ namespace FYP_GeeksClub
                 Task.Delay(5000);
                 GetUserAccountDetails();
             });
+
+            if(Device.OS == TargetPlatform.Android)
+            {
+                androidBarH.IsVisible = false;
+            }
         }
 
         protected async override void OnAppearing()
