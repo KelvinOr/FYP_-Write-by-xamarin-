@@ -11,9 +11,9 @@
                 <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.5*"/>
-                <ColumnDefinition Width="9*"/>
-                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="9.5*"/>
+                <ColumnDefinition Width="0.25*"/>
             </Grid.ColumnDefinitions>
 
             <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="1">

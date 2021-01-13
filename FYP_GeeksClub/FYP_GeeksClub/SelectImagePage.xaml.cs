@@ -24,12 +24,10 @@ namespace FYP_GeeksClub
         public SelectImagePage()
         {
             InitializeComponent();
-            choosefile();
         }
 
-        async void choosefile()
+        async private void choosefile()
         {
-            await Task.Delay(1000);
             await CrossMedia.Current.Initialize();
             try
             {
@@ -44,14 +42,14 @@ namespace FYP_GeeksClub
                 else
                 {
                     SelectImage.IsVisible = false;
-                    ImageSorce.Source = ImageSource.FromStream(() =>
+                    ViewImage.Source = ImageSource.FromStream(() =>
                     {
                         return file.GetStream();
                     });
+                    //SelectImage.HeightRequest = 200;
                 }
             }
-            catch (Exception ex)
-            { }
+            catch { }
 
         }
 

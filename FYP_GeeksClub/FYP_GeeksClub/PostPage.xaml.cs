@@ -12,6 +12,11 @@ namespace FYP_GeeksClub
         public PostPage()
         {
             InitializeComponent();
+
+            if (Device.OS == TargetPlatform.Android)
+            {
+                androidBarH.IsVisible = false;
+            }
         }
 
         protected async override void OnAppearing()

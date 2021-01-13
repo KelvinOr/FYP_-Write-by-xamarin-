@@ -21,6 +21,11 @@ namespace FYP_GeeksClub
         public ShopPage()
         {
             InitializeComponent();
+
+            if (Device.OS == TargetPlatform.Android)
+            {
+                androidBarH.IsVisible = false;
+            }
         }
 
         protected async override void OnAppearing()

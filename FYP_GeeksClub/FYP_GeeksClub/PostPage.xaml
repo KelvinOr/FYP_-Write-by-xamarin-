@@ -6,7 +6,8 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="9*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.25*"/>
@@ -16,7 +17,7 @@
 
             <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
                 <Label Text=" "/>
-                <Label Text=" "/>
+                <Label Text=" " x:Name="androidBarH"/>
                 <StackLayout Orientation="Horizontal">
                      <ImageButton
                     Source="setting.png"
@@ -28,9 +29,8 @@
                 </StackLayout>
             </StackLayout>
 
-            <StackLayout Grid.Column="1" Grid.Row="1">
 
-                <ListView x:Name="lv_Post" ItemSelected="lv_Post_ItemSelected" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000">
+                <ListView x:Name="lv_Post" ItemSelected="lv_Post_ItemSelected" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" Grid.Column="1" Grid.Row="1">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -55,6 +55,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
 
+            <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Vertical">
                 <Button
                     x:Name="btn_release"
                     Text="Release Post"
@@ -64,8 +65,8 @@
                     Clicked="btn_release_Clicked"/>
 
                 <Label Text=" " />
+            </StackLayout>                
 
-            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

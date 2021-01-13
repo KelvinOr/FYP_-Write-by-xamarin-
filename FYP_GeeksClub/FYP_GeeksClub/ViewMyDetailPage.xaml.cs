@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Firebase.Database;
@@ -23,8 +24,7 @@ namespace FYP_GeeksClub
             //get update signal
             MessagingCenter.Subscribe<ViewMyDetailPage>(this, "refresh", (sender) =>
             {
-                Task.Delay(5000);
-                GetUserAccountDetails();
+                CheckUpdate();
             });
 
             if(Device.OS == TargetPlatform.Android)
@@ -43,6 +43,35 @@ namespace FYP_GeeksClub
             }
             catch
             {}
+        }
+
+        private async void CheckUpdate()
+        {
+            bool isUpdate = false;
+            int count = 0;
+            while(isUpdate == false && count < 10)
+            {
+                var GetAccount = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+                if(GetAccount != null)
+                {
+                    var username = GetAccount.Object.UserName.ToString();
+                    var imgsource = GetAccount.Object.UserImageURL.ToString();
+                    var info = GetAccount.Object.UserInformation.ToString();
+                    await Task.Delay(1000);
+                    if (lb_owner.Text != username || img_userImage.Source.ToString() != imgsource || lb_UserInfo.Text != info)
+                    {
+                        await Task.Delay(3000);
+                        GetUserAccountDetails();
+                        Debug.WriteLine("check one time");
+                        isUpdate = true;
+                    }
+                    else
+                    {
+                        Debug.WriteLine("check one time");
+                        count++;
+                    }
+                } 
+            }
         }
 
         //update signal
@@ -68,9 +97,7 @@ namespace FYP_GeeksClub
  
         public async void GetUserAccountDetails()
         {
-            var GetAccount = (await firebaseClient
-                  .Child("UserAccountDetail")
-                  .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
+            var GetAccount = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
 
             if (GetAccount != null)
             {

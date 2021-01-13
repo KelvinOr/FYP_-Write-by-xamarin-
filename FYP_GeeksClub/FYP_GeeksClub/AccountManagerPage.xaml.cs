@@ -24,7 +24,6 @@ namespace FYP_GeeksClub
     public partial class AccountManagerPage : ContentPage
     {
         public bool i = false ;
-        ViewMyDetailPage viewMyDetailPage = new ViewMyDetailPage();
 
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         FirebaseHelper firebaseHelper = new FirebaseHelper();
@@ -47,6 +46,8 @@ namespace FYP_GeeksClub
             if (result != null)
             {
                 firebaseHelper.UpdateUserName(result);
+                ViewMyDetailPage viewMyDetailPage = new ViewMyDetailPage();
+                viewMyDetailPage.Sended();
             }
             //GetUserAccountDetails();   
         }
@@ -62,6 +63,7 @@ namespace FYP_GeeksClub
             if (result != null)
             {
                 firebaseHelper.UpdateUserInformation(result);
+                ViewMyDetailPage viewMyDetailPage = new ViewMyDetailPage();
                 viewMyDetailPage.Sended();
             }
             

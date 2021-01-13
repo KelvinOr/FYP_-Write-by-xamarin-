@@ -20,14 +20,13 @@
             <ColumnDefinition Width="0.25*"/>
         </Grid.ColumnDefinitions>
 
-        <Image x:Name="ImageSorce" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Image x:Name="ViewImage" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1" IsVisible="True"/>
         <Button 
-                x:Name="  SelectImage  " 
+                x:Name="SelectImage" 
                 Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
                 WidthRequest="200"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
-                TextColor="Black"
                 BackgroundColor="White"
                 Text="Select Image"
                 IsVisible="True"

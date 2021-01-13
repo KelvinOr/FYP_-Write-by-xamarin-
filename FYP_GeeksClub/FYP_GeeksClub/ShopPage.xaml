@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.ShopPage"
+             xmlns:custom="clr-namespace:FYP_GeeksClub;assembly=FYP_GeeksClub"
              BackgroundColor="#1C83E8">
     <ContentPage.Content>
         <Grid>
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="9*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -19,7 +21,7 @@
 
             <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
                 <Label Text=" "/>
-                <Label Text=" "/>
+                <Label Text=" " x:Name="androidBarH"/>
                 <StackLayout Orientation="Horizontal">
                     <ImageButton
                         Source="setting.png"
@@ -31,14 +33,14 @@
                 </StackLayout> 
             </StackLayout>
 
-            <StackLayout Orientation="Vertical" Grid.Row="1" Grid.Column="1">
 
-                <Label HorizontalOptions="Center" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White"/>
+                <Label HorizontalOptions="FillAndExpand" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Row="1" Grid.Column="1"/>
 
-                <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" SeparatorVisibility="None" HasUnevenRows="True" Margin="20,20" BackgroundColor="#00000000">
+                <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" HorizontalOptions="FillAndExpand" SeparatorVisibility="None" HasUnevenRows="True" Margin="0,20,0,20" BackgroundColor="#00000000" Grid.Row="1" Grid.Column="1">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
+                            <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">  
+                            <ViewCell.View>
                                 <StackLayout Padding="0,0,0,5">
                                     <Frame CornerRadius="5" BackgroundColor="White" HeightRequest="100" HasShadow="False" Padding="0" IsClippedToBounds="True">
                                         <Grid BackgroundColor="White">
@@ -88,16 +90,16 @@
                                         </Grid>
                                     </Frame>
                                 </StackLayout>
-                            </ViewCell>
+                            </ViewCell.View>
+                            </custom:CustomViewCell>  
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
 
+            <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Vertical">
                 <Button Text="Release Your Items" x:Name="btn_release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
                 <Label Text=" "/>
             </StackLayout>
-
-            
 
             
 

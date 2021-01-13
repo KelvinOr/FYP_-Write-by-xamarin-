@@ -13,7 +13,8 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="9*"/>
+                <RowDefinition Height="3.5*"/>
+                <RowDefinition Height="5.5*"/>
             </Grid.RowDefinitions>
 
             <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
@@ -63,7 +64,7 @@
                 </Frame>
 
                 
-                <Grid HeightRequest="70">
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"/>
                         <ColumnDefinition Width="1*"/>
@@ -85,7 +86,9 @@
                         Clicked="btn_Post_Clicked"/>
                 </Grid>
 
-                <ListView x:Name="lv_Item" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" ItemSelected="lv_Item_ItemSelected">
+            </StackLayout>
+        
+                <ListView x:Name="lv_Item" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" ItemSelected="lv_Item_ItemSelected" Grid.Row="2" Grid.Column="1">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -142,9 +145,6 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
-            </StackLayout>
-
         </Grid>
 
     </ContentPage.Content>
