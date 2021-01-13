@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.XForms.iOS.TextInputLayout;
 using UIKit;
 
 namespace FYP_GeeksClub.iOS
@@ -24,7 +25,7 @@ namespace FYP_GeeksClub.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            SfTextInputLayoutRenderer.Init();
             return base.FinishedLaunching(app, options);
         }
     }

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.SignupPage"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              NavigationPage.IconColor="White">
 
     <ContentPage.Content>
@@ -23,20 +24,17 @@
 
             <StackLayout Grid.Column="1" Grid.Row="2">
 
-                <Label Text="Email:"/>
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry x:Name="ent_Email"/>
-                </Frame>
+                <inputLayout:SfTextInputLayout Hint="Email" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                    <Entry x:Name="ent_Email" TextColor="White"/>
+                </inputLayout:SfTextInputLayout>
 
-                <Label Text="Password:"/>
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry IsPassword="True" x:Name="ent_Password"/>
-                </Frame>
-                
-                <Label Text="Comfirm Password:"/>
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry IsPassword="True" x:Name="ent_comPass"/>
-                </Frame>
+                <inputLayout:SfTextInputLayout Hint="Password" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                    <Entry IsPassword="True" x:Name="ent_Password" TextColor="White"/>
+                </inputLayout:SfTextInputLayout>
+    
+                <inputLayout:SfTextInputLayout Hint="Comfirm Password" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                    <Entry IsPassword="True" x:Name="ent_comPass" TextColor="White"/>
+                </inputLayout:SfTextInputLayout>
 
                 <Label Text=" "/>
 

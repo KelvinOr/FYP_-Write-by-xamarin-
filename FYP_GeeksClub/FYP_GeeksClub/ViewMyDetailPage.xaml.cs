@@ -37,9 +37,7 @@ namespace FYP_GeeksClub
                 lv_Item.ItemsSource = getShopItem;
             }
             catch
-            {
-                lv_Item.IsVisible = false;
-            }
+            {}
         }
 
         //update signal
