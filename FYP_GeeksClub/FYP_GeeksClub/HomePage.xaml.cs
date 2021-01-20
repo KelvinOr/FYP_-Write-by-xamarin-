@@ -34,6 +34,10 @@ namespace FYP_GeeksClub
             return true;
         }
 
+        private async void btn_setting_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AccountManagerPage());
+        }
 
     }
 }

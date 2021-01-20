@@ -7,8 +7,31 @@
              NavigationPage.HasNavigationBar="False">
     
     <ContentPage.Content>
-        <StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="9.5*"/>
+                <ColumnDefinition Width="0.25*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
 
-        </StackLayout>
+            <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
+                <Label Text=" "/>
+                <Label Text=" " x:Name="androidBarH"/>
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton
+                        Source="setting.png"
+                        x:Name="btn_setting"
+                        HeightRequest="30"
+                        WidthRequest="30"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="btn_setting_Clicked"/>
+                </StackLayout> 
+            </StackLayout>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

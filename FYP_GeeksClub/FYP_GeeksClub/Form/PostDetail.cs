@@ -9,6 +9,7 @@ namespace FYP_GeeksClub.Form
         public string ownername { get; set; }
         public string ownerImage { get; set; }
         public string firstImage { get; set; }
+        public bool haveImage { get; set; }
         public string Time { get; set; }
         public string ShowTime { get; set; }
     }

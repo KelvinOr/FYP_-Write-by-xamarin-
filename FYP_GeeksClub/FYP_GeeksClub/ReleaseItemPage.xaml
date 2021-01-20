@@ -5,26 +5,28 @@
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              BackgroundColor="#1C83E8">
     <ContentPage.Content>
+        <ScrollView>
         <Grid>
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.3*"/>
-                <RowDefinition Height="3.7*"/>
-                <RowDefinition Height="6*"/>
+                <RowDefinition Height="9.7*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="9*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
-
-            <StackLayout  Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
-                <Button Text="  Select Image  " x:Name="btn_FRb" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
-                <Image x:Name="SelectImage" />
-            </StackLayout>
             
 
-            <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
+            <StackLayout Grid.Column="1" Grid.Row="1"  Orientation="Vertical">
+
+                <Label Text=" "/>
+                <StackLayout Orientation="Vertical" x:Name="FRb" HeightRequest="300">
+                    <Button Text="  Select Image  " x:Name="btn_FRb" BackgroundColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
+                </StackLayout>
+
+                <Image x:Name="SelectImage" />
 
                 <Button Text="  Select Image  " IsVisible="false" x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
 
@@ -41,7 +43,7 @@
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
-                    <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" HeightRequest="100" TextColor="White"/>
+                    <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" HeightRequest="100" TextColor="White" AutoSize="TextChanges"/>
                 </inputLayout:SfTextInputLayout>
 
                 <StackLayout Orientation="Horizontal">
@@ -64,5 +66,6 @@
 
 
         </Grid>
+    </ScrollView>
     </ContentPage.Content>
 </ContentPage>

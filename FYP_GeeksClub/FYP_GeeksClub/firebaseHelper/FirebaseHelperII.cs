@@ -7,6 +7,7 @@ using Firebase.Database;
 using Firebase.Database.Query;
 using Firebase.Storage;
 using FYP_GeeksClub.Form;
+using Xamarin.Forms;
 
 namespace FYP_GeeksClub.firebaseHelper
 {
@@ -15,16 +16,17 @@ namespace FYP_GeeksClub.firebaseHelper
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         FirebaseStorage firebaseStorage = new FirebaseStorage("hareware-59ccb.appspot.com");
 
-        public async void PustPost(int id, string PostContect, string PostOwner, string ownerNmae, string ownerImage, string firstImage)
+        public async void PustPost(int id, string PostContect, string PostOwner, string ownerName, string ownerImage, string firstImage, bool haveImage)
         {
             await firebaseClient.Child("Post").PostAsync(new PostDetail()
             {
                 id = id,
                 PostContect = PostContect,
                 PostOwner = PostOwner,
-                ownername = ownerNmae,
+                ownername = ownerName,
                 ownerImage = ownerImage,
                 firstImage = firstImage,
+                haveImage = haveImage,
                 Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
                 ShowTime = DateTime.Now.ToString()
             });
@@ -40,6 +42,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 ownername = post.Object.ownername,
                 ownerImage = post.Object.ownerImage,
                 firstImage = post.Object.firstImage,
+                haveImage = post.Object.haveImage,
                 Time = post.Object.Time,
                 ShowTime = post.Object.ShowTime
             }).OrderBy(a => a.Time).ToList();
@@ -63,10 +66,17 @@ namespace FYP_GeeksClub.firebaseHelper
             }).ToList();
         }
 
-        public async Task<string> UploadPostImage(Stream fileStream, string title, int id)
+        public async Task<string> getFirstImage(int postID)
         {
-            var fileName = (title);
-            var imageURL = await firebaseStorage.Child("PostImage").Child(id.ToString()).Child(fileName).PutAsync(fileStream);
+            var temp = (await firebaseClient.Child("PostImageURL").Child(postID.ToString()).OnceAsync<PostImageURL>()).FirstOrDefault();
+            return temp.Object.ImageURL;
+        }
+
+
+        public async Task<string> UploadPostImage(Stream fileStream, string owner, int postId, int id)
+        {
+            var fileName = (owner + id);
+            var imageURL = await firebaseStorage.Child("PostImage").Child(postId.ToString()).Child(fileName).PutAsync(fileStream);
             return imageURL;
         }
 

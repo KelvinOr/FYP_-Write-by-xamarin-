@@ -3,6 +3,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="FYP_GeeksClub.ReleasePostPage"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:custom="clr-namespace:FYP_GeeksClub;assembly=FYP_GeeksClub"
     BackgroundColor="#1C83E8">
     <ContentPage.Content>
         <Grid>
@@ -16,24 +18,29 @@
 
                 <Label Text=" "/>
                 <Label Text=" "/>
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
+                <inputLayout:SfTextInputLayout Hint="Email" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Editor
                         x:Name="ed_contect"
                         HorizontalOptions="FillAndExpand"
                         HeightRequest="250"
                         BackgroundColor="White"/>
-                </Frame>
+                </inputLayout:SfTextInputLayout>
 
                 <Button HorizontalOptions="FillAndExpand" x:Name="btn_addImage" Text="Add Image" Clicked="btn_addImage_Clicked" BackgroundColor="White"/>
 
-                <ListView x:Name="lv_img" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000">
+                <ListView x:Name="lv_img" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" ItemsSource="{Binding ImgStr}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                <Frame HasShadow="False" BackgroundColor="White" IsClippedToBounds="True" Padding="5,0,5,0">
-                                    <Image HeightRequest="300" Source="{Binding img}"/>
-                                </Frame>
-                            </ViewCell>
+                            <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">  
+                                <ViewCell.View>
+                                    <StackLayout Orientation="Vertical">
+                                        <Frame HasShadow="False" BackgroundColor="White" IsClippedToBounds="True" Padding="5,5,5,5">
+                                            <Image Source="{Binding imgStream}"/>
+                                        </Frame>
+                                        <Label Text =" " FontSize="5"/>
+                                    </StackLayout>  
+                                </ViewCell.View>
+                            </custom:CustomViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

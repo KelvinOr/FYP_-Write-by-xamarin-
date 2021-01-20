@@ -21,6 +21,7 @@ namespace FYP_GeeksClub
     {
 
         public string WebAPIkey = "AIzaSyAIFwIiakmB2aCvW6BEKhPheokVAYTgjGc";
+       
 
         public LoginPage()
         {
@@ -29,10 +30,8 @@ namespace FYP_GeeksClub
 
         async private void btn_Login_Clicked(object sender, EventArgs e)
         {
-            
             var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
             FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
-
             try
             {
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(ent_Email.Text, ent_Password.Text);
@@ -57,6 +56,24 @@ namespace FYP_GeeksClub
         private async void Btn_back_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
+        }
+
+        private async void btn_changepas_Clicked(System.Object sender, System.EventArgs e)
+        {
+            var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
+            FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+            string result = await DisplayPromptAsync("Forget Password", "Input your email");
+            if (result != null)
+            {
+                try
+                {
+                    await authProvider.SendPasswordResetEmailAsync(ent_Email.Text);
+                }
+                catch
+                {
+
+                }
+            }
         }
     }
 }

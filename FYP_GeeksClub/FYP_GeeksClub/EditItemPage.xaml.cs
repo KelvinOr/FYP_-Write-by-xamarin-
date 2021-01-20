@@ -30,7 +30,7 @@ namespace FYP_GeeksClub
             id = shopItemDetail.id;
             imageURL = shopItemDetail.imageURL.ToString();
             title = shopItemDetail.title.ToString();
-            detail = shopItemDetail.title.ToString();
+            detail = shopItemDetail.detail.ToString();
             price = shopItemDetail.price;
             quantity = shopItemDetail.quantity;
             saleIng = shopItemDetail.saleIng;
@@ -65,7 +65,6 @@ namespace FYP_GeeksClub
                     {
                         return file.GetStream();
                     });
-                    SelectImage.HeightRequest = 200;
                 }
             }
             catch { }
@@ -86,15 +85,22 @@ namespace FYP_GeeksClub
 
         private async void btn_save_Clicked(System.Object sender, System.EventArgs e)
         {
-            var filename = Preferences.Get("email", "").ToString() + title.ToString();
-            firebaseHelper.DeleteItemOldImage(filename);
-            firebaseHelper.DeleteItem(title);
+            var filename = Preferences.Get("email", "").ToString() + title.ToString(); 
             await Task.Delay(1000);
             filename = Preferences.Get("email", "").ToString() + Ent_Title.Text.ToString();
-            firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
-            await Task.Delay(2000);
-            String imageURL = await firebaseHelper.GetItemImageURL(filename);
-            firebaseHelper.PushNewItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
+            if(file.GetStream() != null)
+            {
+                firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
+                await Task.Delay(2000);
+                String imageURL = await firebaseHelper.GetItemImageURL(filename);
+                firebaseHelper.PushNewItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
+            }
+            else
+            {
+                String imageURL = this.imageURL;
+                firebaseHelper.PushNewItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
+            }
+            
             await Navigation.PopAsync();
         }
     }

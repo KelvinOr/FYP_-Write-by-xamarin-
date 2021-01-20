@@ -1,56 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.EditItemPage" BackgroundColor="#1C83E8" NavigationPage.IconColor="White">
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FYP_GeeksClub.EditItemPage"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    BackgroundColor="#1C83E8"
+    NavigationPage.IconColor="White">
     <ContentPage.Content>
-
+        <ScrollView>
         <Grid>
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="0*"/>
-                <RowDefinition Height="4*"/>
-                <RowDefinition Height="6*"/>
-            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="9*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
-
-            <StackLayout  Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
-                <Image x:Name="SelectImage" />
-            </StackLayout>
             
+            <StackLayout Orientation="Vertical" Grid.Column="1">
 
-            <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
+                <Image x:Name="SelectImage" />
 
                 <Button Text="  Change Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
 
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" Placeholder="Title"/>
-                </Frame>
+                <inputLayout:SfTextInputLayout Hint="Title" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                    <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand"/>
+                </inputLayout:SfTextInputLayout>
 
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" Placeholder="Detail"/>
-                </Frame>
+                <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                </inputLayout:SfTextInputLayout>
 
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Placeholder="Price" Keyboard="Numeric"/>
-                </Frame>
+                <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                </inputLayout:SfTextInputLayout>
 
-                <Frame HasShadow="False" IsClippedToBounds="True" Padding="5,0,5,0">
-                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Placeholder="Quantity" Keyboard="Numeric"/>
-                </Frame>
+                <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                    <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" AutoSize="TextChanges"/>
+                </inputLayout:SfTextInputLayout>
 
                 <StackLayout Orientation="Horizontal">
                     <Label Text="Second Hand Item   " VerticalOptions="Center" TextColor="White"/>
-                    <Switch x:Name="sw_isSecondHand" OnColor="Green" ThumbColor="White"/>
+                    <Switch x:Name="sw_isSecondHand" OnColor="#c4c4c4" ThumbColor="White"/>
                 </StackLayout>
 
                  <StackLayout Orientation="Horizontal">
                     <Label Text="Saling   " VerticalOptions="Center" TextColor="White"/>
-                    <Switch x:Name="sw_saling" OnColor="Green" ThumbColor="White"/>
+                    <Switch x:Name="sw_saling" OnColor="#c4c4c4" ThumbColor="White"/>
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Label Text=" "/>
+
+                <StackLayout Orientation="Horizontal">
                     <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
                     <Button HorizontalOptions="FillAndExpand" x:Name="btn_save" Text="Save" BackgroundColor="White" Clicked="btn_save_Clicked"/>
                 </StackLayout>
@@ -61,6 +60,6 @@
 
 
         </Grid>
-
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

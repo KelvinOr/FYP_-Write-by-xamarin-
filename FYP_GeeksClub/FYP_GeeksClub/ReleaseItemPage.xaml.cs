@@ -37,7 +37,7 @@ namespace FYP_GeeksClub
                 });
                 if (file == null)
                 {
-                    btn_FRb.IsVisible = true;
+                    FRb.IsVisible = true;
                     btn_selectiamge.IsVisible = false;
                     return;
                 }
@@ -47,9 +47,8 @@ namespace FYP_GeeksClub
                     {
                         return file.GetStream();
                     });
-                    btn_FRb.IsVisible = false;
+                    FRb.IsVisible = false;
                     btn_selectiamge.IsVisible = true;
-                    //SelectImage.HeightRequest = 200;
                 }
             } catch { }
 
@@ -88,12 +87,12 @@ namespace FYP_GeeksClub
                         {
                             maxID = 1;
                         }
+                        await Navigation.PopModalAsync();
                         string filename = Preferences.Get("email", "").ToString() + maxID.ToString();
                         firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
                         await Task.Delay(2000);
                         String imageURL = await firebaseHelper.GetItemImageURL(filename);
                         firebaseHelper.PushNewItem(maxID, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, true);
-                        await Navigation.PopModalAsync();
                     }
                     else
                     {

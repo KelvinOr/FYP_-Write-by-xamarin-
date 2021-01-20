@@ -39,6 +39,14 @@
                 x:Name="btn_Login"
                 Clicked="btn_Login_Clicked"/>
 
+            <Button
+                VerticalOptions="EndAndExpand"
+                BackgroundColor="#00000000"
+                Text="Forget Password"
+                TextColor="White"
+                x:Name="btn_changepas"
+                Clicked="btn_changepas_Clicked"/>
+
         </StackLayout>
 
     </Grid>
