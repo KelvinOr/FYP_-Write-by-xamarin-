@@ -76,13 +76,12 @@
 
                                             <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
                                                 <Image Source="SecondHand_73_44px.png" IsVisible="{Binding isSecondHand}" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
-                                                <Label Text=" " HorizontalOptions="Start"/>
-                                                <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
+                                                <Label Text="{Binding title}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8" FontSize="24" FontAttributes="Bold"/>
                                             </StackLayout>
 
                                             <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
-                                                <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
-                                                <Label Text="{Binding price}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Gray"/>
+                                                <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
+                                                <Label Text="{Binding price}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
                                             </StackLayout>
 
                                             <Image Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Source="ToItem_30px.png" HorizontalOptions="Center" VerticalOptions="Center"/>

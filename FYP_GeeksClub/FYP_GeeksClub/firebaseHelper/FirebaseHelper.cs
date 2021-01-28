@@ -239,7 +239,7 @@ namespace FYP_GeeksClub.firebaseHelper
             }).OrderByDescending(o => o.time).ToList();
         }
 
-        public async Task<string> UploadShopItemImage(Stream fileStream,string title)
+        public async Task<string> UploadShopItemImage(Stream fileStream ,string title)
         {
             var fileName = (title);
             var imageURL = await firebaseStorage.Child("ShopItemImage").Child(fileName).PutAsync(fileStream);

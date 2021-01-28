@@ -85,20 +85,19 @@ namespace FYP_GeeksClub
 
         private async void btn_save_Clicked(System.Object sender, System.EventArgs e)
         {
-            var filename = Preferences.Get("email", "").ToString() + title.ToString(); 
-            await Task.Delay(1000);
-            filename = Preferences.Get("email", "").ToString() + Ent_Title.Text.ToString();
-            if(file.GetStream() != null)
+            await Navigation.PopModalAsync();
+            var filename = Preferences.Get("email", "").ToString() + id.ToString();
+            if(file != null)
             {
                 firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
                 await Task.Delay(2000);
                 String imageURL = await firebaseHelper.GetItemImageURL(filename);
-                firebaseHelper.PushNewItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
+                firebaseHelper.UpdateItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Preferences.Get("email", "").ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
             }
             else
             {
                 String imageURL = this.imageURL;
-                firebaseHelper.PushNewItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
+                firebaseHelper.UpdateItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Preferences.Get("email", "").ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled);
             }
             
             await Navigation.PopAsync();

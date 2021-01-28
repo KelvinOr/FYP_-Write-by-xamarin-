@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -17,7 +19,7 @@ namespace FYP_GeeksClub
 {
     public partial class ReleasePostPage : ContentPage
     {
-        ObservableCollection<imgStr> img = new ObservableCollection<imgStr>();
+        public ObservableCollection<PostViewModel> img = new ObservableCollection<PostViewModel>();
         MediaFile file;
         FirebaseHelperII firebaseHelper = new FirebaseHelperII();
 
@@ -37,6 +39,7 @@ namespace FYP_GeeksClub
 
         private async void btn_addImage_Clicked(System.Object sender, System.EventArgs e)
         {
+            await CrossMedia.Current.Initialize();
             try
             {
                 file = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions
@@ -45,6 +48,7 @@ namespace FYP_GeeksClub
                 });
                 if (file == null)
                 {
+                    lv_img.IsVisible = false;
                     return;
                 }
                 else
@@ -53,8 +57,9 @@ namespace FYP_GeeksClub
                     {
                         return file.GetStream();
                     });
-                    img.Add(new imgStr() { imgStream = image, stream = file.GetStream() });
-                    lv_img.ItemsSource = img;
+                    img.Add(new PostViewModel() { imgStream = image, stream = file.GetStream() });                    
+                    lv_img.IsVisible = true;
+                    lv_img.ItemsSource = img; 
                 }
             }
             catch { }
@@ -102,13 +107,6 @@ namespace FYP_GeeksClub
             }
 
         }
-
-        public class imgStr
-        {
-            public ImageSource imgStream { get; set; }
-            public Stream stream { get; set; }
-        }
-
 
         public async void getUserName()
         {

@@ -33,7 +33,7 @@
                             <Label Text=" "/>
                             <controls:CircleImage VerticalOptions="Center" x:Name="img_userImage" HeightRequest="75" WidthRequest="75"/>
                             <Label Text=" "/>
-                            <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Medium" VerticalOptions="Center"/>
+                            <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Large" VerticalOptions="Center" FontAttributes="Bold"/>
                         </StackLayout>
                         <Label Text=" "/>
                         <Label Text="  Information:" TextColor="#1C83E8"/>
