@@ -109,7 +109,7 @@ namespace FYP_GeeksClub
             {
                 lb_owner.Text = "null";
                 lb_UserInfo.Text = "null";
-                img_userImage.Source = "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/UserImage%2Fdfimg.png?alt=media&token=754dea27-f78a-44ae-b08f-339fcc126618";
+                img_userImage.Source = firebaseHelper.getDefImg();
             }
         }
 

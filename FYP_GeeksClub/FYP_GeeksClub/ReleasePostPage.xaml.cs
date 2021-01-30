@@ -48,7 +48,6 @@ namespace FYP_GeeksClub
                 });
                 if (file == null)
                 {
-                    lv_img.IsVisible = false;
                     return;
                 }
                 else
@@ -58,13 +57,23 @@ namespace FYP_GeeksClub
                         return file.GetStream();
                     });
                     img.Add(new PostViewModel() { imgStream = image, stream = file.GetStream() });                    
-                    lv_img.IsVisible = true;
-                    lv_img.ItemsSource = img; 
+                    lv_img.ItemsSource = img;
+                    btn_viewImage.Text = img.Count() + " Image";
                 }
             }
             catch { }
         }
 
+        private void btn_viewImg_Clicked(System.Object sender, System.EventArgs e)
+        {
+            contectlayout.IsVisible = false;
+            imagelayout.IsVisible = true;
+        }
+        private void btn_viewcontect_Clicked(System.Object sender, System.EventArgs e)
+        {
+            contectlayout.IsVisible = true;
+            imagelayout.IsVisible = false;
+        }
         private async void btn_cencal_Clicked(System.Object sender, System.EventArgs e)
         {
             await Navigation.PopModalAsync();
@@ -118,6 +127,8 @@ namespace FYP_GeeksClub
                 userImageURL = GetAccount.Object.UserImageURL;
             }
         }
+
+
     }
    
 }

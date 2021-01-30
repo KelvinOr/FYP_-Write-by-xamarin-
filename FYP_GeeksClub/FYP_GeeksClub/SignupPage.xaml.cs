@@ -1,6 +1,7 @@
 ﻿using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Database.Query;
+using FYP_GeeksClub.firebaseHelper;
 using FYP_GeeksClub.Form;
 using System;
 using System.Collections.Generic;
@@ -16,14 +17,15 @@ namespace FYP_GeeksClub
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SignupPage : ContentPage
     {
-
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         public string WebAPIkey = "AIzaSyAIFwIiakmB2aCvW6BEKhPheokVAYTgjGc";
-        public string defImgURL = "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/UserImage%2Fdfimg.png?alt=media&token=754dea27-f78a-44ae-b08f-339fcc126618";
+        public string defImgURL;
 
         public SignupPage()
         {
             InitializeComponent();
+            
         }
         
         private async void Btn_back_OnClicked(object sender, EventArgs e)
@@ -46,6 +48,7 @@ namespace FYP_GeeksClub
                     var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
                     var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(ent_Email.Text, ent_Password.Text);
                     string gettoken = auth.FirebaseToken;
+                    defImgURL = firebaseHelper.getDefImg();
                     await firebaseClient.Child("UserAccountDetail").PostAsync(new UserAccountDetail()
                     {
                         Email = ent_Email.Text.ToString(),  

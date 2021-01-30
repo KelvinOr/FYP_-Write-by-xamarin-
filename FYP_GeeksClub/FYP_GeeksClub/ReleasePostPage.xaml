@@ -13,31 +13,33 @@
                 <ColumnDefinition Width="9*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
 
-            <ScrollView Grid.Column="1" Grid.Row="0">
-            <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical"  x:Name="contectlayout" Grid.Column="1">
+                                <Label Text=" "/>
+                                <Label Text=" "/>
+                                <inputLayout:SfTextInputLayout Hint="Contect" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                                    <Editor
+                                        TextColor="White"
+                                        x:Name="ed_contect"
+                                        HorizontalOptions="FillAndExpand"
+                                        HeightRequest="250"
+                                        AutoSize="TextChanges"
+                                        BackgroundColor="White"/>
+                               </inputLayout:SfTextInputLayout>
+
+                                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="End" x:Name="btn_addImage" Text="Add Image" Clicked="btn_addImage_Clicked" BackgroundColor="White" TextColor="#1C83E8"/>                
+                                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="End" x:Name="btn_viewImage" Text="0 Image" Clicked="btn_viewImg_Clicked" BackgroundColor="White" TextColor="#1C83E8"/>
+                                        <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                                            <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
+                                            <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
+                                        </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Column="1" x:Name="imagelayout" IsVisible="False">
                 <Label Text=" "/>
                 <Label Text=" "/>
-                <inputLayout:SfTextInputLayout Hint="Email" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
-                    <Editor
-                        x:Name="ed_contect"
-                        TextColor="White"
-                        HorizontalOptions="FillAndExpand"                       
-                        BackgroundColor="White"/>
-                </inputLayout:SfTextInputLayout>
-
-                <Button HorizontalOptions="FillAndExpand" x:Name="btn_addImage" Text="Add Image" Clicked="btn_addImage_Clicked" BackgroundColor="White"/>
-
-                <StackLayout Orientation="Horizontal">
-                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
-                    <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
-                </StackLayout>                
-
-                <StackLayout Orientation="Vertical">
-                <ListView x:Name="lv_img" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" VerticalScrollBarVisibility="Never" SelectionMode="None" IsVisible="False" VerticalOptions="FillAndExpand">
+                <ListView x:Name="lv_img" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" VerticalScrollBarVisibility="Never" SelectionMode="None" VerticalOptions="FillAndExpand">
                 <!--<StackLayout BindableLayout.ItemsSource="{Binding img}">-->
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -54,9 +56,9 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                </StackLayout>
+                <Button VerticalOptions="End" HorizontalOptions="FillAndExpand" x:Name="btn_viewcontect" Clicked="btn_viewcontect_Clicked" BackgroundColor="White" Text="Back" TextColor="#1C83E8"/>
+                <Label Text=" "/>
             </StackLayout>
-            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

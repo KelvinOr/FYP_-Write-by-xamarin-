@@ -16,6 +16,11 @@ namespace FYP_GeeksClub.firebaseHelper
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         FirebaseStorage firebaseStorage = new FirebaseStorage("hareware-59ccb.appspot.com");
 
+        public string getDefImg()
+        {  
+            return "https://firebasestorage.googleapis.com/v0/b/hareware-59ccb.appspot.com/o/defUserImg%2Fuser.png?alt=media&token=f78d728e-e2df-487b-847f-f7bf8a0c6ea0";
+        }
+
         //MARK: user account firebase helper
         public async void UpdateUserName(string Username)
         {
