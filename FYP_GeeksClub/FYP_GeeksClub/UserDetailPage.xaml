@@ -128,7 +128,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
 
-             <ListView x:Name="lv_Post" BackgroundColor="#00000000" SeparatorVisibility="None" HasUnevenRows="True"  Grid.Row="1" Grid.Column="1" IsVisible="False" IsEnabled="False">
+             <ListView x:Name="lv_Post" ItemSelected="lv_Post_ItemSelected" BackgroundColor="#00000000" SeparatorVisibility="None" HasUnevenRows="True"  Grid.Row="1" Grid.Column="1" IsVisible="False" IsEnabled="False">
                     <ListView.HeaderTemplate>
                         <DataTemplate>
                             <StackLayout x:Name="main" Orientation="Vertical" Grid.Column="1" Grid.Row="1">

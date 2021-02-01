@@ -14,7 +14,10 @@ namespace FYP_GeeksClub
     public partial class ViewMyDetailPage : ContentPage
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
+        FirebaseHelperII firebaseHelperII = new FirebaseHelperII();
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+
+        private UserAccountDetail userAccountDetail { get; set; }
 
         public ViewMyDetailPage()
         {
@@ -39,7 +42,11 @@ namespace FYP_GeeksClub
             try
             {
                 var getShopItem = await firebaseHelper.GetShopItemWithEmail(Preferences.Get("email", "").ToString());
+                var getPost = await firebaseHelperII.GetPostbyEmail(Preferences.Get("email", "").ToString());
+                lv_Item.Header = userAccountDetail;
                 lv_Item.ItemsSource = getShopItem;
+                lv_Post.Header = userAccountDetail;
+                lv_Post.ItemsSource = getPost;
             }
             catch
             {}
@@ -58,7 +65,7 @@ namespace FYP_GeeksClub
                     var imgsource = GetAccount.Object.UserImageURL.ToString();
                     var info = GetAccount.Object.UserInformation.ToString();
                     await Task.Delay(1000);
-                    if (lb_owner.Text != username || img_userImage.Source.ToString() != imgsource || lb_UserInfo.Text != info)
+                    if (userAccountDetail.UserName != username || userAccountDetail.UserImageURL != imgsource || userAccountDetail.UserImageURL != info)
                     {
                         await Task.Delay(3000);
                         GetUserAccountDetails();
@@ -101,15 +108,7 @@ namespace FYP_GeeksClub
 
             if (GetAccount != null)
             {
-                lb_owner.Text = GetAccount.Object.UserName.ToString();
-                img_userImage.Source = GetAccount.Object.UserImageURL.ToString();
-                lb_UserInfo.Text = GetAccount.Object.UserInformation.ToString();
-            }
-            else
-            {
-                lb_owner.Text = "null";
-                lb_UserInfo.Text = "null";
-                img_userImage.Source = firebaseHelper.getDefImg();
+                userAccountDetail = GetAccount.Object;
             }
         }
 
@@ -118,23 +117,50 @@ namespace FYP_GeeksClub
             await Navigation.PushAsync(new AccountManagerPage());
         }
 
-        void lv_Item_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        private async void lv_Item_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
+            Binding binding = new Binding();
+            if (((ListView)sender).SelectedItem == null)
+            {
+                return;
+            }
 
+            var content = e.SelectedItem as ShopItemDetail;
+
+            await Navigation.PushAsync(new ShopItemPage(content));
+
+            ((ListView)sender).SelectedItem = null;
+        }
+
+        private async void lv_Post_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            Binding binding = new Binding();
+            if (((ListView)sender).SelectedItem == null)
+            {
+                return;
+            }
+
+            var content = e.SelectedItem as PostDetail;
+
+            await Navigation.PushAsync(new ViewPostPage(content));
+
+            ((ListView)sender).SelectedItem = null;
         }
 
         private void btn_Post_Clicked(System.Object sender, System.EventArgs e)
         {
-            btn_Item.BackgroundColor = Color.FromHex("#C4C4C4");
-            btn_Post.BackgroundColor = Color.White;
+            lv_Item.IsEnabled = false;
             lv_Item.IsVisible = false;
+            lv_Post.IsVisible = true;
+            lv_Post.IsEnabled = true;
         }
 
         private void btn_Item_Clicked(System.Object sender, System.EventArgs e)
         {
-            btn_Item.BackgroundColor = Color.White;
-            btn_Post.BackgroundColor = Color.FromHex("#C4C4C4");
+            lv_Item.IsEnabled = true;
             lv_Item.IsVisible = true;
+            lv_Post.IsVisible = false;
+            lv_Post.IsEnabled = false;
         }
     }
 }

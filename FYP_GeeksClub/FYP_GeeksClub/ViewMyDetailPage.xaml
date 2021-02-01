@@ -15,8 +15,7 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="3.5*"/>
-                <RowDefinition Height="5.5*"/>
+                <RowDefinition Height="9*"/>
             </Grid.RowDefinitions>
             
             <StackLayout x:Name="bar" Orientation="Vertical" Grid.Row="0" Grid.Column="1">
@@ -33,61 +32,63 @@
                 </StackLayout>
             </StackLayout>
 
-            <StackLayout x:Name="main" Orientation="Vertical" Grid.Column="1" Grid.Row="1">
-                <Label Text=" "/>
+                <ListView x:Name="lv_Item" BackgroundColor="#00000000" SeparatorVisibility="None" HasUnevenRows="True" ItemSelected="lv_Item_ItemSelected" Grid.Row="1" Grid.Column="1">
+                    <ListView.HeaderTemplate>
+                        <DataTemplate>
+                            <StackLayout x:Name="main" Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+                                <Label Text=" "/>
+                                <Frame
+                                    IsClippedToBounds="True"
+                                    HasShadow="False"
+                                    Padding="0"
+                                    CornerRadius="5"
+                                    BackgroundColor="White">
+
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="" FontSize="Large"/>
+                                        <Label Text="" FontSize="Large"/>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text=" "/>
+                                            <controls:CircleImage VerticalOptions="Center" Source="{Binding UserImageURL}" HeightRequest="75" WidthRequest="75"/>
+                                            <Label Text=" "/>
+                                            <Label TextColor="#1C83E8" FontSize="Large" VerticalOptions="Center" Text="{Binding UserName}" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                        <Label Text=" "/>
+                                        <Label Text="  Information:" TextColor="#1C83E8"/>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="  "/>
+                                            <Label Text="{Binding UserInformation}" TextColor="#1C83E8"/>
+                                        </StackLayout>
+
+                                        <Label Text="" FontSize="Large"/>
+                                      </StackLayout>
+                                </Frame>
                 
-                <Frame
-                    IsClippedToBounds="True"
-                    HasShadow="False"
-                    Padding="0"
-                    CornerRadius="5"
-                    BackgroundColor="White">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                    </Grid.ColumnDefinitions>
 
-                    <StackLayout Orientation="Vertical">
-                        <Label Text="" FontSize="Large"/>
-                        <Label Text="" FontSize="Large"/>
-
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text=" "/>
-                            <controls:CircleImage VerticalOptions="Center" x:Name="img_userImage" HeightRequest="75" WidthRequest="75"/>
-                            <Label Text=" "/>
-                            <Label x:Name="lb_owner" TextColor="#1C83E8" FontSize="Large" VerticalOptions="Center" FontAttributes="Bold"/>
-                        </StackLayout>
-                        <Label Text=" "/>
-                        <Label Text="  Information:" TextColor="#1C83E8"/>
-
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="  "/>
-                            <Label x:Name="lb_UserInfo" TextColor="#1C83E8"/>
-                        </StackLayout>
-
-                        <Label Text="" FontSize="Large"/>
-                      </StackLayout>
-                </Frame>
-                
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="1*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <Button
-                        Grid.Column="0"
-                        x:Name="btn_Item"
-                        Text="Item"
-                        TextColor="#1C83E8"
-                        BackgroundColor="White"
-                        Clicked="btn_Item_Clicked"/>
-                    <Button
-                        Grid.Column="1"
-                        x:Name="btn_Post"
-                        Text="Post"
-                        TextColor="#1C83E8"
-                        BackgroundColor="#C4C4C4"
-                        Clicked="btn_Post_Clicked"/>
-                </Grid>
-            </StackLayout>
-                <ListView x:Name="lv_Item" BackgroundColor="#00000000" SeparatorVisibility="None" HasUnevenRows="True" ItemSelected="lv_Item_ItemSelected" Grid.Row="2" Grid.Column="1">
+                                    <Button
+                                        Grid.Column="0"
+                                        Text="Item"
+                                        TextColor="#1C83E8"
+                                        BackgroundColor="White"
+                                        Clicked="btn_Item_Clicked"/>
+                                    <Button
+                                        Grid.Column="1"
+                                        Text="Post"
+                                        TextColor="#1C83E8"
+                                        BackgroundColor="#C4C4C4"
+                                        Clicked="btn_Post_Clicked"/>
+                                </Grid>
+                                <Label Text=" " FontSize="Small"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </ListView.HeaderTemplate>
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
@@ -141,6 +142,95 @@
                                 </Frame>
                             </StackLayout>
                              </ViewCell.View>
+                            </custom:CustomViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <ListView x:Name="lv_Post" ItemSelected="lv_Post_ItemSelected" BackgroundColor="#00000000" SeparatorVisibility="None" HasUnevenRows="True"  Grid.Row="1" Grid.Column="1" IsVisible="False" IsEnabled="False">
+                    <ListView.HeaderTemplate>
+                        <DataTemplate>
+                            <StackLayout x:Name="main" Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+                                <Label Text=" "/>
+                                <Frame
+                                    IsClippedToBounds="True"
+                                    HasShadow="False"
+                                    Padding="0"
+                                    CornerRadius="5"
+                                    BackgroundColor="White">
+
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="" FontSize="Large"/>
+                                        <Label Text="" FontSize="Large"/>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text=" "/>
+                                            <controls:CircleImage VerticalOptions="Center" Source="{Binding UserImageURL}" HeightRequest="75" WidthRequest="75"/>
+                                            <Label Text=" "/>
+                                            <Label TextColor="#1C83E8" FontSize="Large" VerticalOptions="Center" Text="{Binding UserName}" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                        <Label Text=" "/>
+                                        <Label Text="  Information:" TextColor="#1C83E8"/>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="  "/>
+                                            <Label Text="{Binding UserInformation}" TextColor="#1C83E8"/>
+                                        </StackLayout>
+
+                                        <Label Text="" FontSize="Large"/>
+                                      </StackLayout>
+                                </Frame>
+                
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Button
+                                        Grid.Column="0"
+                                        Text="Item"
+                                        TextColor="#1C83E8"
+                                        BackgroundColor="#C4C4C4"
+                                        Clicked="btn_Item_Clicked"/>
+                                    <Button
+                                        Grid.Column="1"
+                                        Text="Post"
+                                        TextColor="#1C83E8"
+                                        BackgroundColor="White"
+                                        Clicked="btn_Post_Clicked"/>
+                                </Grid>
+                                <Label Text=" " FontSize="Small"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </ListView.HeaderTemplate>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
+                                <ViewCell.View>
+                                <StackLayout Orientation="Vertical">
+                                    <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" Padding="10" IsClippedToBounds="True">
+                                        <StackLayout Orientation="Vertical">
+                                            <StackLayout Orientation="Horizontal">
+                                                <StackLayout Orientation="Vertical">
+                                                    <controls:CircleImage
+                                                        HeightRequest="50"
+                                                        WidthRequest="50"
+                                                        Source="{Binding ownerImage}"/>
+                                                </StackLayout>
+                                                <StackLayout Orientation="Vertical">
+                                                    <Label Text="{Binding ownername}" TextColor="#1C83E8" FontSize="Large" FontAttributes="Bold"/>
+                                                    <Label HorizontalOptions="FillAndExpand" Text="{Binding PostContect}" TextColor="#1C83E8"/>
+                                                </StackLayout>
+                                            </StackLayout>
+                                            <Frame CornerRadius="5" IsClippedToBounds="True" Padding="5" IsVisible="{Binding haveImage}" BackgroundColor="White" HasShadow="False">
+                                                <Image HeightRequest="200" Source="{Binding firstImage}"/>
+                                            </Frame>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text=" " FontSize="5"/>
+                                </StackLayout>
+                            </ViewCell.View>
                             </custom:CustomViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>

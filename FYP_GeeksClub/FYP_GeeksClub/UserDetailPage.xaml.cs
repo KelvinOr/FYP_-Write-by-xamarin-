@@ -51,6 +51,19 @@ namespace FYP_GeeksClub
             ((ListView)sender).SelectedItem = null;
         }
 
+        private async void lv_Post_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            Binding binding = new Binding();
+            if (((ListView)sender).SelectedItem == null)
+            {
+                return;
+            }
+
+            var content = e.SelectedItem as PostDetail;
+            await Navigation.PushAsync(new ViewPostPage(content));
+            ((ListView)sender).SelectedItem = null;
+        }
+
         private async void btn_Item_Clicked(object sender, EventArgs e)
         {
             lv_Item.IsVisible = true;
