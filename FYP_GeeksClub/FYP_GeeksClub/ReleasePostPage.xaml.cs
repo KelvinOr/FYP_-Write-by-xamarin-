@@ -56,7 +56,7 @@ namespace FYP_GeeksClub
                     {
                         return file.GetStream();
                     });
-                    img.Add(new PostViewModel() { imgStream = image, stream = file.GetStream() });                    
+                    img.Add(new PostViewModel() {imgStream = image, stream = file.GetStream() });                    
                     lv_img.ItemsSource = img;
                     btn_viewImage.Text = img.Count() + " Image";
                 }
@@ -84,7 +84,7 @@ namespace FYP_GeeksClub
             await Navigation.PopModalAsync();
             int maxID = 1;
             string firstImage = null;
-            bool haveImg = false;
+            bool haveImg, moreThenOneImg = false;
             if (ed_contect != null)
             {
                 try
@@ -105,14 +105,19 @@ namespace FYP_GeeksClub
                     }
                     firstImage = await firebaseHelper.getFirstImage(maxID);
                     haveImg = true;
+                    if (img.Count() > 1)
+                    {
+                        moreThenOneImg = true;
+                    }
                 } else
                 {
                     firstImage = null;
-                    haveImg = false; 
+                    haveImg = false;
+                    moreThenOneImg = false;
                 }
                 getUserName();
                 await Task.Delay(2000);
-                firebaseHelper.PustPost(maxID, ed_contect.Text, Preferences.Get("email", ""), username, userImageURL, firstImage, haveImg);
+                firebaseHelper.PustPost(maxID, ed_contect.Text, Preferences.Get("email", ""), username, userImageURL, firstImage, haveImg, moreThenOneImg);
             }
 
         }
@@ -128,7 +133,20 @@ namespace FYP_GeeksClub
             }
         }
 
-
+        /*private async void btn_delete_Clicked(System.Object sender, System.EventArgs e)
+        {
+            var item = (Button)sender;
+            PostViewModel it = ((PostViewModel)item.CommandParameter);
+            try
+            {
+                Debug.Print(it.ToString());
+                img.Remove(it);
+            }
+            catch(Exception ex)
+            {
+                Debug.Print(ex.ToString());
+            }
+        }*/
     }
    
 }

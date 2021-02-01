@@ -45,7 +45,6 @@ namespace FYP_GeeksClub
             }
             catch (Exception ex)
             {
-                await Task.Delay(200);
                 await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
             }
 

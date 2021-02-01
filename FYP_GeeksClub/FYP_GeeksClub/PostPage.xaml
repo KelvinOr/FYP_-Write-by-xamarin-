@@ -29,7 +29,7 @@
                 </StackLayout>
             </StackLayout>
 
-            <ListView x:Name="lv_Post" ItemSelected="lv_Post_ItemSelected" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" Grid.Column="1" Grid.Row="1">
+            <ListView x:Name="lv_Post" ItemSelected="lv_Post_ItemSelected" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" Grid.Column="1" Grid.Row="1" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">

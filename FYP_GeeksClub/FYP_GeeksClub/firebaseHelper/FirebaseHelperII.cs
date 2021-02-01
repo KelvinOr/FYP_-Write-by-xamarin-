@@ -16,7 +16,7 @@ namespace FYP_GeeksClub.firebaseHelper
         FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
         FirebaseStorage firebaseStorage = new FirebaseStorage("hareware-59ccb.appspot.com");
 
-        public async void PustPost(int id, string PostContect, string PostOwner, string ownerName, string ownerImage, string firstImage, bool haveImage)
+        public async void PustPost(int id, string PostContect, string PostOwner, string ownerName, string ownerImage, string firstImage, bool haveImage, bool haveMoreImg)
         {
             await firebaseClient.Child("Post").PostAsync(new PostDetail()
             {
@@ -26,6 +26,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 ownername = ownerName,
                 ownerImage = ownerImage,
                 firstImage = firstImage,
+                haveMoreImg = haveMoreImg,
                 haveImage = haveImage,
                 Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
                 ShowTime = DateTime.Now.ToString()
@@ -43,6 +44,24 @@ namespace FYP_GeeksClub.firebaseHelper
                 ownerImage = post.Object.ownerImage,
                 firstImage = post.Object.firstImage,
                 haveImage = post.Object.haveImage,
+                haveMoreImg = post.Object.haveMoreImg,
+                Time = post.Object.Time,
+                ShowTime = post.Object.ShowTime
+            }).OrderBy(a => a.Time).ToList();
+        }
+
+        public async Task<List<PostDetail>> GetPostbyEmail(string email)
+        {
+            return (await firebaseClient.Child("Post").OnceAsync<PostDetail>()).Where(a => a.Object.PostOwner == email).Select(post => new PostDetail
+            {
+                id = post.Object.id,
+                PostContect = post.Object.PostContect,
+                PostOwner = post.Object.PostOwner,
+                ownername = post.Object.ownername,
+                ownerImage = post.Object.ownerImage,
+                firstImage = post.Object.firstImage,
+                haveImage = post.Object.haveImage,
+                haveMoreImg = post.Object.haveMoreImg,
                 Time = post.Object.Time,
                 ShowTime = post.Object.ShowTime
             }).OrderBy(a => a.Time).ToList();

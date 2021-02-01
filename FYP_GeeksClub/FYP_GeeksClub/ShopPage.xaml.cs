@@ -26,6 +26,11 @@ namespace FYP_GeeksClub
             {
                 androidBarH.IsVisible = false;
             }
+
+            ShopItem.RefreshCommand = new Command(() => {
+                RefreshData();
+                ShopItem.IsRefreshing = false;
+            });
         }
 
         protected async override void OnAppearing()
@@ -81,7 +86,11 @@ namespace FYP_GeeksClub
 
             ((ListView)sender).SelectedItem = null;
         }
-    }
 
-    
+        public async void RefreshData()
+        {
+            var getShopItem = await firebaseHelper.GetShopItem();
+            ShopItem.ItemsSource = getShopItem;
+        }
+    }
 }

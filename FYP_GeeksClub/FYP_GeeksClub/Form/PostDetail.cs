@@ -7,8 +7,9 @@ namespace FYP_GeeksClub.Form
         public string PostContect { get; set; }
         public string PostOwner { get; set; }
         public string ownername { get; set; }
-        public string ownerImage { get; set; }
+        public string ownerImage { get; set; } 
         public string firstImage { get; set; }
+        public bool haveMoreImg { get; set; }
         public bool haveImage { get; set; }
         public string Time { get; set; }
         public string ShowTime { get; set; }

@@ -36,7 +36,7 @@
 
                 <Label HorizontalOptions="FillAndExpand" x:Name="haveItemLB" Text="No Item" IsVisible="false" TextColor="White" Grid.Row="1" Grid.Column="1"/>
 
-                <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" HorizontalOptions="FillAndExpand" SeparatorVisibility="None" HasUnevenRows="True" Margin="0,20,0,20" BackgroundColor="#00000000" Grid.Row="1" Grid.Column="1">
+                <ListView ItemSelected="ShopItem_ItemSelected" x:Name="ShopItem" HorizontalOptions="FillAndExpand" SeparatorVisibility="None" HasUnevenRows="True" Margin="0,20,0,20" BackgroundColor="#00000000" Grid.Row="1" Grid.Column="1" IsPullToRefreshEnabled="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">  

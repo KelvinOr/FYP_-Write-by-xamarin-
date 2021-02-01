@@ -47,7 +47,13 @@
                                 <ViewCell.View>
                                     <StackLayout Orientation="Vertical">
                                         <Frame HasShadow="False" BackgroundColor="White" IsClippedToBounds="True" Padding="5,5,5,5">
-                                            <Image Source="{Binding imgStream}"/>
+                                            <StackLayout Orientation="Vertical">
+                                                <StackLayout Orientation="Horizontal">
+                                                    <!--<ImageButton HorizontalOptions="EndAndExpand" Source="remove_16px" Clicked="btn_delete_Clicked"/>-->
+                                                    <Label Text=" " HorizontalOptions="End"/>
+                                                </StackLayout>
+                                                <Image Source="{Binding imgStream}"/>
+                                            </StackLayout>
                                         </Frame>
                                         <Label Text=" " FontSize="Small"/>
                                     </StackLayout>  
