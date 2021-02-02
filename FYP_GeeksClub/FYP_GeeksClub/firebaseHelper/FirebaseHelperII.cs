@@ -76,9 +76,9 @@ namespace FYP_GeeksClub.firebaseHelper
             });
         }
 
-        public async Task<List<PostImageURL>> getPostImage(int postID)
+        public async Task<List<PostImageURL>> getAllPostImg(int id)
         {
-            return (await firebaseClient.Child("PostImageURL").Child(postID.ToString()).OnceAsync<PostImageURL>()).Select(image => new PostImageURL
+            return (await firebaseClient.Child("PostImageURL").Child(id.ToString()).OnceAsync<PostImageURL>()).Select(image => new PostImageURL
             {
                 PostID = image.Object.PostID,
                 ImageURL = image.Object.ImageURL

@@ -5,7 +5,8 @@
     x:Class="FYP_GeeksClub.EditItemPage"
     xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
     BackgroundColor="#1C83E8"
-    NavigationPage.IconColor="White">
+    NavigationPage.IconColor="White"
+    NavigationPage.BackButtonTitle="Back">
     <ContentPage.Content>
         <ScrollView>
         <Grid>

@@ -4,8 +4,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FYP_GeeksClub.LoginPage"
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
-             NavigationPage.IconColor="White">
-    <NavigationPage.TitleView></NavigationPage.TitleView>
+             NavigationPage.IconColor="White"
+             NavigationPage.BackButtonTitle="Back">
 
     <Grid BackgroundColor="#1C83E8">
 

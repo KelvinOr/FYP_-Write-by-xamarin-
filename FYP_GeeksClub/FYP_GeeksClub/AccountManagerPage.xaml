@@ -4,9 +4,8 @@
              xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="FYP_GeeksClub.AccountManagerPage"
              BackgroundColor="#1C83E8"
-             NavigationPage.IconColor="White">
-
-    <NavigationPage.TitleView></NavigationPage.TitleView>
+             NavigationPage.IconColor="White"
+             NavigationPage.BackButtonTitle="Back">
 
     <Grid>
 

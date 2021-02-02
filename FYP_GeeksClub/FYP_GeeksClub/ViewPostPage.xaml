@@ -38,10 +38,10 @@
                                 <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" Padding="10" IsClippedToBounds="True">
                                     <StackLayout Orientation="Vertical">
                                         <Label HorizontalOptions="FillAndExpand" Text="{Binding PostContect}" TextColor="#1C83E8" FontSize="Body"/>
-                                        <Frame CornerRadius="5" IsClippedToBounds="True" Padding="5" IsVisible="{Binding haveImage}" BackgroundColor="White" HasShadow="False">
+                                        <Frame CornerRadius="5" IsClippedToBounds="True" IsVisible="{Binding haveImage}" BackgroundColor="White" HasShadow="False">
                                             <Image HeightRequest="200" Source="{Binding firstImage}"/>
                                         </Frame>
-                                        <Button Text="More Image" TextColor="#1C83E8" IsVisible="{Binding haveMoreImg}" BackgroundColor="#00000000"/>
+                                        <Button Text="More Image" TextColor="#1C83E8" IsVisible="{Binding haveMoreImg}" BackgroundColor="#00000000" Clicked="btn_vieImg_Clicked"/>
                                     </StackLayout>
                                 </Frame>
                                 <Label Text=" " FontSize="3"/>
@@ -53,12 +53,12 @@
                             <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                 <ViewCell.View>
                                     <StackLayout Orientation="Vertical">
-                                        <Frame BackgroundColor="White" HasShadow="False">
+                                        <Frame BackgroundColor="White" HasShadow="False" CornerRadius="5" IsClippedToBounds="True" Padding="5">
                                             <StackLayout Orientation="Vertical">
                                                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                                                     <controls:CircleImage Source="{Binding rePostUserImage}" HeightRequest="35" WidthRequest="35" BackgroundColor="White" Aspect="AspectFit"/>
                                                     <Label Text=" "/>
-                                                    <Label Text="{Binding rePostUserName}" TextColor="#1C83E8"/>
+                                                    <Label Text="{Binding rePostUserName}" VerticalOptions="CenterAndExpand" TextColor="#1C83E8"/>
                                                 </StackLayout>
                                                 <Label Text="{Binding rePost}" TextColor="#1C83E8" FontSize="Body"/>
                                             </StackLayout>
@@ -72,7 +72,7 @@
                 </ListView>
 
                 <StackLayout VerticalOptions="EndAndExpand" HeightRequest="35" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" CornerRadius="5" IsClippedToBounds="True" Padding="0" BackgroundColor="White" HasShadow="False">
+                    <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" CornerRadius="5" IsClippedToBounds="True" Padding="10" BackgroundColor="White" HasShadow="False">
                         <Editor HorizontalOptions="FillAndExpand" x:Name="ed_detail" TextColor="#1C83E8" BackgroundColor="#00000000"/>
                     </Frame>
                     <Frame CornerRadius="5" HorizontalOptions="End" VerticalOptions="FillAndExpand" IsClippedToBounds="True" WidthRequest="50" Padding="0" BackgroundColor="White" HasShadow="False">

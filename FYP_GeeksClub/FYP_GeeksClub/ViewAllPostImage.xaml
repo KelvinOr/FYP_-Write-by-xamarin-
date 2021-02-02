@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.ViewAllPostImage"
+             NavigationPage.IconColor="White"
+             NavigationPage.BackButtonTitle="Back"
+             BackgroundColor="#1C83E8"
+             xmlns:custom="clr-namespace:FYP_GeeksClub;assembly=FYP_GeeksClub">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="9.5*"/>
+                <ColumnDefinition Width="0.25*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Orientation="Vertical" Grid.Column="1">
+                <Label Text=" "/>
+                <ListView x:Name="lv_img" VerticalOptions="FillAndExpand" BackgroundColor="#00000000" Margin="0,0,0,20" HasUnevenRows="True" SeparatorVisibility="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
+                                <ViewCell.View>
+                                    <StackLayout Orientation="Vertical">
+                                        <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True">
+                                            <Image Source="{Binding ImageURL}"/>
+                                        </Frame>
+                                        <Label Text=" " FontSize="3"/>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </custom:CustomViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Button Text="Back" BackgroundColor="White" TextColor="#1C83E8" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"/>
+                <Label Text=" " VerticalOptions="End"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

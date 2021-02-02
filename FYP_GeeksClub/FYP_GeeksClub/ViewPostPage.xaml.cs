@@ -88,5 +88,9 @@ namespace FYP_GeeksClub
             lv_cont.ItemsSource = getRePost;
         }
 
+        private async void btn_vieImg_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ViewAllPostImage(postDetail.id));
+        }
     }
 }
