@@ -6,6 +6,8 @@
              BackgroundColor="#1C83E8"
              NavigationPage.IconColor="White"
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:Application.WindowSoftInputModeAdjust="Resize"
              x:Class="FYP_GeeksClub.ViewPostPage">
 
     <NavigationPage.TitleView>
@@ -18,8 +20,9 @@
             <Label x:Name="lb_ownername" TextColor="White" VerticalOptions="CenterAndExpand"/>
         </StackLayout>
     </NavigationPage.TitleView>
-    
+   
     <ContentPage.Content>
+    
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.25*"/>
@@ -62,12 +65,14 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+
+                <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                     <Editor HorizontalOptions="FillAndExpand" BackgroundColor="White"/>
                 </StackLayout>
-                <Label Text=" "/>
             </StackLayout>
+
         </Grid>
+    
     </ContentPage.Content>
 </ContentPage>
     
