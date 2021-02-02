@@ -5,6 +5,8 @@
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              NavigationPage.IconColor="White">
 
+    <NavigationPage.TitleView></NavigationPage.TitleView>
+
     <ContentPage.Content>
         <Grid BackgroundColor="#1C83E8">
 
@@ -24,15 +26,15 @@
 
             <StackLayout Grid.Column="1" Grid.Row="2">
 
-                <inputLayout:SfTextInputLayout Hint="Email" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Email" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
                     <Entry x:Name="ent_Email" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Password" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Password" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
                     <Entry IsPassword="True" x:Name="ent_Password" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
     
-                <inputLayout:SfTextInputLayout Hint="Comfirm Password" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Comfirm Password" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
                     <Entry IsPassword="True" x:Name="ent_comPass" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 

@@ -9,8 +9,8 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:Application.WindowSoftInputModeAdjust="Resize"
              x:Class="FYP_GeeksClub.ViewPostPage">
-
-    <NavigationPage.TitleView>
+    
+    <NavigationPage.TitleView> 
         <StackLayout Orientation="Horizontal" >
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="Navigation_bar_Clicked"/>
@@ -22,16 +22,16 @@
     </NavigationPage.TitleView>
    
     <ContentPage.Content>
-    
+    <custom:KeyboardView>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.25*"/>
                 <ColumnDefinition Width="9.5*"/>
                 <ColumnDefinition Width="0.25*"/>
             </Grid.ColumnDefinitions>
-            <StackLayout Orientation="Vertical" Grid.Column="1">
+            <StackLayout Orientation="Vertical" Grid.Column="1" VerticalOptions="FillAndExpand">
                 <Label Text=" "/>
-                <ListView x:Name="lv_cont" Margin="0,0,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" >
+                <ListView x:Name="lv_cont" Margin="0,0,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">
                     <ListView.HeaderTemplate>
                         <DataTemplate>
                             <StackLayout Orientation="Vertical">
@@ -44,35 +44,46 @@
                                         <Button Text="More Image" TextColor="#1C83E8" IsVisible="{Binding haveMoreImg}" BackgroundColor="#00000000"/>
                                     </StackLayout>
                                 </Frame>
+                                <Label Text=" " FontSize="3"/>
                             </StackLayout>
                         </DataTemplate>
                     </ListView.HeaderTemplate>
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <custom:CustomViewCell>
+                            <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                 <ViewCell.View>
-                                    <Frame BackgroundColor="White" HasShadow="False">
-                                        <StackLayout Orientation="Horizontal">
-                                            <controls:CircleImage/>
+                                    <StackLayout Orientation="Vertical">
+                                        <Frame BackgroundColor="White" HasShadow="False">
                                             <StackLayout Orientation="Vertical">
-                                                <Label/>
-                                                <Label/>
+                                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                    <controls:CircleImage Source="{Binding rePostUserImage}" HeightRequest="35" WidthRequest="35" BackgroundColor="White" Aspect="AspectFit"/>
+                                                    <Label Text=" "/>
+                                                    <Label Text="{Binding rePostUserName}" TextColor="#1C83E8"/>
+                                                </StackLayout>
+                                                <Label Text="{Binding rePost}" TextColor="#1C83E8" FontSize="Body"/>
                                             </StackLayout>
-                                        </StackLayout>
-                                    </Frame>
+                                        </Frame>
+                                        <Label Text=" " FontSize="3"/>
+                                    </StackLayout>
                                 </ViewCell.View>
                             </custom:CustomViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
 
-                <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Editor HorizontalOptions="FillAndExpand" BackgroundColor="White"/>
+                <StackLayout VerticalOptions="EndAndExpand" HeightRequest="35" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" CornerRadius="5" IsClippedToBounds="True" Padding="0" BackgroundColor="White" HasShadow="False">
+                        <Editor HorizontalOptions="FillAndExpand" x:Name="ed_detail" TextColor="#1C83E8" BackgroundColor="#00000000"/>
+                    </Frame>
+                    <Frame CornerRadius="5" HorizontalOptions="End" VerticalOptions="FillAndExpand" IsClippedToBounds="True" WidthRequest="50" Padding="0" BackgroundColor="White" HasShadow="False">
+                        <ImageButton Source="send.png" Clicked="btn_send_Clicked"/>
+                    </Frame>
                 </StackLayout>
+                <Label Text=" "/>
             </StackLayout>
 
         </Grid>
-    
+    </custom:KeyboardView>
     </ContentPage.Content>
 </ContentPage>
     

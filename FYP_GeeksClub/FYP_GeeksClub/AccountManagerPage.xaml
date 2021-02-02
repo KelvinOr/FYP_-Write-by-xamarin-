@@ -6,6 +6,8 @@
              BackgroundColor="#1C83E8"
              NavigationPage.IconColor="White">
 
+    <NavigationPage.TitleView></NavigationPage.TitleView>
+
     <Grid>
 
         <Grid.RowDefinitions>

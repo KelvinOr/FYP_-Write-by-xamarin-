@@ -7,6 +7,7 @@ namespace FYP_GeeksClub.Form
         public string rePost { get; set; }
         public string rePostUserName { get; set; }
         public string rePostUserEmail { get; set; }
-        public string rePostImage { get; set; }
+        public string rePostUserImage { get; set; }
+        public string Time { get; set; }
     }
 }

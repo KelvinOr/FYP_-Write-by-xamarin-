@@ -35,11 +35,11 @@
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
-                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Placeholder="Price" TextColor="White" Keyboard="Numeric"/>
+                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" TextColor="White" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
-                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Placeholder="Quantity" TextColor="White" Keyboard="Numeric"/>
+                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" TextColor="White" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">

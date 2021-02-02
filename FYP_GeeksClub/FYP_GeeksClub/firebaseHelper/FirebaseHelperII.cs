@@ -107,8 +107,22 @@ namespace FYP_GeeksClub.firebaseHelper
                 rePost = detail,
                 rePostUserEmail = rePostEmail,
                 rePostUserName = rePostName,
-                rePostImage = rePostImg
+                rePostUserImage = rePostImg,
+                Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
             });
+        }
+
+        public async Task<List<RePost>> getRePost(int id)
+        {
+            return (await firebaseClient.Child("RePost").Child(id.ToString()).OnceAsync<RePost>()).Where(a => a.Object.PostID == id).Select(post => new RePost
+            {
+                PostID = post.Object.PostID,
+                rePost = post.Object.rePost,
+                rePostUserEmail = post.Object.rePostUserEmail,
+                rePostUserName = post.Object.rePostUserName,
+                rePostUserImage = post.Object.rePostUserImage,
+                Time = post.Object.Time
+            }).OrderBy(a => a.Time).ToList();
         }
 
     }

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.ShopItemPage"
-             NavigationPage.IconColor="White" BackgroundColor="#1C83E8" xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
->
+             NavigationPage.IconColor="White" BackgroundColor="#1C83E8" xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
+
+    <NavigationPage.TitleView></NavigationPage.TitleView>
     <ContentPage.Content>
         <Grid>
 
@@ -19,11 +20,11 @@
             <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="1">
 
                 <Frame
-                IsClippedToBounds="True"
-                HasShadow="False"
-                Padding="10"
-                BackgroundColor="White"
-                CornerRadius="5">
+                    IsClippedToBounds="True"
+                    HasShadow="False"
+                    Padding="10"
+                    BackgroundColor="White"
+                    CornerRadius="5">
 
                     <Grid>
                         <Grid.RowDefinitions>
@@ -104,7 +105,7 @@
 
                 </StackLayout>
                <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand">
-                   <Button x:Name="btn_update" Text="Test Button" BackgroundColor="White" Clicked="btn_update_Clicked"/>
+                   <Button x:Name="btn_update" Text="Order" BackgroundColor="White" TextColor="#1C83E8" Clicked="btn_update_Clicked"/>
                    <Label Text=" "/>
                </StackLayout>
                 

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.OrderDetailPage" BackgroundColor="#1C83E8" NavigationPage.IconColor="White">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FYP_GeeksClub.OrderDetailPage" xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms" BackgroundColor="#1C83E8" NavigationPage.IconColor="White">
+    <NavigationPage.TitleView></NavigationPage.TitleView>
+
     <ContentPage.Content>
 
         <Grid>
@@ -52,7 +54,7 @@
                     <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
                         <Image Source="SecondHand_73_44px.png" x:Name="img_sH" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="24" HeightRequest="16"/>
                         <Label Text=" " HorizontalOptions="Start"/>
-                        <Label x:Name="lb_title" HorizontalOptions="Start" VerticalOptions="Center" TextColor="Black" FontSize="24" />
+                        <Label x:Name="lb_title" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8" FontSize="24" />
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
@@ -66,10 +68,16 @@
 
             <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="2">
                 <Label Text=" "/>
-                <Label Text="Order Detail: " TextColor="White"/> 
-                <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" Placeholder="Phone No."/>
-                <Entry x:Name="Ent_ContMeth" HorizontalOptions="FillAndExpand" Placeholder="Contect Method"/>
-                <Entry x:Name="Ent_Other" HorizontalOptions="FillAndExpand" Placeholder="Other(optionial)"/>
+                <Label Text="Order Detail: " TextColor="White"/>
+                <inputLayout:SfTextInputLayout Hint="Phone No." FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                    <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" TextColor="White" />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout Hint="Contect Method" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                    <Entry x:Name="Ent_ContMeth" HorizontalOptions="FillAndExpand" TextColor="White" />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout Hint="Other(optionial)" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                    <Entry x:Name="Ent_Other" HorizontalOptions="FillAndExpand" TextColor="White"/>
+                </inputLayout:SfTextInputLayout>
 
                 <Button x:Name="btn_AddOrder" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="White" Text="Add Order" Clicked="btn_AddOrder_Clicked"/>
             </StackLayout>     
