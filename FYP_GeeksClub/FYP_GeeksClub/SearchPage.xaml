@@ -139,7 +139,7 @@
                                         BackgroundColor="White">
 
                                         <StackLayout Orientation="Vertical">
-                                            <Label Text=" "/>
+                                            <Label Text=" " FontSize="3"/>
                                             <StackLayout Orientation="Horizontal">
                                                 <Label Text=" "/>
                                                 <StackLayout HeightRequest="40" WidthRequest="40">
@@ -152,8 +152,9 @@
                                                     <Label Text="{Binding UserInformation}" TextColor="#1C83E8" FontSize="Body"/>
                                                 </StackLayout> 
                                             </StackLayout>
-                                            <Label Text="" FontSize="Large"/>
+                                            <Label Text=" " FontSize="3"/>
                                       </StackLayout>
+                                        
                                     </Frame>
                                     <Label Text=" " FontSize="3"/>
                                 </StackLayout>
