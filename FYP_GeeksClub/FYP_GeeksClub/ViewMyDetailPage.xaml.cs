@@ -162,5 +162,10 @@ namespace FYP_GeeksClub
             lv_Post.IsVisible = false;
             lv_Post.IsEnabled = false;
         }
+
+        private async void btn_search_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
     }
 }

@@ -44,7 +44,8 @@
                                         <Button Text="More Image" TextColor="#1C83E8" IsVisible="{Binding haveMoreImg}" BackgroundColor="#00000000" Clicked="btn_vieImg_Clicked"/>
                                     </StackLayout>
                                 </Frame>
-                                <Label Text=" " FontSize="3"/>
+                                <Label Text="Reply: " TextColor="White"/>
+                                <Label Text=" " FontSize="1"/>
                             </StackLayout>
                         </DataTemplate>
                     </ListView.HeaderTemplate>

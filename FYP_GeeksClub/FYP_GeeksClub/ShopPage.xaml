@@ -24,11 +24,18 @@
                 <Label Text=" " x:Name="androidBarH"/>
                 <StackLayout Orientation="Horizontal">
                     <ImageButton
+                        Source="search.png"
+                        x:Name="btn_search"
+                        HeightRequest="30"
+                        WidthRequest="30"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="btn_search_Clicked"/>
+                    <ImageButton
                         Source="setting.png"
                         x:Name="btn_setting"
                         HeightRequest="30"
                         WidthRequest="30"
-                        HorizontalOptions="EndAndExpand"
+                        HorizontalOptions="End"
                         Clicked="btn_setting_Clicked"/>
                 </StackLayout> 
             </StackLayout>

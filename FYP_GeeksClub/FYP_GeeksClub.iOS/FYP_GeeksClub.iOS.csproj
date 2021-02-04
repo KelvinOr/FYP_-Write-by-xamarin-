@@ -176,6 +176,7 @@
     <BundleResource Include="community24px.png" />
     <BundleResource Include="remove_16px.png" />
     <BundleResource Include="send.png" />
+    <BundleResource Include="search.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Home.png" />

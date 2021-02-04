@@ -39,5 +39,10 @@ namespace FYP_GeeksClub
             await Navigation.PushAsync(new AccountManagerPage());
         }
 
+        private async void btn_search_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
+
     }
 }

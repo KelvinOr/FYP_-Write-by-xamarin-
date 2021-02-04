@@ -84,5 +84,10 @@ namespace FYP_GeeksClub
             var getShopItem = await firebasehelperII.getAllPost();
             lv_Post.ItemsSource = getShopItem;
         }
+
+        private async void btn_search_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
     }
 }

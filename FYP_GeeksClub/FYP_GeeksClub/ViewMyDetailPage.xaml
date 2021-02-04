@@ -22,14 +22,21 @@
                 <Label Text=" "/>
                 <Label Text=" " x:Name="androidBarH"/>
                 <StackLayout Orientation="Horizontal">
-                     <ImageButton
-                    Source="setting.png"
-                    x:Name="btn_setting"
-                    HeightRequest="30"
-                    WidthRequest="30"
-                    HorizontalOptions="EndAndExpand"
-                    Clicked="btn_setting_Clicked"/>
-                </StackLayout>
+                    <ImageButton
+                        Source="search.png"
+                        x:Name="btn_search"
+                        HeightRequest="30"
+                        WidthRequest="30"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="btn_search_Clicked"/>
+                    <ImageButton
+                        Source="setting.png"
+                        x:Name="btn_setting"
+                        HeightRequest="30"
+                        WidthRequest="30"
+                        HorizontalOptions="End"
+                        Clicked="btn_setting_Clicked"/>
+                </StackLayout> 
             </StackLayout>
 
                 <ListView x:Name="lv_Item" BackgroundColor="#00000000" SeparatorVisibility="None" HasUnevenRows="True" ItemSelected="lv_Item_ItemSelected" Grid.Row="1" Grid.Column="1">
