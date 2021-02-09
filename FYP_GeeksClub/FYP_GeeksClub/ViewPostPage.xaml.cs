@@ -69,7 +69,9 @@ namespace FYP_GeeksClub
             var img = user.UserImageURL;
             if (ed_detail != null)
             {
-               firebaseHelperII.UploadRePost(id, ed_detail.Text.ToString(), Preferences.Get("email", "").ToString(), username, img);
+                firebaseHelperII.UploadRePost(id, ed_detail.Text.ToString(), Preferences.Get("email", "").ToString(), username, img);
+                firebaseHelperII.postTimeUpdate(id);
+                ed_detail.Text = "";
             }
         }
 

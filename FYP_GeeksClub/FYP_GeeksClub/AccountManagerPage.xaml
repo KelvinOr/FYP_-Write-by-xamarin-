@@ -51,6 +51,15 @@
                 ContentLayout="Right" 
                 Image ="edit_doc_18px"/>
 
+            <Button
+                x:Name="UseCase" 
+                Clicked="UseCase_Clicked" 
+                Text="Change Main Use Case" 
+                BackgroundColor="White"
+                HeightRequest="38"
+                ContentLayout="Right" 
+                Image ="edit_doc_18px"/>
+
             <Label Text=" "/>
             <Label Text="Item:" TextColor="White"/>
             <Button

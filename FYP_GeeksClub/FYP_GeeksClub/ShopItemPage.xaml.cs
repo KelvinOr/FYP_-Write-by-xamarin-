@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Firebase.Database;
 using FYP_GeeksClub.firebaseHelper;
 using FYP_GeeksClub.Form;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace FYP_GeeksClub
@@ -36,6 +37,11 @@ namespace FYP_GeeksClub
             shop = shopItemDetail;
 
             getItemDetail();
+
+            if(owner == Preferences.Get("email", "").ToString())
+            {
+                btn_update.Text = "Update Items";
+            }
         }
            
 
@@ -57,8 +63,15 @@ namespace FYP_GeeksClub
 
         private async void btn_update_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new OrderDetailPage(shop));
-            Navigation.RemovePage(this);
+            if (owner == Preferences.Get("email", "").ToString())
+            {
+                await Navigation.PushAsync(new EditItemPage(shop));
+            }
+            else
+            {
+                await Navigation.PushAsync(new OrderDetailPage(shop));
+                Navigation.RemovePage(this);
+            }
         }
 
         private async void btn_ownerPage_Clicked(object sender, EventArgs e)

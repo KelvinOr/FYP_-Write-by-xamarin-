@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FYP_GeeksClub.GetUserUseCase"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    BackgroundColor="#1C83E8">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="9.5*"/>
+                <ColumnDefinition Width="0.25*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Orientation="Vertical" Grid.Column="1" >
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" x:Name="St_UseCaseSelect">
+                    <Label Text="You main use case: " TextColor="White"/>
+                    <inputLayout:SfTextInputLayout Hint="Your main use case" ContainerType="Outlined" FocusedColor="White" UnfocusedColor="White">
+                        <Picker x:Name="picker" TextColor="White" SelectedIndexChanged="picker_SelectedIndexChanged"/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout x:Name="sf_detail_layout" Hint="Most Game type you are playing" ContainerType="Outlined" FocusedColor="White" UnfocusedColor="White" IsVisible="false">
+                        <Picker x:Name="detail_picker" TextColor="White" />
+                    </inputLayout:SfTextInputLayout>
+                    <Button x:Name="btn_Next" Text="Next" BackgroundColor="White" Clicked="btn_Next_Clicked"/>
+                    <Label Text=" "/>
+                </StackLayout>
+                    
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" x:Name="st_showrecommand" IsVisible="false">
+                    <Label Text="Specification List:" TextColor="White"/>
+                    <Label x:Name="cpu" TextColor="White"/>
+                    <Label x:Name="gpu" TextColor="White"/>
+                    <Label x:Name="ram" TextColor="White"/>
+                    <Label x:Name="harddisk" TextColor="White"/>
+                    <Label x:Name="mon" TextColor="White"/>
+                    <Label x:Name="power" Text="white"/>
+                    <Label Text="This is just to give you a direction to choose specifications, you can choose by youself" FontSize="Small" TextColor="White"/>
+                    <Button x:Name="btn_close" Text="Close" BackgroundColor="White" Clicked="btn_close_Clicked"/>
+                    <Label Text=" "/>
+                </StackLayout>
+
+            </StackLayout>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

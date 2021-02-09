@@ -63,11 +63,8 @@ namespace FYP_GeeksClub.firebaseHelper
             var Check = (await firebaseClient.Child("UserAccountDetail").OnceAsync<UserAccountDetail>()).Where(
                a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
 
-            var GetAccount = (await firebaseClient
-                  .Child("UserAccountDetail")
-                  .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == Preferences.Get("email", "").ToString()).FirstOrDefault();
-            var UserImageURL = GetAccount.Object.UserImageURL.ToString();
-            var Username = GetAccount.Object.UserName.ToString();
+            var UserImageURL = Check.Object.UserImageURL.ToString();
+            var Username = Check.Object.UserName.ToString();
 
             if (Check == null)
             {
@@ -77,7 +74,7 @@ namespace FYP_GeeksClub.firebaseHelper
                     UserName = Username,
                     UserImageURL = UserImageURL,
                     UserInformation = UserInformation
-                }); ;
+                });
             }
             else
             {

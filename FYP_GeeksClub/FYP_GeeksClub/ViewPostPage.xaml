@@ -74,7 +74,7 @@
 
                 <StackLayout VerticalOptions="EndAndExpand" HeightRequest="35" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                     <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" CornerRadius="5" IsClippedToBounds="True" Padding="10" BackgroundColor="White" HasShadow="False">
-                        <Editor HorizontalOptions="FillAndExpand" x:Name="ed_detail" TextColor="#1C83E8" BackgroundColor="#00000000"/>
+                        <Entry HorizontalOptions="FillAndExpand" x:Name="ed_detail" TextColor="#1C83E8" BackgroundColor="#00000000"/>
                     </Frame>
                     <Frame CornerRadius="5" HorizontalOptions="End" VerticalOptions="FillAndExpand" IsClippedToBounds="True" WidthRequest="50" Padding="0" BackgroundColor="White" HasShadow="False">
                         <ImageButton Source="send.png" Clicked="btn_send_Clicked"/>

@@ -80,6 +80,10 @@ namespace FYP_GeeksClub
             await Navigation.PushAsync(new UserReleasedItemPage());
         }
 
+        private async void UseCase_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushModalAsync(new GetUserUseCase());
+        }
     }
 
        

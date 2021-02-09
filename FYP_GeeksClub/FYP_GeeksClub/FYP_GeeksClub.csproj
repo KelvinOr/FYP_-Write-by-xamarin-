@@ -36,27 +36,80 @@
   <ItemGroup>
     <EmbeddedResource Update="AccountManagerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>AccountManagerPage.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="HomeTabbed.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>HomeTabbed.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LoginPage.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="ReleaseItemPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ReleaseItemPage.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="SelectImagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>SelectImagePage.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="SelectLogin.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>SelectLogin.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="ShopPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ShopPage.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="SignupPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>SignupPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ViewAllPostImage.xaml">
+      <LogicalName>ViewAllPostImage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="App.xaml">
+      <LogicalName>App.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ShopItemPage.xaml">
+      <LogicalName>ShopItemPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="OrderDetailPage.xaml">
+      <LogicalName>OrderDetailPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ViewPostPage.xaml">
+      <LogicalName>ViewPostPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ReleasePostPage.xaml">
+      <LogicalName>ReleasePostPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ViewMyDetailPage.xaml">
+      <LogicalName>ViewMyDetailPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UserDetailPage.xaml">
+      <LogicalName>UserDetailPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GetUserUseCase.xaml">
+      <LogicalName>GetUserUseCase.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UserReleasedItemPage.xaml">
+      <LogicalName>UserReleasedItemPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPage.xaml">
+      <LogicalName>MainPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HomePage.xaml">
+      <LogicalName>HomePage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="EditItemPage.xaml">
+      <LogicalName>EditItemPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SearchPage.xaml">
+      <LogicalName>SearchPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PostPage.xaml">
+      <LogicalName>PostPage.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

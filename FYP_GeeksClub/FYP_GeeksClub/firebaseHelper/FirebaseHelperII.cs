@@ -48,7 +48,46 @@ namespace FYP_GeeksClub.firebaseHelper
                 haveMoreImg = post.Object.haveMoreImg,
                 Time = post.Object.Time,
                 ShowTime = post.Object.ShowTime
-            }).OrderBy(a => a.Time).ToList();
+            }).OrderByDescending(a => a.Time).ToList();
+        }
+
+        public async void postTimeUpdate(int id)
+        {
+            var Check = (await firebaseClient.Child("Post").OnceAsync<PostDetail>()).Where(a => a.Object.id == id).FirstOrDefault();
+            if (Check == null)
+            {
+                await firebaseClient.Child("Post").PostAsync(new PostDetail()
+                {
+                    id = Check.Object.id,
+                    PostContect = Check.Object.PostContect,
+                    PostOwner = Check.Object.PostOwner,
+                    ownername = Check.Object.ownername,
+                    ownerImage = Check.Object.ownerImage,
+                    firstImage = Check.Object.firstImage,
+                    haveImage = Check.Object.haveImage,
+                    haveMoreImg = Check.Object.haveMoreImg,
+                    Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
+                    ShowTime = DateTime.Now.ToString()
+                });
+            }
+            else
+            {
+                var Update = (await firebaseClient.Child("Post").OnceAsync<PostDetail>()).Where(a => a.Object.id == id).FirstOrDefault();
+                await firebaseClient.Child("Post").Child(Update.Key).PutAsync(new PostDetail()
+                {
+                    id = Check.Object.id,
+                    PostContect = Check.Object.PostContect,
+                    PostOwner = Check.Object.PostOwner,
+                    ownername = Check.Object.ownername,
+                    ownerImage = Check.Object.ownerImage,
+                    firstImage = Check.Object.firstImage,
+                    haveImage = Check.Object.haveImage,
+                    haveMoreImg = Check.Object.haveMoreImg,
+                    Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
+                    ShowTime = DateTime.Now.ToString()
+                });
+            }
+
         }
 
         public async Task<List<PostDetail>> GetPostbyEmail(string email)
@@ -123,7 +162,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 rePostUserName = post.Object.rePostUserName,
                 rePostUserImage = post.Object.rePostUserImage,
                 Time = post.Object.Time
-            }).OrderBy(a => a.Time).ToList();
+            }).OrderByDescending(a => a.Time).ToList();
         }
 
     }
