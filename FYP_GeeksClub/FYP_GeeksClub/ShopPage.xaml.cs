@@ -17,6 +17,7 @@ namespace FYP_GeeksClub
     public partial class ShopPage : ContentPage
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
+        List<ShopItemDetail> shopitem = new List<ShopItemDetail>();
 
         public ShopPage()
         {
@@ -37,8 +38,8 @@ namespace FYP_GeeksClub
         {
             base.OnAppearing();
             try { 
-                var getShopItem = await firebaseHelper.GetShopItem();
-                ShopItem.ItemsSource = getShopItem;
+                shopitem = await firebaseHelper.GetShopItem();
+                ShopItem.ItemsSource = shopitem;
             } catch
             {
                 ShopItem.IsVisible = false;
@@ -89,8 +90,8 @@ namespace FYP_GeeksClub
 
         public async void RefreshData()
         {
-            var getShopItem = await firebaseHelper.GetShopItem();
-            ShopItem.ItemsSource = getShopItem;
+            shopitem = await firebaseHelper.GetShopItem();
+            ShopItem.ItemsSource = shopitem;
         }
 
         private async void btn_search_Clicked(System.Object sender, System.EventArgs e)

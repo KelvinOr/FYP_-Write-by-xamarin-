@@ -23,8 +23,8 @@
     <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
     <PackageReference Include="Naxam.BottomTabbedPage" Version="0.3.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="Syncfusion.Licensing" Version="18.4.0.41" />
-    <PackageReference Include="Syncfusion.Xamarin.Core" Version="18.4.0.41" />
+    <PackageReference Include="Syncfusion.Licensing" Version="18.4.0.42" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="18.4.0.42" />
     <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Xamarin.Auth" Version="1.7.0" />
@@ -110,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="PostPage.xaml">
       <LogicalName>PostPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="OrderListPage.xaml">
+      <LogicalName>OrderListPage.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

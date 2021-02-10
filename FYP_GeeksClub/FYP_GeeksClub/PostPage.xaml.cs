@@ -9,6 +9,7 @@ namespace FYP_GeeksClub
     public partial class PostPage : ContentPage
     {
         FirebaseHelperII firebasehelperII = new FirebaseHelperII();
+        List<PostDetail> post = new List<PostDetail>();
 
         public PostPage()
         {
@@ -30,8 +31,8 @@ namespace FYP_GeeksClub
             base.OnAppearing();
             try
             {
-                var getShopItem = await firebasehelperII.getAllPost();
-                lv_Post.ItemsSource = getShopItem;
+                post = await firebasehelperII.getAllPost();
+                lv_Post.ItemsSource = post;
             }
             catch
             {
@@ -81,8 +82,8 @@ namespace FYP_GeeksClub
 
         public async void RefreshData()
         {
-            var getShopItem = await firebasehelperII.getAllPost();
-            lv_Post.ItemsSource = getShopItem;
+            post = await firebasehelperII.getAllPost();
+            lv_Post.ItemsSource = post;
         }
 
         private async void btn_search_Clicked(System.Object sender, System.EventArgs e)

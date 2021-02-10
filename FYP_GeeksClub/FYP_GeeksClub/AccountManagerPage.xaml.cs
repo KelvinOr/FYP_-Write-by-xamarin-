@@ -84,9 +84,11 @@ namespace FYP_GeeksClub
         {
             await Navigation.PushModalAsync(new GetUserUseCase());
         }
+
+        private async void ShowOrder_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new OrderListPage());
+        }
     }
 
-       
-
-
-    }
+}

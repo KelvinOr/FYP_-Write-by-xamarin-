@@ -74,6 +74,7 @@
             <Button
                 x:Name="ShowOrder"
                 Text="Order"
+                Clicked="ShowOrder_Clicked"
                 BackgroundColor="White"
                 HeightRequest="38"
                 ContentLayout="Right"

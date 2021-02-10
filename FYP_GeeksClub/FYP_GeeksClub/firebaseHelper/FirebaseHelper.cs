@@ -166,15 +166,6 @@ namespace FYP_GeeksClub.firebaseHelper
             }).FirstOrDefault();
         }
 
-        //not function(waiting for fix)
-        /*public async Task<string> GetUserName(string email)
-        {
-            var GetAccount = (await firebaseClient.Child("UserAccountDetail")
-                .OnceAsync<UserAccountDetail>()).Where(a => a.Object.Email == email).FirstOrDefault();
-            await Task.Delay(2000);
-            return GetAccount.Object.UserName;
-        }*/
-
         //MARK: shop item firebase helper
         public async void PushNewItem(int id, string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
         {
@@ -239,6 +230,23 @@ namespace FYP_GeeksClub.firebaseHelper
                 owner = item.Object.owner,
                 time = item.Object.time
             }).OrderByDescending(o => o.time).ToList();
+        }
+
+        public async Task<ShopItemDetail> SearchItem(int id)
+        {
+            return (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(a => a.Object.id == id).Select(item => new ShopItemDetail
+            {
+                id = item.Object.id,
+                title = item.Object.title,
+                detail = item.Object.detail,
+                price = item.Object.price,
+                quantity = item.Object.quantity,
+                imageURL = item.Object.imageURL,
+                isSecondHand = item.Object.isSecondHand,
+                saleIng = item.Object.saleIng,
+                owner = item.Object.owner,
+                time = item.Object.time
+            }).FirstOrDefault();
         }
 
         public async Task<string> UploadShopItemImage(Stream fileStream ,string title)
@@ -309,16 +317,20 @@ namespace FYP_GeeksClub.firebaseHelper
         }
 
         //MARK: OrderDetail
-        public async void NewOrder(int id, string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other)
+        public async void NewOrder(int id, int itemid, string itemTitle, string itemImg,double itemPrice, string itemOwner, string custName, int custPhone, string custImg,string contMeth, string other)
         {
             await firebaseClient.Child("Order").PostAsync(new OrderDetail()
             {
                 id = id,
                 CustEmail = Preferences.Get("email", "").ToString(),
+                ItemId = itemid,
                 ItemTitle = itemTitle,
+                ItemImg = itemImg,
                 ItemPrice = itemPrice,
                 ItemOwner = itemOwner,
+                CustName = custName,
                 CustPhone = custPhone,
+                CustImg = custImg,
                 ContMethod = contMeth,
                 TranIsAccp = false,
                 Other = other,
@@ -327,7 +339,7 @@ namespace FYP_GeeksClub.firebaseHelper
             });
         }
 
-        public async void UpdateOrder(int id, string itemTitle, double itemPrice, string itemOwner, int custPhone, string contMeth, string other, bool tranIsAccp)
+        public async void UpdateOrder(int id, int itemid ,string itemImg,string itemTitle, double itemPrice, string itemOwner, string custName, int custPhone, string custImg,string contMeth, string other, bool tranIsAccp)
         {
             var Check = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(
                 a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
@@ -339,10 +351,14 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     id = id,
                     CustEmail = Preferences.Get("email", "").ToString(),
+                    ItemId = itemid,
                     ItemTitle = itemTitle,
                     ItemPrice = itemPrice,
+                    ItemImg = itemImg,
                     ItemOwner = itemOwner,
+                    CustName = custName,
                     CustPhone = custPhone,
+                    CustImg = custImg,
                     ContMethod = contMeth,
                     TranIsAccp = tranIsAccp,
                     Other = other,
@@ -356,17 +372,43 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     id = id, 
                     CustEmail = Preferences.Get("email", "").ToString(),
+                    CustName = custName,
                     ItemTitle = itemTitle,
+                    ItemId = itemid,
                     ItemPrice = itemPrice,
                     ItemOwner = itemOwner,
+                    ItemImg = itemImg,
                     CustPhone = custPhone,
                     ContMethod = contMeth,
+                    CustImg = custImg,
                     TranIsAccp = tranIsAccp,
                     Other = other,
                     Time = DateTime.Now.ToString("yyyyMMddHHmmssffff"),
                     ShowTime = DateTime.Now.ToString()
                 });
             }
+        }
+
+        public async Task<List<OrderDetail>> GetOrder()
+        {
+            return (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(a => a.Object.ItemOwner == Preferences.Get("email", "").ToString()).Select(item => new OrderDetail
+            {
+                id = item.Object.id,
+                CustName = item.Object.CustName,
+                CustEmail = item.Object.CustEmail,
+                CustImg = item.Object.CustImg,
+                CustPhone = item.Object.CustPhone,
+                ContMethod = item.Object.ContMethod,
+                ItemId = item.Object.ItemId,
+                ItemTitle = item.Object.ItemTitle,
+                ItemPrice = item.Object.ItemPrice,
+                ItemImg = item.Object.ItemImg,
+                ItemOwner = item.Object.ItemOwner,
+                TranIsAccp = item.Object.TranIsAccp,
+                Other = item.Object.Other,
+                Time = item.Object.Time,
+                ShowTime = item.Object.ShowTime
+            }).OrderByDescending(o => o.Time).ToList();
         }
 
 

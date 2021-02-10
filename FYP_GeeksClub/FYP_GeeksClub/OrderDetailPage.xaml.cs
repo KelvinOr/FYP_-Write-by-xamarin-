@@ -4,6 +4,7 @@ using FYP_GeeksClub.Form;
 using FYP_GeeksClub.firebaseHelper;
 using Xamarin.Forms;
 using System.Linq;
+using Xamarin.Essentials;
 
 namespace FYP_GeeksClub
 {
@@ -55,11 +56,14 @@ namespace FYP_GeeksClub
                     other = Ent_Other.Text.ToString();
                 }
                 bool answer = await App.Current.MainPage.DisplayAlert("Question?", "Are you sure the detail is correct", "Yes", "No");
+
+                var user = await firebaseHelper.GetUserDetail(Preferences.Get("email", "").ToString());
+
                 if (answer == true)
                 {
                     var temp = await firebaseHelper.GetShopItem();
                     int maxID = temp.Max(a => a.id);
-                    firebaseHelper.NewOrder(maxID, title, price, itemOwnerEmail, Convert.ToInt32(Ent_Phone.Text.ToString()), Ent_ContMeth.Text.ToString(), other);
+                    firebaseHelper.NewOrder(maxID, id, title, imageURL, price, itemOwnerEmail, user.UserName ,Convert.ToInt32(Ent_Phone.Text.ToString()), user.UserImageURL ,Ent_ContMeth.Text.ToString(), other);
                     bool saling = false;
                     var int_quantity = quanity - 1;
                     if (int_quantity == 0)
