@@ -23,9 +23,8 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Vertical" x:Name="st_OrderICreate" IsVisible="false">
-
                 </StackLayout>
-
+                
                 <StackLayout Orientation="Vertical" x:Name="st_OrderIGet">
                     <Button Text="Unaccetp Order" BackgroundColor="White" TextColor="#1C83E8" Clicked="UnAcceptList_Clicked"/>
                     <ListView x:Name="lv_unaccept_order" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">

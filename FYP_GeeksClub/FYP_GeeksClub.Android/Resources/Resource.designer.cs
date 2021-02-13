@@ -281,2678 +281,6 @@ namespace FYP_GeeksClub.Droid
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::FYP_GeeksClub.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::FYP_GeeksClub.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::FYP_GeeksClub.Droid.Resource.Drawable.clear_button_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_in = global::FYP_GeeksClub.Droid.Resource.Animation.abc_fade_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_out = global::FYP_GeeksClub.Droid.Resource.Animation.abc_fade_out;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_grow_fade_in_from_bottom = global::FYP_GeeksClub.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_enter = global::FYP_GeeksClub.Droid.Resource.Animation.abc_popup_enter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_exit = global::FYP_GeeksClub.Droid.Resource.Animation.abc_popup_exit;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FYP_GeeksClub.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_bottom = global::FYP_GeeksClub.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_top = global::FYP_GeeksClub.Droid.Resource.Animation.abc_slide_in_top;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_bottom = global::FYP_GeeksClub.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_top = global::FYP_GeeksClub.Droid.Resource.Animation.abc_slide_out_top;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_tooltip_enter = global::FYP_GeeksClub.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_tooltip_exit = global::FYP_GeeksClub.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::FYP_GeeksClub.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_in = global::FYP_GeeksClub.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_out = global::FYP_GeeksClub.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_in = global::FYP_GeeksClub.Droid.Resource.Animation.design_snackbar_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_out = global::FYP_GeeksClub.Droid.Resource.Animation.design_snackbar_out;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromLeft = global::FYP_GeeksClub.Droid.Resource.Animation.EnterFromLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromRight = global::FYP_GeeksClub.Droid.Resource.Animation.EnterFromRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToLeft = global::FYP_GeeksClub.Droid.Resource.Animation.ExitToLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToRight = global::FYP_GeeksClub.Droid.Resource.Animation.ExitToRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_appbar_state_list_animator = global::FYP_GeeksClub.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_fab_hide_motion_spec = global::FYP_GeeksClub.Droid.Resource.Animator.design_fab_hide_motion_spec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_fab_show_motion_spec = global::FYP_GeeksClub.Droid.Resource.Animator.design_fab_show_motion_spec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_btn_state_list_anim = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_btn_state_list_anim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_chip_state_list_anim = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_hide_motion_spec = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_show_motion_spec = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::FYP_GeeksClub.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarDivider = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarDivider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarItemBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarPopupTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSize = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSplitStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabTextStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarWidgetTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionDropDownStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.actionLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCopyDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCutDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeFindDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePasteDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePopupWindowStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSelectAllDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeShareDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSplitBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeWebSearchDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowMenuStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionProviderClass = global::FYP_GeeksClub.Droid.Resource.Attribute.actionProviderClass;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionViewClass = global::FYP_GeeksClub.Droid.Resource.Attribute.actionViewClass;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.activityChooserViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogButtonGroupStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogCenterButtons = global::FYP_GeeksClub.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.alertDialogStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.alertDialogTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.allowStacking = global::FYP_GeeksClub.Droid.Resource.Attribute.allowStacking;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alpha = global::FYP_GeeksClub.Droid.Resource.Attribute.alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alphabeticModifiers = global::FYP_GeeksClub.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowHeadLength = global::FYP_GeeksClub.Droid.Resource.Attribute.arrowHeadLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowShaftLength = global::FYP_GeeksClub.Droid.Resource.Attribute.arrowShaftLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoCompleteTextViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMaxTextSize = global::FYP_GeeksClub.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMinTextSize = global::FYP_GeeksClub.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizePresetSizes = global::FYP_GeeksClub.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeStepGranularity = global::FYP_GeeksClub.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeTextType = global::FYP_GeeksClub.Droid.Resource.Attribute.autoSizeTextType;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.background = global::FYP_GeeksClub.Droid.Resource.Attribute.background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundSplit = global::FYP_GeeksClub.Droid.Resource.Attribute.backgroundSplit;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundStacked = global::FYP_GeeksClub.Droid.Resource.Attribute.backgroundStacked;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTint = global::FYP_GeeksClub.Droid.Resource.Attribute.backgroundTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.backgroundTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.barLength = global::FYP_GeeksClub.Droid.Resource.Attribute.barLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoHide = global::FYP_GeeksClub.Droid.Resource.Attribute.behavior_autoHide;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_fitToContents = global::FYP_GeeksClub.Droid.Resource.Attribute.behavior_fitToContents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_hideable = global::FYP_GeeksClub.Droid.Resource.Attribute.behavior_hideable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_overlapTop = global::FYP_GeeksClub.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_peekHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_skipCollapsed = global::FYP_GeeksClub.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderlessButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.borderWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomAppBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.bottomAppBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomNavigationStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.bottomNavigationStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetDialogTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxBackgroundColor = global::FYP_GeeksClub.Droid.Resource.Attribute.boxBackgroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxBackgroundMode = global::FYP_GeeksClub.Droid.Resource.Attribute.boxBackgroundMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCollapsedPaddingTop = global::FYP_GeeksClub.Droid.Resource.Attribute.boxCollapsedPaddingTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusBottomEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusBottomStart = global::FYP_GeeksClub.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusTopEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusTopStart = global::FYP_GeeksClub.Droid.Resource.Attribute.boxCornerRadiusTopStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeColor = global::FYP_GeeksClub.Droid.Resource.Attribute.boxStrokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.boxStrokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNegativeButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNeutralButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarPositiveButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonIconDimen = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonIconDimen;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonPanelSideLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyleSmall = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTint = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.buttonTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardBackgroundColor = global::FYP_GeeksClub.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardCornerRadius = global::FYP_GeeksClub.Droid.Resource.Attribute.cardCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardElevation = global::FYP_GeeksClub.Droid.Resource.Attribute.cardElevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardMaxElevation = global::FYP_GeeksClub.Droid.Resource.Attribute.cardMaxElevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardPreventCornerOverlap = global::FYP_GeeksClub.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardUseCompatPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.cardViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkboxStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.checkboxStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedChip = global::FYP_GeeksClub.Droid.Resource.Attribute.checkedChip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.checkedIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.checkedIconEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconVisible = global::FYP_GeeksClub.Droid.Resource.Attribute.checkedIconVisible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedTextViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipBackgroundColor = global::FYP_GeeksClub.Droid.Resource.Attribute.chipBackgroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipCornerRadius = global::FYP_GeeksClub.Droid.Resource.Attribute.chipCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipEndPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.chipEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipGroupStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.chipGroupStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.chipIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.chipIconEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconSize = global::FYP_GeeksClub.Droid.Resource.Attribute.chipIconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconTint = global::FYP_GeeksClub.Droid.Resource.Attribute.chipIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconVisible = global::FYP_GeeksClub.Droid.Resource.Attribute.chipIconVisible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipMinHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.chipMinHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacing = global::FYP_GeeksClub.Droid.Resource.Attribute.chipSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacingHorizontal = global::FYP_GeeksClub.Droid.Resource.Attribute.chipSpacingHorizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacingVertical = global::FYP_GeeksClub.Droid.Resource.Attribute.chipSpacingVertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStandaloneStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.chipStandaloneStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStartPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.chipStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStrokeColor = global::FYP_GeeksClub.Droid.Resource.Attribute.chipStrokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStrokeWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.chipStrokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.chipStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIconEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconEndPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIconEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconSize = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconStartPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIconStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconTint = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconVisible = global::FYP_GeeksClub.Droid.Resource.Attribute.closeIconVisible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeItemLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.closeItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseContentDescription = global::FYP_GeeksClub.Droid.Resource.Attribute.collapseContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.collapseIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.color = global::FYP_GeeksClub.Droid.Resource.Attribute.color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorAccent = global::FYP_GeeksClub.Droid.Resource.Attribute.colorAccent;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorBackgroundFloating = global::FYP_GeeksClub.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorButtonNormal = global::FYP_GeeksClub.Droid.Resource.Attribute.colorButtonNormal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlActivated = global::FYP_GeeksClub.Droid.Resource.Attribute.colorControlActivated;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlHighlight = global::FYP_GeeksClub.Droid.Resource.Attribute.colorControlHighlight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlNormal = global::FYP_GeeksClub.Droid.Resource.Attribute.colorControlNormal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorError = global::FYP_GeeksClub.Droid.Resource.Attribute.colorError;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimary = global::FYP_GeeksClub.Droid.Resource.Attribute.colorPrimary;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryDark = global::FYP_GeeksClub.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSecondary = global::FYP_GeeksClub.Droid.Resource.Attribute.colorSecondary;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSwitchThumbNormal = global::FYP_GeeksClub.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.commitIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.commitIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentDescription = global::FYP_GeeksClub.Droid.Resource.Attribute.contentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.contentInsetEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEndWithActions = global::FYP_GeeksClub.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetLeft = global::FYP_GeeksClub.Droid.Resource.Attribute.contentInsetLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetRight = global::FYP_GeeksClub.Droid.Resource.Attribute.contentInsetRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStart = global::FYP_GeeksClub.Droid.Resource.Attribute.contentInsetStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStartWithNavigation = global::FYP_GeeksClub.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.contentPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingBottom = global::FYP_GeeksClub.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingLeft = global::FYP_GeeksClub.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingRight = global::FYP_GeeksClub.Droid.Resource.Attribute.contentPaddingRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingTop = global::FYP_GeeksClub.Droid.Resource.Attribute.contentPaddingTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentScrim = global::FYP_GeeksClub.Droid.Resource.Attribute.contentScrim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.controlBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.controlBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.coordinatorLayoutStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerRadius = global::FYP_GeeksClub.Droid.Resource.Attribute.cornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.counterEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterMaxLength = global::FYP_GeeksClub.Droid.Resource.Attribute.counterMaxLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.counterTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.customNavigationLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.customNavigationLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.defaultQueryHint = global::FYP_GeeksClub.Droid.Resource.Attribute.defaultQueryHint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogCornerRadius = global::FYP_GeeksClub.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogPreferredPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.dialogTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.displayOptions = global::FYP_GeeksClub.Droid.Resource.Attribute.displayOptions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.divider = global::FYP_GeeksClub.Droid.Resource.Attribute.divider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerHorizontal = global::FYP_GeeksClub.Droid.Resource.Attribute.dividerHorizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.dividerPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerVertical = global::FYP_GeeksClub.Droid.Resource.Attribute.dividerVertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableBottomCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableBottomCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableEndCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableEndCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableLeftCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableLeftCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableRightCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableRightCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableSize = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableStartCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableStartCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTint = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTopCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.drawableTopCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerArrowStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropdownListPreferredItemHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.editTextBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.editTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.editTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevation = global::FYP_GeeksClub.Droid.Resource.Attribute.elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.enforceMaterialTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.enforceMaterialTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.enforceTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.enforceTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.errorEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.errorTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expanded = global::FYP_GeeksClub.Droid.Resource.Attribute.expanded;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMargin = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginBottom = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginStart = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginTop = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabAlignmentMode = global::FYP_GeeksClub.Droid.Resource.Attribute.fabAlignmentMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleMargin = global::FYP_GeeksClub.Droid.Resource.Attribute.fabCradleMargin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleRoundedCornerRadius = global::FYP_GeeksClub.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleVerticalOffset = global::FYP_GeeksClub.Droid.Resource.Attribute.fabCradleVerticalOffset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCustomSize = global::FYP_GeeksClub.Droid.Resource.Attribute.fabCustomSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabSize = global::FYP_GeeksClub.Droid.Resource.Attribute.fabSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.firstBaselineToTopHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.floatingActionButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.font = global::FYP_GeeksClub.Droid.Resource.Attribute.font;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontFamily = global::FYP_GeeksClub.Droid.Resource.Attribute.fontFamily;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderAuthority = global::FYP_GeeksClub.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderCerts = global::FYP_GeeksClub.Droid.Resource.Attribute.fontProviderCerts;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchStrategy = global::FYP_GeeksClub.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchTimeout = global::FYP_GeeksClub.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderPackage = global::FYP_GeeksClub.Droid.Resource.Attribute.fontProviderPackage;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderQuery = global::FYP_GeeksClub.Droid.Resource.Attribute.fontProviderQuery;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.fontStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontVariationSettings = global::FYP_GeeksClub.Droid.Resource.Attribute.fontVariationSettings;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontWeight = global::FYP_GeeksClub.Droid.Resource.Attribute.fontWeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.foregroundInsidePadding = global::FYP_GeeksClub.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gapBetweenBars = global::FYP_GeeksClub.Droid.Resource.Attribute.gapBetweenBars;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.goIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.goIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.headerLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.headerLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.height = global::FYP_GeeksClub.Droid.Resource.Attribute.height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperText = global::FYP_GeeksClub.Droid.Resource.Attribute.helperText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.helperTextEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.helperTextTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideMotionSpec = global::FYP_GeeksClub.Droid.Resource.Attribute.hideMotionSpec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnContentScroll = global::FYP_GeeksClub.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnScroll = global::FYP_GeeksClub.Droid.Resource.Attribute.hideOnScroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintAnimationEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.hintEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.hintTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeAsUpIndicator = global::FYP_GeeksClub.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.homeLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hoveredFocusedTranslationZ = global::FYP_GeeksClub.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.icon = global::FYP_GeeksClub.Droid.Resource.Attribute.icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconEndPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.iconEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.iconGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconifiedByDefault = global::FYP_GeeksClub.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.iconPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconSize = global::FYP_GeeksClub.Droid.Resource.Attribute.iconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconStartPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.iconStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTint = global::FYP_GeeksClub.Droid.Resource.Attribute.iconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.iconTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.imageButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.imageButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.indeterminateProgressStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.initialActivityCount = global::FYP_GeeksClub.Droid.Resource.Attribute.initialActivityCount;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.insetForeground = global::FYP_GeeksClub.Droid.Resource.Attribute.insetForeground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isLightTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.isLightTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.itemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemHorizontalPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.itemHorizontalPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemHorizontalTranslationEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.itemIconPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconSize = global::FYP_GeeksClub.Droid.Resource.Attribute.itemIconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconTint = global::FYP_GeeksClub.Droid.Resource.Attribute.itemIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.itemPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemSpacing = global::FYP_GeeksClub.Droid.Resource.Attribute.itemSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.itemTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearanceActive = global::FYP_GeeksClub.Droid.Resource.Attribute.itemTextAppearanceActive;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearanceInactive = global::FYP_GeeksClub.Droid.Resource.Attribute.itemTextAppearanceInactive;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.itemTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.keylines = global::FYP_GeeksClub.Droid.Resource.Attribute.keylines;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelVisibilityMode = global::FYP_GeeksClub.Droid.Resource.Attribute.labelVisibilityMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lastBaselineToBottomHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout = global::FYP_GeeksClub.Droid.Resource.Attribute.layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layoutManager = global::FYP_GeeksClub.Droid.Resource.Attribute.layoutManager;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchor = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_anchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchorGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_behavior = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseMode = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_collapseMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseParallaxMultiplier = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_dodgeInsetEdges = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_insetEdge = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_insetEdge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_keyline = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_keyline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollFlags = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollInterpolator = global::FYP_GeeksClub.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.liftOnScroll = global::FYP_GeeksClub.Droid.Resource.Attribute.liftOnScroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.lineHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineSpacing = global::FYP_GeeksClub.Droid.Resource.Attribute.lineSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceBackgroundIndicator = global::FYP_GeeksClub.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::FYP_GeeksClub.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::FYP_GeeksClub.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listDividerAlertDialog = global::FYP_GeeksClub.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listItemLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.listItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.listLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listMenuViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPopupWindowStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightLarge = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightSmall = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingLeft = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingRight = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingStart = global::FYP_GeeksClub.Droid.Resource.Attribute.listPreferredItemPaddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logo = global::FYP_GeeksClub.Droid.Resource.Attribute.logo;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logoDescription = global::FYP_GeeksClub.Droid.Resource.Attribute.logoDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.materialButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCardViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxActionInlineWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxButtonHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.maxButtonHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxImageSize = global::FYP_GeeksClub.Droid.Resource.Attribute.maxImageSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.measureWithLargestChild = global::FYP_GeeksClub.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.menu = global::FYP_GeeksClub.Droid.Resource.Attribute.menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.multiChoiceItemLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationContentDescription = global::FYP_GeeksClub.Droid.Resource.Attribute.navigationContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.navigationIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationMode = global::FYP_GeeksClub.Droid.Resource.Attribute.navigationMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.navigationViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.numericModifiers = global::FYP_GeeksClub.Droid.Resource.Attribute.numericModifiers;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.overlapAnchor = global::FYP_GeeksClub.Droid.Resource.Attribute.overlapAnchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomNoButtons = global::FYP_GeeksClub.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.paddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingStart = global::FYP_GeeksClub.Droid.Resource.Attribute.paddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingTopNoTitle = global::FYP_GeeksClub.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.panelBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleContentDescription = global::FYP_GeeksClub.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleDrawable = global::FYP_GeeksClub.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTint = global::FYP_GeeksClub.Droid.Resource.Attribute.passwordToggleTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.popupMenuStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupTheme = global::FYP_GeeksClub.Droid.Resource.Attribute.popupTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupWindowStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.popupWindowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.preserveIconSpacing = global::FYP_GeeksClub.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.pressedTranslationZ = global::FYP_GeeksClub.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.progressBarPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.progressBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.queryBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryHint = global::FYP_GeeksClub.Droid.Resource.Attribute.queryHint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.radioButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.radioButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.ratingBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleIndicator = global::FYP_GeeksClub.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleSmall = global::FYP_GeeksClub.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.recyclerViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.recyclerViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.reverseLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.reverseLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rippleColor = global::FYP_GeeksClub.Droid.Resource.Attribute.rippleColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimAnimationDuration = global::FYP_GeeksClub.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.scrimBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimVisibleHeightTrigger = global::FYP_GeeksClub.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchHintIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.searchHintIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.searchIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchViewStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.searchViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.seekBarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.seekBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.selectableItemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackgroundBorderless = global::FYP_GeeksClub.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showAsAction = global::FYP_GeeksClub.Droid.Resource.Attribute.showAsAction;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showDividers = global::FYP_GeeksClub.Droid.Resource.Attribute.showDividers;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showMotionSpec = global::FYP_GeeksClub.Droid.Resource.Attribute.showMotionSpec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showText = global::FYP_GeeksClub.Droid.Resource.Attribute.showText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showTitle = global::FYP_GeeksClub.Droid.Resource.Attribute.showTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleChoiceItemLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleLine = global::FYP_GeeksClub.Droid.Resource.Attribute.singleLine;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleSelection = global::FYP_GeeksClub.Droid.Resource.Attribute.singleSelection;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.snackbarButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.snackbarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spanCount = global::FYP_GeeksClub.Droid.Resource.Attribute.spanCount;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinBars = global::FYP_GeeksClub.Droid.Resource.Attribute.spinBars;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerDropDownItemStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.spinnerStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.splitTrack = global::FYP_GeeksClub.Droid.Resource.Attribute.splitTrack;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.srcCompat = global::FYP_GeeksClub.Droid.Resource.Attribute.srcCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.stackFromEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.stackFromEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_above_anchor = global::FYP_GeeksClub.Droid.Resource.Attribute.state_above_anchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsed = global::FYP_GeeksClub.Droid.Resource.Attribute.state_collapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsible = global::FYP_GeeksClub.Droid.Resource.Attribute.state_collapsible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_liftable = global::FYP_GeeksClub.Droid.Resource.Attribute.state_liftable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_lifted = global::FYP_GeeksClub.Droid.Resource.Attribute.state_lifted;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.statusBarBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarScrim = global::FYP_GeeksClub.Droid.Resource.Attribute.statusBarScrim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.strokeColor = global::FYP_GeeksClub.Droid.Resource.Attribute.strokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.strokeWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.strokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subMenuArrow = global::FYP_GeeksClub.Droid.Resource.Attribute.subMenuArrow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.submitBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.submitBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitle = global::FYP_GeeksClub.Droid.Resource.Attribute.subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.subtitleTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suggestionRowLayout = global::FYP_GeeksClub.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchMinWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.switchMinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.switchPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.switchStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.switchTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.tabBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabContentStart = global::FYP_GeeksClub.Droid.Resource.Attribute.tabContentStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.tabGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIconTint = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIconTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIconTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicator = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorAnimationDuration = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorColor = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorFullWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIndicatorFullWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorGravity = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIndicatorGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorHeight = global::FYP_GeeksClub.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabInlineLabel = global::FYP_GeeksClub.Droid.Resource.Attribute.tabInlineLabel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMaxWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.tabMaxWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMinWidth = global::FYP_GeeksClub.Droid.Resource.Attribute.tabMinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMode = global::FYP_GeeksClub.Droid.Resource.Attribute.tabMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.tabPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingBottom = global::FYP_GeeksClub.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingStart = global::FYP_GeeksClub.Droid.Resource.Attribute.tabPaddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingTop = global::FYP_GeeksClub.Droid.Resource.Attribute.tabPaddingTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabRippleColor = global::FYP_GeeksClub.Droid.Resource.Attribute.tabRippleColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabSelectedTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.tabStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.tabTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.tabTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabUnboundedRipple = global::FYP_GeeksClub.Droid.Resource.Attribute.tabUnboundedRipple;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAllCaps = global::FYP_GeeksClub.Droid.Resource.Attribute.textAllCaps;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceBody1 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceBody1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceBody2 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceBody2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceButton = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceCaption = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceCaption;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline1 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceHeadline1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline2 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceHeadline2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline3 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceHeadline3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline4 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceHeadline4;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline5 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceHeadline5;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline6 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceHeadline6;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLargePopupMenu = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItem = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSecondary = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSmall = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceOverline = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearancePopupMenuHeader = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultTitle = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSmallPopupMenu = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSubtitle1 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSubtitle2 = global::FYP_GeeksClub.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorAlertDialogListItem = global::FYP_GeeksClub.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorSearchUrl = global::FYP_GeeksClub.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textEndPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.textEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textInputStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.textInputStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textLocale = global::FYP_GeeksClub.Droid.Resource.Attribute.textLocale;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textStartPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.textStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.theme = global::FYP_GeeksClub.Droid.Resource.Attribute.theme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thickness = global::FYP_GeeksClub.Droid.Resource.Attribute.thickness;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTextPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.thumbTextPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTint = global::FYP_GeeksClub.Droid.Resource.Attribute.thumbTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.thumbTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMark = global::FYP_GeeksClub.Droid.Resource.Attribute.tickMark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTint = global::FYP_GeeksClub.Droid.Resource.Attribute.tickMarkTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tint = global::FYP_GeeksClub.Droid.Resource.Attribute.tint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.tintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.title = global::FYP_GeeksClub.Droid.Resource.Attribute.title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleEnabled = global::FYP_GeeksClub.Droid.Resource.Attribute.titleEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargin = global::FYP_GeeksClub.Droid.Resource.Attribute.titleMargin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginBottom = global::FYP_GeeksClub.Droid.Resource.Attribute.titleMarginBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginEnd = global::FYP_GeeksClub.Droid.Resource.Attribute.titleMarginEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargins = global::FYP_GeeksClub.Droid.Resource.Attribute.titleMargins;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginStart = global::FYP_GeeksClub.Droid.Resource.Attribute.titleMarginStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginTop = global::FYP_GeeksClub.Droid.Resource.Attribute.titleMarginTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Attribute.titleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextColor = global::FYP_GeeksClub.Droid.Resource.Attribute.titleTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.titleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarId = global::FYP_GeeksClub.Droid.Resource.Attribute.toolbarId;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarNavigationButtonStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarStyle = global::FYP_GeeksClub.Droid.Resource.Attribute.toolbarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipForegroundColor = global::FYP_GeeksClub.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipFrameBackground = global::FYP_GeeksClub.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipText = global::FYP_GeeksClub.Droid.Resource.Attribute.tooltipText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.track = global::FYP_GeeksClub.Droid.Resource.Attribute.track;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTint = global::FYP_GeeksClub.Droid.Resource.Attribute.trackTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTintMode = global::FYP_GeeksClub.Droid.Resource.Attribute.trackTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ttcIndex = global::FYP_GeeksClub.Droid.Resource.Attribute.ttcIndex;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useCompatPadding = global::FYP_GeeksClub.Droid.Resource.Attribute.useCompatPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.viewInflaterClass = global::FYP_GeeksClub.Droid.Resource.Attribute.viewInflaterClass;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.voiceIcon = global::FYP_GeeksClub.Droid.Resource.Attribute.voiceIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBar = global::FYP_GeeksClub.Droid.Resource.Attribute.windowActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBarOverlay = global::FYP_GeeksClub.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionModeOverlay = global::FYP_GeeksClub.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMajor = global::FYP_GeeksClub.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMinor = global::FYP_GeeksClub.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMajor = global::FYP_GeeksClub.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMinor = global::FYP_GeeksClub.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMajor = global::FYP_GeeksClub.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMinor = global::FYP_GeeksClub.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowNoTitle = global::FYP_GeeksClub.Droid.Resource.Attribute.windowNoTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_action_bar_embed_tabs = global::FYP_GeeksClub.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_allow_stacked_button_bar = global::FYP_GeeksClub.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FYP_GeeksClub.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::FYP_GeeksClub.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_light = global::FYP_GeeksClub.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_borderless_text_material = global::FYP_GeeksClub.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_text_material = global::FYP_GeeksClub.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_color_highlight_material = global::FYP_GeeksClub.Droid.Resource.Color.abc_color_highlight_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_light = global::FYP_GeeksClub.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_light = global::FYP_GeeksClub.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_light = global::FYP_GeeksClub.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text = global::FYP_GeeksClub.Droid.Resource.Color.abc_search_url_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_normal = global::FYP_GeeksClub.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_pressed = global::FYP_GeeksClub.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_selected = global::FYP_GeeksClub.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_light = global::FYP_GeeksClub.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_btn_checkable = global::FYP_GeeksClub.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_default = global::FYP_GeeksClub.Droid.Resource.Color.abc_tint_default;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_edittext = global::FYP_GeeksClub.Droid.Resource.Color.abc_tint_edittext;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_seek_thumb = global::FYP_GeeksClub.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_spinner = global::FYP_GeeksClub.Droid.Resource.Color.abc_tint_spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_switch_track = global::FYP_GeeksClub.Droid.Resource.Color.abc_tint_switch_track;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.accent_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_light = global::FYP_GeeksClub.Droid.Resource.Color.accent_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.background_floating_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_light = global::FYP_GeeksClub.Droid.Resource.Color.background_floating_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.background_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_light = global::FYP_GeeksClub.Droid.Resource.Color.background_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_light = global::FYP_GeeksClub.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_light = global::FYP_GeeksClub.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_light = global::FYP_GeeksClub.Droid.Resource.Color.bright_foreground_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_bg_grey = global::FYP_GeeksClub.Droid.Resource.Color.browser_actions_bg_grey;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_divider_color = global::FYP_GeeksClub.Droid.Resource.Color.browser_actions_divider_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_text_color = global::FYP_GeeksClub.Droid.Resource.Color.browser_actions_text_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_title_color = global::FYP_GeeksClub.Droid.Resource.Color.browser_actions_title_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.button_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_light = global::FYP_GeeksClub.Droid.Resource.Color.button_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_dark_background = global::FYP_GeeksClub.Droid.Resource.Color.cardview_dark_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_light_background = global::FYP_GeeksClub.Droid.Resource.Color.cardview_light_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_end_color = global::FYP_GeeksClub.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_start_color = global::FYP_GeeksClub.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_bottom_navigation_shadow_color = global::FYP_GeeksClub.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary = global::FYP_GeeksClub.Droid.Resource.Color.design_default_color_primary;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary_dark = global::FYP_GeeksClub.Droid.Resource.Color.design_default_color_primary_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_error = global::FYP_GeeksClub.Droid.Resource.Color.design_error;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_end_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_mid_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_start_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_inner_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_outer_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_inner_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_outer_color = global::FYP_GeeksClub.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_snackbar_background_color = global::FYP_GeeksClub.Droid.Resource.Color.design_snackbar_background_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_light = global::FYP_GeeksClub.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_light = global::FYP_GeeksClub.Droid.Resource.Color.dim_foreground_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.error_color_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.error_color_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.error_color_material_light = global::FYP_GeeksClub.Droid.Resource.Color.error_color_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.foreground_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_light = global::FYP_GeeksClub.Droid.Resource.Color.foreground_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_light = global::FYP_GeeksClub.Droid.Resource.Color.highlighted_text_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_800 = global::FYP_GeeksClub.Droid.Resource.Color.material_blue_grey_800;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_900 = global::FYP_GeeksClub.Droid.Resource.Color.material_blue_grey_900;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_950 = global::FYP_GeeksClub.Droid.Resource.Color.material_blue_grey_950;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_200 = global::FYP_GeeksClub.Droid.Resource.Color.material_deep_teal_200;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_500 = global::FYP_GeeksClub.Droid.Resource.Color.material_deep_teal_500;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_100 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_100;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_300 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_300;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_50 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_50;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_600 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_600;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_800 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_800;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_850 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_850;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_900 = global::FYP_GeeksClub.Droid.Resource.Color.material_grey_900;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_bottom_nav_item_tint = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_bg_color_selector = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_bg_color_selector;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_ripple_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_stroke_color_selector = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_btn_ripple_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_color_disabled = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_color_selector = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_text_color_selector;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_transparent_bg_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_background_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_chip_background_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_close_icon_tint = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_ripple_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_chip_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_text_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_chip_text_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_ripple_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_fab_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_scrim_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_scrim_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_colored_ripple_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_icon_color_selector = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_ripple_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_tabs_ripple_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_default_box_stroke_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_disabled_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_textinput_disabled_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_text_btn_text_color_selector = global::FYP_GeeksClub.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_action_color_filter = global::FYP_GeeksClub.Droid.Resource.Color.notification_action_color_filter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_icon_bg_color = global::FYP_GeeksClub.Droid.Resource.Color.notification_icon_bg_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_material_background_media_default_color = global::FYP_GeeksClub.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.primary_dark_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_light = global::FYP_GeeksClub.Droid.Resource.Color.primary_dark_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.primary_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_light = global::FYP_GeeksClub.Droid.Resource.Color.primary_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_light = global::FYP_GeeksClub.Droid.Resource.Color.primary_text_default_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_light = global::FYP_GeeksClub.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.ripple_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_light = global::FYP_GeeksClub.Droid.Resource.Color.ripple_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_light = global::FYP_GeeksClub.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_light = global::FYP_GeeksClub.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_light = global::FYP_GeeksClub.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_light = global::FYP_GeeksClub.Droid.Resource.Color.switch_thumb_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_dark = global::FYP_GeeksClub.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_light = global::FYP_GeeksClub.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_dark = global::FYP_GeeksClub.Droid.Resource.Color.tooltip_background_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_light = global::FYP_GeeksClub.Droid.Resource.Color.tooltip_background_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_height_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_elevation_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_max_height = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_height_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_alert_dialog_button_dimen = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_horizontal_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_vertical_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_horizontal_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_vertical_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_config_prefDialogWidth = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_corner_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_inset_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_padding_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_corner_radius_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_major = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_minor = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_major = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_minor = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_major = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_minor = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_top_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_title_divider_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_dark = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_light = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_icon_width = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_top_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_floating_window_z = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_large_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_list_item_height_large_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_list_item_height_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_small_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_list_item_height_small_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_panel_menu_list_width = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_progress_bar_height_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_height = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_width = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_background_height_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_select_dialog_padding_start_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_switch_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_switch_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_1_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_2_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_button_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_caption_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_1_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_2_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_3_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_4_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_headline_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_large_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_medium_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_header_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_small_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subhead_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material_toolbar = global::FYP_GeeksClub.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.browser_actions_context_menu_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.browser_actions_context_menu_min_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_compat_inset_shadow = global::FYP_GeeksClub.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_radius = global::FYP_GeeksClub.Droid.Resource.Dimension.cardview_default_radius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_horizontal_material = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_vertical_material = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_horizontal_material = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_vertical_material = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_control_corner_material = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_notification_large_icon_max_height = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_notification_large_icon_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_appbar_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_height = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_icon_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_min_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_shadow_height = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FYP_GeeksClub.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_border_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_border_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_image_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_image_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_mini = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_normal = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_translation_z_hovered_focused = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_translation_z_pressed = global::FYP_GeeksClub.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_item_horizontal_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_item_icon_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_item_icon_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_padding_bottom = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_separator_vertical_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_inline_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_background_corner_radius = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_min_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_horizontal = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_max_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_tab_max_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_scrollable_min_width = global::FYP_GeeksClub.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.design_tab_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size_2line = global::FYP_GeeksClub.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_textinput_caption_translate_y = global::FYP_GeeksClub.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_dark = global::FYP_GeeksClub.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_light = global::FYP_GeeksClub.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_default_thickness = global::FYP_GeeksClub.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.fastscroll_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_minimum_range = global::FYP_GeeksClub.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_colored = global::FYP_GeeksClub.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_dark = global::FYP_GeeksClub.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_light = global::FYP_GeeksClub.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_dark = global::FYP_GeeksClub.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_light = global::FYP_GeeksClub.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_dark = global::FYP_GeeksClub.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_light = global::FYP_GeeksClub.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FYP_GeeksClub.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FYP_GeeksClub.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FYP_GeeksClub.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_height = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_bottomappbar_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_corner_radius = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_corner_radius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_disabled_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_disabled_z = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_disabled_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_focused_z = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_focused_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_hovered_z = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_hovered_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_icon_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_icon_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_inset = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_inset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_letter_spacing = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_bottom = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_left = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_padding_left;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_right = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_padding_right;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_top = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_padding_top;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_pressed_z = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_pressed_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_stroke_size = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_stroke_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_z = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_btn_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_card_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_spacing = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_card_spacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_chip_pressed_translation_z = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_chip_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_fab_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_translation_z_pressed = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_elevation = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_navigation_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_icon_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_snackbar_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_toolbar_default_height = global::FYP_GeeksClub.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_icon_size = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_text_size = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_action_text_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_big_circle_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_content_margin_start = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_height = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_width = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_main_column_padding_top = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_media_narrow_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_icon_size = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_side_padding_top = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_background_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_size_as_large = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_subtext_size = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_subtext_size;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_top_pad;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad_large_text = global::FYP_GeeksClub.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_corner_radius = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_horizontal_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_margin = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_margin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_threshold = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_vertical_padding = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_non_touch = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_touch = global::FYP_GeeksClub.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_action_bar_item_background_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_borderless_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material_anim = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_check_material_anim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_colored_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_default_mtrl_shape = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material_anim = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_radio_material_anim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_internal_bg = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_control_background_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_control_background_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_dialog_material_background = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_edit_text_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_ab_back_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_clear_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_go_search_api_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_overflow_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_search_api_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_16dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_36dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_48dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_16dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_36dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_48dp = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_voice_search_api_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_divider_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_focused_holo = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_longpressed_holo = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_popup_background_mtrl_mult = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_indicator_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_small_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_thumb_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_tick_mark_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_track_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_textfield_background_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_thumb_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_cursor_material = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_vector_test = global::FYP_GeeksClub.Droid.Resource.Drawable.abc_vector_test;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar1 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar10 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar10;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar11 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar11;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar12 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar12;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar13 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar13;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar14 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar14;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar15 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar15;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar16 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar16;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar17 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar17;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar18 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar18;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar19 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar19;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar2 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar20 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar20;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar21 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar21;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar22 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar22;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar23 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar23;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar24 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar24;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar25 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar25;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar26 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar26;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar27 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar27;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar28 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar28;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar29 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar29;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar3 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar30 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar30;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar4 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar4;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar5 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar5;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar6 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar6;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar7 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar7;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar8 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar8;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar9 = global::FYP_GeeksClub.Droid.Resource.Drawable.Avatar9;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_hide_password = global::FYP_GeeksClub.Droid.Resource.Drawable.avd_hide_password;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_show_password = global::FYP_GeeksClub.Droid.Resource.Drawable.avd_show_password;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_checked_mtrl = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_off_mtrl = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_radio_off_mtrl;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_on_mtrl = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_radio_on_mtrl;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::FYP_GeeksClub.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.clear_button_icon = global::FYP_GeeksClub.Droid.Resource.Drawable.clear_button_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_bottom_navigation_item_background = global::FYP_GeeksClub.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_fab_background = global::FYP_GeeksClub.Droid.Resource.Drawable.design_fab_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility = global::FYP_GeeksClub.Droid.Resource.Drawable.design_ic_visibility;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility_off = global::FYP_GeeksClub.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_password_eye = global::FYP_GeeksClub.Droid.Resource.Drawable.design_password_eye;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_snackbar_background = global::FYP_GeeksClub.Droid.Resource.Drawable.design_snackbar_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.dropdownbuttonimage = global::FYP_GeeksClub.Droid.Resource.Drawable.dropdownbuttonimage;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_black = global::FYP_GeeksClub.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_circle = global::FYP_GeeksClub.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_close_circle = global::FYP_GeeksClub.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::FYP_GeeksClub.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::FYP_GeeksClub.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::FYP_GeeksClub.Droid.Resource.Drawable.input_layout_drop_down_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_tabs_default_indicator = global::FYP_GeeksClub.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::FYP_GeeksClub.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_action_background = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_action_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_bg;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_bg_low;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_normal = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_pressed = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_bg_normal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal_pressed = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_icon_background = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_icon_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_bg = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_low_bg = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_tile_bg = global::FYP_GeeksClub.Droid.Resource.Drawable.notification_tile_bg;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notify_panel_notification_icon_bg = global::FYP_GeeksClub.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_dark = global::FYP_GeeksClub.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_light = global::FYP_GeeksClub.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_action_clickable_span = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_0 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_0;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_1 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_10 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_10;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_11 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_11;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_12 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_12;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_13 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_13;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_14 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_14;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_15 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_15;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_16 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_16;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_17 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_17;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_18 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_18;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_19 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_19;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_2 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_20 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_20;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_21 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_21;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_22 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_22;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_23 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_23;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_24 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_24;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_25 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_25;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_26 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_26;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_27 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_27;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_28 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_28;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_29 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_29;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_3 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_30 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_30;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_31 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_31;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_4 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_4;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_5 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_5;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_6 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_6;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_7 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_7;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_8 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_8;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_9 = global::FYP_GeeksClub.Droid.Resource.Id.accessibility_custom_action_9;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action0 = global::FYP_GeeksClub.Droid.Resource.Id.action0;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.actions = global::FYP_GeeksClub.Droid.Resource.Id.actions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar = global::FYP_GeeksClub.Droid.Resource.Id.action_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_activity_content = global::FYP_GeeksClub.Droid.Resource.Id.action_bar_activity_content;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_container = global::FYP_GeeksClub.Droid.Resource.Id.action_bar_container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_root = global::FYP_GeeksClub.Droid.Resource.Id.action_bar_root;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_spinner = global::FYP_GeeksClub.Droid.Resource.Id.action_bar_spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_subtitle = global::FYP_GeeksClub.Droid.Resource.Id.action_bar_subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_title = global::FYP_GeeksClub.Droid.Resource.Id.action_bar_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_container = global::FYP_GeeksClub.Droid.Resource.Id.action_container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_context_bar = global::FYP_GeeksClub.Droid.Resource.Id.action_context_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_divider = global::FYP_GeeksClub.Droid.Resource.Id.action_divider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_image = global::FYP_GeeksClub.Droid.Resource.Id.action_image;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_divider = global::FYP_GeeksClub.Droid.Resource.Id.action_menu_divider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_presenter = global::FYP_GeeksClub.Droid.Resource.Id.action_menu_presenter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar = global::FYP_GeeksClub.Droid.Resource.Id.action_mode_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar_stub = global::FYP_GeeksClub.Droid.Resource.Id.action_mode_bar_stub;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_close_button = global::FYP_GeeksClub.Droid.Resource.Id.action_mode_close_button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_text = global::FYP_GeeksClub.Droid.Resource.Id.action_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.activity_chooser_view_content = global::FYP_GeeksClub.Droid.Resource.Id.activity_chooser_view_content;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.add = global::FYP_GeeksClub.Droid.Resource.Id.add;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.alertTitle = global::FYP_GeeksClub.Droid.Resource.Id.alertTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.all = global::FYP_GeeksClub.Droid.Resource.Id.all;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ALT = global::FYP_GeeksClub.Droid.Resource.Id.ALT;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.always = global::FYP_GeeksClub.Droid.Resource.Id.always;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.async = global::FYP_GeeksClub.Droid.Resource.Id.async;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.auto = global::FYP_GeeksClub.Droid.Resource.Id.auto;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.beginning = global::FYP_GeeksClub.Droid.Resource.Id.beginning;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.blocking = global::FYP_GeeksClub.Droid.Resource.Id.blocking;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottom = global::FYP_GeeksClub.Droid.Resource.Id.bottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_navarea = global::FYP_GeeksClub.Droid.Resource.Id.bottomtab_navarea;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_tabbar = global::FYP_GeeksClub.Droid.Resource.Id.bottomtab_tabbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_header_text = global::FYP_GeeksClub.Droid.Resource.Id.browser_actions_header_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_items = global::FYP_GeeksClub.Droid.Resource.Id.browser_actions_menu_items;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_icon = global::FYP_GeeksClub.Droid.Resource.Id.browser_actions_menu_item_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_text = global::FYP_GeeksClub.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_view = global::FYP_GeeksClub.Droid.Resource.Id.browser_actions_menu_view;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.buttonPanel = global::FYP_GeeksClub.Droid.Resource.Id.buttonPanel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cancel_action = global::FYP_GeeksClub.Droid.Resource.Id.cancel_action;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center = global::FYP_GeeksClub.Droid.Resource.Id.center;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_horizontal = global::FYP_GeeksClub.Droid.Resource.Id.center_horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_vertical = global::FYP_GeeksClub.Droid.Resource.Id.center_vertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.checkbox = global::FYP_GeeksClub.Droid.Resource.Id.checkbox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@checked = global::FYP_GeeksClub.Droid.Resource.Id.@checked;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chronometer = global::FYP_GeeksClub.Droid.Resource.Id.chronometer;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_horizontal = global::FYP_GeeksClub.Droid.Resource.Id.clip_horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_vertical = global::FYP_GeeksClub.Droid.Resource.Id.clip_vertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.collapseActionView = global::FYP_GeeksClub.Droid.Resource.Id.collapseActionView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.container = global::FYP_GeeksClub.Droid.Resource.Id.container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.content = global::FYP_GeeksClub.Droid.Resource.Id.content;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.contentPanel = global::FYP_GeeksClub.Droid.Resource.Id.contentPanel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.coordinator = global::FYP_GeeksClub.Droid.Resource.Id.coordinator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.CTRL = global::FYP_GeeksClub.Droid.Resource.Id.CTRL;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.custom = global::FYP_GeeksClub.Droid.Resource.Id.custom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.customPanel = global::FYP_GeeksClub.Droid.Resource.Id.customPanel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.decor_content_parent = global::FYP_GeeksClub.Droid.Resource.Id.decor_content_parent;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.default_activity_button = global::FYP_GeeksClub.Droid.Resource.Id.default_activity_button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_bottom_sheet = global::FYP_GeeksClub.Droid.Resource.Id.design_bottom_sheet;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area = global::FYP_GeeksClub.Droid.Resource.Id.design_menu_item_action_area;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area_stub = global::FYP_GeeksClub.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_text = global::FYP_GeeksClub.Droid.Resource.Id.design_menu_item_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_navigation_view = global::FYP_GeeksClub.Droid.Resource.Id.design_navigation_view;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.dialog_button = global::FYP_GeeksClub.Droid.Resource.Id.dialog_button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.disableHome = global::FYP_GeeksClub.Droid.Resource.Id.disableHome;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.edit_query = global::FYP_GeeksClub.Droid.Resource.Id.edit_query;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end = global::FYP_GeeksClub.Droid.Resource.Id.end;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end_padder = global::FYP_GeeksClub.Droid.Resource.Id.end_padder;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlways = global::FYP_GeeksClub.Droid.Resource.Id.enterAlways;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlwaysCollapsed = global::FYP_GeeksClub.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.exitUntilCollapsed = global::FYP_GeeksClub.Droid.Resource.Id.exitUntilCollapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expanded_menu = global::FYP_GeeksClub.Droid.Resource.Id.expanded_menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::FYP_GeeksClub.Droid.Resource.Id.expand_activities_button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill = global::FYP_GeeksClub.Droid.Resource.Id.fill;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.filled = global::FYP_GeeksClub.Droid.Resource.Id.filled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_horizontal = global::FYP_GeeksClub.Droid.Resource.Id.fill_horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_vertical = global::FYP_GeeksClub.Droid.Resource.Id.fill_vertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@fixed = global::FYP_GeeksClub.Droid.Resource.Id.@fixed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_appbar = global::FYP_GeeksClub.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.forever = global::FYP_GeeksClub.Droid.Resource.Id.forever;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.FUNCTION = global::FYP_GeeksClub.Droid.Resource.Id.FUNCTION;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view = global::FYP_GeeksClub.Droid.Resource.Id.ghost_view;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view_holder = global::FYP_GeeksClub.Droid.Resource.Id.ghost_view_holder;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.group_divider = global::FYP_GeeksClub.Droid.Resource.Id.group_divider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.home = global::FYP_GeeksClub.Droid.Resource.Id.home;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.homeAsUp = global::FYP_GeeksClub.Droid.Resource.Id.homeAsUp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon = global::FYP_GeeksClub.Droid.Resource.Id.icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon_group = global::FYP_GeeksClub.Droid.Resource.Id.icon_group;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ifRoom = global::FYP_GeeksClub.Droid.Resource.Id.ifRoom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.image = global::FYP_GeeksClub.Droid.Resource.Id.image;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.info = global::FYP_GeeksClub.Droid.Resource.Id.info;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.italic = global::FYP_GeeksClub.Droid.Resource.Id.italic;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.Itemname = global::FYP_GeeksClub.Droid.Resource.Id.Itemname;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.item_touch_helper_previous_elevation = global::FYP_GeeksClub.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.labeled = global::FYP_GeeksClub.Droid.Resource.Id.labeled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.largeLabel = global::FYP_GeeksClub.Droid.Resource.Id.largeLabel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.left = global::FYP_GeeksClub.Droid.Resource.Id.left;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line1 = global::FYP_GeeksClub.Droid.Resource.Id.line1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line3 = global::FYP_GeeksClub.Droid.Resource.Id.line3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.listMode = global::FYP_GeeksClub.Droid.Resource.Id.listMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.list_item = global::FYP_GeeksClub.Droid.Resource.Id.list_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_appbar = global::FYP_GeeksClub.Droid.Resource.Id.main_appbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_tablayout = global::FYP_GeeksClub.Droid.Resource.Id.main_tablayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_toolbar = global::FYP_GeeksClub.Droid.Resource.Id.main_toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_viewpager = global::FYP_GeeksClub.Droid.Resource.Id.main_viewpager;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.masked = global::FYP_GeeksClub.Droid.Resource.Id.masked;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.media_actions = global::FYP_GeeksClub.Droid.Resource.Id.media_actions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.message = global::FYP_GeeksClub.Droid.Resource.Id.message;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.META = global::FYP_GeeksClub.Droid.Resource.Id.META;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.middle = global::FYP_GeeksClub.Droid.Resource.Id.middle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mini = global::FYP_GeeksClub.Droid.Resource.Id.mini;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_child_content_container = global::FYP_GeeksClub.Droid.Resource.Id.mtrl_child_content_container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_internal_children_alpha_tag = global::FYP_GeeksClub.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.multiply = global::FYP_GeeksClub.Droid.Resource.Id.multiply;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.navigation_header_container = global::FYP_GeeksClub.Droid.Resource.Id.navigation_header_container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.never = global::FYP_GeeksClub.Droid.Resource.Id.never;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.none = global::FYP_GeeksClub.Droid.Resource.Id.none;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.normal = global::FYP_GeeksClub.Droid.Resource.Id.normal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_background = global::FYP_GeeksClub.Droid.Resource.Id.notification_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column = global::FYP_GeeksClub.Droid.Resource.Id.notification_main_column;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column_container = global::FYP_GeeksClub.Droid.Resource.Id.notification_main_column_container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.off = global::FYP_GeeksClub.Droid.Resource.Id.off;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.on = global::FYP_GeeksClub.Droid.Resource.Id.on;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.outline = global::FYP_GeeksClub.Droid.Resource.Id.outline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parallax = global::FYP_GeeksClub.Droid.Resource.Id.parallax;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parentPanel = global::FYP_GeeksClub.Droid.Resource.Id.parentPanel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parent_matrix = global::FYP_GeeksClub.Droid.Resource.Id.parent_matrix;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.pin = global::FYP_GeeksClub.Droid.Resource.Id.pin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_circular = global::FYP_GeeksClub.Droid.Resource.Id.progress_circular;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_horizontal = global::FYP_GeeksClub.Droid.Resource.Id.progress_horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.radio = global::FYP_GeeksClub.Droid.Resource.Id.radio;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right = global::FYP_GeeksClub.Droid.Resource.Id.right;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_icon = global::FYP_GeeksClub.Droid.Resource.Id.right_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_side = global::FYP_GeeksClub.Droid.Resource.Id.right_side;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_non_transition_alpha = global::FYP_GeeksClub.Droid.Resource.Id.save_non_transition_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_overlay_view = global::FYP_GeeksClub.Droid.Resource.Id.save_overlay_view;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.screen = global::FYP_GeeksClub.Droid.Resource.Id.screen;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scroll = global::FYP_GeeksClub.Droid.Resource.Id.scroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::FYP_GeeksClub.Droid.Resource.Id.scrollable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorDown = global::FYP_GeeksClub.Droid.Resource.Id.scrollIndicatorDown;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorUp = global::FYP_GeeksClub.Droid.Resource.Id.scrollIndicatorUp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollView = global::FYP_GeeksClub.Droid.Resource.Id.scrollView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_badge = global::FYP_GeeksClub.Droid.Resource.Id.search_badge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_bar = global::FYP_GeeksClub.Droid.Resource.Id.search_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_button = global::FYP_GeeksClub.Droid.Resource.Id.search_button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_close_btn = global::FYP_GeeksClub.Droid.Resource.Id.search_close_btn;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_edit_frame = global::FYP_GeeksClub.Droid.Resource.Id.search_edit_frame;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_go_btn = global::FYP_GeeksClub.Droid.Resource.Id.search_go_btn;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_mag_icon = global::FYP_GeeksClub.Droid.Resource.Id.search_mag_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_plate = global::FYP_GeeksClub.Droid.Resource.Id.search_plate;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_src_text = global::FYP_GeeksClub.Droid.Resource.Id.search_src_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_voice_btn = global::FYP_GeeksClub.Droid.Resource.Id.search_voice_btn;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.selected = global::FYP_GeeksClub.Droid.Resource.Id.selected;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.select_dialog_listview = global::FYP_GeeksClub.Droid.Resource.Id.select_dialog_listview;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_appbar = global::FYP_GeeksClub.Droid.Resource.Id.shellcontent_appbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_toolbar = global::FYP_GeeksClub.Droid.Resource.Id.shellcontent_toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SHIFT = global::FYP_GeeksClub.Droid.Resource.Id.SHIFT;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shortcut = global::FYP_GeeksClub.Droid.Resource.Id.shortcut;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showCustom = global::FYP_GeeksClub.Droid.Resource.Id.showCustom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showHome = global::FYP_GeeksClub.Droid.Resource.Id.showHome;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showTitle = global::FYP_GeeksClub.Droid.Resource.Id.showTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.sliding_tabs = global::FYP_GeeksClub.Droid.Resource.Id.sliding_tabs;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.smallLabel = global::FYP_GeeksClub.Droid.Resource.Id.smallLabel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_action = global::FYP_GeeksClub.Droid.Resource.Id.snackbar_action;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_text = global::FYP_GeeksClub.Droid.Resource.Id.snackbar_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snap = global::FYP_GeeksClub.Droid.Resource.Id.snap;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snapMargins = global::FYP_GeeksClub.Droid.Resource.Id.snapMargins;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.spacer = global::FYP_GeeksClub.Droid.Resource.Id.spacer;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.split_action_bar = global::FYP_GeeksClub.Droid.Resource.Id.split_action_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_atop = global::FYP_GeeksClub.Droid.Resource.Id.src_atop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_in = global::FYP_GeeksClub.Droid.Resource.Id.src_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_over = global::FYP_GeeksClub.Droid.Resource.Id.src_over;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.start = global::FYP_GeeksClub.Droid.Resource.Id.start;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.status_bar_latest_event_content = global::FYP_GeeksClub.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.stretch = global::FYP_GeeksClub.Droid.Resource.Id.stretch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submenuarrow = global::FYP_GeeksClub.Droid.Resource.Id.submenuarrow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submit_area = global::FYP_GeeksClub.Droid.Resource.Id.submit_area;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SYM = global::FYP_GeeksClub.Droid.Resource.Id.SYM;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tabMode = global::FYP_GeeksClub.Droid.Resource.Id.tabMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_actions = global::FYP_GeeksClub.Droid.Resource.Id.tag_accessibility_actions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_clickable_spans = global::FYP_GeeksClub.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_heading = global::FYP_GeeksClub.Droid.Resource.Id.tag_accessibility_heading;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_pane_title = global::FYP_GeeksClub.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_screen_reader_focusable = global::FYP_GeeksClub.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_transition_group = global::FYP_GeeksClub.Droid.Resource.Id.tag_transition_group;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_event_manager = global::FYP_GeeksClub.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_listeners = global::FYP_GeeksClub.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text = global::FYP_GeeksClub.Droid.Resource.Id.text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text2 = global::FYP_GeeksClub.Droid.Resource.Id.text2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::FYP_GeeksClub.Droid.Resource.Id.textinput_counter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::FYP_GeeksClub.Droid.Resource.Id.textinput_error;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_helper_text = global::FYP_GeeksClub.Droid.Resource.Id.textinput_helper_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoButtons = global::FYP_GeeksClub.Droid.Resource.Id.textSpacerNoButtons;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoTitle = global::FYP_GeeksClub.Droid.Resource.Id.textSpacerNoTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textStart = global::FYP_GeeksClub.Droid.Resource.Id.textStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.time = global::FYP_GeeksClub.Droid.Resource.Id.time;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title = global::FYP_GeeksClub.Droid.Resource.Id.title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.titleDividerNoCustom = global::FYP_GeeksClub.Droid.Resource.Id.titleDividerNoCustom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title_template = global::FYP_GeeksClub.Droid.Resource.Id.title_template;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.toolbar = global::FYP_GeeksClub.Droid.Resource.Id.toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.top = global::FYP_GeeksClub.Droid.Resource.Id.top;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.topPanel = global::FYP_GeeksClub.Droid.Resource.Id.topPanel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.touch_outside = global::FYP_GeeksClub.Droid.Resource.Id.touch_outside;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_current_scene = global::FYP_GeeksClub.Droid.Resource.Id.transition_current_scene;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_layout_save = global::FYP_GeeksClub.Droid.Resource.Id.transition_layout_save;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_position = global::FYP_GeeksClub.Droid.Resource.Id.transition_position;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_scene_layoutid_cache = global::FYP_GeeksClub.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_transform = global::FYP_GeeksClub.Droid.Resource.Id.transition_transform;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@unchecked = global::FYP_GeeksClub.Droid.Resource.Id.@unchecked;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.uniform = global::FYP_GeeksClub.Droid.Resource.Id.uniform;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.unlabeled = global::FYP_GeeksClub.Droid.Resource.Id.unlabeled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.up = global::FYP_GeeksClub.Droid.Resource.Id.up;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.useLogo = global::FYP_GeeksClub.Droid.Resource.Id.useLogo;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_offset_helper = global::FYP_GeeksClub.Droid.Resource.Id.view_offset_helper;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible = global::FYP_GeeksClub.Droid.Resource.Id.visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.withText = global::FYP_GeeksClub.Droid.Resource.Id.withText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.wrap_content = global::FYP_GeeksClub.Droid.Resource.Id.wrap_content;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityDefaultDur = global::FYP_GeeksClub.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityShortDur = global::FYP_GeeksClub.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.app_bar_elevation_anim_duration = global::FYP_GeeksClub.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.bottom_sheet_slide_duration = global::FYP_GeeksClub.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.cancel_button_image_alpha = global::FYP_GeeksClub.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.config_tooltipAnimTime = global::FYP_GeeksClub.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_snackbar_text_max_lines = global::FYP_GeeksClub.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_tab_indicator_anim_duration_ms = global::FYP_GeeksClub.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.hide_password_duration = global::FYP_GeeksClub.Droid.Resource.Integer.hide_password_duration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_btn_anim_delay_ms = global::FYP_GeeksClub.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_btn_anim_duration_ms = global::FYP_GeeksClub.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_chip_anim_duration = global::FYP_GeeksClub.Droid.Resource.Integer.mtrl_chip_anim_duration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::FYP_GeeksClub.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.show_password_duration = global::FYP_GeeksClub.Droid.Resource.Integer.show_password_duration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.status_bar_notification_info_maxnum = global::FYP_GeeksClub.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::FYP_GeeksClub.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::FYP_GeeksClub.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::FYP_GeeksClub.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::FYP_GeeksClub.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::FYP_GeeksClub.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::FYP_GeeksClub.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.fast_out_slow_in = global::FYP_GeeksClub.Droid.Resource.Interpolator.fast_out_slow_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_fast_out_linear_in = global::FYP_GeeksClub.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_fast_out_slow_in = global::FYP_GeeksClub.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_linear = global::FYP_GeeksClub.Droid.Resource.Interpolator.mtrl_linear;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_linear_out_slow_in = global::FYP_GeeksClub.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_title_item = global::FYP_GeeksClub.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_up_container = global::FYP_GeeksClub.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_item_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_bar = global::FYP_GeeksClub.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_close_item_material = global::FYP_GeeksClub.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view = global::FYP_GeeksClub.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view_list_item = global::FYP_GeeksClub.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_button_bar_material = global::FYP_GeeksClub.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_material = global::FYP_GeeksClub.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_title_material = global::FYP_GeeksClub.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_cascading_menu_item_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_dialog_title_material = global::FYP_GeeksClub.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_expanded_menu_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_checkbox = global::FYP_GeeksClub.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_icon = global::FYP_GeeksClub.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_radio = global::FYP_GeeksClub.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_header_item_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_item_layout = global::FYP_GeeksClub.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_content_include = global::FYP_GeeksClub.Droid.Resource.Layout.abc_screen_content_include;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple = global::FYP_GeeksClub.Droid.Resource.Layout.abc_screen_simple;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FYP_GeeksClub.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_toolbar = global::FYP_GeeksClub.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FYP_GeeksClub.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_view = global::FYP_GeeksClub.Droid.Resource.Layout.abc_search_view;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_select_dialog_material = global::FYP_GeeksClub.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_tooltip = global::FYP_GeeksClub.Droid.Resource.Layout.abc_tooltip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.BottomTabLayout = global::FYP_GeeksClub.Droid.Resource.Layout.BottomTabLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.browser_actions_context_menu_page = global::FYP_GeeksClub.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.browser_actions_context_menu_row = global::FYP_GeeksClub.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedImageView = global::FYP_GeeksClub.Droid.Resource.Layout.CustomizedImageView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedView = global::FYP_GeeksClub.Droid.Resource.Layout.CustomizedView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.custom_dialog = global::FYP_GeeksClub.Droid.Resource.Layout.custom_dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_navigation_item = global::FYP_GeeksClub.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_sheet_dialog = global::FYP_GeeksClub.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar = global::FYP_GeeksClub.Droid.Resource.Layout.design_layout_snackbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar_include = global::FYP_GeeksClub.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_icon = global::FYP_GeeksClub.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_text = global::FYP_GeeksClub.Droid.Resource.Layout.design_layout_tab_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_menu_item_action_area = global::FYP_GeeksClub.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item = global::FYP_GeeksClub.Droid.Resource.Layout.design_navigation_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_header = global::FYP_GeeksClub.Droid.Resource.Layout.design_navigation_item_header;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_separator = global::FYP_GeeksClub.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_subheader = global::FYP_GeeksClub.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu = global::FYP_GeeksClub.Droid.Resource.Layout.design_navigation_menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu_item = global::FYP_GeeksClub.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackTabbarDoNotUse = global::FYP_GeeksClub.Droid.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackToolbarDoNotUse = global::FYP_GeeksClub.Droid.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FlyoutContent = global::FYP_GeeksClub.Droid.Resource.Layout.FlyoutContent;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar = global::FYP_GeeksClub.Droid.Resource.Layout.mtrl_layout_snackbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar_include = global::FYP_GeeksClub.Droid.Resource.Layout.mtrl_layout_snackbar_include;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action = global::FYP_GeeksClub.Droid.Resource.Layout.notification_action;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action_tombstone = global::FYP_GeeksClub.Droid.Resource.Layout.notification_action_tombstone;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_media_action = global::FYP_GeeksClub.Droid.Resource.Layout.notification_media_action;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_media_cancel_action = global::FYP_GeeksClub.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_big_media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media_custom = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media_narrow = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media_narrow_custom = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_custom_big = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_custom_big;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_icon_group = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_icon_group;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_lines_media = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_lines_media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_media = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_media_custom = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_media_custom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_chronometer = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_time = global::FYP_GeeksClub.Droid.Resource.Layout.notification_template_part_time;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.RootLayout = global::FYP_GeeksClub.Droid.Resource.Layout.RootLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_item_material = global::FYP_GeeksClub.Droid.Resource.Layout.select_dialog_item_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_multichoice_material = global::FYP_GeeksClub.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_singlechoice_material = global::FYP_GeeksClub.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.sfcomboBox_layout = global::FYP_GeeksClub.Droid.Resource.Layout.sfcomboBox_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.ShellContent = global::FYP_GeeksClub.Droid.Resource.Layout.ShellContent;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.support_simple_spinner_dropdown_item = global::FYP_GeeksClub.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Tabbar = global::FYP_GeeksClub.Droid.Resource.Layout.Tabbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Toolbar = global::FYP_GeeksClub.Droid.Resource.Layout.Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_home_description = global::FYP_GeeksClub.Droid.Resource.String.abc_action_bar_home_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_up_description = global::FYP_GeeksClub.Droid.Resource.String.abc_action_bar_up_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_menu_overflow_description = global::FYP_GeeksClub.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_mode_done = global::FYP_GeeksClub.Droid.Resource.String.abc_action_mode_done;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activitychooserview_choose_application = global::FYP_GeeksClub.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activity_chooser_view_see_all = global::FYP_GeeksClub.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_off = global::FYP_GeeksClub.Droid.Resource.String.abc_capital_off;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_on = global::FYP_GeeksClub.Droid.Resource.String.abc_capital_on;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_alt_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_ctrl_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_delete_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_enter_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_function_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_meta_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_shift_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_space_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_sym_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_prepend_shortcut_label = global::FYP_GeeksClub.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_clear = global::FYP_GeeksClub.Droid.Resource.String.abc_searchview_description_clear;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_query = global::FYP_GeeksClub.Droid.Resource.String.abc_searchview_description_query;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_search = global::FYP_GeeksClub.Droid.Resource.String.abc_searchview_description_search;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_submit = global::FYP_GeeksClub.Droid.Resource.String.abc_searchview_description_submit;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_voice = global::FYP_GeeksClub.Droid.Resource.String.abc_searchview_description_voice;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_search_hint = global::FYP_GeeksClub.Droid.Resource.String.abc_search_hint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with = global::FYP_GeeksClub.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with_application = global::FYP_GeeksClub.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_toolbar_collapse_description = global::FYP_GeeksClub.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.appbar_scrolling_view_behavior = global::FYP_GeeksClub.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.bottom_sheet_behavior = global::FYP_GeeksClub.Droid.Resource.String.bottom_sheet_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_content_description = global::FYP_GeeksClub.Droid.Resource.String.character_counter_content_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_pattern = global::FYP_GeeksClub.Droid.Resource.String.character_counter_pattern;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fab_transformation_scrim_behavior = global::FYP_GeeksClub.Droid.Resource.String.fab_transformation_scrim_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fab_transformation_sheet_behavior = global::FYP_GeeksClub.Droid.Resource.String.fab_transformation_sheet_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.hide_bottom_view_on_scroll_behavior = global::FYP_GeeksClub.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_chip_close_icon_content_description = global::FYP_GeeksClub.Droid.Resource.String.mtrl_chip_close_icon_content_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.password_toggle_content_description = global::FYP_GeeksClub.Droid.Resource.String.password_toggle_content_description;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye = global::FYP_GeeksClub.Droid.Resource.String.path_password_eye;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_strike_through = global::FYP_GeeksClub.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_visible = global::FYP_GeeksClub.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_strike_through = global::FYP_GeeksClub.Droid.Resource.String.path_password_strike_through;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.search_menu_title = global::FYP_GeeksClub.Droid.Resource.String.search_menu_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.String.status_bar_notification_info_overflow = global::FYP_GeeksClub.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_DropDownUp = global::FYP_GeeksClub.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Tooltip = global::FYP_GeeksClub.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_Design_BottomSheetDialog = global::FYP_GeeksClub.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FYP_GeeksClub.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FYP_GeeksClub.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_CardView = global::FYP_GeeksClub.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FYP_GeeksClub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FYP_GeeksClub.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V28_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V28_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FYP_GeeksClub.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_EditText = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_Design_TabLayout = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_Chip = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::FYP_GeeksClub.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView = global::FYP_GeeksClub.Droid.Resource.Style.CardView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Dark = global::FYP_GeeksClub.Droid.Resource.Style.CardView_Dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Light = global::FYP_GeeksClub.Droid.Resource.Style.CardView_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Platform_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents = global::FYP_GeeksClub.Droid.Resource.Style.Platform_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents_Light = global::FYP_GeeksClub.Droid.Resource.Style.Platform_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FYP_GeeksClub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FYP_GeeksClub.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FYP_GeeksClub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FYP_GeeksClub.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body1 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body2 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Button = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Caption = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display1 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display2 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display3 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display4 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Headline = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Menu = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Info = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Media = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Time = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Error = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_HelperText = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_HelperText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Hint = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Tab = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Button = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Caption = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Chip = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Overline = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FYP_GeeksClub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FYP_GeeksClub.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design = global::FYP_GeeksClub.Droid.Resource.Style.Theme_Design;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_BottomSheetDialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light = global::FYP_GeeksClub.Droid.Resource.Style.Theme_Design_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_CompactMenu = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::FYP_GeeksClub.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionMode = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Small = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_EditText = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ImageButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_SearchView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListMenuView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_Menu = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupWindow = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_TextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FYP_GeeksClub.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionContainer = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionText = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_AppBarLayout = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomNavigationView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomSheet_Modal = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_CollapsingToolbar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_FloatingActionButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_NavigationView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_Snackbar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TabLayout = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputLayout = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_Icon = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CardView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_CardView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ChipGroup = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Action = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_NavigationView = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar = global::FYP_GeeksClub.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Support_CoordinatorLayout = global::FYP_GeeksClub.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_background = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundSplit = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundStacked = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetLeft = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetRight = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStart = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_customNavigationLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_displayOptions = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_divider = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_divider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_elevation = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_height = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_hideOnContentScroll = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_icon = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_itemPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_logo = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_logo;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_navigationMode = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_popupTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitleTextStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_title = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_titleTextStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuView = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMenuView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_background = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_backgroundSplit = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_closeItemLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_height = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_subtitleTextStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_titleTextStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView = global::FYP_GeeksClub.Droid.Resource.Styleable.ActivityChooserView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FYP_GeeksClub.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_android_layout = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_buttonIconDimen = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listItemLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_showTitle = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableItem = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::FYP_GeeksClub.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_liftable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_lifted = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_background = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_elevation = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_expanded = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScroll = global::FYP_GeeksClub.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatImageView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_android_src = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_srcCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tint = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMark = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTint = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontFamily = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_lineHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textAllCaps = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textLocale = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTextView_textLocale;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSize = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorAccent = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorError = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimary = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_controlBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerVertical = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_switchStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBar = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FYP_GeeksClub.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_backgroundTint = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleMargin = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_hideOnScroll = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_elevation = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemIconSize = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemIconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_menu = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FYP_GeeksClub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout_allowStacking = global::FYP_GeeksClub.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardBackgroundColor = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardCornerRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardElevation = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardMaxElevation = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardUseCompatPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingBottom = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingLeft = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingRight = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingTop = global::FYP_GeeksClub.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_checkedChip = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup_checkedChip;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacing = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup_chipSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingVertical = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleLine = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup_singleLine;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleSelection = global::FYP_GeeksClub.Droid.Resource.Styleable.ChipGroup_singleSelection;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_checkable = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_android_checkable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_ellipsize = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_android_ellipsize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_maxWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_android_maxWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_text = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_android_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_textAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_android_textAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_checkedIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_checkedIconEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconVisible = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_checkedIconVisible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipBackgroundColor = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipBackgroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipCornerRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipCornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipEndPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipIconEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconSize = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipIconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconVisible = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipIconVisible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipMinHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipMinHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStartPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStrokeColor = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipStrokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStrokeWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_chipStrokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIconEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconEndPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIconEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconSize = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconStartPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIconStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconVisible = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_closeIconVisible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_hideMotionSpec = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_hideMotionSpec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_iconEndPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_iconEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_iconStartPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_iconStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_rippleColor = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_rippleColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_showMotionSpec = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_showMotionSpec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textEndPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_textEndPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textStartPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.Chip_textStartPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_title = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FYP_GeeksClub.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem = global::FYP_GeeksClub.Droid.Resource.Styleable.ColorStateListItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_alpha = global::FYP_GeeksClub.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_alpha = global::FYP_GeeksClub.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_color = global::FYP_GeeksClub.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton = global::FYP_GeeksClub.Droid.Resource.Styleable.CompoundButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_android_button = global::FYP_GeeksClub.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.CompoundButton_buttonCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTint = global::FYP_GeeksClub.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_keylines = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_barLength = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_color = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_spinBars = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_thickness = global::FYP_GeeksClub.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTint = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_borderWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_elevation = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabCustomSize = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabSize = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_maxImageSize = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_rippleColor = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_showMotionSpec = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.FlowLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout_itemSpacing = global::FYP_GeeksClub.Droid.Resource.Styleable.FlowLayout_itemSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout_lineSpacing = global::FYP_GeeksClub.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_font = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_font = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontWeight = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_ttcIndex = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderAuthority = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderCerts = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderPackage = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderQuery = global::FYP_GeeksClub.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FYP_GeeksClub.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FYP_GeeksClub.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColorItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_color = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_offset = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerColor = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerX = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerY = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_endColor = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_endX = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_endY = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_gradientRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startColor = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startX = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startY = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_tileMode = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_type = global::FYP_GeeksClub.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_divider = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_showDividers = global::FYP_GeeksClub.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow = global::FYP_GeeksClub.Droid.Resource.Styleable.ListPopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FYP_GeeksClub.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FYP_GeeksClub.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetBottom = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetLeft = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetRight = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_android_insetRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetTop = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_android_insetTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_backgroundTint = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_backgroundTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_backgroundTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_cornerRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_cornerRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_icon = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_iconGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_iconPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconSize = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_iconSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_iconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_iconTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_rippleColor = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_rippleColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_strokeColor = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_strokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_strokeWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialButton_strokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialCardView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_strokeColor = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialCardView_strokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_strokeWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_enabled = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_id = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_menuCategory = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_orderInCategory = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_visible = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionProviderClass = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionViewClass = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_alphabeticModifiers = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checkable = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checked = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_enabled = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_icon = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_id = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_menuCategory = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_numericShortcut = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_onClick = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_orderInCategory = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_title = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_titleCondensed = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_visible = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_contentDescription = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_numericModifiers = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_showAsAction = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_tooltipText = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_headerBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_horizontalDivider = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_verticalDivider = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_preserveIconSpacing = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_subMenuArrow = global::FYP_GeeksClub.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_background = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_maxWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_elevation = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_headerLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemHorizontalPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_itemIconPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_menu = global::FYP_GeeksClub.Droid.Resource.Styleable.NavigationView_menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow = global::FYP_GeeksClub.Droid.Resource.Styleable.PopupWindow;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState = global::FYP_GeeksClub.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FYP_GeeksClub.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_overlapAnchor = global::FYP_GeeksClub.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView = global::FYP_GeeksClub.Droid.Resource.Styleable.RecycleListView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FYP_GeeksClub.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FYP_GeeksClub.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_clipToPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_orientation = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_layoutManager = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_reverseLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_spanCount = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_stackFromEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FYP_GeeksClub.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout = global::FYP_GeeksClub.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FYP_GeeksClub.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_focusable = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_imeOptions = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_inputType = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_maxWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_closeIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_commitIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_defaultQueryHint = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_goIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_iconifiedByDefault = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_layout = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryHint = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchHintIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_submitBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_suggestionRowLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_voiceIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar = global::FYP_GeeksClub.Droid.Resource.Styleable.Snackbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.SnackbarLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_elevation = global::FYP_GeeksClub.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarButtonStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner = global::FYP_GeeksClub.Droid.Resource.Styleable.Spinner;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_dropDownWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_entries = global::FYP_GeeksClub.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_popupBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_prompt = global::FYP_GeeksClub.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_popupTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem_android_drawable = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_constantSize = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_dither = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_variablePadding = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_visible = global::FYP_GeeksClub.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOff = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOn = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_thumb = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_showText = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_splitTrack = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchMinWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTint = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_track = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTint = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem = global::FYP_GeeksClub.Droid.Resource.Styleable.TabItem;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_icon = global::FYP_GeeksClub.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_layout = global::FYP_GeeksClub.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_text = global::FYP_GeeksClub.Droid.Resource.Styleable.TabItem_android_text;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabBackground = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabContentStart = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIconTint = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIconTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIconTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicator = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIndicator;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabInlineLabel = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMaxWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMinWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMode = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPadding = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingBottom = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingStart = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingTop = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabRippleColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabRippleColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabUnboundedRipple = global::FYP_GeeksClub.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_fontFamily = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDx = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDy = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowRadius = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorHint = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorLink = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textFontWeight = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textSize = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textStyle = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_typeface = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontFamily = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontVariationSettings = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textAllCaps = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textLocale = global::FYP_GeeksClub.Droid.Resource.Styleable.TextAppearance_textLocale;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_hint = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_textColorHint = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeColor = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterMaxLength = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperText = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_helperText;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement = global::FYP_GeeksClub.Droid.Resource.Styleable.ThemeEnforcement;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_gravity = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_minHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_buttonGravity = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseContentDescription = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetLeft = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetRight = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStart = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logo = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_logo;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logoDescription = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_maxButtonHeight = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_menu = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_menu;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationContentDescription = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationIcon = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_popupTheme = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitle = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_title = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_title;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargin = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginBottom = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargins = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginStart = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginTop = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextAppearance = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextColor = global::FYP_GeeksClub.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View = global::FYP_GeeksClub.Droid.Resource.Styleable.View;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_android_background = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewStubCompat;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_layout = global::FYP_GeeksClub.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_focusable = global::FYP_GeeksClub.Droid.Resource.Styleable.View_android_focusable;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_theme = global::FYP_GeeksClub.Droid.Resource.Styleable.View_android_theme;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::FYP_GeeksClub.Droid.Resource.Styleable.View_paddingEnd;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::FYP_GeeksClub.Droid.Resource.Styleable.View_paddingStart;
-			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::FYP_GeeksClub.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Auth.Resource.Animation.slide_in_right = global::FYP_GeeksClub.Droid.Resource.Animation.slide_in_right;
 			global::Xamarin.Auth.Resource.Animation.slide_out_left = global::FYP_GeeksClub.Droid.Resource.Animation.slide_out_left;
 			global::Xamarin.Auth.Resource.Attribute.alpha = global::FYP_GeeksClub.Droid.Resource.Attribute.alpha;
@@ -14863,202 +12191,199 @@ namespace FYP_GeeksClub.Droid
 			public const int design_snackbar_background = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int dropdownbuttonimage = 2131165325;
+			public const int edit_18px = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int edit_18px = 2131165326;
+			public const int edit_28px = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int edit_28px = 2131165327;
+			public const int edit_doc_18px = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int edit_doc_18px = 2131165328;
+			public const int exit_18px = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int exit_18px = 2131165329;
+			public const int Home = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int Home = 2131165330;
+			public const int Home24px = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int Home24px = 2131165331;
+			public const int Home30px = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int Home30px = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int Home36px = 2131165333;
-			
-			// aapt resource value: 0x7F07009B
-			public const int ICON = 2131165339;
-			
-			// aapt resource value: 0x7F070096
-			public const int ic_arrow_back = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int ic_mtrl_checked_circle = 2131165335;
-			
-			// aapt resource value: 0x7F070098
-			public const int ic_mtrl_chip_checked_black = 2131165336;
-			
-			// aapt resource value: 0x7F070099
-			public const int ic_mtrl_chip_checked_circle = 2131165337;
+			public const int Home36px = 2131165332;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_mtrl_chip_close_circle = 2131165338;
+			public const int ICON = 2131165338;
 			
-			// aapt resource value: 0x7F07009D
-			public const int inputlayout_togglecollapseicon = 2131165341;
+			// aapt resource value: 0x7F070095
+			public const int ic_arrow_back = 2131165333;
 			
-			// aapt resource value: 0x7F07009E
-			public const int inputlayout_togglevisibleicon = 2131165342;
+			// aapt resource value: 0x7F070096
+			public const int ic_mtrl_checked_circle = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int ic_mtrl_chip_checked_black = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int ic_mtrl_chip_checked_circle = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int ic_mtrl_chip_close_circle = 2131165337;
 			
 			// aapt resource value: 0x7F07009C
-			public const int input_layout_drop_down_icon = 2131165340;
+			public const int inputlayout_togglecollapseicon = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int inputlayout_togglevisibleicon = 2131165341;
+			
+			// aapt resource value: 0x7F07009B
+			public const int input_layout_drop_down_icon = 2131165339;
+			
+			// aapt resource value: 0x7F07009E
+			public const int list_18px = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int list_18px = 2131165343;
+			public const int material_ic_calendar_black_24dp = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int material_ic_calendar_black_24dp = 2131165344;
+			public const int material_ic_clear_black_24dp = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int material_ic_clear_black_24dp = 2131165345;
+			public const int material_ic_edit_black_24dp = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int material_ic_edit_black_24dp = 2131165346;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165347;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165348;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165349;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165350;
+			public const int mtrl_dialog_background = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int mtrl_dialog_background = 2131165351;
+			public const int mtrl_dropdown_arrow = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int mtrl_dropdown_arrow = 2131165352;
+			public const int mtrl_ic_arrow_drop_down = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int mtrl_ic_arrow_drop_down = 2131165353;
+			public const int mtrl_ic_arrow_drop_up = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int mtrl_ic_arrow_drop_up = 2131165354;
+			public const int mtrl_ic_cancel = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int mtrl_ic_cancel = 2131165355;
+			public const int mtrl_ic_error = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int mtrl_ic_error = 2131165356;
+			public const int mtrl_popupmenu_background = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int mtrl_popupmenu_background = 2131165357;
+			public const int mtrl_popupmenu_background_dark = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int mtrl_popupmenu_background_dark = 2131165358;
+			public const int mtrl_tabs_default_indicator = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int mtrl_tabs_default_indicator = 2131165359;
+			public const int navigation_empty_icon = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int navigation_empty_icon = 2131165360;
+			public const int notification_action_background = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int notification_action_background = 2131165361;
+			public const int notification_bg = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int notification_bg = 2131165362;
+			public const int notification_bg_low = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int notification_bg_low = 2131165363;
+			public const int notification_bg_low_normal = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int notification_bg_low_normal = 2131165364;
+			public const int notification_bg_low_pressed = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int notification_bg_low_pressed = 2131165365;
+			public const int notification_bg_normal = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int notification_bg_normal = 2131165366;
+			public const int notification_bg_normal_pressed = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int notification_bg_normal_pressed = 2131165367;
+			public const int notification_icon_background = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int notification_icon_background = 2131165368;
+			public const int notification_template_icon_bg = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int notification_template_icon_bg = 2131165369;
+			public const int notification_template_icon_low_bg = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int notification_template_icon_low_bg = 2131165370;
+			public const int notification_tile_bg = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int notification_tile_bg = 2131165371;
+			public const int notify_panel_notification_icon_bg = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int notify_panel_notification_icon_bg = 2131165372;
+			public const int open_18px = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int open_18px = 2131165373;
+			public const int order_18px = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int order_18px = 2131165374;
+			public const int order_30px = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int order_30px = 2131165375;
+			public const int order_38px = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int order_38px = 2131165376;
+			public const int remove_16px = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int remove_16px = 2131165377;
+			public const int search = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int search = 2131165378;
+			public const int SecondHand_73_44px = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int SecondHand_73_44px = 2131165379;
+			public const int send = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int send = 2131165380;
+			public const int setting = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int setting = 2131165381;
+			public const int shop_24px = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int shop_24px = 2131165382;
+			public const int test_custom_background = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int test_custom_background = 2131165383;
+			public const int ToItem_30px = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ToItem_30px = 2131165384;
+			public const int tooltip_frame_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int tooltip_frame_dark = 2131165385;
+			public const int tooltip_frame_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int tooltip_frame_light = 2131165386;
+			public const int User = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int User = 2131165387;
+			public const int User24px = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int User24px = 2131165388;
+			public const int User30px = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int User30px = 2131165389;
-			
-			// aapt resource value: 0x7F0700CE
-			public const int User36px = 2131165390;
+			public const int User36px = 2131165389;
 			
 			static Drawable()
 			{
@@ -15073,200 +12398,200 @@ namespace FYP_GeeksClub.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7F08000A
+			public const int accessibility_action_clickable_span = 2131230730;
+			
 			// aapt resource value: 0x7F08000B
-			public const int accessibility_action_clickable_span = 2131230731;
+			public const int accessibility_custom_action_0 = 2131230731;
 			
 			// aapt resource value: 0x7F08000C
-			public const int accessibility_custom_action_0 = 2131230732;
+			public const int accessibility_custom_action_1 = 2131230732;
 			
 			// aapt resource value: 0x7F08000D
-			public const int accessibility_custom_action_1 = 2131230733;
+			public const int accessibility_custom_action_10 = 2131230733;
 			
 			// aapt resource value: 0x7F08000E
-			public const int accessibility_custom_action_10 = 2131230734;
+			public const int accessibility_custom_action_11 = 2131230734;
 			
 			// aapt resource value: 0x7F08000F
-			public const int accessibility_custom_action_11 = 2131230735;
+			public const int accessibility_custom_action_12 = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int accessibility_custom_action_12 = 2131230736;
+			public const int accessibility_custom_action_13 = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int accessibility_custom_action_13 = 2131230737;
+			public const int accessibility_custom_action_14 = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_14 = 2131230738;
+			public const int accessibility_custom_action_15 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_15 = 2131230739;
+			public const int accessibility_custom_action_16 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_16 = 2131230740;
+			public const int accessibility_custom_action_17 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_17 = 2131230741;
+			public const int accessibility_custom_action_18 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_18 = 2131230742;
+			public const int accessibility_custom_action_19 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_19 = 2131230743;
+			public const int accessibility_custom_action_2 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_2 = 2131230744;
+			public const int accessibility_custom_action_20 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_20 = 2131230745;
+			public const int accessibility_custom_action_21 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_21 = 2131230746;
+			public const int accessibility_custom_action_22 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_22 = 2131230747;
+			public const int accessibility_custom_action_23 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_23 = 2131230748;
+			public const int accessibility_custom_action_24 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_24 = 2131230749;
+			public const int accessibility_custom_action_25 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_25 = 2131230750;
+			public const int accessibility_custom_action_26 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_26 = 2131230751;
+			public const int accessibility_custom_action_27 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_27 = 2131230752;
+			public const int accessibility_custom_action_28 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_28 = 2131230753;
+			public const int accessibility_custom_action_29 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_29 = 2131230754;
+			public const int accessibility_custom_action_3 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_3 = 2131230755;
+			public const int accessibility_custom_action_30 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_30 = 2131230756;
+			public const int accessibility_custom_action_31 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_31 = 2131230757;
+			public const int accessibility_custom_action_4 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_4 = 2131230758;
+			public const int accessibility_custom_action_5 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_5 = 2131230759;
+			public const int accessibility_custom_action_6 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_6 = 2131230760;
+			public const int accessibility_custom_action_7 = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_7 = 2131230761;
+			public const int accessibility_custom_action_8 = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_8 = 2131230762;
+			public const int accessibility_custom_action_9 = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_9 = 2131230763;
-			
-			// aapt resource value: 0x7F08002C
-			public const int action0 = 2131230764;
-			
-			// aapt resource value: 0x7F08003E
-			public const int actions = 2131230782;
-			
-			// aapt resource value: 0x7F08002D
-			public const int action_bar = 2131230765;
-			
-			// aapt resource value: 0x7F08002E
-			public const int action_bar_activity_content = 2131230766;
-			
-			// aapt resource value: 0x7F08002F
-			public const int action_bar_container = 2131230767;
-			
-			// aapt resource value: 0x7F080030
-			public const int action_bar_root = 2131230768;
-			
-			// aapt resource value: 0x7F080031
-			public const int action_bar_spinner = 2131230769;
-			
-			// aapt resource value: 0x7F080032
-			public const int action_bar_subtitle = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int action_bar_title = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_container = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_context_bar = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_divider = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_image = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_menu_divider = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int action_menu_presenter = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int action_mode_bar = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int action_mode_bar_stub = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int action_mode_close_button = 2131230780;
+			public const int action0 = 2131230763;
 			
 			// aapt resource value: 0x7F08003D
-			public const int action_text = 2131230781;
+			public const int actions = 2131230781;
+			
+			// aapt resource value: 0x7F08002C
+			public const int action_bar = 2131230764;
+			
+			// aapt resource value: 0x7F08002D
+			public const int action_bar_activity_content = 2131230765;
+			
+			// aapt resource value: 0x7F08002E
+			public const int action_bar_container = 2131230766;
+			
+			// aapt resource value: 0x7F08002F
+			public const int action_bar_root = 2131230767;
+			
+			// aapt resource value: 0x7F080030
+			public const int action_bar_spinner = 2131230768;
+			
+			// aapt resource value: 0x7F080031
+			public const int action_bar_subtitle = 2131230769;
+			
+			// aapt resource value: 0x7F080032
+			public const int action_bar_title = 2131230770;
+			
+			// aapt resource value: 0x7F080033
+			public const int action_container = 2131230771;
+			
+			// aapt resource value: 0x7F080034
+			public const int action_context_bar = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_divider = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_image = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_menu_divider = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_menu_presenter = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_mode_bar = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_mode_bar_stub = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int action_mode_close_button = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int action_text = 2131230780;
+			
+			// aapt resource value: 0x7F08003E
+			public const int activity_chooser_view_content = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int activity_chooser_view_content = 2131230783;
+			public const int add = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int add = 2131230784;
+			public const int alertTitle = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int alertTitle = 2131230785;
-			
-			// aapt resource value: 0x7F080042
-			public const int all = 2131230786;
+			public const int all = 2131230785;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
+			// aapt resource value: 0x7F080042
+			public const int always = 2131230786;
+			
 			// aapt resource value: 0x7F080043
-			public const int always = 2131230787;
+			public const int async = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int async = 2131230788;
+			public const int auto = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int auto = 2131230789;
+			public const int beginning = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int beginning = 2131230790;
+			public const int blocking = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int blocking = 2131230791;
+			public const int bottom = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int bottom = 2131230792;
+			public const int bottomtab_navarea = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int bottomtab_navarea = 2131230793;
-			
-			// aapt resource value: 0x7F08004A
-			public const int bottomtab_tabbar = 2131230794;
+			public const int bottomtab_tabbar = 2131230793;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -15274,761 +12599,758 @@ namespace FYP_GeeksClub.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F08004B
-			public const int browser_actions_header_text = 2131230795;
-			
-			// aapt resource value: 0x7F08004E
-			public const int browser_actions_menu_items = 2131230798;
-			
-			// aapt resource value: 0x7F08004C
-			public const int browser_actions_menu_item_icon = 2131230796;
+			// aapt resource value: 0x7F08004A
+			public const int browser_actions_header_text = 2131230794;
 			
 			// aapt resource value: 0x7F08004D
-			public const int browser_actions_menu_item_text = 2131230797;
+			public const int browser_actions_menu_items = 2131230797;
+			
+			// aapt resource value: 0x7F08004B
+			public const int browser_actions_menu_item_icon = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int browser_actions_menu_item_text = 2131230796;
+			
+			// aapt resource value: 0x7F08004E
+			public const int browser_actions_menu_view = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int browser_actions_menu_view = 2131230799;
+			public const int buttonPanel = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int buttonPanel = 2131230800;
+			public const int cancel_action = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int cancel_action = 2131230801;
+			public const int cancel_button = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int cancel_button = 2131230802;
+			public const int center = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int center = 2131230803;
+			public const int center_horizontal = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int center_horizontal = 2131230804;
+			public const int center_vertical = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int center_vertical = 2131230805;
+			public const int checkbox = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int checkbox = 2131230806;
+			public const int @checked = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int @checked = 2131230807;
+			public const int chip = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int chip = 2131230808;
+			public const int chip1 = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int chip1 = 2131230809;
+			public const int chip2 = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int chip2 = 2131230810;
+			public const int chip3 = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int chip3 = 2131230811;
+			public const int chip_group = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int chip_group = 2131230812;
+			public const int chronometer = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int chronometer = 2131230813;
+			public const int clear_text = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int clear_text = 2131230814;
+			public const int clip_horizontal = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int clip_horizontal = 2131230815;
+			public const int clip_vertical = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int clip_vertical = 2131230816;
+			public const int collapseActionView = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int collapseActionView = 2131230817;
+			public const int confirm_button = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int confirm_button = 2131230818;
+			public const int container = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int container = 2131230819;
+			public const int content = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int content = 2131230820;
+			public const int contentPanel = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int contentPanel = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int coordinator = 2131230822;
+			public const int coordinator = 2131230821;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
+			// aapt resource value: 0x7F080066
+			public const int custom = 2131230822;
+			
 			// aapt resource value: 0x7F080067
-			public const int custom = 2131230823;
+			public const int customPanel = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int customPanel = 2131230824;
+			public const int cut = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int cut = 2131230825;
+			public const int date_picker_actions = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int date_picker_actions = 2131230826;
+			public const int decor_content_parent = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int decor_content_parent = 2131230827;
+			public const int default_activity_button = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int default_activity_button = 2131230828;
+			public const int design_bottom_sheet = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int design_bottom_sheet = 2131230829;
+			public const int design_menu_item_action_area = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int design_menu_item_action_area = 2131230830;
+			public const int design_menu_item_action_area_stub = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int design_menu_item_action_area_stub = 2131230831;
+			public const int design_menu_item_text = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int design_menu_item_text = 2131230832;
+			public const int design_navigation_view = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int design_navigation_view = 2131230833;
+			public const int dialog_button = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int dialog_button = 2131230834;
+			public const int disableHome = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int disableHome = 2131230835;
+			public const int dropdown_menu = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int dropdown_menu = 2131230836;
+			public const int edit_query = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int edit_query = 2131230837;
+			public const int end = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int end = 2131230838;
+			public const int end_padder = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int end_padder = 2131230839;
+			public const int enterAlways = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int enterAlways = 2131230840;
+			public const int enterAlwaysCollapsed = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int enterAlwaysCollapsed = 2131230841;
-			
-			// aapt resource value: 0x7F08007A
-			public const int exitUntilCollapsed = 2131230842;
-			
-			// aapt resource value: 0x7F08007C
-			public const int expanded_menu = 2131230844;
+			public const int exitUntilCollapsed = 2131230841;
 			
 			// aapt resource value: 0x7F08007B
-			public const int expand_activities_button = 2131230843;
+			public const int expanded_menu = 2131230843;
+			
+			// aapt resource value: 0x7F08007A
+			public const int expand_activities_button = 2131230842;
+			
+			// aapt resource value: 0x7F08007C
+			public const int fade = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int fade = 2131230845;
-			
-			// aapt resource value: 0x7F08007E
-			public const int fill = 2131230846;
-			
-			// aapt resource value: 0x7F080081
-			public const int filled = 2131230849;
-			
-			// aapt resource value: 0x7F08007F
-			public const int fill_horizontal = 2131230847;
+			public const int fill = 2131230845;
 			
 			// aapt resource value: 0x7F080080
-			public const int fill_vertical = 2131230848;
+			public const int filled = 2131230848;
+			
+			// aapt resource value: 0x7F08007E
+			public const int fill_horizontal = 2131230846;
+			
+			// aapt resource value: 0x7F08007F
+			public const int fill_vertical = 2131230847;
+			
+			// aapt resource value: 0x7F080081
+			public const int fitToContents = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int fitToContents = 2131230850;
+			public const int @fixed = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int @fixed = 2131230851;
+			public const int floating = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int floating = 2131230852;
+			public const int flyoutcontent_appbar = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int flyoutcontent_appbar = 2131230853;
+			public const int forever = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int forever = 2131230854;
-			
-			// aapt resource value: 0x7F080087
-			public const int fragment_container_view_tag = 2131230855;
+			public const int fragment_container_view_tag = 2131230854;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
+			// aapt resource value: 0x7F080087
+			public const int ghost_view = 2131230855;
+			
 			// aapt resource value: 0x7F080088
-			public const int ghost_view = 2131230856;
+			public const int ghost_view_holder = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int ghost_view_holder = 2131230857;
+			public const int gone = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int gone = 2131230858;
+			public const int group_divider = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int group_divider = 2131230859;
+			public const int hideable = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int hideable = 2131230860;
+			public const int home = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int home = 2131230861;
+			public const int homeAsUp = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int homeAsUp = 2131230862;
+			public const int icon = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int icon = 2131230863;
+			public const int icon_group = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int icon_group = 2131230864;
+			public const int ifRoom = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int ifRoom = 2131230865;
+			public const int image = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int image = 2131230866;
+			public const int info = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int info = 2131230867;
+			public const int italic = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int italic = 2131230868;
-			
-			// aapt resource value: 0x7F080005
-			public const int Itemname = 2131230725;
+			public const int item_touch_helper_previous_elevation = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int item_touch_helper_previous_elevation = 2131230869;
+			public const int labeled = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int labeled = 2131230870;
+			public const int largeLabel = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int largeLabel = 2131230871;
+			public const int left = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int left = 2131230872;
+			public const int line1 = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int line1 = 2131230873;
+			public const int line3 = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int line3 = 2131230874;
+			public const int listMode = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int listMode = 2131230875;
+			public const int list_item = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int list_item = 2131230876;
+			public const int main_appbar = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int main_appbar = 2131230877;
+			public const int main_tablayout = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int main_tablayout = 2131230878;
+			public const int main_toolbar = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int main_toolbar = 2131230879;
+			public const int main_viewpager = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int main_viewpager = 2131230880;
+			public const int masked = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int masked = 2131230881;
+			public const int media_actions = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int media_actions = 2131230882;
+			public const int media_controller_compat_view_tag = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int media_controller_compat_view_tag = 2131230883;
+			public const int message = 2131230883;
+			
+			// aapt resource value: 0x7F080005
+			public const int META = 2131230725;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int message = 2131230884;
-			
-			// aapt resource value: 0x7F080006
-			public const int META = 2131230726;
+			public const int middle = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int middle = 2131230885;
+			public const int mini = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int mini = 2131230886;
+			public const int month_grid = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int month_grid = 2131230887;
+			public const int month_navigation_bar = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int month_navigation_bar = 2131230888;
+			public const int month_navigation_fragment_toggle = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int month_navigation_fragment_toggle = 2131230889;
+			public const int month_navigation_next = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int month_navigation_next = 2131230890;
+			public const int month_navigation_previous = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int month_navigation_previous = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int month_title = 2131230892;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int mtrl_calendar_days_of_week = 2131230894;
+			public const int month_title = 2131230891;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int mtrl_calendar_day_selector_frame = 2131230893;
+			public const int mtrl_calendar_days_of_week = 2131230893;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int mtrl_calendar_day_selector_frame = 2131230892;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int mtrl_calendar_frame = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int mtrl_calendar_frame = 2131230895;
+			public const int mtrl_calendar_main_pane = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int mtrl_calendar_main_pane = 2131230896;
+			public const int mtrl_calendar_months = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int mtrl_calendar_months = 2131230897;
+			public const int mtrl_calendar_selection_frame = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mtrl_calendar_selection_frame = 2131230898;
+			public const int mtrl_calendar_text_input_frame = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mtrl_calendar_text_input_frame = 2131230899;
+			public const int mtrl_calendar_year_selector_frame = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mtrl_calendar_year_selector_frame = 2131230900;
+			public const int mtrl_card_checked_layer_id = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mtrl_card_checked_layer_id = 2131230901;
+			public const int mtrl_child_content_container = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int mtrl_child_content_container = 2131230902;
+			public const int mtrl_internal_children_alpha_tag = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mtrl_internal_children_alpha_tag = 2131230903;
+			public const int mtrl_motion_snapshot_view = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mtrl_motion_snapshot_view = 2131230904;
+			public const int mtrl_picker_fullscreen = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mtrl_picker_fullscreen = 2131230905;
+			public const int mtrl_picker_header = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int mtrl_picker_header = 2131230906;
+			public const int mtrl_picker_header_selection_text = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int mtrl_picker_header_selection_text = 2131230907;
+			public const int mtrl_picker_header_title_and_selection = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mtrl_picker_header_title_and_selection = 2131230908;
+			public const int mtrl_picker_header_toggle = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mtrl_picker_header_toggle = 2131230909;
+			public const int mtrl_picker_text_input_date = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mtrl_picker_text_input_date = 2131230910;
+			public const int mtrl_picker_text_input_range_end = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mtrl_picker_text_input_range_end = 2131230911;
+			public const int mtrl_picker_text_input_range_start = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int mtrl_picker_text_input_range_start = 2131230912;
+			public const int mtrl_picker_title_text = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int mtrl_picker_title_text = 2131230913;
+			public const int multiply = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int multiply = 2131230914;
+			public const int navigation_header_container = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int navigation_header_container = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int never = 2131230916;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int none = 2131230918;
-			
-			// aapt resource value: 0x7F0800C7
-			public const int normal = 2131230919;
+			public const int never = 2131230915;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int noScroll = 2131230917;
+			public const int none = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int normal = 2131230918;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int noScroll = 2131230916;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int notification_background = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int notification_background = 2131230920;
+			public const int notification_main_column = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int notification_main_column = 2131230921;
+			public const int notification_main_column_container = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int notification_main_column_container = 2131230922;
+			public const int off = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int off = 2131230923;
+			public const int on = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int on = 2131230924;
+			public const int outline = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int outline = 2131230925;
+			public const int parallax = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int parallax = 2131230926;
+			public const int parentPanel = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int parentPanel = 2131230927;
+			public const int parent_matrix = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int parent_matrix = 2131230928;
+			public const int password_toggle = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int password_toggle = 2131230929;
+			public const int peekHeight = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int peekHeight = 2131230930;
+			public const int pin = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int pin = 2131230931;
+			public const int progress_circular = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int progress_circular = 2131230932;
+			public const int progress_horizontal = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int progress_horizontal = 2131230933;
+			public const int radio = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int radio = 2131230934;
+			public const int right = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int right = 2131230935;
+			public const int right_icon = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int right_icon = 2131230936;
+			public const int right_side = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int right_side = 2131230937;
+			public const int rounded = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int rounded = 2131230938;
+			public const int row_index_key = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int row_index_key = 2131230939;
+			public const int save_non_transition_alpha = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int save_non_transition_alpha = 2131230940;
+			public const int save_overlay_view = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int save_overlay_view = 2131230941;
+			public const int scale = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int scale = 2131230942;
+			public const int screen = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int screen = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int scroll = 2131230944;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int scrollable = 2131230948;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int scrollIndicatorDown = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int scrollIndicatorUp = 2131230946;
+			public const int scroll = 2131230943;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int scrollView = 2131230947;
+			public const int scrollable = 2131230947;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int scrollIndicatorDown = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int scrollIndicatorUp = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int scrollView = 2131230946;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int search_badge = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int search_badge = 2131230949;
+			public const int search_bar = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int search_bar = 2131230950;
+			public const int search_button = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int search_button = 2131230951;
+			public const int search_close_btn = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int search_close_btn = 2131230952;
+			public const int search_edit_frame = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int search_edit_frame = 2131230953;
+			public const int search_go_btn = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int search_go_btn = 2131230954;
+			public const int search_mag_icon = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int search_mag_icon = 2131230955;
+			public const int search_plate = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int search_plate = 2131230956;
+			public const int search_src_text = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int search_src_text = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int search_voice_btn = 2131230958;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int selected = 2131230960;
+			public const int search_voice_btn = 2131230957;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int select_dialog_listview = 2131230959;
+			public const int selected = 2131230959;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int select_dialog_listview = 2131230958;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int shellcontent_appbar = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int shellcontent_appbar = 2131230961;
+			public const int shellcontent_toolbar = 2131230961;
+			
+			// aapt resource value: 0x7F080006
+			public const int SHIFT = 2131230726;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int shellcontent_toolbar = 2131230962;
-			
-			// aapt resource value: 0x7F080007
-			public const int SHIFT = 2131230727;
+			public const int shortcut = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int shortcut = 2131230963;
+			public const int showCustom = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int showCustom = 2131230964;
+			public const int showHome = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int showHome = 2131230965;
+			public const int showTitle = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int showTitle = 2131230966;
+			public const int skipCollapsed = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int skipCollapsed = 2131230967;
+			public const int slide = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int slide = 2131230968;
+			public const int sliding_tabs = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int sliding_tabs = 2131230969;
+			public const int smallLabel = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int smallLabel = 2131230970;
+			public const int snackbar_action = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int snackbar_action = 2131230971;
+			public const int snackbar_text = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int snackbar_text = 2131230972;
+			public const int snap = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int snap = 2131230973;
+			public const int snapMargins = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int snapMargins = 2131230974;
+			public const int spacer = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int spacer = 2131230975;
+			public const int split_action_bar = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int split_action_bar = 2131230976;
+			public const int src_atop = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int src_atop = 2131230977;
+			public const int src_in = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int src_in = 2131230978;
+			public const int src_over = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int src_over = 2131230979;
+			public const int start = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int start = 2131230980;
+			public const int status_bar_latest_event_content = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int status_bar_latest_event_content = 2131230981;
+			public const int stretch = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int stretch = 2131230982;
+			public const int submenuarrow = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int submenuarrow = 2131230983;
+			public const int submit_area = 2131230983;
+			
+			// aapt resource value: 0x7F080007
+			public const int SYM = 2131230727;
 			
 			// aapt resource value: 0x7F080108
-			public const int submit_area = 2131230984;
-			
-			// aapt resource value: 0x7F080008
-			public const int SYM = 2131230728;
+			public const int tabMode = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int tabMode = 2131230985;
+			public const int tag_accessibility_actions = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int tag_accessibility_actions = 2131230986;
+			public const int tag_accessibility_clickable_spans = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int tag_accessibility_clickable_spans = 2131230987;
+			public const int tag_accessibility_heading = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int tag_accessibility_heading = 2131230988;
+			public const int tag_accessibility_pane_title = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int tag_accessibility_pane_title = 2131230989;
+			public const int tag_screen_reader_focusable = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int tag_screen_reader_focusable = 2131230990;
+			public const int tag_transition_group = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int tag_transition_group = 2131230991;
+			public const int tag_unhandled_key_event_manager = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int tag_unhandled_key_event_manager = 2131230992;
+			public const int tag_unhandled_key_listeners = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int tag_unhandled_key_listeners = 2131230993;
+			public const int test_checkbox_android_button_tint = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int test_checkbox_android_button_tint = 2131230994;
+			public const int test_checkbox_app_button_tint = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int test_checkbox_app_button_tint = 2131230995;
+			public const int test_radiobutton_android_button_tint = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int test_radiobutton_android_button_tint = 2131230996;
+			public const int test_radiobutton_app_button_tint = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int test_radiobutton_app_button_tint = 2131230997;
+			public const int text = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int text = 2131230998;
+			public const int text2 = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int text2 = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int textEnd = 2131231000;
-			
-			// aapt resource value: 0x7F08011E
-			public const int textinput_counter = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int textinput_error = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int textinput_helper_text = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int textinput_placeholder = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int textinput_prefix_text = 2131231010;
-			
-			// aapt resource value: 0x7F080123
-			public const int textinput_suffix_text = 2131231011;
-			
-			// aapt resource value: 0x7F080119
-			public const int textSpacerNoButtons = 2131231001;
-			
-			// aapt resource value: 0x7F08011A
-			public const int textSpacerNoTitle = 2131231002;
-			
-			// aapt resource value: 0x7F08011B
-			public const int textStart = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int text_input_end_icon = 2131231004;
+			public const int textEnd = 2131230999;
 			
 			// aapt resource value: 0x7F08011D
-			public const int text_input_start_icon = 2131231005;
+			public const int textinput_counter = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int textinput_error = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int textinput_helper_text = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int textinput_placeholder = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int textinput_prefix_text = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int textinput_suffix_text = 2131231010;
+			
+			// aapt resource value: 0x7F080118
+			public const int textSpacerNoButtons = 2131231000;
+			
+			// aapt resource value: 0x7F080119
+			public const int textSpacerNoTitle = 2131231001;
+			
+			// aapt resource value: 0x7F08011A
+			public const int textStart = 2131231002;
+			
+			// aapt resource value: 0x7F08011B
+			public const int text_input_end_icon = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int text_input_start_icon = 2131231004;
+			
+			// aapt resource value: 0x7F080123
+			public const int time = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int time = 2131231012;
+			public const int title = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int title = 2131231013;
+			public const int titleDividerNoCustom = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int titleDividerNoCustom = 2131231014;
+			public const int title_template = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int title_template = 2131231015;
+			public const int toolbar = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int toolbar = 2131231016;
+			public const int top = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int top = 2131231017;
+			public const int topPanel = 2131231017;
 			
-			// aapt resource value: 0x7F08012A
-			public const int topPanel = 2131231018;
+			// aapt resource value: 0x7F080008
+			public const int TOP_END = 2131230728;
 			
 			// aapt resource value: 0x7F080009
-			public const int TOP_END = 2131230729;
+			public const int TOP_START = 2131230729;
 			
-			// aapt resource value: 0x7F08000A
-			public const int TOP_START = 2131230730;
+			// aapt resource value: 0x7F08012A
+			public const int touch_outside = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int touch_outside = 2131231019;
+			public const int transition_current_scene = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int transition_current_scene = 2131231020;
+			public const int transition_layout_save = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int transition_layout_save = 2131231021;
+			public const int transition_position = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int transition_position = 2131231022;
+			public const int transition_scene_layoutid_cache = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int transition_scene_layoutid_cache = 2131231023;
+			public const int transition_transform = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int transition_transform = 2131231024;
+			public const int @unchecked = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int @unchecked = 2131231025;
+			public const int uniform = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int uniform = 2131231026;
+			public const int unlabeled = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int unlabeled = 2131231027;
+			public const int up = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int up = 2131231028;
+			public const int useLogo = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int useLogo = 2131231029;
+			public const int view_offset_helper = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int view_offset_helper = 2131231030;
+			public const int view_tree_saved_state_registry_owner = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int view_tree_saved_state_registry_owner = 2131231031;
+			public const int visible = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int visible = 2131231032;
+			public const int visible_removing_fragment_view_tag = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int visible_removing_fragment_view_tag = 2131231033;
-			
-			// aapt resource value: 0x7F08013A
-			public const int webview = 2131231034;
-			
-			// aapt resource value: 0x7F08013C
-			public const int withinBounds = 2131231036;
+			public const int webview = 2131231033;
 			
 			// aapt resource value: 0x7F08013B
-			public const int withText = 2131231035;
+			public const int withinBounds = 2131231035;
+			
+			// aapt resource value: 0x7F08013A
+			public const int withText = 2131231034;
+			
+			// aapt resource value: 0x7F08013C
+			public const int wrap_content = 2131231036;
 			
 			// aapt resource value: 0x7F08013D
-			public const int wrap_content = 2131231037;
-			
-			// aapt resource value: 0x7F08013E
-			public const int zero_corner_chip = 2131231038;
+			public const int zero_corner_chip = 2131231037;
 			
 			static Id()
 			{
@@ -16261,266 +13583,257 @@ namespace FYP_GeeksClub.Droid
 			// aapt resource value: 0x7F0B001F
 			public const int browser_actions_context_menu_row = 2131427359;
 			
-			// aapt resource value: 0x7F0B0021
-			public const int CustomizedImageView = 2131427361;
-			
-			// aapt resource value: 0x7F0B0022
-			public const int CustomizedView = 2131427362;
-			
 			// aapt resource value: 0x7F0B0020
 			public const int custom_dialog = 2131427360;
 			
+			// aapt resource value: 0x7F0B0021
+			public const int design_bottom_navigation_item = 2131427361;
+			
+			// aapt resource value: 0x7F0B0022
+			public const int design_bottom_sheet_dialog = 2131427362;
+			
 			// aapt resource value: 0x7F0B0023
-			public const int design_bottom_navigation_item = 2131427363;
+			public const int design_layout_snackbar = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_bottom_sheet_dialog = 2131427364;
+			public const int design_layout_snackbar_include = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_snackbar = 2131427365;
+			public const int design_layout_tab_icon = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_layout_snackbar_include = 2131427366;
+			public const int design_layout_tab_text = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_layout_tab_icon = 2131427367;
+			public const int design_menu_item_action_area = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_layout_tab_text = 2131427368;
+			public const int design_navigation_item = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_menu_item_action_area = 2131427369;
+			public const int design_navigation_item_header = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item = 2131427370;
+			public const int design_navigation_item_separator = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item_header = 2131427371;
+			public const int design_navigation_item_subheader = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_item_separator = 2131427372;
+			public const int design_navigation_menu = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_item_subheader = 2131427373;
+			public const int design_navigation_menu_item = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_menu = 2131427374;
+			public const int design_text_input_end_icon = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int design_navigation_menu_item = 2131427375;
+			public const int design_text_input_start_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int design_text_input_end_icon = 2131427376;
+			public const int FallbackTabbarDoNotUse = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int design_text_input_start_icon = 2131427377;
+			public const int FallbackToolbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FallbackTabbarDoNotUse = 2131427378;
+			public const int FlyoutContent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int FallbackToolbarDoNotUse = 2131427379;
+			public const int mtrl_alert_dialog = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int FlyoutContent = 2131427380;
+			public const int mtrl_alert_dialog_actions = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mtrl_alert_dialog = 2131427381;
+			public const int mtrl_alert_dialog_title = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mtrl_alert_dialog_actions = 2131427382;
+			public const int mtrl_alert_select_dialog_item = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mtrl_alert_dialog_title = 2131427383;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mtrl_alert_select_dialog_item = 2131427384;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mtrl_alert_select_dialog_multichoice = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427386;
+			public const int mtrl_calendar_day = 2131427385;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mtrl_calendar_day = 2131427387;
+			public const int mtrl_calendar_days_of_week = 2131427387;
 			
-			// aapt resource value: 0x7F0B003D
-			public const int mtrl_calendar_days_of_week = 2131427389;
+			// aapt resource value: 0x7F0B003A
+			public const int mtrl_calendar_day_of_week = 2131427386;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mtrl_calendar_day_of_week = 2131427388;
+			public const int mtrl_calendar_horizontal = 2131427388;
 			
-			// aapt resource value: 0x7F0B003E
-			public const int mtrl_calendar_horizontal = 2131427390;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int mtrl_calendar_month = 2131427391;
-			
-			// aapt resource value: 0x7F0B0042
-			public const int mtrl_calendar_months = 2131427394;
+			// aapt resource value: 0x7F0B003D
+			public const int mtrl_calendar_month = 2131427389;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mtrl_calendar_month_labeled = 2131427392;
+			public const int mtrl_calendar_months = 2131427392;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int mtrl_calendar_month_labeled = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int mtrl_calendar_month_navigation = 2131427391;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mtrl_calendar_month_navigation = 2131427393;
+			public const int mtrl_calendar_vertical = 2131427393;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int mtrl_calendar_year = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_calendar_vertical = 2131427395;
+			public const int mtrl_layout_snackbar = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_calendar_year = 2131427396;
+			public const int mtrl_layout_snackbar_include = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_layout_snackbar = 2131427397;
+			public const int mtrl_picker_actions = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_layout_snackbar_include = 2131427398;
+			public const int mtrl_picker_dialog = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_picker_actions = 2131427399;
+			public const int mtrl_picker_fullscreen = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_picker_dialog = 2131427400;
+			public const int mtrl_picker_header_dialog = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_picker_fullscreen = 2131427401;
+			public const int mtrl_picker_header_fullscreen = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int mtrl_picker_header_dialog = 2131427402;
+			public const int mtrl_picker_header_selection_text = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int mtrl_picker_header_fullscreen = 2131427403;
+			public const int mtrl_picker_header_title_text = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int mtrl_picker_header_selection_text = 2131427404;
+			public const int mtrl_picker_header_toggle = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_picker_header_title_text = 2131427405;
+			public const int mtrl_picker_text_input_date = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_picker_header_toggle = 2131427406;
+			public const int mtrl_picker_text_input_date_range = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int mtrl_picker_text_input_date = 2131427407;
+			public const int notification_action = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int mtrl_picker_text_input_date_range = 2131427408;
+			public const int notification_action_tombstone = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int notification_action = 2131427409;
+			public const int notification_media_action = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int notification_action_tombstone = 2131427410;
+			public const int notification_media_cancel_action = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int notification_media_action = 2131427411;
+			public const int notification_template_big_media = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int notification_media_cancel_action = 2131427412;
+			public const int notification_template_big_media_custom = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int notification_template_big_media = 2131427413;
+			public const int notification_template_big_media_narrow = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int notification_template_big_media_custom = 2131427414;
+			public const int notification_template_big_media_narrow_custom = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int notification_template_big_media_narrow = 2131427415;
+			public const int notification_template_custom_big = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int notification_template_big_media_narrow_custom = 2131427416;
+			public const int notification_template_icon_group = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int notification_template_custom_big = 2131427417;
+			public const int notification_template_lines_media = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int notification_template_icon_group = 2131427418;
+			public const int notification_template_media = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int notification_template_lines_media = 2131427419;
+			public const int notification_template_media_custom = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int notification_template_media = 2131427420;
+			public const int notification_template_part_chronometer = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int notification_template_media_custom = 2131427421;
+			public const int notification_template_part_time = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int notification_template_part_chronometer = 2131427422;
+			public const int RootLayout = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int notification_template_part_time = 2131427423;
+			public const int select_dialog_item_material = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int RootLayout = 2131427424;
+			public const int select_dialog_multichoice_material = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int select_dialog_item_material = 2131427425;
+			public const int select_dialog_singlechoice_material = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int select_dialog_multichoice_material = 2131427426;
+			public const int ShellContent = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int select_dialog_singlechoice_material = 2131427427;
+			public const int support_simple_spinner_dropdown_item = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int sfcomboBox_layout = 2131427428;
+			public const int Tabbar = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int ShellContent = 2131427429;
+			public const int test_action_chip = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int support_simple_spinner_dropdown_item = 2131427430;
+			public const int test_chip_zero_corner_radius = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int Tabbar = 2131427431;
+			public const int test_design_checkbox = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int test_action_chip = 2131427432;
+			public const int test_design_radiobutton = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int test_chip_zero_corner_radius = 2131427433;
+			public const int test_reflow_chipgroup = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int test_design_checkbox = 2131427434;
+			public const int test_toolbar = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int test_design_radiobutton = 2131427435;
+			public const int test_toolbar_custom_background = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int test_reflow_chipgroup = 2131427436;
+			public const int test_toolbar_elevation = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int test_toolbar = 2131427437;
-			
-			// aapt resource value: 0x7F0B006E
-			public const int test_toolbar_custom_background = 2131427438;
-			
-			// aapt resource value: 0x7F0B006F
-			public const int test_toolbar_elevation = 2131427439;
-			
-			// aapt resource value: 0x7F0B0070
-			public const int test_toolbar_surface = 2131427440;
-			
-			// aapt resource value: 0x7F0B0075
-			public const int text_view_without_line_height = 2131427445;
-			
-			// aapt resource value: 0x7F0B0071
-			public const int text_view_with_line_height_from_appearance = 2131427441;
+			public const int test_toolbar_surface = 2131427437;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int text_view_with_line_height_from_layout = 2131427442;
+			public const int text_view_without_line_height = 2131427442;
+			
+			// aapt resource value: 0x7F0B006E
+			public const int text_view_with_line_height_from_appearance = 2131427438;
+			
+			// aapt resource value: 0x7F0B006F
+			public const int text_view_with_line_height_from_layout = 2131427439;
+			
+			// aapt resource value: 0x7F0B0070
+			public const int text_view_with_line_height_from_style = 2131427440;
+			
+			// aapt resource value: 0x7F0B0071
+			public const int text_view_with_theme_line_height = 2131427441;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int text_view_with_line_height_from_style = 2131427443;
-			
-			// aapt resource value: 0x7F0B0074
-			public const int text_view_with_theme_line_height = 2131427444;
-			
-			// aapt resource value: 0x7F0B0076
-			public const int Toolbar = 2131427446;
+			public const int Toolbar = 2131427443;
 			
 			static Layout()
 			{
