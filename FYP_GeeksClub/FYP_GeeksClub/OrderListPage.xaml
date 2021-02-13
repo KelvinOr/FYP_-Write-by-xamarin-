@@ -17,46 +17,100 @@
             </Grid.ColumnDefinitions>
 
             <StackLayout Grid.Column="1" Orientation="Vertical">
-                <ListView x:Name="lv_unaccept_order" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
-                                <ViewCell.View>
-                                    <StackLayout Orientation="Vertical">
-                                        <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" Padding="10" IsClippedToBounds="True">
-                                            <StackLayout Orientation="Vertical">
-                                                <StackLayout Orientation="Horizontal">
-                                                    <controls:CircleImage HeightRequest="50" WidthRequest="50" Source="{Binding CustImg}" VerticalOptions="CenterAndExpand"/>
-                                                    <Label Text=" "/>
-                                                    <Label Text="{Binding CustName}" TextColor="#1C83E8" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
-                                                </StackLayout>
-                                                <Button BackgroundColor="#00000000" Text="View Detail" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="ViewDetail_Clicked"/>
-                                                <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
-                                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                                        <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
-                                                        <Label Text=" " VerticalOptions="CenterAndExpand"/>
-                                                        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-                                                            <Label Text="{Binding ItemTitle}" HorizontalOptions="Start" VerticalOptions="Start" TextColor="#1C83E8" FontSize="24" FontAttributes="Bold"/>
-                                                            <Label Text=" "/>
-                                                            <StackLayout Orientation="Horizontal">
-                                                                <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
-                                                                <Label Text="{Binding ItemPrice}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Order I get" HorizontalOptions="FillAndExpand" Clicked="btn_OrderGet"/>
+                    <Button Text="Order I create" HorizontalOptions="FillAndExpand" Clicked="btn_OrderICreate"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" x:Name="st_OrderICreate" IsVisible="false">
+
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" x:Name="st_OrderIGet">
+                    <Button Text="Unaccetp Order" BackgroundColor="White" TextColor="#1C83E8" Clicked="UnAcceptList_Clicked"/>
+                    <ListView x:Name="lv_unaccept_order" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
+                                    <ViewCell.View>
+                                        <StackLayout Orientation="Vertical">
+                                            <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" Padding="10" IsClippedToBounds="True">
+                                                <StackLayout Orientation="Vertical">
+                                                    <StackLayout Orientation="Horizontal">
+                                                        <controls:CircleImage HeightRequest="50" WidthRequest="50" Source="{Binding CustImg}" VerticalOptions="CenterAndExpand"/>
+                                                        <Label Text=" "/>
+                                                        <Label Text="{Binding CustName}" TextColor="#1C83E8" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                                                    </StackLayout>
+                                                    <Button BackgroundColor="#00000000" Text="View Detail" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="ViewDetail_Clicked"/>
+                                                    <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
+                                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                            <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
+                                                            <Label Text=" " VerticalOptions="CenterAndExpand"/>
+                                                            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                                                                <Label Text="{Binding ItemTitle}" HorizontalOptions="Start" VerticalOptions="Start" TextColor="#1C83E8" FontSize="24" FontAttributes="Bold"/>
+                                                                <Label Text=" "/>
+                                                                <StackLayout Orientation="Horizontal">
+                                                                    <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
+                                                                    <Label Text="{Binding ItemPrice}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
+                                                                </StackLayout>
                                                             </StackLayout>
                                                         </StackLayout>
+                                                    </Frame>
+                                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                        <Button Text="Accept" BackgroundColor="#00000000" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="Accept_Clicked"/>
+                                                        <Button Text="No Accept" BackgroundColor="#00000000" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="NoAccept_Clicked"/>
                                                     </StackLayout>
-                                                </Frame>
-                                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                                    <Button Text="Accept" BackgroundColor="#00000000" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="Accept_Clicked"/>
-                                                    <Button Text="No Accept" BackgroundColor="#00000000" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="NoAccept_Clicked"/>
                                                 </StackLayout>
-                                            </StackLayout>
-                                        </Frame>
-                                    </StackLayout>
-                                </ViewCell.View>
-                            </custom:CustomViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                                            </Frame>
+                                        </StackLayout>
+                                    </ViewCell.View>
+                                </custom:CustomViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <Button Text="Accetped Order" BackgroundColor="White" TextColor="#1C83E8" Clicked="AcceptList_Clicked"/>
+                    <ListView x:Name="lv_accept_order" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
+                                    <ViewCell.View>
+                                        <StackLayout Orientation="Vertical">
+                                            <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" Padding="10" IsClippedToBounds="True">
+                                                <StackLayout Orientation="Vertical">
+                                                    <StackLayout Orientation="Horizontal">
+                                                        <controls:CircleImage HeightRequest="50" WidthRequest="50" Source="{Binding CustImg}" VerticalOptions="CenterAndExpand"/>
+                                                        <Label Text=" "/>
+                                                        <Label Text="{Binding CustName}" TextColor="#1C83E8" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                                                    </StackLayout>
+                                                    <Button BackgroundColor="#00000000" Text="View Detail" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="ViewDetail_Clicked"/>
+                                                    <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
+                                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                            <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
+                                                            <Label Text=" " VerticalOptions="CenterAndExpand"/>
+                                                            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                                                                <Label Text="{Binding ItemTitle}" HorizontalOptions="Start" VerticalOptions="Start" TextColor="#1C83E8" FontSize="24" FontAttributes="Bold"/>
+                                                                <Label Text=" "/>
+                                                                <StackLayout Orientation="Horizontal">
+                                                                    <Label Text=" $" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
+                                                                    <Label Text="{Binding ItemPrice}" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#1C83E8"/>
+                                                                </StackLayout>
+                                                            </StackLayout>
+                                                        </StackLayout>
+                                                    </Frame>
+                                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                        <Button Text="Accept" BackgroundColor="#00000000" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="Accept_Clicked"/>
+                                                        <Button Text="No Accept" BackgroundColor="#00000000" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="NoAccept_Clicked"/>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </Frame>
+                                        </StackLayout>
+                                    </ViewCell.View>
+                                </custom:CustomViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+
             </StackLayout>
         </Grid>
     </ContentPage.Content>

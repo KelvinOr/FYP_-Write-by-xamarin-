@@ -411,6 +411,28 @@ namespace FYP_GeeksClub.firebaseHelper
             }).OrderByDescending(o => o.Time).ToList();
         }
 
+        public async Task<List<OrderDetail>> GetOrderbyCust()
+        {
+            return (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(a => a.Object.CustEmail == Preferences.Get("email", "").ToString()).Select(item => new OrderDetail
+            {
+                id = item.Object.id,
+                CustName = item.Object.CustName,
+                CustEmail = item.Object.CustEmail,
+                CustImg = item.Object.CustImg,
+                CustPhone = item.Object.CustPhone,
+                ContMethod = item.Object.ContMethod,
+                ItemId = item.Object.ItemId,
+                ItemTitle = item.Object.ItemTitle,
+                ItemPrice = item.Object.ItemPrice,
+                ItemImg = item.Object.ItemImg,
+                ItemOwner = item.Object.ItemOwner,
+                TranIsAccp = item.Object.TranIsAccp,
+                Other = item.Object.Other,
+                Time = item.Object.Time,
+                ShowTime = item.Object.ShowTime
+            }).OrderByDescending(o => o.Time).ToList();
+        }
+
 
     }
 }
