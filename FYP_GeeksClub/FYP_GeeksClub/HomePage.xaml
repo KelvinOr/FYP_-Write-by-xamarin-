@@ -6,6 +6,7 @@
              BackgroundColor="#1C83E8"
              NavigationPage.HasNavigationBar="False"
              xmlns:custom="clr-namespace:FYP_GeeksClub;assembly=FYP_GeeksClub"
+             xmlns:ref="clr-namespace:Refractored.XamForms.PullToRefresh;assembly=Refractored.XamForms.PullToRefresh"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
     
     <ContentPage.Content>
@@ -40,11 +41,21 @@
                         Clicked="btn_setting_Clicked"/>
                 </StackLayout> 
             </StackLayout>
-
+            <ref:PullToRefreshLayout IsPullToRefreshEnabled="True" x:Name="refe" Grid.Row="1" Grid.Column="1">
             <ScrollView Grid.Row="1" Grid.Column="1">
                 <StackLayout Orientation="Vertical">
                     <Label Text=" "/>
-                    <CollectionView x:Name="cv_item" BackgroundColor="#00000000" HeightRequest="200" HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Padding="5">
+                        <Frame CornerRadius="5" BackgroundColor="White" HasShadow="False" Padding="10" IsClippedToBounds="True" HorizontalOptions="FillAndExpand">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Order_Tapped"/>
+                            </Frame.GestureRecognizers>
+                            <Label TextColor="#1C83E8" FontAttributes="Bold" x:Name="lb_unaccept_order"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <CollectionView x:Name="cv_item" BackgroundColor="#00000000" HeightRequest="180" HorizontalOptions="FillAndExpand">
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout Orientation="Horizontal"/>
                         </CollectionView.ItemsLayout>
@@ -75,8 +86,6 @@
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
-
-                    <Label Text=" "/>
 
                     <CarouselView BackgroundColor="#00000000" HorizontalOptions="FillAndExpand" x:Name="cv_post" Loop="False" HeightRequest="300">
                         <CarouselView.ItemsLayout>
@@ -114,7 +123,7 @@
                     </CarouselView>
                 </StackLayout>
             </ScrollView>
-
+            </ref:PullToRefreshLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

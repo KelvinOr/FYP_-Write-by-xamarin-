@@ -43,6 +43,23 @@ namespace FYP_GeeksClub
                 Preferences.Set("First_Time_Login","false");
             }
 
+            refe.RefreshCommand = new Command(() => {
+                refresh();
+                refe.IsRefreshing = false;
+            });
+
+            getOrderCount();
+        }
+
+        private async void getOrderCount()
+        {
+            int temp = -1;
+            while (temp == null || temp == -1)
+            {
+                var temp2 = await firebaseHelper.GetOrder();
+                temp = temp2.Where(a => a.TranIsAccp == false).ToList().Count();
+            }
+            lb_unaccept_order.Text = "You get " + temp + " order";
         }
 
         protected async override void OnAppearing()
@@ -54,6 +71,17 @@ namespace FYP_GeeksClub
             {
                 recommand();
             }
+        }
+
+        private async void refresh()
+        {
+            item = await firebaseHelper.GetShopItem();
+            post = await firebaseHelperII.getAllPost();
+            if (post != null && item != null)
+            {
+                recommand();
+            }
+            getOrderCount();
         }
 
         protected override bool OnBackButtonPressed()
@@ -144,6 +172,11 @@ namespace FYP_GeeksClub
             var get = Viewpost.Where(a => a.id == model.id).FirstOrDefault();
 
             await Navigation.PushAsync(new ViewPostPage(get));
+        }
+
+        private async void Order_Tapped(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new OrderListPage());
         }
     }
 }
