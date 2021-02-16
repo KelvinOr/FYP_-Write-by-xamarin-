@@ -19,6 +19,7 @@
             </Grid.ColumnDefinitions>
 
             <StackLayout Grid.Column="1" Orientation="Vertical">
+                <Label Text=" "/>
                 <StackLayout Orientation="Horizontal">
                     <Button Text="Order I get" HorizontalOptions="FillAndExpand" Clicked="btn_OrderGet" x:Name="OrderGet" BackgroundColor="White"/>
                     <Button Text="Order I create" HorizontalOptions="FillAndExpand" Clicked="btn_OrderICreate" x:Name="OrderICreate" BackgroundColor="#C4C4C4"/>
@@ -34,12 +35,12 @@
                         </Picker.ItemsSource>
                     </Picker>
                     <Label Text="null" x:Name="OrderICrea_null" IsVisible="false"/>
-                    <ListView x:Name="lv_unaccept_create" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">
+                    <ListView x:Name="lv_unaccept_create" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True" SelectedItem="lv_ItemSelected">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                     <ViewCell.View>
-                                        <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
+                                        <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True" HasShadow="False">
                                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                                                 <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
                                                 <Label Text=" " VerticalOptions="CenterAndExpand"/>
@@ -59,12 +60,12 @@
                         </ListView.ItemTemplate>
                     </ListView>
 
-                    <ListView x:Name="lv_accept_create" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True">
+                    <ListView x:Name="lv_accept_create" Margin="0,20,0,20" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="#00000000" IsPullToRefreshEnabled="True" SelectedItem="lv_ItemSelected">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                     <ViewCell.View>
-                                        <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
+                                        <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True" HasShadow="False">
                                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                                                 <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
                                                 <Label Text=" " VerticalOptions="CenterAndExpand"/>
@@ -83,9 +84,9 @@
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
-
                 </StackLayout>
-                
+
+                <!-- -->
                 <StackLayout Orientation="Vertical" x:Name="st_OrderIGet" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                     <Picker x:Name="pk_OrderIGet" SelectedIndexChanged="pk_OrderIGet_SelectedIndexChanged" BackgroundColor="White" TextColor="#1C83E8">
                         <Picker.ItemsSource>
@@ -112,6 +113,9 @@
                                                         <Button BackgroundColor="#00000000" Text="View Detail" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="ViewDetail_Clicked"/>
                                                         <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
                                                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                                <StackLayout.GestureRecognizers>
+                                                                    <TapGestureRecognizer Tapped="Itemtapped"/>
+                                                                </StackLayout.GestureRecognizers>
                                                                 <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
                                                                 <Label Text=" " VerticalOptions="CenterAndExpand"/>
                                                                 <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
@@ -150,9 +154,11 @@
                                                             <Label Text=" "/>
                                                             <Label Text="{Binding CustName}" TextColor="#1C83E8" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
                                                         </StackLayout>
-                                                        <Button BackgroundColor="#00000000" Text="View Detail" TextColor="#1C83E8" HorizontalOptions="FillAndExpand" Clicked="ViewDetail_Clicked"/>
                                                         <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True">
                                                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                                <StackLayout.GestureRecognizers>
+                                                                    <TapGestureRecognizer Tapped="Itemtapped"/>
+                                                                </StackLayout.GestureRecognizers>
                                                                 <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
                                                                 <Label Text=" " VerticalOptions="CenterAndExpand"/>
                                                                 <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">

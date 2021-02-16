@@ -30,19 +30,19 @@
 
                 <Button Text="  Select Image  " IsVisible="false" x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
 
-                <inputLayout:SfTextInputLayout Hint="Title" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Title" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" TextColor="White" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" TextColor="White" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" HeightRequest="100" TextColor="White" AutoSize="TextChanges"/>
                 </inputLayout:SfTextInputLayout>
 

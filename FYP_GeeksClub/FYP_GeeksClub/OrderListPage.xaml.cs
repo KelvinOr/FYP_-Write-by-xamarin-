@@ -12,12 +12,33 @@ namespace FYP_GeeksClub
         FirebaseHelper firebaseHelper = new FirebaseHelper();
         List<OrderDetail> order = new List<OrderDetail>();
         List<OrderDetail> order2 = new List<OrderDetail>();
+        List<ShopItemDetail> temp = new List<ShopItemDetail>();
 
         public OrderListPage()
         {
             InitializeComponent();
             pk_OrderICrea.SelectedIndex = 0;
             pk_OrderIGet.SelectedIndex = 0;
+
+            lv_accept_create.RefreshCommand = new Command(() => {
+                refresh();
+                lv_accept_create.IsRefreshing = false;
+            });
+
+            lv_unaccept_create.RefreshCommand = new Command(() => {
+                refresh();
+                lv_accept_create.IsRefreshing = false;
+            });
+
+            lv_accept_order.RefreshCommand = new Command(() => {
+                refresh();
+                lv_accept_create.IsRefreshing = false;
+            });
+
+            lv_unaccept_order.RefreshCommand = new Command(() => {
+                refresh();
+                lv_accept_create.IsRefreshing = false;
+            });
         }
 
         protected async override void OnAppearing()
@@ -27,9 +48,11 @@ namespace FYP_GeeksClub
             {
                 order = await firebaseHelper.GetOrder();
                 order2 = await firebaseHelper.GetOrderbyCust();
+                temp = await firebaseHelper.GetShopItem();
                 lv_unaccept_order.ItemsSource = order.Where(o => o.TranIsAccp == false).ToList();
                 lv_accept_order.ItemsSource = order.Where(o => o.TranIsAccp == true).ToList();
                 lv_unaccept_create.ItemsSource = order2.Where(o => o.TranIsAccp == false).ToList();
+                lv_accept_create.ItemsSource = order2.Where(o => o.TranIsAccp == true).ToList();
                 set_null();
                 
             }
@@ -59,6 +82,7 @@ namespace FYP_GeeksClub
                 var item = await firebaseHelper.SearchItem(model.ItemId);
                 item.quantity += 1;
                 firebaseHelper.UpdateItem(item.id, item.title, item.detail, item.owner, item.price, item.quantity,item.imageURL,item.isSecondHand, item.saleIng);
+                firebaseHelper.removeOrder(model.id);
             }
         }
 
@@ -143,8 +167,39 @@ namespace FYP_GeeksClub
                 default:
                     break;
             }
+        }
 
+        private async void lv_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            Binding binding = new Binding();
+            if (((ListView)sender).SelectedItem == null)
+            {
+                return;
+            }
+            var content = e.SelectedItem as OrderDetail;
+            var get = temp.Where(a => a.id == content.ItemId).FirstOrDefault();
+            await Navigation.PushAsync(new ShopItemPage(get));
+            ((ListView)sender).SelectedItem = null;
+        }
 
+        private async void Itemtapped(System.Object sender, System.EventArgs e)
+        {
+            var content = sender as StackLayout;
+            var model = content.BindingContext as OrderDetail;
+            var get = temp.Where(a => a.id == model.ItemId).FirstOrDefault();
+            await Navigation.PushAsync(new ShopItemPage(get));
+        }
+
+        private async void refresh()
+        {
+            order = await firebaseHelper.GetOrder();
+            order2 = await firebaseHelper.GetOrderbyCust();
+            temp = await firebaseHelper.GetShopItem();
+            lv_unaccept_order.ItemsSource = order.Where(o => o.TranIsAccp == false).ToList();
+            lv_accept_order.ItemsSource = order.Where(o => o.TranIsAccp == true).ToList();
+            lv_unaccept_create.ItemsSource = order2.Where(o => o.TranIsAccp == false).ToList();
+            lv_accept_create.ItemsSource = order2.Where(o => o.TranIsAccp == true).ToList();
+            set_null();
         }
     }
 }

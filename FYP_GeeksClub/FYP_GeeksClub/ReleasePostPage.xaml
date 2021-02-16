@@ -17,7 +17,7 @@
             <StackLayout Orientation="Vertical"  x:Name="contectlayout" Grid.Column="1">
                                 <Label Text=" "/>
                                 <Label Text=" "/>
-                                <inputLayout:SfTextInputLayout Hint="Contect" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                                <inputLayout:SfTextInputLayout Hint="Contect" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                                     <Editor
                                         TextColor="White"
                                         x:Name="ed_contect"

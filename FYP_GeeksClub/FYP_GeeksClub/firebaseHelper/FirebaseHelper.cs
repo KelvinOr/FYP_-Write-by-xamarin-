@@ -341,12 +341,10 @@ namespace FYP_GeeksClub.firebaseHelper
 
         public async void UpdateOrder(int id, int itemid ,string itemImg,string itemTitle, double itemPrice, string itemOwner, string custName, int custPhone, string custImg,string contMeth, string other, bool tranIsAccp)
         {
-            var Check = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(
-                a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
+            var Check = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(a => a.Object.id == id).FirstOrDefault();
             if (Check != null)
             {
-                var Update = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(
-                    a => (a.Object.ItemOwner == itemOwner) && (a.Object.CustEmail == Preferences.Get("email", "").ToString()) && (a.Object.ItemTitle == itemTitle)).FirstOrDefault();
+                var Update = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(a => a.Object.id == id).FirstOrDefault();
                 await firebaseClient.Child("Order").Child(Update.Key).PutAsync(new OrderDetail()
                 {
                     id = id,
@@ -431,6 +429,12 @@ namespace FYP_GeeksClub.firebaseHelper
                 Time = item.Object.Time,
                 ShowTime = item.Object.ShowTime
             }).OrderByDescending(o => o.Time).ToList();
+        }
+
+        public async void removeOrder(int id)
+        {
+            var Update = (await firebaseClient.Child("Order").OnceAsync<OrderDetail>()).Where(a => a.Object.id == id).FirstOrDefault();
+            await firebaseClient.Child("Order").Child(Update.Key).DeleteAsync();
         }
 
 
