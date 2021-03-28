@@ -80,9 +80,6 @@
     <Compile Include="CustomViewCellRenderer.cs" />
     <Compile Include="SuperListViewRenderer.cs" />
     <Compile Include="KeyboardViewRenderer.cs" />
-    <Compile Include="Resources\Currency.cs">
-      <DependentUpon>Currency.mlmodel</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -186,6 +183,14 @@
     <BundleResource Include="remove_16px.png" />
     <BundleResource Include="send.png" />
     <BundleResource Include="search.png" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\model.espresso.shape" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\model.espresso.net" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\metadata.json" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\model.espresso.weights" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\coremldata.bin" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\model\coremldata.bin" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\neural_network_optionals\coremldata.bin" />
+    <BundleResource Include="Resources\MyModel.mlmodelc\analytics\coremldata.bin" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Home.png" />
@@ -228,9 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="SecondHand_73_44px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <CoreMLModel Include="Resources\Currency.mlmodel" />
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>

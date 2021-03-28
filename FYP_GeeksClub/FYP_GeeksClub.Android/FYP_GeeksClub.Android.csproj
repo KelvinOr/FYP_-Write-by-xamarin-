@@ -239,7 +239,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\labels.txt" />
-    <AndroidAsset Include="Assets\saved_model.pb" />
+    <AndroidAsset Include="Assets\model.pb" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

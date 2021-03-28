@@ -23,7 +23,7 @@ namespace FYP_GeeksClub.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            iOSImageClassifier.Init("Currency");
+            iOSImageClassifier.Init("MyModel");
             global::Xamarin.Forms.Forms.Init();
             SfTextInputLayoutRenderer.Init();
             LoadApplication(new App());

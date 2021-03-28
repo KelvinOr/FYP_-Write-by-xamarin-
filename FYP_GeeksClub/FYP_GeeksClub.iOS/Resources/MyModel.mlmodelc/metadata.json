@@ -1,0 +1,82 @@
+[
+  {
+    "shortDescription" : "",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "loss",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "classLabel",
+        "shortDescription" : ""
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "",
+    "specificationVersion" : 1,
+    "license" : "",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetworkClassifier"
+    },
+    "inputSchema" : [
+      {
+        "height" : "224",
+        "colorspace" : "BGR",
+        "isOptional" : "0",
+        "width" : "224",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 224 × 224)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "data"
+      }
+    ],
+    "classLabels" : [
+      "CPU",
+      "GPU",
+      "Harddisk",
+      "MotherBoard",
+      "Power Supply",
+      "RAM"
+    ],
+    "generatedClassName" : "MyModel",
+    "userDefinedMetadata" : {
+
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "Concat" : 16,
+      "InnerProduct" : 1,
+      "Convolution" : 56,
+      "ActivationSigmoid" : 1,
+      "Flatten" : 1,
+      "PoolingMax" : 1,
+      "Reshape" : 32,
+      "Permute" : 16,
+      "BatchNorm" : 1,
+      "Split" : 13,
+      "ActivationReLU" : 37,
+      "PoolingAverage" : 1
+    },
+    "method" : "predict"
+  }
+]
