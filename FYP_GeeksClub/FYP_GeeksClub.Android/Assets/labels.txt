@@ -1,0 +1,6 @@
+CPU
+GPU
+Harddisk
+MotherBoard
+Power Supply
+RAM

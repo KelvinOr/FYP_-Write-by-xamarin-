@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xam.Plugins.OnDeviceCustomVision;
 
 namespace FYP_GeeksClub.Droid
 {
@@ -18,7 +19,7 @@ namespace FYP_GeeksClub.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
+            AndroidImageClassifier.Init("saved_model.pb", "labels.txt", ModelType.General);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

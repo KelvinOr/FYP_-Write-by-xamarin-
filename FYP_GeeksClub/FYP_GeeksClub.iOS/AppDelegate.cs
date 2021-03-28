@@ -4,6 +4,7 @@ using System.Linq;
 using Foundation;
 using Syncfusion.XForms.iOS.TextInputLayout;
 using UIKit;
+using Xam.Plugins.OnDeviceCustomVision;
 
 namespace FYP_GeeksClub.iOS
 {
@@ -22,6 +23,7 @@ namespace FYP_GeeksClub.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            iOSImageClassifier.Init("Currency");
             global::Xamarin.Forms.Forms.Init();
             SfTextInputLayoutRenderer.Init();
             LoadApplication(new App());

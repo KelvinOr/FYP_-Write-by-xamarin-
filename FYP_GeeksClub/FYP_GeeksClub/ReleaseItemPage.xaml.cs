@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xam.Plugins.OnDeviceCustomVision;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -50,7 +51,10 @@ namespace FYP_GeeksClub
                     FRb.IsVisible = false;
                     btn_selectiamge.IsVisible = true;
                 }
-            } catch { }
+                var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
+                Ent_Detail.Text = tags.OrderByDescending(t => t.Probability).First().Tag;
+            }
+            catch { }
 
         }
 
