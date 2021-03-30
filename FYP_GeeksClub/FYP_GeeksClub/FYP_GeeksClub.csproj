@@ -33,6 +33,7 @@
     <PackageReference Include="FirebaseAuthentication.net" Version="3.6.0" />
     <PackageReference Include="Refractored.XamForms.PullToRefresh" Version="2.4.1" />
     <PackageReference Include="Xam.Plugins.CustomVision" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

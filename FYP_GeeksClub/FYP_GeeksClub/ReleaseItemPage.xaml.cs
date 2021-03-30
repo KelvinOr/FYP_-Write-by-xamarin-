@@ -1,4 +1,5 @@
 ﻿using FYP_GeeksClub.firebaseHelper;
+using Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
@@ -18,6 +19,11 @@ namespace FYP_GeeksClub
     {
         MediaFile file;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
+
+        Guid projectID = Guid.Parse("b11bca26-3803-44b1-8343-cfdd4a15142a");
+        string  ENDPOINT = "https://japaneast.api.cognitive.microsoft.com";
+        string predictionKey = "71feb66e158e430a968977d7a3675e1d";
+
 
         public ReleaseItemPage()
         {
@@ -51,8 +57,24 @@ namespace FYP_GeeksClub
                     FRb.IsVisible = false;
                     btn_selectiamge.IsVisible = true;
                 }
+
                 var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
-                Ent_Detail.Text = tags.OrderByDescending(t => t.Probability).First().Tag;
+                var besttags = tags.OrderByDescending(t => t.Probability).First().Tag;
+                Ent_Detail.Text = besttags;
+
+                if (besttags == null)
+                {
+                    var client = new CustomVisionPredictionClient
+                    {
+                        ApiKey = predictionKey,
+                        Endpoint = ENDPOINT,
+                    };
+
+                    var result = await client.ClassifyImageAsync(projectID, "Iteration4", file.GetStream());
+                    var bestResult = result.Predictions.OrderByDescending(p => p.Probability).FirstOrDefault();
+
+                    Ent_Title.Text = bestResult.TagName;
+                }
             }
             catch { }
 
