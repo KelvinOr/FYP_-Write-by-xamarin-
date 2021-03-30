@@ -29,6 +29,7 @@
                     Clicked="ChangeName_Clicked" 
                     ContentLayout="Right" 
                     BackgroundColor="White"
+                    TextColor="#1C83E8"
                     Image="edit_18px.png" 
                     HeightRequest="38"/>
 
@@ -38,6 +39,7 @@
                 Clicked="ChangeImage_Clicked" 
                 Text="Change Image" 
                 BackgroundColor="White"
+                TextColor="#1C83E8"
                 HeightRequest="38"
                 ContentLayout="Right" 
                 Image ="open_18px"/>
@@ -47,6 +49,7 @@
                 Clicked="EditInformation_Clicked" 
                 Text="Edit Information" 
                 BackgroundColor="White"
+                TextColor="#1C83E8"
                 HeightRequest="38"
                 ContentLayout="Right" 
                 Image ="edit_doc_18px"/>
@@ -56,6 +59,7 @@
                 Clicked="UseCase_Clicked" 
                 Text="Change Main Use Case" 
                 BackgroundColor="White"
+                TextColor="#1C83E8"
                 HeightRequest="38"
                 ContentLayout="Right" 
                 Image ="edit_doc_18px"/>
@@ -67,6 +71,7 @@
                 Text="My Item"
                 Clicked="MyItem_Clicked"
                 BackgroundColor="White"
+                TextColor="#1C83E8"
                 HeightRequest="38"
                 ContentLayout="Right"
                 ImageSource="list_18px.png"/>
@@ -76,6 +81,7 @@
                 Text="Order"
                 Clicked="ShowOrder_Clicked"
                 BackgroundColor="White"
+                TextColor="#1C83E8"
                 HeightRequest="38"
                 ContentLayout="Right"
                 ImageSource="order_18px.png"/>
@@ -88,6 +94,7 @@
                 Clicked="Logout_Clicked" 
                 Text="Logout" 
                 BackgroundColor="White"
+                TextColor="#1C83E8"
                 HeightRequest="38"
                 ContentLayout="Right"
                 Image ="exit_18px"/>

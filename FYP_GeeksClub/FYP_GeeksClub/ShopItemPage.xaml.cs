@@ -70,8 +70,8 @@ namespace FYP_GeeksClub
             else
             {
                 await Navigation.PushAsync(new OrderDetailPage(shop));
-                Navigation.RemovePage(this);
             }
+            Navigation.RemovePage(this);
         }
 
         private async void btn_ownerPage_Clicked(object sender, EventArgs e)
