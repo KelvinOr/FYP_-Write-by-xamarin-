@@ -26,6 +26,22 @@
                     <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand"/>
                 </inputLayout:SfTextInputLayout>
 
+                <inputLayout:SfTextInputLayout ContainerType="Outlined" FocusedColor="White" UnfocusedColor="White">
+                    <Picker x:Name="Type" TextColor="White">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                              <x:String>CPU</x:String>
+                              <x:String>GPU</x:String>
+                              <x:String>Harddisk</x:String>
+                              <x:String>MotherBoard</x:String>
+                              <x:String>Power Supply</x:String>
+                              <x:String>RAM</x:String>
+                              <x:String>Other</x:String>
+                            </x:Array>
+                          </Picker.ItemsSource>
+                    </Picker>
+                </inputLayout:SfTextInputLayout>
+
                 <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
                     <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>

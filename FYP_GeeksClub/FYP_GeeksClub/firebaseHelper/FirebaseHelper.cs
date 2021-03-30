@@ -167,12 +167,13 @@ namespace FYP_GeeksClub.firebaseHelper
         }
 
         //MARK: shop item firebase helper
-        public async void PushNewItem(int id, string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
+        public async void PushNewItem(int id, string title, string detail, double price, int quantity, string imageURL, bool isSecondHand, bool saleIng, string itemType)
         {
             await firebaseClient.Child("shopitem").PostAsync(new ShopItemDetail
             {
                 id = id,
                 title = title,
+                itemType = itemType,
                 detail = detail,
                 price = price,
                 quantity = quantity,
@@ -204,6 +205,7 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 id = item.Object.id,
                 title = item.Object.title,
+                itemType = item.Object.itemType,
                 detail = item.Object.detail,
                 price = item.Object.price,
                 quantity = item.Object.quantity,
@@ -221,6 +223,7 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 id = item.Object.id,
                 title = item.Object.title,
+                itemType = item.Object.itemType,
                 detail = item.Object.detail,
                 price = item.Object.price,
                 quantity = item.Object.quantity,
@@ -238,6 +241,7 @@ namespace FYP_GeeksClub.firebaseHelper
             {
                 id = item.Object.id,
                 title = item.Object.title,
+                itemType =item.Object.itemType,
                 detail = item.Object.detail,
                 price = item.Object.price,
                 quantity = item.Object.quantity,
@@ -262,7 +266,7 @@ namespace FYP_GeeksClub.firebaseHelper
             return imageURL;
         }
 
-        public async void UpdateItem(int id, string title, string detail,string owner ,double price, int quantity, string imageURL, bool isSecondHand, bool saleIng)
+        public async void UpdateItem(int id, string title, string detail,string owner ,double price, int quantity, string imageURL, bool isSecondHand, bool saleIng, string itemType)
         {
             var Check = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
                 a => (a.Object.title == title) && (a.Object.owner == owner) ).FirstOrDefault();
@@ -274,6 +278,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     id = id,
                     title = title,
+                    itemType = itemType,
                     detail = detail,
                     price = price,
                     quantity = quantity,
@@ -290,6 +295,7 @@ namespace FYP_GeeksClub.firebaseHelper
                 {
                     id = id,
                     title = title,
+                    itemType = itemType,
                     detail = detail,
                     price = price,
                     quantity = quantity,

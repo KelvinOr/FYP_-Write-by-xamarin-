@@ -15,6 +15,7 @@ namespace FYP_GeeksClub
         public int id;
         public string imageURL;
         public string title;
+        public string itemType;
         public double price;
         public string itemOwnerEmail;
         public int quanity;
@@ -34,6 +35,7 @@ namespace FYP_GeeksClub
             quanity = shopItemDetail.quantity;
             detail = shopItemDetail.detail;
             isSecondHand = shopItemDetail.isSecondHand;
+            itemType = shopItemDetail.itemType;
 
             img_sH.IsVisible = shopItemDetail.saleIng;
             img_Image.Source = shopItemDetail.imageURL;
@@ -75,7 +77,7 @@ namespace FYP_GeeksClub
                         saling = true;
                     }
 
-                    firebaseHelper.UpdateItem(id, title, detail, itemOwnerEmail, price, int_quantity, imageURL, isSecondHand, saling);
+                    firebaseHelper.UpdateItem(id, title, detail, itemOwnerEmail, price, int_quantity, imageURL, isSecondHand, saling, itemType);
                 };
                 await App.Current.MainPage.DisplayAlert("Alert", "Order Created", "OK");
                 await Navigation.PopAsync();

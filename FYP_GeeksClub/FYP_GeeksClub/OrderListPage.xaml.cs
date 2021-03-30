@@ -81,7 +81,7 @@ namespace FYP_GeeksClub
             {
                 var item = await firebaseHelper.SearchItem(model.ItemId);
                 item.quantity += 1;
-                firebaseHelper.UpdateItem(item.id, item.title, item.detail, item.owner, item.price, item.quantity,item.imageURL,item.isSecondHand, item.saleIng);
+                firebaseHelper.UpdateItem(item.id, item.title, item.detail, item.owner, item.price, item.quantity,item.imageURL,item.isSecondHand, item.saleIng, item.itemType);
                 firebaseHelper.removeOrder(model.id);
             }
         }

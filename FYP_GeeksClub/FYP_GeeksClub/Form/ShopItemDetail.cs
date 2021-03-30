@@ -8,6 +8,7 @@ namespace FYP_GeeksClub.Form
     {
         public int id { get; set; }
         public string title { get; set; }
+        public string itemType { get; set; }
         public string detail { get; set; }
         public double price { get; set; }
         public int quantity { get; set; }
