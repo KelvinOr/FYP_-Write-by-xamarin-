@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using FYP_GeeksClub.firebaseHelper;
@@ -75,29 +76,41 @@ namespace FYP_GeeksClub
                     });
                 }
 
-                var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
-                var besttags = tags.OrderByDescending(t => t.Probability).First().Tag;
-                Type.SelectedItem = besttags;
-
-                if (besttags == null)
+                if (Device.RuntimePlatform == Device.iOS)
                 {
-                    var client = new CustomVisionPredictionClient
+                    var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
+                    var besttags = tags.OrderByDescending(t => t.Probability).First().Tag;
+                    Type.SelectedItem = besttags;
+
+                    if (besttags == null)
                     {
-                        ApiKey = predictionKey,
-                        Endpoint = ENDPOINT,
-                    };
+                        OnlineImageClasstif(file.GetStream());
+                    }
+                }
 
-                    var result = await client.ClassifyImageAsync(projectID, "Iteration4", file.GetStream());
-                    var bestResult = result.Predictions.OrderByDescending(p => p.Probability).FirstOrDefault();
 
-                    Ent_Title.Text = bestResult.TagName;
+                if (Device.RuntimePlatform == Device.Android)
+                {
+                    OnlineImageClasstif(file.GetStream());
                 }
             }
             catch { }
 
         }
 
+        private async void OnlineImageClasstif(Stream stream)
+        {
+            var client = new CustomVisionPredictionClient
+            {
+                ApiKey = predictionKey,
+                Endpoint = ENDPOINT,
+            };
 
+            var result = await client.ClassifyImageAsync(projectID, "Iteration4", stream);
+            var bestResult = result.Predictions.OrderByDescending(p => p.Probability).FirstOrDefault();
+
+            Ent_Title.Text = bestResult.TagName;
+        }
 
         async private void btn_cencal_Clicked(System.Object sender, System.EventArgs e)
         {
