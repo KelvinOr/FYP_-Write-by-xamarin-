@@ -62,7 +62,7 @@ namespace FYP_GeeksClub
                 var besttags = tags.OrderByDescending(t => t.Probability).First().Tag;
                 Type.SelectedItem = besttags;
 
-                if (besttags == null)
+                if (besttags == null || Device.RuntimePlatform == Device.Android)
                 {
                     var client = new CustomVisionPredictionClient
                     {

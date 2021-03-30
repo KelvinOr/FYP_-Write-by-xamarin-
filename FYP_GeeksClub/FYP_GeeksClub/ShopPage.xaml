@@ -103,7 +103,7 @@
                 </ListView>
 
             <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Vertical">
-                <Button Text="Release Your Items" x:Name="btn_release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
+                <Button Text="Release Your Items" x:Name="btn_release" BackgroundColor="White" TextColor="#1C83E8" Clicked="btn_release_Clicked"/>
                 <Label Text=" "/>
             </StackLayout>
 

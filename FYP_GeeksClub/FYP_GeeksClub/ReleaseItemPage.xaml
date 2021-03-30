@@ -23,7 +23,7 @@
 
                 <Label Text=" "/>
                 <StackLayout Orientation="Vertical" x:Name="FRb" HeightRequest="300">
-                    <Button Text="  Select Image  " x:Name="btn_FRb" BackgroundColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
+                    <Button Text="  Select Image  " x:Name="btn_FRb" BackgroundColor="White" TextColor="#1C83E8" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
                 </StackLayout>
 
                 <Image x:Name="SelectImage" />
