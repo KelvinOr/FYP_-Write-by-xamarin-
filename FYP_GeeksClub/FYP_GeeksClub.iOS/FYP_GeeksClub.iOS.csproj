@@ -89,22 +89,13 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
@@ -125,6 +116,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-4.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-2.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -142,10 +137,10 @@
       <Version>13.0.1</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Licensing">
-      <Version>18.4.0.49</Version>
+      <Version>19.1.0.54</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>18.4.0.49</Version>
+      <Version>19.1.0.54</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
       <Version>5.0.1</Version>
