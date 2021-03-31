@@ -46,7 +46,7 @@
                             <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                 <ViewCell.View>
                                     <StackLayout Orientation="Vertical">
-                                        <Frame HasShadow="False" BackgroundColor="White" IsClippedToBounds="True" Padding="5,5,5,5">
+                                        <Frame HasShadow="False" BackgroundColor="White" IsClippedToBounds="True" Padding="5">
                                             <StackLayout Orientation="Vertical">
                                                 <StackLayout Orientation="Horizontal">
                                                     <!--<ImageButton HorizontalOptions="EndAndExpand" Source="remove_16px" Clicked="btn_delete_Clicked"/>-->

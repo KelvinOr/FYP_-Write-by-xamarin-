@@ -116,7 +116,7 @@ namespace FYP_GeeksClub
             {
                 try
                 {
-                    if (Ent_Title != null && Ent_Detail != null && Ent_Price != null && SelectImage.Source != null && SelectImage.Source != null)
+                    if (Ent_Title != null && Ent_Detail != null && Ent_Price != null && SelectImage.Source != null && SelectImage.Source != null && Type.SelectedItem != null)
                     {
                         int maxID = 1;
                         try

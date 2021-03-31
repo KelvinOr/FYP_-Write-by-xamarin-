@@ -71,6 +71,7 @@ namespace FYP_GeeksClub
             {
                 recommand();
             }
+
         }
 
         private async void refresh()
@@ -104,32 +105,74 @@ namespace FYP_GeeksClub
         {
             var key =  new RecommandKey().GetKey();
             var ran = new Random();
-            
-            for(int i = 0; i < 5;i++)
-            {
-                int index = ran.Next(key.Count());
-                if (post.Where(a => a.PostContect.ToLower().Contains(key[index].ToLower())).FirstOrDefault() != null)
-                {
-                    Viewpost.Add(post.Where(a => a.PostContect.ToLower().Contains(key[index].ToLower())).FirstOrDefault());
-                }
-                else
-                {
-                    Viewpost.Add(post[ran.Next(post.Count())]);
-                }
-            }
+            string[] Type = { "CPU", "GPU", "Harddisk", "MotherBoard", "Power Supply", "RAM" }; 
 
-            for (int i = 0; i < 5; i++)
+            if (post != null)
             {
-                int index = ran.Next(key.Count());
-                if (item.Where(a => a.title.ToLower().Contains(key[index].ToLower())).FirstOrDefault() != null)
+                var temp = "";
+                for (int i = 0; i < 5; i++)
                 {
-                    Viewitem.Add(item.Where(a => a.title.ToLower().Contains(key[index].ToLower())).FirstOrDefault());
-                }
-                else
-                {
-                    Viewitem.Add(item[ran.Next(item.Count())]);
+                    int index = ran.Next(key.Count());
+                    if (key[index] == temp)
+                    {
+                        Viewpost.Add(post[ran.Next(post.Count())]);
+                        temp = key[index];
+                    }
+                    if (post.Where(a => a.PostContect.ToLower().Contains(key[index].ToLower())).FirstOrDefault() != null)
+                    {
+                        Viewpost.Add(post.Where(a => a.PostContect.ToLower().Contains(key[index].ToLower())).FirstOrDefault());
+                        temp = key[index];
+                    }
+                    else
+                    {
+                        Viewpost.Add(post[ran.Next(post.Count())]);
+                        temp = key[index];
+                    }
+
                 }
             }
+            
+
+            if (item != null)
+            {
+                var temp = "";
+                for (int i = 0; i < 5; i++)
+                {
+                    int index = ran.Next(key.Count());
+                    int typeindex = ran.Next(Type.Count());
+                    if (key[index] == temp)
+                    {
+                        Viewitem.Add(item[ran.Next(item.Count())]);
+                        temp = key[index];
+                        continue;
+                    }
+                    if (key[index] == Type[typeindex])
+                    {
+                        if (item.Where(a => a.itemType.ToLower().Contains(key[index].ToLower())).FirstOrDefault() != null)
+                        {
+                            Viewitem.Add(item.Where(a => a.itemType.ToLower().Contains(key[index].ToLower())).FirstOrDefault());
+                        }
+                        else
+                        {
+                            Viewitem.Add(item[ran.Next(item.Count())]);
+                        }
+                        temp = key[index];
+                        continue;
+                    }
+
+                    if (item.Where(a => a.title.ToLower().Contains(key[index].ToLower())).FirstOrDefault() != null)
+                    {
+                        Viewitem.Add(item.Where(a => a.title.ToLower().Contains(key[index].ToLower())).FirstOrDefault());
+                        temp = key[index];
+                    }
+                    else
+                    {
+                        Viewitem.Add(item[ran.Next(item.Count())]);
+                        temp = key[index];
+                    }
+                }
+            }
+            
 
             cv_post.ItemsSource = Viewpost;
             cv_item.ItemsSource = Viewitem;
