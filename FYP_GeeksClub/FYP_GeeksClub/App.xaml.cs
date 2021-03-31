@@ -13,7 +13,7 @@ namespace FYP_GeeksClub
         public App()
         {
 
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzgxNzM3QDMxMzgyZTM0MmUzMEU0NFZrdHArcmU0K2IzbnpkY3ZlcU5nZndidk9Ld255SEhNSU9QV0hMOWc9");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDIwMjU1QDMxMzkyZTMxMmUzMEFOblVUbEZOaTU1L3E3c0xiWWIvejFtbk1lMVNVSG54MWFUMGtoVFhnb0U9");
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage())

@@ -76,8 +76,8 @@
                     <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" CornerRadius="5" IsClippedToBounds="True" Padding="0" BackgroundColor="White" HasShadow="False">
                         <Editor HorizontalOptions="FillAndExpand" AutoSize="TextChanges" x:Name="ed_detail" TextColor="#1C83E8" BackgroundColor="#00000000"/>
                     </Frame>
-                    <Frame CornerRadius="5" HorizontalOptions="End" VerticalOptions="FillAndExpand" IsClippedToBounds="True" WidthRequest="50" Padding="0" BackgroundColor="White" HasShadow="False">
-                        <ImageButton Source="send.png" Clicked="btn_send_Clicked"/>
+                    <Frame CornerRadius="5" HorizontalOptions="End" VerticalOptions="EndAndExpand" IsClippedToBounds="True" WidthRequest="50" Padding="0" BackgroundColor="White" HasShadow="False">
+                        <ImageButton Source="send.png" Clicked="btn_send_Clicked" HeightRequest="35"/>
                     </Frame>
                 </StackLayout>
                 <Label Text=" "/>
