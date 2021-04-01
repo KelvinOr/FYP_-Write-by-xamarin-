@@ -67,13 +67,17 @@ namespace FYP_GeeksClub
             var id = postDetail.id;
             var username = user.UserName;
             var img = user.UserImageURL;
-            if (ed_detail != null)
+            if (string.IsNullOrEmpty(ed_detail.Text) == false)
             {
                 firebaseHelperII.UploadRePost(id, ed_detail.Text.ToString(), Preferences.Get("email", "").ToString(), username, img);
                 firebaseHelperII.postTimeUpdate(id);
                 ed_detail.Text = "";
             }
-        }
+            else
+            {
+                await DisplayAlert("Alert", "Please input message", "OK");
+            }
+        } 
 
         private async void Navigation_bar_Clicked(object sender, EventArgs e)
         {
