@@ -55,6 +55,11 @@
                         </Frame>
                     </StackLayout>
 
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Item Recommandation" TextColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                        <Button HeightRequest="20" HorizontalOptions="EndAndExpand" Text="More" TextColor="White" x:Name="btn_MoreRItem" Clicked="btn_MoreRItem_Clicked" BackgroundColor="#00000000"/>
+                    </StackLayout>
+
                     <CollectionView x:Name="cv_item" BackgroundColor="#00000000" HeightRequest="180" HorizontalOptions="FillAndExpand">
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout Orientation="Horizontal"/>
@@ -86,6 +91,13 @@
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
+
+                    <Label Text=" " FontSize="5"/>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Post Recommandation" TextColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                        <Button HeightRequest="20" HorizontalOptions="EndAndExpand" Text="More" TextColor="White" x:Name="btn_MoreRPost" Clicked="btn_MoreRPost_Clicked" BackgroundColor="#00000000"/>
+                    </StackLayout>
 
                     <CarouselView BackgroundColor="#00000000" HorizontalOptions="FillAndExpand" x:Name="cv_post" Loop="False" HeightRequest="300">
                         <CarouselView.ItemsLayout>

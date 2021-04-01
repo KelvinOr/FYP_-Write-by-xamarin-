@@ -221,5 +221,15 @@ namespace FYP_GeeksClub
         {
             await Navigation.PushAsync(new OrderListPage());
         }
+
+        private async void btn_MoreRItem_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MoreRItem());
+        }
+
+        private async void btn_MoreRPost_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MoreRPost());
+        }
     }
 }

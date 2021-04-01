@@ -68,13 +68,13 @@
             <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="2">
                 <Label Text=" "/>
                 <Label Text="Order Detail: " TextColor="White"/>
-                <inputLayout:SfTextInputLayout Hint="Phone No." FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Phone No." FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" TextColor="White" />
                 </inputLayout:SfTextInputLayout>
-                <inputLayout:SfTextInputLayout Hint="Contect Method" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Contect Method" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Entry x:Name="Ent_ContMeth" HorizontalOptions="FillAndExpand" TextColor="White" />
                 </inputLayout:SfTextInputLayout>
-                <inputLayout:SfTextInputLayout Hint="Other(optionial)" FocusedColor="White" UnfocusedColor="#c4c4c4" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Other(optionial)" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Entry x:Name="Ent_Other" HorizontalOptions="FillAndExpand" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 

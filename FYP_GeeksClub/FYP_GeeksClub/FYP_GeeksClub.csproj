@@ -117,5 +117,11 @@
     <EmbeddedResource Update="OrderListPage.xaml">
       <LogicalName>OrderListPage.xaml</LogicalName>
     </EmbeddedResource>
+    <EmbeddedResource Update="MoreRItem.xaml">
+      <LogicalName>MoreRItem.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MoreRPost.xaml">
+      <LogicalName>MoreRPost.xaml</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
