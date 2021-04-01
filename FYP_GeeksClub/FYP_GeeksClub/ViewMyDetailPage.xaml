@@ -92,7 +92,7 @@
                                         BackgroundColor="#C4C4C4"
                                         Clicked="btn_Post_Clicked"/>
                                 </Grid>
-                                <Label Text=" " FontSize="Small"/>
+                                <Label Text=" " FontSize="5"/>
                             </StackLayout>
                         </DataTemplate>
                     </ListView.HeaderTemplate>
@@ -207,7 +207,7 @@
                                         BackgroundColor="White"
                                         Clicked="btn_Post_Clicked"/>
                                 </Grid>
-                                <Label Text=" " FontSize="Small"/>
+                                <Label Text=" " FontSize="5"/>
                             </StackLayout>
                         </DataTemplate>
                     </ListView.HeaderTemplate>
