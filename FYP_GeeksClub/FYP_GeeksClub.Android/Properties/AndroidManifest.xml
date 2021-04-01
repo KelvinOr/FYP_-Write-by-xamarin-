@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.fyp_geeksclub" android:installLocation="preferExternal">
 	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="28" />
-	<application android:label="FYP_GeeksClub.Android" android:theme="@style/MainTheme" android:icon="@mipmap/icon">
+	<application android:label="GeeksClub.Android" android:theme="@style/MainTheme" android:icon="@drawable/appicon">
 		<provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.XamarinFirebase.fileprovider" android:exported="false" android:grantUriPermissions="true">
 			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
 		</provider>
