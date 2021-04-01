@@ -16,6 +16,9 @@ namespace FYP_GeeksClub
         private List<ShopItemDetail> shopDetail = new List<ShopItemDetail>();
         private List<UserAccountDetail> userDetail = new List<UserAccountDetail>();
 
+        string itemTyperesult;
+        private List<ShopItemDetail> shopDetailTemp = new List<ShopItemDetail>();
+
         public SearchPage()
         {
             InitializeComponent();
@@ -34,13 +37,20 @@ namespace FYP_GeeksClub
 
         private async void OnTextChanged(object sender, TextChangedEventArgs e)
         {
+            
+
             if (search.Text != null)
             {
                 lv_post_search.ItemsSource = postDetail.Where(a => a.PostContect.ToLower().Contains(search.Text.ToString().ToLower())).ToList();
                 lv_shop_search.ItemsSource = shopDetail.Where(a => a.title.ToLower().Contains(search.Text.ToString().ToLower())).ToList();
                 lv_user_search.ItemsSource = userDetail.Where(a => a.UserName.ToLower().Contains(search.Text.ToString().ToLower())).ToList();
             }
-            
+
+            if (itemTyperesult != null)
+            {
+                lv_shop_search.ItemsSource = shopDetail.Where(a => a.itemType == itemTyperesult).Where(a => a.title.ToLower().Contains(search.Text.ToString().ToLower())).ToList();
+            }
+
         }
 
         private void btn_post_Clicked(System.Object sender, System.EventArgs e)
@@ -107,6 +117,21 @@ namespace FYP_GeeksClub
             var content = e.SelectedItem as UserAccountDetail;
             await Navigation.PushAsync(new UserDetailPage(content));
             ((ListView)sender).SelectedItem = null;
+        }
+
+        private async void btn_Type_Clicked(System.Object sender, System.EventArgs e)
+        {
+            itemTyperesult = await DisplayActionSheet("item type", "Cancel", null, "null", "GPU", "CPU", "Harddisk", "MotherBoard", "Power Supply", "RAM");
+            lv_shop_search.ItemsSource = shopDetail.Where(a => a.itemType == itemTyperesult).ToList();
+            if (itemTyperesult == null)
+            {
+                lv_shop_search.ItemsSource = shopDetail;
+            }
+            if (itemTyperesult == "null")
+            {
+                lv_shop_search.ItemsSource = shopDetail;
+                itemTyperesult = null;
+            }
         }
     }
 }

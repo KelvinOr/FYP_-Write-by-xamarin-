@@ -5,20 +5,14 @@
     x:Class="FYP_GeeksClub.SearchPage"
     BackgroundColor="#1C83E8"
     NavigationPage.IconColor="White"
+    NavigationPage.BackButtonTitle="Back"
     xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
     xmlns:custom="clr-namespace:FYP_GeeksClub;assembly=FYP_GeeksClub">
 
     <NavigationPage.TitleView>
-        <SearchBar x:Name="search"
-                   HorizontalOptions="FillAndExpand"
-                   Placeholder="Search"
-                   BackgroundColor="#00000000"
-                   TextColor="White"
-                   CancelButtonColor="White"
-                   PlaceholderColor="White"
-                   TextTransform="Lowercase"
-                   HorizontalTextAlignment="Start"
-                   TextChanged="OnTextChanged"/>
+        <StackLayout Orientation="Horizontal">
+            <ImageButton HorizontalOptions="EndAndExpand" WidthRequest="25" HeightRequest="25" x:Name="btn_Type" Clicked="btn_Type_Clicked" Source="filter.png"/>
+        </StackLayout>
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
@@ -31,7 +25,17 @@
 
             <StackLayout Orientation="Vertical" Grid.Column="1">
 
-                <Label Text=" " FontSize="3"/>
+                <SearchBar x:Name="search"
+                   HorizontalOptions="FillAndExpand"
+                   Placeholder="Search"
+                   BackgroundColor="#00000000"
+                   TextColor="White"
+                   CancelButtonColor="White"
+                   PlaceholderColor="White"
+                   TextTransform="Lowercase"
+                   HorizontalTextAlignment="Start"
+                   TextChanged="OnTextChanged"/>
+
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="30">
                     <Button VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Text="Post" BackgroundColor="White" x:Name="btn_post" TextColor="#1C83E8" Clicked="btn_post_Clicked"/>
                     <Button VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Text="Shop" BackgroundColor="#C4C4C4" x:Name="btn_shop" TextColor="#1C83E8" Clicked="btn_shop_Clicked"/>

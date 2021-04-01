@@ -189,6 +189,7 @@
     <BundleResource Include="Resources\MyModel.mlmodelc\model\coremldata.bin" />
     <BundleResource Include="Resources\MyModel.mlmodelc\neural_network_optionals\coremldata.bin" />
     <BundleResource Include="Resources\MyModel.mlmodelc\analytics\coremldata.bin" />
+    <BundleResource Include="filter.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Home.png" />
