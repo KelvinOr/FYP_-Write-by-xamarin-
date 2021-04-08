@@ -40,6 +40,7 @@
                             <DataTemplate>
                                 <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                     <ViewCell.View>
+                                        <StackLayout Orientation="Vertical">
                                         <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True" HasShadow="False">
                                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                                                 <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
@@ -54,6 +55,8 @@
                                                 </StackLayout>
                                             </StackLayout>
                                         </Frame>
+                                            <Label Text=" " FontSize="5"/>
+                                        </StackLayout>
                                     </ViewCell.View>
                                 </custom:CustomViewCell>
                             </DataTemplate>
@@ -65,6 +68,7 @@
                             <DataTemplate>
                                 <custom:CustomViewCell SelectedItemBackgroundColor="#00000000">
                                     <ViewCell.View>
+                                        <StackLayout Orientation="Vertical">
                                         <Frame CornerRadius="5" BackgroundColor="White" Padding="10" IsClippedToBounds="True" HasShadow="False">
                                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                                                 <Image Source="{Binding ItemImg}" WidthRequest="90" HeightRequest="90" VerticalOptions="Center"/>
@@ -79,6 +83,8 @@
                                                 </StackLayout>
                                             </StackLayout>
                                         </Frame>
+                                            <Label Text =" " FontSize="5"/>
+                                        </StackLayout>
                                     </ViewCell.View>
                                 </custom:CustomViewCell>
                             </DataTemplate>
@@ -134,6 +140,7 @@
                                                         </StackLayout>
                                                     </StackLayout>
                                                 </Frame>
+                                                <Label Text=" " FontSize="5"/>
                                             </StackLayout>
                                         </ViewCell.View>
                                     </custom:CustomViewCell>
@@ -173,6 +180,7 @@
                                                         </Frame>
                                                     </StackLayout>
                                                 </Frame>
+                                                <Label Text=" " FontSize="5"/>
                                             </StackLayout>
                                         </ViewCell.View>
                                     </custom:CustomViewCell>
