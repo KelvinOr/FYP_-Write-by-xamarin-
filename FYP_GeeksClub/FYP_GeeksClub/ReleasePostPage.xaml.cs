@@ -81,12 +81,12 @@ namespace FYP_GeeksClub
 
         private async void btn_release_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PopModalAsync();
             int maxID = 1;
             string firstImage = null;
             bool haveImg, moreThenOneImg = false;
-            if (ed_contect != null)
+            if (string.IsNullOrEmpty(ed_contect.Text) == false)
             {
+                await Navigation.PopModalAsync();
                 try
                 {
                     var temp = await firebaseHelper.getAllPost();
@@ -118,6 +118,9 @@ namespace FYP_GeeksClub
                 getUserName();
                 await Task.Delay(2000);
                 firebaseHelper.PustPost(maxID, ed_contect.Text, Preferences.Get("email", ""), username, userImageURL, firstImage, haveImg, moreThenOneImg);
+            } else
+            {
+                await DisplayAlert("Alert", "Please input contect", "OK");
             }
 
         }

@@ -107,7 +107,7 @@ namespace FYP_GeeksClub
 
         async private void btn_release_Clicked(object sender, EventArgs e)
         {
-            bool Check = await firebaseHelper.CheckItemIsRelease(Ent_Title.Text.ToString());
+            bool Check = true;
             if(Check == false)
             {
                 await App.Current.MainPage.DisplayAlert("Alert", "Item Release Already", "OK");
@@ -116,29 +116,37 @@ namespace FYP_GeeksClub
             {
                 try
                 {
-                    if (Ent_Title != null && Ent_Detail != null && Ent_Price != null && SelectImage.Source != null && SelectImage.Source != null && Type.SelectedItem != null)
+                    if (Convert.ToDouble(Ent_Price.Text) < 0 || Convert.ToDouble(Ent_Price.Text) < 1)
                     {
-                        int maxID = 1;
-                        try
-                        {
-                            var temp = await firebaseHelper.GetShopItem();
-                            maxID = temp.Max(a => a.id) + 1;
-                        }
-                        catch
-                        {
-                            maxID = 1;
-                        }
-                        await Navigation.PopModalAsync();
-                        string filename = Preferences.Get("email", "").ToString() + maxID.ToString();
-                        firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
-                        await Task.Delay(2000);
-                        String imageURL = await firebaseHelper.GetItemImageURL(filename);
-                        firebaseHelper.PushNewItem(maxID, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, true, Type.SelectedItem.ToString());
+                        await DisplayAlert("Alert", "Input error", "OK");
                     }
                     else
                     {
-                        await App.Current.MainPage.DisplayAlert("Alert", "Input all detail", "OK");
+                        if (Ent_Title != null && Ent_Detail != null && Ent_Price != null && SelectImage.Source != null && SelectImage.Source != null && Type.SelectedItem != null)
+                        {
+                            int maxID = 1;
+                            try
+                            {
+                                var temp = await firebaseHelper.GetShopItem();
+                                maxID = temp.Max(a => a.id) + 1;
+                            }
+                            catch
+                            {
+                                maxID = 1;
+                            }
+                            await Navigation.PopModalAsync();
+                            string filename = Preferences.Get("email", "").ToString() + maxID.ToString();
+                            firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
+                            await Task.Delay(2000);
+                            String imageURL = await firebaseHelper.GetItemImageURL(filename);
+                            firebaseHelper.PushNewItem(maxID, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, true, Type.SelectedItem.ToString());
+                        }
+                        else
+                        {
+                            await App.Current.MainPage.DisplayAlert("Alert", "Input all detail", "OK");
+                        }
                     }
+                    
                 }
                 catch
                 {
