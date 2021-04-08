@@ -92,7 +92,7 @@ namespace FYP_GeeksClub
             var result = await client.ClassifyImageAsync(projectID, "Iteration4", stream);
             var bestResult = result.Predictions.OrderByDescending(p => p.Probability).FirstOrDefault();
 
-            Ent_Title.Text = bestResult.TagName;
+            Type.SelectedItem = bestResult.TagName;
         }
 
         async private void btn_cencal_Clicked(object sender, EventArgs e)
