@@ -125,21 +125,38 @@ namespace FYP_GeeksClub
         private async void btn_save_Clicked(System.Object sender, System.EventArgs e)
         {
             //await Navigation.PopModalAsync();
-            var filename = Preferences.Get("email", "").ToString() + id.ToString();
-            if(file != null)
+            if (Convert.ToDouble(Ent_Price.Text) < 0 || Convert.ToDouble(Ent_Price.Text) < 1)
             {
-                firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
-                await Task.Delay(2000);
-                String imageURL = await firebaseHelper.GetItemImageURL(filename);
-                firebaseHelper.UpdateItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Preferences.Get("email", "").ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled, Type.SelectedItem.ToString());
+                await DisplayAlert("Alert", "Input error", "OK");
             }
             else
             {
-                String imageURL = this.imageURL;
-                firebaseHelper.UpdateItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Preferences.Get("email", "").ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled, Type.SelectedItem.ToString());
+                if (Ent_Title != null && Ent_Detail != null && Ent_Price != null && SelectImage.Source != null && SelectImage.Source != null && Type.SelectedItem != null)
+                {
+                    await Navigation.PopAsync();
+
+                    var filename = Preferences.Get("email", "").ToString() + id.ToString();
+                    if (file != null)
+                    {
+                        firebaseHelper.UploadShopItemImage(file.GetStream(), filename).ToString();
+                        await Task.Delay(2000);
+                        String imageURL = await firebaseHelper.GetItemImageURL(filename);
+                        firebaseHelper.UpdateItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Preferences.Get("email", "").ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled, Type.SelectedItem.ToString());
+                    }
+                    else
+                    {
+                        String imageURL = this.imageURL;
+                        firebaseHelper.UpdateItem(id, Ent_Title.Text.ToString(), Ent_Detail.Text.ToString(), Preferences.Get("email", "").ToString(), Convert.ToDouble(Ent_Price.Text.ToString()), Convert.ToInt32(Ent_quantity.Text.ToString()), imageURL, sw_isSecondHand.IsToggled, sw_saling.IsToggled, Type.SelectedItem.ToString());
+                    }
+                }
+                else
+                {
+                    await App.Current.MainPage.DisplayAlert("Alert", "Input all detail", "OK");
+                }
+                    
+                
             }
             
-            await Navigation.PopAsync();
         }
     }
 }

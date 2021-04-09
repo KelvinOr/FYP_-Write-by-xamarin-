@@ -26,7 +26,7 @@
                     <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout ContainerType="Outlined" FocusedColor="White" UnfocusedColor="White">
+                <inputLayout:SfTextInputLayout ContainerType="Outlined" FocusedColor="White" UnfocusedColor="White" Hint="Item Type">
                     <Picker x:Name="Type" TextColor="White">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
