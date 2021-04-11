@@ -27,17 +27,17 @@ namespace FYP_GeeksClub
 
             lv_unaccept_create.RefreshCommand = new Command(() => {
                 refresh();
-                lv_accept_create.IsRefreshing = false;
+                lv_unaccept_create.IsRefreshing = false;
             });
 
             lv_accept_order.RefreshCommand = new Command(() => {
                 refresh();
-                lv_accept_create.IsRefreshing = false;
+                lv_accept_order.IsRefreshing = false;
             });
 
             lv_unaccept_order.RefreshCommand = new Command(() => {
                 refresh();
-                lv_accept_create.IsRefreshing = false;
+                lv_unaccept_order.IsRefreshing = false;
             });
         }
 
