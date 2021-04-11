@@ -69,7 +69,7 @@
                 <Label Text=" "/>
                 <Label Text="Order Detail: " TextColor="White"/>
                 <inputLayout:SfTextInputLayout Hint="Phone No." FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
-                    <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" TextColor="White" />
+                    <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" TextColor="White" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
                 <inputLayout:SfTextInputLayout Hint="Contect Method" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Entry x:Name="Ent_ContMeth" HorizontalOptions="FillAndExpand" TextColor="White" />

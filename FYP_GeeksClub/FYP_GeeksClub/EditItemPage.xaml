@@ -42,15 +42,15 @@
                     </Picker>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
 
-                <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
+                <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
                     <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" AutoSize="TextChanges"/>
                 </inputLayout:SfTextInputLayout>
 

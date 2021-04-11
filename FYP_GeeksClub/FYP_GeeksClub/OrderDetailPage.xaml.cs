@@ -78,9 +78,10 @@ namespace FYP_GeeksClub
                     }
 
                     firebaseHelper.UpdateItem(id, title, detail, itemOwnerEmail, price, int_quantity, imageURL, isSecondHand, saling, itemType);
+                    await App.Current.MainPage.DisplayAlert("Alert", "Order Created", "OK");
+                    await Navigation.PopAsync();
                 };
-                await App.Current.MainPage.DisplayAlert("Alert", "Order Created", "OK");
-                await Navigation.PopAsync();
+                
             }
             else
             {
