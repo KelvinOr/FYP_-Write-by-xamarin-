@@ -269,11 +269,11 @@ namespace FYP_GeeksClub.firebaseHelper
         public async void UpdateItem(int id, string title, string detail,string owner ,double price, int quantity, string imageURL, bool isSecondHand, bool saleIng, string itemType)
         {
             var Check = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
-                a => (a.Object.title == title) && (a.Object.owner == owner) ).FirstOrDefault();
+                a => (a.Object.id == id) && (a.Object.owner == owner) ).FirstOrDefault();
             if (Check != null)
             {
                 var Update = (await firebaseClient.Child("shopitem").OnceAsync<ShopItemDetail>()).Where(
-                    a => a.Object.title == title).Where(b => b.Object.owner == owner).FirstOrDefault();
+                    a => a.Object.id == id).Where(b => b.Object.owner == owner).FirstOrDefault();
                 await firebaseClient.Child("shopitem").Child(Update.Key).PutAsync(new ShopItemDetail()
                 {
                     id = id,
