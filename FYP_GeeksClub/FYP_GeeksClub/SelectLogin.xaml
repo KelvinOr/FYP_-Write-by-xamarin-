@@ -32,12 +32,14 @@
             <Button
                 Text="Login with Email"
                 BackgroundColor="#FFFFFF"
+                TextColor="#1C83E8"
                 x:Name="btn_LwEnail"
                 Clicked="Btn_LwEmail_OnClicked"/>
 
             <Button
                 Text="Signup with Email"
                 BackgroundColor="#FFFFFF"
+                TextColor="#1C83E8"
                 x:Name="btn_SwEmail"
                 Clicked="btn_SwEmail_Clicked"/>
 
