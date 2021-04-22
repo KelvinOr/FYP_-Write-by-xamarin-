@@ -30,8 +30,8 @@
                                         <Button HorizontalOptions="FillAndExpand" VerticalOptions="End" x:Name="btn_addImage" Text="Add Image" Clicked="btn_addImage_Clicked" BackgroundColor="White" TextColor="#1C83E8"/>                
                                         <Button HorizontalOptions="FillAndExpand" VerticalOptions="End" x:Name="btn_viewImage" Text="0 Image" Clicked="btn_viewImg_Clicked" BackgroundColor="White" TextColor="#1C83E8"/>
                                         <StackLayout Orientation="Horizontal" VerticalOptions="End">
-                                            <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked"/>
-                                            <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked"/>
+                                            <Button HorizontalOptions="FillAndExpand" x:Name="btn_cencal" Text="Cencal" BackgroundColor="White" Clicked="btn_cencal_Clicked" TextColor="#1C83E8"/>
+                                            <Button HorizontalOptions="FillAndExpand" x:Name="btn_release" Text="Release" BackgroundColor="White" Clicked="btn_release_Clicked" TextColor="#1C83E8"/>
                                         </StackLayout>
 
             </StackLayout>
