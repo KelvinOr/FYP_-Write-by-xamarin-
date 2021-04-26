@@ -37,7 +37,12 @@ namespace FYP_GeeksClub.Form
             "gigabyte",
             "zen",
             "11th",
-
+            "CPU",
+            "GPU",
+            "Harddisk",
+            "MotherBoard",
+            "Power Supply",
+            "RAM"
         };
 
         public List<string> GetKey()
