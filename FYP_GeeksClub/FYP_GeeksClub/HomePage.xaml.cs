@@ -117,6 +117,7 @@ namespace FYP_GeeksClub
                     {
                         Viewpost.Add(post[ran.Next(post.Count())]);
                         temp = key[index];
+                        continue;
                     }
                     if (post.Where(a => a.PostContect.ToLower().Contains(key[index].ToLower())).FirstOrDefault() != null)
                     {
