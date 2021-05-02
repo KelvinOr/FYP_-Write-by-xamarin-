@@ -23,7 +23,7 @@
                 <Button Text="  Change Image  " x:Name="btn_selectiamge" BackgroundColor="White" HorizontalOptions="FillAndExpand" Clicked="btn_selectiamge_Clicked"/>
 
                 <inputLayout:SfTextInputLayout Hint="Title" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="#c4c4c4" FocusedColor="White">
-                    <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand"/>
+                    <Entry x:Name="Ent_Title" HorizontalOptions="FillAndExpand" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout ContainerType="Outlined" FocusedColor="White" UnfocusedColor="White" Hint="Item Type">
@@ -43,15 +43,15 @@
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Price" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
-                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                    <Entry x:Name="Ent_Price" HorizontalOptions="FillAndExpand" Keyboard="Numeric" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Quantity" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
-                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                    <Entry x:Name="Ent_quantity" HorizontalOptions="FillAndExpand" Keyboard="Numeric" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Detail" InputViewPadding="5" ContainerType="Outlined" UnfocusedColor="White" FocusedColor="White">
-                    <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" AutoSize="TextChanges"/>
+                    <Editor x:Name="Ent_Detail" HorizontalOptions="FillAndExpand" AutoSize="TextChanges" TextColor="White"/>
                 </inputLayout:SfTextInputLayout>
 
                 <StackLayout Orientation="Horizontal">
