@@ -71,7 +71,7 @@
                 <inputLayout:SfTextInputLayout Hint="Phone No." FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Entry x:Name="Ent_Phone" HorizontalOptions="FillAndExpand" TextColor="White" Keyboard="Numeric"/>
                 </inputLayout:SfTextInputLayout>
-                <inputLayout:SfTextInputLayout Hint="Contect Method" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
+                <inputLayout:SfTextInputLayout Hint="Contact Method" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
                     <Entry x:Name="Ent_ContMeth" HorizontalOptions="FillAndExpand" TextColor="White" />
                 </inputLayout:SfTextInputLayout>
                 <inputLayout:SfTextInputLayout Hint="Other(optionial)" FocusedColor="White" UnfocusedColor="White" ContainerType="Outlined">
