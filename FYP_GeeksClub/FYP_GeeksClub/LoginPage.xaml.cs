@@ -20,7 +20,7 @@ namespace FYP_GeeksClub
     public partial class LoginPage : ContentPage
     {
 
-        public string WebAPIkey = "AIzaSyAIFwIiakmB2aCvW6BEKhPheokVAYTgjGc";
+        public string WebAPIkey = new APIKey().WebAPIkey;
        
 
         public LoginPage()
@@ -31,7 +31,7 @@ namespace FYP_GeeksClub
         async private void btn_Login_Clicked(object sender, EventArgs e)
         {
             var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
-            FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+            FirebaseClient firebaseClient = new FirebaseClient(new APIKey().FirebaseClient);
             try
             {
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(ent_Email.Text, ent_Password.Text);

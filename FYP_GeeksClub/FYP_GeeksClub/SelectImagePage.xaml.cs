@@ -17,7 +17,7 @@ namespace FYP_GeeksClub
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SelectImagePage : ContentPage
     {
-        FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+        FirebaseClient firebaseClient = new FirebaseClient(new APIKey().FirebaseClient);
         FirebaseHelper firebaseHelper = new FirebaseHelper();
         MediaFile file;
 

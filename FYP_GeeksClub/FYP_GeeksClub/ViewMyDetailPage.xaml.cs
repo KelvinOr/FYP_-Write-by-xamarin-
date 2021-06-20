@@ -15,7 +15,7 @@ namespace FYP_GeeksClub
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
         FirebaseHelperII firebaseHelperII = new FirebaseHelperII();
-        FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+        FirebaseClient firebaseClient = new FirebaseClient(new APIKey().FirebaseClient);
 
         private UserAccountDetail userAccountDetail { get; set; }
 

@@ -21,9 +21,9 @@ namespace FYP_GeeksClub
         MediaFile file;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
 
-        Guid projectID = Guid.Parse("b11bca26-3803-44b1-8343-cfdd4a15142a");
-        string  ENDPOINT = "https://japaneast.api.cognitive.microsoft.com";
-        string predictionKey = "71feb66e158e430a968977d7a3675e1d";
+        Guid projectID = new APIKey().projectID;
+        string  ENDPOINT = new APIKey().ENDPOINT;
+        string predictionKey = new APIKey().predictionKey;
 
 
         public ReleaseItemPage()

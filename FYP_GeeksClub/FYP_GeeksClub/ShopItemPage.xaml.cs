@@ -13,7 +13,7 @@ namespace FYP_GeeksClub
     public partial class ShopItemPage : ContentPage
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
-        FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
+        FirebaseClient firebaseClient = new FirebaseClient(new APIKey().FirebaseClient);
 
         String owner = "";
         String Image = "";

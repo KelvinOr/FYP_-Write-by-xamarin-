@@ -13,8 +13,8 @@ namespace FYP_GeeksClub.firebaseHelper
 {
     public class FirebaseHelper
     {
-        FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
-        FirebaseStorage firebaseStorage = new FirebaseStorage("hareware-59ccb.appspot.com");
+        FirebaseClient firebaseClient = new FirebaseClient(new APIKey().FirebaseClient);
+        FirebaseStorage firebaseStorage = new FirebaseStorage(new APIKey().FirebaseStorage);
 
         public string getDefImg()
         {  

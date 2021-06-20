@@ -15,7 +15,7 @@ namespace FYP_GeeksClub
     public partial class MainPage : ContentPage
     {
         
-        public string WebAPIkey = "AIzaSyAIFwIiakmB2aCvW6BEKhPheokVAYTgjGc";
+        public string WebAPIkey = new APIKey().WebAPIkey;
         
         public MainPage()
         {

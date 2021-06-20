@@ -18,8 +18,8 @@ namespace FYP_GeeksClub
     public partial class SignupPage : ContentPage
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
-        FirebaseClient firebaseClient = new FirebaseClient("https://hareware-59ccb.firebaseio.com/");
-        public string WebAPIkey = "AIzaSyAIFwIiakmB2aCvW6BEKhPheokVAYTgjGc";
+        FirebaseClient firebaseClient = new FirebaseClient(new APIKey().FirebaseClient);
+        public string WebAPIkey = new APIKey().WebAPIkey;
         public string defImgURL;
 
         public SignupPage()

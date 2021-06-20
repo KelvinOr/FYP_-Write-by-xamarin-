@@ -116,10 +116,18 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-4.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-1.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-4.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
