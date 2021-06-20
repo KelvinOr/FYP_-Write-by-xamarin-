@@ -10,7 +10,7 @@ namespace FYP_GeeksClub
         public string FirebaseStorage = "" //firebase project url;
         public string WebAPIkey = "" //firebase web api;
         public Guid projectID = Guid.Parse("") //custom vision project idd;
-        public string ENDPOINT = "" //custom vision end point;
+        public string ENDPOINT = ""; //custom vision end point;
         public string predictionKey = "" //Custom vision preiction key;
         public string SyncRes = "" //Syncfusion License Key;
     }
